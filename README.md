@@ -28,7 +28,7 @@ Figures: run a script from the folder root, for example `python writings/papers_
 | `cross_property.png` | `writings/papers_2026/regen_figs/tenki_cross_property.py` | `tenki/results/cross_property/cross_property.json`, `tenki/results/cross_property/formation_energy_diagnosis.json` |
 | `physics_informed_budget.png` | `writings/papers_2026/regen_figs/tenki_physics_informed_budget.py` | `tenki/results/physics_informed_budget/physics_informed_budget.json` |
 | `paired_campaign.png` | `writings/papers_2026/regen_figs/tenki_paired_campaign.py` | `tenki/results/paired_campaign/paired_campaign.json` |
-| `live_campaign.png` | `writings/papers_2026/regen_figs/live_almgsi_figs.py` | `compute/almgsi_campaign/results/analysis/source_agreement.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_pbe_all/summary.json`, `compute/almgsi_campaign/results_T/analysis/temperature_study.json` |
+| `live_campaign.png` | `writings/papers_2026/regen_figs/live_almgsi_figs.py` | `compute/almgsi_campaign/candidates_index.json`, `compute/almgsi_campaign/results/analysis/source_agreement.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_pbe_all/summary.json` and 11 more |
 | `cost_calibration.png` | `writings/papers_2026/regen_figs/tenki_cost_calibration.py` | `tenki/results/cost_calibration/cost_calibration.json` |
 | `parallel_width.png` | `compute/shared_queue_experiments/width/analyze_width.py` | `compute/shared_queue_experiments/width/parallel_width_raw.json` |
 | `exclusion_list.png` | `compute/shared_queue_experiments/exclusion/analyze_exclusion.py` | `compute/shared_queue_experiments/exclusion/exclusion_list_transfer.json` |
@@ -92,11 +92,11 @@ The result files above were written by these scripts (local modules they import 
 
 ## Contents by role
 
-- figure data: 559 files
+- figure data: 5723 files
 - code: 141 files
-- input data: 8338 files
+- input data: 3177 files
 - environment: 6 files
-- result named in paper: 81 files
+- result named in paper: 80 files
 
 `FILES.sha256` lists every file with its SHA-256 checksum; `CONTENTS.tsv` gives the role of each file.
 
