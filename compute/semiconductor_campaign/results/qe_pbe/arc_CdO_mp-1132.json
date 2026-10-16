@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CdO_mp-1132",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "CdO",
+ "volume_per_atom": 13.370733738783146,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   12
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": -0.4495294058769783,
+ "gap_eV": 0.0,
+ "vbm_eV": 12.206584320553203,
+ "cbm_eV": 11.757054914676225,
+ "direct_on_mesh": false,
+ "nk_irr": 476,
+ "status": "ok",
+ "wall_s": 75.88936567306519,
+ "core_s": 1214.229850769043,
+ "qe_cpu_s": 66.11,
+ "qe_wall_s": 74.55,
+ "energy_per_atom": -2610.4484268161928
+}

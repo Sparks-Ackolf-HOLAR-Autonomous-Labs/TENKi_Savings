@@ -1,0 +1,7 @@
+{
+ "model_load_s": [
+  0.422
+ ],
+ "model": "MACE-MP-0 small (20231210mace128L0_energy_epoch249model)",
+ "dtype": "float64"
+}

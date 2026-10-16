@@ -1,0 +1,43 @@
+{
+ "cid": "arc_SrGe2_mp-7390",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "Ge2Sr",
+ "volume_per_atom": 25.9772451636819,
+ "device": "cpu:16",
+ "node": "notch109",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   6
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 38.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": -0.3066950569621891,
+ "gap_eV": 0.0,
+ "vbm_eV": 9.944245107357608,
+ "cbm_eV": 9.637550050395419,
+ "direct_on_mesh": false,
+ "nk_irr": 50,
+ "status": "ok",
+ "wall_s": 69.87096977233887,
+ "core_s": 1117.9355163574219,
+ "qe_cpu_s": 62.84,
+ "qe_wall_s": 68.6,
+ "energy_per_atom": -1931.3882795554346
+}

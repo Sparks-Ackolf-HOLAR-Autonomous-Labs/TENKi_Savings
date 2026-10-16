@@ -1,0 +1,44 @@
+{
+ "cid": "arc_HfS2_mp-985829",
+ "source": "qe_hse06",
+ "natoms": 3,
+ "formula": "HfS2",
+ "volume_per_atom": 26.32117343800648,
+ "device": "cpu:16",
+ "node": "notch302",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "nq": [
+   4,
+   4,
+   2
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 24.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.139407482754909,
+ "gap_eV": 2.139407482754909,
+ "vbm_eV": 4.565256996415232,
+ "cbm_eV": 6.704664479170141,
+ "direct_on_mesh": false,
+ "nk_irr": 35,
+ "status": "ok",
+ "wall_s": 308.11033868789673,
+ "core_s": 4929.765419006348,
+ "qe_cpu_s": 250.61,
+ "qe_wall_s": 307.03
+}

@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CuBr_mp-22913",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "BrCu",
+ "volume_per_atom": 23.5098666045032,
+ "device": "cpu:16",
+ "node": "notch109",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   12,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.4051718394521169,
+ "gap_eV": 0.4051718394521169,
+ "vbm_eV": 6.832672936744041,
+ "cbm_eV": 7.237844776196158,
+ "direct_on_mesh": true,
+ "nk_irr": 604,
+ "status": "ok",
+ "wall_s": 309.64200091362,
+ "core_s": 4954.27201461792,
+ "qe_cpu_s": 281.3,
+ "qe_wall_s": 308.24,
+ "energy_per_atom": -2794.0746031778995
+}

@@ -1,0 +1,43 @@
+{
+ "cid": "arc_AlN_mp-661",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "Al2N2",
+ "volume_per_atom": 10.626962623583285,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 4.0584270279436,
+ "gap_eV": 4.0584270279436,
+ "vbm_eV": 6.946829969974078,
+ "cbm_eV": 11.005256997917678,
+ "direct_on_mesh": true,
+ "nk_irr": 76,
+ "status": "ok",
+ "wall_s": 16.355398416519165,
+ "core_s": 261.68637466430664,
+ "qe_cpu_s": 13.620000000000001,
+ "qe_wall_s": 15.15,
+ "energy_per_atom": -174.07732163527942
+}

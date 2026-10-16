@@ -1,0 +1,40 @@
+{
+ "cid": "fcc_AlSi_13",
+ "source": "gpumd_nep89_md",
+ "status": "ok",
+ "natoms": 128,
+ "energy_per_atom": -4.701651407580728,
+ "energy_per_atom_sem": 0.0015115141183574602,
+ "volume_per_atom": 15.50738487063758,
+ "wall_s": 8.359264840837568,
+ "device": "cuda",
+ "settings": {
+  "T_K": 453.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 453 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "GPUMD 5.8",
+  "potential": "NEP89 nep89_20250409",
+  "ensemble": "npt_mttk temp 453 453 iso 0 0 tperiod 100 pperiod 1000",
+  "ensemble_units": "coupling times in time steps (2 fs); pressure GPa; modulus GPa",
+  "supercell_reps": [
+   4,
+   4,
+   2
+  ]
+ },
+ "error": null,
+ "md_stats": {
+  "volume_per_atom_sem": 0.018470473799136744,
+  "T_mean": 458.96574426240005,
+  "n_samples": 150,
+  "V_over_V0": 0.9407071859726899
+ }
+}

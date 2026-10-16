@@ -1,0 +1,43 @@
+{
+ "cid": "arc_NaInSe2_mp-22473",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "InNaSe2",
+ "volume_per_atom": 24.9283945162493,
+ "device": "cpu:16",
+ "node": "notch109",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 54.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.974152757599688,
+ "gap_eV": 0.974152757599688,
+ "vbm_eV": 6.775127101070717,
+ "cbm_eV": 7.749279858670405,
+ "direct_on_mesh": false,
+ "nk_irr": 504,
+ "status": "ok",
+ "wall_s": 3640.444679260254,
+ "core_s": 58247.11486816406,
+ "qe_cpu_s": 3461.34,
+ "qe_wall_s": 3639.01,
+ "energy_per_atom": -2413.353543531562
+}

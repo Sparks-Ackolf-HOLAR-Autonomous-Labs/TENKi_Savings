@@ -1,0 +1,5 @@
+{
+ "lattice_a": 3.9899120928981944,
+ "method": "GPUMD minimize fire 1e-5 20000 box hydrostatic, clu_Al108",
+ "wall_s": 1.3753129858523607
+}

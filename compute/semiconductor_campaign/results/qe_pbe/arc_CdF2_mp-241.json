@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CdF2_mp-241",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "CdF2",
+ "volume_per_atom": 13.518059618886243,
+ "device": "cpu:16",
+ "node": "notch223",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 34.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.9979380085900322,
+ "gap_eV": 2.9979380085900322,
+ "vbm_eV": 5.978803039570317,
+ "cbm_eV": 8.97674104816035,
+ "direct_on_mesh": false,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 155.88855481147766,
+ "core_s": 2494.2168769836426,
+ "qe_cpu_s": 144.29,
+ "qe_wall_s": 154.45,
+ "energy_per_atom": -2038.2501679070756
+}

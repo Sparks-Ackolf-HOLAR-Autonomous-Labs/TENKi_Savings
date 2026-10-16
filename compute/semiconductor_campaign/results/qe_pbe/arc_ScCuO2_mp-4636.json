@@ -1,0 +1,43 @@
+{
+ "cid": "arc_ScCuO2_mp-4636",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "CuO2Sc",
+ "volume_per_atom": 13.062855820519665,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   12
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 42.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.2396429933300244,
+ "gap_eV": 2.2396429933300244,
+ "vbm_eV": 9.278338729410828,
+ "cbm_eV": 11.517981722740853,
+ "direct_on_mesh": false,
+ "nk_irr": 868,
+ "status": "ok",
+ "wall_s": 638.1288633346558,
+ "core_s": 10210.061813354492,
+ "qe_cpu_s": 589.39,
+ "qe_wall_s": 636.25,
+ "energy_per_atom": -1845.3950381274287
+}

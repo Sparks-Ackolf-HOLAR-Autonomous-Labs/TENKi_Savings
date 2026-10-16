@@ -1,0 +1,44 @@
+{
+ "cid": "arc_InN_mp-22205",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "In2N2",
+ "volume_per_atom": 16.107727751989938,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "nq": [
+   4,
+   4,
+   2
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 36.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.37553990125104875,
+ "gap_eV": 0.37553990125104875,
+ "vbm_eV": 8.636020732517556,
+ "cbm_eV": 9.011560633768605,
+ "direct_on_mesh": true,
+ "nk_irr": 35,
+ "status": "ok",
+ "wall_s": 380.4197926521301,
+ "core_s": 6086.716682434082,
+ "qe_cpu_s": 358.86,
+ "qe_wall_s": 379.74
+}

@@ -1,0 +1,30 @@
+{
+ "cid": "mp_134_Al",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 1,
+ "energy_per_atom": -61.59460966873346,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.406310508230995,
+ "wall_s": 292.4724519252777,
+ "qe_cpu_s": 266.92,
+ "qe_wall_s": 291.55,
+ "core_s": 9359.118461608887,
+ "device": "cpu:32",
+ "node": "notch273",
+ "restart_count": 0,
+ "settings": {
+  "tag": "qfull",
+  "kpts": [
+   9,
+   9,
+   9
+  ],
+  "nq": [
+   9,
+   9,
+   9
+  ],
+  "kspacing": 0.3
+ }
+}

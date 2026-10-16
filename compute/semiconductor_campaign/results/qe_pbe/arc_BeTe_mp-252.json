@@ -1,0 +1,43 @@
+{
+ "cid": "arc_BeTe_mp-252",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "BeTe",
+ "volume_per_atom": 22.762303715280982,
+ "device": "cpu:16",
+ "node": "notch225",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 20.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.0354636424838386,
+ "gap_eV": 2.0354636424838386,
+ "vbm_eV": 7.47326829500172,
+ "cbm_eV": 9.508731937485559,
+ "direct_on_mesh": false,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 64.03977537155151,
+ "core_s": 1024.6364059448242,
+ "qe_cpu_s": 57.120000000000005,
+ "qe_wall_s": 62.86,
+ "energy_per_atom": -1616.9060050545256
+}

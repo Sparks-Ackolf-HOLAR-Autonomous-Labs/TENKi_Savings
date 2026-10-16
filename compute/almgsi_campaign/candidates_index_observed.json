@@ -1,0 +1,210 @@
+[
+ {
+  "cid": "mp_568306_Mg5Si6",
+  "kind": "observed_phase",
+  "phase": "beta_dprime",
+  "formula": "Mg5Si6",
+  "nsites": 11,
+  "spg": "C2/m",
+  "mpid": "mp-568306",
+  "mp_ef": 0.0793277186363639,
+  "mp_ehull": 0.15337233000000028,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_542854_Mg9Si5",
+  "kind": "observed_phase",
+  "phase": "beta_prime",
+  "formula": "Mg9Si5",
+  "nsites": 28,
+  "spg": "P6_3/m",
+  "mpid": "mp-542854",
+  "mp_ef": -0.06372499428571388,
+  "mp_ehull": 0.04099524178571423,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_2151_Mg17Al12",
+  "kind": "observed_phase",
+  "phase": "gamma",
+  "formula": "Mg17Al12",
+  "nsites": 29,
+  "spg": "I-43m",
+  "mpid": "mp-2151",
+  "mp_ef": -0.009331720172413866,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_17659_Mg23Al30",
+  "kind": "observed_phase",
+  "phase": "epsilon",
+  "formula": "Mg23Al30",
+  "nsites": 53,
+  "spg": "R-3",
+  "mpid": "mp-17659",
+  "mp_ef": -0.01016705500000008,
+  "mp_ehull": 0.0007062855660371348,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_3833_Mg(AlSi)2",
+  "kind": "observed_phase",
+  "formula": "Mg(AlSi)2",
+  "nsites": 5,
+  "spg": "P-3m1",
+  "mpid": "mp-3833",
+  "mp_ef": 0.02731407299999944,
+  "mp_ehull": 0.059893702000000104,
+  "property": "formation_energy",
+  "phase": "U1"
+ },
+ {
+  "cid": "mp_4499_MgAlSi",
+  "kind": "observed_phase",
+  "formula": "MgAlSi",
+  "nsites": 12,
+  "spg": "Pnma",
+  "mpid": "mp-4499",
+  "mp_ef": -0.005254592500000044,
+  "mp_ehull": 0.04904478916666699,
+  "property": "formation_energy",
+  "phase": "U2"
+ },
+ {
+  "cid": "mp_1367_Mg2Si",
+  "kind": "observed_phase",
+  "formula": "Mg2Si",
+  "nsites": 3,
+  "spg": "Fm-3m",
+  "mpid": "mp-1367",
+  "mp_ef": -0.10859876333333318,
+  "mp_ehull": 0.0,
+  "property": "formation_energy",
+  "phase": "beta"
+ },
+ {
+  "cid": "mp_134_Al",
+  "kind": "reference",
+  "formula": "Al",
+  "nsites": 1,
+  "spg": "Fm-3m",
+  "mpid": "mp-134",
+  "mp_ef": 0.0,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_153_Mg",
+  "kind": "reference",
+  "formula": "Mg",
+  "nsites": 2,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-153",
+  "mp_ef": 0.0,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_149_Si",
+  "kind": "reference",
+  "formula": "Si",
+  "nsites": 2,
+  "spg": "Fd-3m",
+  "mpid": "mp-149",
+  "mp_ef": 0.0,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "clu_Al108",
+  "kind": "cluster_ref",
+  "formula": "Al108",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Mg1",
+  "kind": "cluster_ref",
+  "formula": "Al107Mg",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Si1",
+  "kind": "cluster_ref",
+  "formula": "Al107Si",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgMg_1nn",
+  "kind": "cluster",
+  "formula": "Al106Mg2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_SiSi_1nn",
+  "kind": "cluster",
+  "formula": "Al106Si2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_SiSi_2nn",
+  "kind": "cluster",
+  "formula": "Al106Si2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgSi_1nn",
+  "kind": "cluster",
+  "formula": "Al106MgSi",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgSi_2nn",
+  "kind": "cluster",
+  "formula": "Al106MgSi",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Mg2Si_tri",
+  "kind": "cluster",
+  "formula": "Al105Mg2Si",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgSi2_tri",
+  "kind": "cluster",
+  "formula": "Al105MgSi2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Mg2Si2_tet",
+  "kind": "cluster",
+  "formula": "Al104Mg2Si2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Mg3Si_tet",
+  "kind": "cluster",
+  "formula": "Al104Mg3Si",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgSi3_tet",
+  "kind": "cluster",
+  "formula": "Al104MgSi3",
+  "nsites": 108,
+  "property": "cluster_binding"
+ }
+]

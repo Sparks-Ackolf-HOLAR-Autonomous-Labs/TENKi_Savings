@@ -1,0 +1,43 @@
+{
+ "cid": "sug_AlGaN_wurtzite_layered_c",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "AlGaN2",
+ "volume_per_atom": 11.199907799404416,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.7178377272979866,
+ "gap_eV": 2.7178377272979866,
+ "vbm_eV": 8.686048316848074,
+ "cbm_eV": 11.403886044146061,
+ "direct_on_mesh": true,
+ "nk_irr": 100,
+ "status": "ok",
+ "wall_s": 55.14478945732117,
+ "core_s": 882.3166313171387,
+ "qe_cpu_s": 49.12,
+ "qe_wall_s": 53.82,
+ "energy_per_atom": -678.0645575827107
+}

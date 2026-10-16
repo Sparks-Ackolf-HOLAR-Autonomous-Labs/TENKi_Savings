@@ -1,0 +1,27 @@
+{
+ "cid": "fcc_AlSi_13",
+ "source": "gpaw_pool_pbe_700",
+ "status": "ok",
+ "energy": -17.318438244344957,
+ "energy_per_atom": -4.329609561086239,
+ "natoms": 4,
+ "formula": "Al2Si2",
+ "wall_s": 3.0609050039201975,
+ "core_s": 48.97448006272316,
+ "ncores": 16,
+ "node": "notch482",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 700.0,
+  "kpts": [
+   8,
+   8,
+   3
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

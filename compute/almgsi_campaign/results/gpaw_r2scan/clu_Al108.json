@@ -1,0 +1,27 @@
+{
+ "cid": "clu_Al108",
+ "source": "gpaw_pool_r2scan_700",
+ "status": "ok",
+ "energy": -718.7838640881915,
+ "energy_per_atom": -6.655406148964737,
+ "natoms": 108,
+ "formula": "Al108",
+ "wall_s": 433.4249459579587,
+ "core_s": 6934.799135327339,
+ "ncores": 16,
+ "node": "notch471",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+  "ecut_eV": 700.0,
+  "kpts": [
+   2,
+   2,
+   2
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

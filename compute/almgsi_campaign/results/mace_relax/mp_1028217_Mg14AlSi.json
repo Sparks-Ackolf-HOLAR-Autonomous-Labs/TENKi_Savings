@@ -1,0 +1,39 @@
+{
+ "cid": "mp_1028217_Mg14AlSi",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 16,
+ "energy_per_atom": -1.9463381252184182,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 21.70559653937002,
+ "wall_s": 0.7693135812878609,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 30
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   6.260633743153306,
+   -0.04686233799648327,
+   6.398670066526575e-12
+  ],
+  [
+   -3.1709008322421495,
+   5.492160878722359,
+   2.0686512253963856e-15
+  ],
+  [
+   1.0755169151172365e-11,
+   6.209198462033565e-12,
+   10.144042901895462
+  ]
+ ]
+}

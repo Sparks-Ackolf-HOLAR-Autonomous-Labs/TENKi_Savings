@@ -1,0 +1,43 @@
+{
+ "cid": "arc_AgSbSe2_mp-1229000",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "AgSbSe2",
+ "volume_per_atom": 24.262001815329786,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 66.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": -0.20335299402469786,
+ "gap_eV": 0.0,
+ "vbm_eV": 10.90948138554726,
+ "cbm_eV": 10.706128391522562,
+ "direct_on_mesh": false,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 1001.7611439228058,
+ "core_s": 16028.178302764893,
+ "qe_cpu_s": 959.5899999999999,
+ "qe_wall_s": 1000.1600000000001,
+ "energy_per_atom": -3323.002397807449
+}

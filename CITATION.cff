@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite it as below."
+title: "TENKi: counting the value of borrowed knowledge to a materials campaign in measurements saved"
+type: software
+license:
+  - "MIT"
+  - "CC-BY-4.0"
+authors:
+  - family-names: "Ackölf"
+    given-names: "Kinston"
+    affiliation: "Materials Science & Engineering, The University of Utah"
+    orcid: "https://orcid.org/0000-0002-5579-4878"
+  - family-names: "Sparks"
+    given-names: "Taylor D."
+    affiliation: "Materials Science & Engineering, The University of Utah"
+    orcid: "https://orcid.org/0000-0001-8020-7711"
+keywords:
+  - "transfer learning"
+  - "multi-fidelity data"
+  - "band gap"
+  - "active learning"
+  - "ranking"
+  - "Plackett-Luce model"
+  - "autonomous materials discovery"

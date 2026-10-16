@@ -1,0 +1,27 @@
+{
+ "cid": "mp_1039119_MgAl3",
+ "source": "gpaw_pool_r2scan_700",
+ "status": "ok",
+ "energy": -47.899050255728184,
+ "energy_per_atom": -5.987381281966023,
+ "natoms": 8,
+ "formula": "Al6Mg2",
+ "wall_s": 28.958106097765267,
+ "core_s": 463.32969756424427,
+ "ncores": 16,
+ "node": "notch349",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+  "ecut_eV": 700.0,
+  "kpts": [
+   5,
+   5,
+   5
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

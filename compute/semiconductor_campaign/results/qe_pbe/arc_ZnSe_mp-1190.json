@@ -1,0 +1,43 @@
+{
+ "cid": "arc_ZnSe_mp-1190",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "SeZn",
+ "volume_per_atom": 23.505643532764807,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 36.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.161636149417414,
+ "gap_eV": 1.161636149417414,
+ "vbm_eV": 7.894851740766101,
+ "cbm_eV": 9.056487890183515,
+ "direct_on_mesh": true,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 159.9568841457367,
+ "core_s": 2559.310146331787,
+ "qe_cpu_s": 145.05,
+ "qe_wall_s": 158.56,
+ "energy_per_atom": -4494.373730229386
+}

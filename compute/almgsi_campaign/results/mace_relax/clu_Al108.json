@@ -1,0 +1,40 @@
+{
+ "cid": "clu_Al108",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 108,
+ "energy_per_atom": -3.709590421916818,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.63709586664631,
+ "wall_s": 2.82605442032218,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + hydrostatic cell (FrechetCellFilter hydrostatic_strain=True)",
+  "converged": true,
+  "n_steps": 19
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   12.157205509013462,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   12.157205509013462,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   12.157205509013462
+  ]
+ ],
+ "lattice_a": 4.052401836337821
+}

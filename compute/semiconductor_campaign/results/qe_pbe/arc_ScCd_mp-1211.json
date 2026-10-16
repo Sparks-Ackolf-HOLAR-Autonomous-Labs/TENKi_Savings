@@ -1,0 +1,38 @@
+{
+ "cid": "arc_ScCd_mp-1211",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "CdSc",
+ "volume_per_atom": 21.95331413539076,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 31.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "status": "failed",
+ "wall_s": 13.138272285461426,
+ "core_s": 210.2123565673828,
+ "qe_cpu_s": 10.129999999999999,
+ "qe_wall_s": 11.36,
+ "energy_per_atom": -3044.258472993347,
+ "error": "relax tail: =------------------------------------------------------------------------------= |    JOB DONE. | =------------------------------------------------------------------------------= || scf tail: =------------------------------------------------------------------------------= |    JOB DONE. | =------------------------------------------------------------------------------="
+}

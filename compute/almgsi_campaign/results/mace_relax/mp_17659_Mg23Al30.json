@@ -1,0 +1,39 @@
+{
+ "cid": "mp_17659_Mg23Al30",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 53,
+ "energy_per_atom": -2.844605933332313,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 19.400125762078133,
+ "wall_s": 1.5251741111278534,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 38
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   8.079033763039229,
+   -6.4317405910425895,
+   -0.038807791645373325
+  ],
+  [
+   8.079033764972165,
+   6.431740593211266,
+   -0.03880780531142051
+  ],
+  [
+   3.006350057934526,
+   -1.0214887681540632e-08,
+   9.879344110553271
+  ]
+ ]
+}

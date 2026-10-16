@@ -1,0 +1,27 @@
+{
+ "cid": "mp_1056351_Mg",
+ "source": "gpaw_pool_pbe_700",
+ "status": "ok",
+ "energy": -1.5867505379149622,
+ "energy_per_atom": -1.5867505379149622,
+ "natoms": 1,
+ "formula": "Mg",
+ "wall_s": 2.4405954210087657,
+ "core_s": 39.04952673614025,
+ "ncores": 16,
+ "node": "notch297",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 700.0,
+  "kpts": [
+   9,
+   9,
+   9
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

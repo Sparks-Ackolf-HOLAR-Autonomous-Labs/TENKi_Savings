@@ -1,0 +1,43 @@
+{
+ "cid": "arc_TiSe2_mp-2194",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "Se2Ti",
+ "volume_per_atom": 24.221845936067208,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 44.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": -0.5586158056030541,
+ "gap_eV": 0.0,
+ "vbm_eV": 8.873147031936359,
+ "cbm_eV": 8.314531226333305,
+ "direct_on_mesh": false,
+ "nk_irr": 72,
+ "status": "ok",
+ "wall_s": 99.47019577026367,
+ "core_s": 1591.5231323242188,
+ "qe_cpu_s": 90.59,
+ "qe_wall_s": 97.6,
+ "energy_per_atom": -2738.839983104335
+}

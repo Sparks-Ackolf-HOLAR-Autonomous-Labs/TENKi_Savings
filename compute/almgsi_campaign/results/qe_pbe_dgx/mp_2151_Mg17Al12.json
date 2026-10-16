@@ -1,0 +1,30 @@
+{
+ "cid": "mp_2151_Mg17Al12",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 29,
+ "energy_per_atom": -973.574214048149,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 20.04822001948992,
+ "wall_s": 872.9115989208221,
+ "qe_cpu_s": 833.27,
+ "qe_wall_s": 872.75,
+ "core_s": 6983.292791366577,
+ "device": "cpu:8",
+ "node": null,
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   5,
+   5,
+   5
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

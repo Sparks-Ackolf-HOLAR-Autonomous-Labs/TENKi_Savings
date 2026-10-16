@@ -1,0 +1,13 @@
+{
+ "cid": "mp_1056702_Mg",
+ "source": "gpumd_nep89_md",
+ "status": "failed",
+ "natoms": null,
+ "energy_per_atom": null,
+ "energy_per_atom_sem": null,
+ "volume_per_atom": null,
+ "wall_s": 1.019380025099963,
+ "device": "cuda",
+ "settings": {},
+ "error": "RuntimeError: gpumd exit 1:  0.0000000000e+00   -8.9770240000e+00\n    0.0000000000e+00   -1.1221280000e+01   -8.9770240000e+00\nInverse box matrix g = inv(h) is\n   -4.4558196569e-02   -4.4558196569e-02    4.4558196569e-02\n   -4.4558196569e-02    4.4558196569e-02   -4.4558196569e-02\n    5.5697745712e-02   -5.5697745712e-02   -5.5697745712e-02\nSpecify initial velocities here.\nHave no grouping method.\nActive atom types for this simulation:\n    type 0 = Mg.\n    Atom type indices in run.in refer to the active atom types above.\nThere is only one atom type.\n    100 atoms of type 0.\nInitialized velocities with data in model.xyz.\n"
+}

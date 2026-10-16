@@ -1,0 +1,43 @@
+{
+ "cid": "arc_ZrSe2_mp-2076",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "Se2Zr",
+ "volume_per_atom": 28.390872033857875,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 44.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.4128746011240807,
+ "gap_eV": 0.4128746011240807,
+ "vbm_eV": 7.691145058877339,
+ "cbm_eV": 8.10401966000142,
+ "direct_on_mesh": false,
+ "nk_irr": 72,
+ "status": "ok",
+ "wall_s": 175.78881096839905,
+ "core_s": 2812.6209754943848,
+ "qe_cpu_s": 165.16,
+ "qe_wall_s": 174.54999999999998,
+ "energy_per_atom": -2659.8457576836786
+}

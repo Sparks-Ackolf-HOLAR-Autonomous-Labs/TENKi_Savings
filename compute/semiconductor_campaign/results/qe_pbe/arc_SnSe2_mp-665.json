@@ -1,0 +1,44 @@
+{
+ "cid": "arc_SnSe2_mp-665",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "Se2Sn",
+ "volume_per_atom": 29.85096176729603,
+ "device": "cpu:16",
+ "node": "notch023",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   4
+  ],
+  "relax_nosym": true,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 46.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.6842483648687185,
+ "gap_eV": 0.6842483648687185,
+ "vbm_eV": 6.45431543128711,
+ "cbm_eV": 7.138563796155829,
+ "direct_on_mesh": false,
+ "nk_irr": 72,
+ "status": "ok",
+ "wall_s": 749.9529628753662,
+ "core_s": 11999.24740600586,
+ "qe_cpu_s": 678.14,
+ "qe_wall_s": 716.41,
+ "energy_per_atom": -2914.492003817692
+}

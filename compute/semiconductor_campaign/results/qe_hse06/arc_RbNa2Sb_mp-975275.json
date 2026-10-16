@@ -1,0 +1,44 @@
+{
+ "cid": "arc_RbNa2Sb_mp-975275",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "Na2RbSb",
+ "volume_per_atom": 31.388049069736592,
+ "device": "cpu:16",
+ "node": "notch098",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 42.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.2257248241907677,
+ "gap_eV": 1.2257248241907677,
+ "vbm_eV": 4.704898165641126,
+ "cbm_eV": 5.930622989831893,
+ "direct_on_mesh": true,
+ "nk_irr": 16,
+ "status": "ok",
+ "wall_s": 466.5336797237396,
+ "core_s": 7464.538875579834,
+ "qe_cpu_s": 391.53,
+ "qe_wall_s": 465.95
+}

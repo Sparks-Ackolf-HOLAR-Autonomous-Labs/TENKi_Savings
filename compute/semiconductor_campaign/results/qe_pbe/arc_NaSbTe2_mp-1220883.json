@@ -1,0 +1,43 @@
+{
+ "cid": "arc_NaSbTe2_mp-1220883",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "NaSbTe2",
+ "volume_per_atom": 32.42500501072518,
+ "device": "cpu:16",
+ "node": "notch109",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 56.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.6936187866189512,
+ "gap_eV": 0.6936187866189512,
+ "vbm_eV": 6.916825933091957,
+ "cbm_eV": 7.610444719710908,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 1199.6138429641724,
+ "core_s": 19193.821487426758,
+ "qe_cpu_s": 1140.15,
+ "qe_wall_s": 1198.1100000000001,
+ "energy_per_atom": -2356.8713710147845
+}

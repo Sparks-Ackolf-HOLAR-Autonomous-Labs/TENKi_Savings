@@ -1,0 +1,43 @@
+{
+ "cid": "sug_GaInP_zincblende_CuAu_001",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "GaInP2",
+ "volume_per_atom": 23.571729642039273,
+ "device": "cpu:16",
+ "node": "notch307",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   8,
+   10
+  ],
+  "kpts_relax": [
+   4,
+   6,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 36.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.7476254795667554,
+ "gap_eV": 0.7476254795667554,
+ "vbm_eV": 6.931297259211918,
+ "cbm_eV": 7.678922738778674,
+ "direct_on_mesh": true,
+ "nk_irr": 156,
+ "status": "ok",
+ "wall_s": 254.22497987747192,
+ "core_s": 4067.599678039551,
+ "qe_cpu_s": 241.16,
+ "qe_wall_s": 253.03,
+ "energy_per_atom": -1066.8240818526401
+}

@@ -1,0 +1,27 @@
+{
+ "cid": "fcc_Mg3Al4Si_94",
+ "source": "gpaw_pool_pbe_700",
+ "status": "ok",
+ "energy": -25.032600515102875,
+ "energy_per_atom": -3.1290750643878593,
+ "natoms": 8,
+ "formula": "Al4Mg3Si",
+ "wall_s": 10.73061562422663,
+ "core_s": 171.68984998762608,
+ "ncores": 16,
+ "node": "notch292",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 700.0,
+  "kpts": [
+   6,
+   6,
+   3
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

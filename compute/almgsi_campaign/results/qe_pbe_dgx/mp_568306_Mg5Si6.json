@@ -1,0 +1,30 @@
+{
+ "cid": "mp_568306_Mg5Si6",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 11,
+ "energy_per_atom": -797.4310519974907,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 18.27396914691784,
+ "wall_s": 1875.710764169693,
+ "qe_cpu_s": 1809.55,
+ "qe_wall_s": 1875.52,
+ "core_s": 15005.686113357544,
+ "device": "cpu:8",
+ "node": null,
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   8,
+   5,
+   5
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

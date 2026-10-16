@@ -1,0 +1,10 @@
+{
+ "cid": "mig_Al",
+ "status": "ok",
+ "energy": -395.8301496469827,
+ "natoms": 107,
+ "a_A": 4.054411409976602,
+ "wall_s": 3.074140498880297,
+ "device": "cuda",
+ "settings": "MACE-MP-0 small float64, BFGS fmax 0.01 eV/A, fixed cell"
+}

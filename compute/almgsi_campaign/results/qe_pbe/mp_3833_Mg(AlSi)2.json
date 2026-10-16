@@ -1,0 +1,30 @@
+{
+ "cid": "mp_3833_Mg(AlSi)2",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 5,
+ "energy_per_atom": -394.54232599710747,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 19.25931362249884,
+ "wall_s": 55.57056212425232,
+ "qe_cpu_s": 51.31,
+ "qe_wall_s": 54.45,
+ "core_s": 889.1289939880371,
+ "device": "cpu:16",
+ "node": "notch281",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   9,
+   9,
+   5
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

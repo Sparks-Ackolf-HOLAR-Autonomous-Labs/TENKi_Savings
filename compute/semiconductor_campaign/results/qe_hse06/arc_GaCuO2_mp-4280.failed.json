@@ -1,0 +1,39 @@
+{
+ "cid": "arc_GaCuO2_mp-4280",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "CuGaO2",
+ "volume_per_atom": 11.377028980446854,
+ "device": "cpu:16",
+ "node": "notch307",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "nq": [
+   5,
+   5,
+   5
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 44.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "status": "failed",
+ "wall_s": 619.7199380397797,
+ "core_s": 9915.519008636475,
+ "qe_cpu_s": null,
+ "qe_wall_s": null,
+ "error": "rc=137; tail:      ACE projected onto    26 (nbndproj) and applied to    26 (nbnd) bands | -------------------------------------------------------------------------- | prterun noticed that process rank 5 with PID 3736887 on node notch307 exited on | signal 9 (Killed). | --------------------------------------------------------------------------"
+}

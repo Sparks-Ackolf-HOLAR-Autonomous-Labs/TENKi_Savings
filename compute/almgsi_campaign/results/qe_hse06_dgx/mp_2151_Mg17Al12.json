@@ -1,0 +1,40 @@
+{
+ "cid": "mp_2151_Mg17Al12",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 29,
+ "energy_per_atom": -973.4221866135827,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 20.04822001948992,
+ "wall_s": 5002.161179304123,
+ "qe_cpu_s": 4260.0,
+ "qe_wall_s": 4980.0,
+ "core_s": 160069.15773773193,
+ "device": "cpu:32",
+ "node": "notch326",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 80.0,
+  "ecutfock_Ry": 160.0,
+  "kpts": [
+   3,
+   3,
+   3
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 1,
+  "npool": 2,
+  "nosym": false,
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "force_symmorphic": true,
+  "mixing": "local-TF beta 0.2, maxstep 300",
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cid": "sug_AlGaN_wurtzite_layered_a",
+ "source": "qe_hse06",
+ "natoms": 8,
+ "formula": "Al2Ga2N4",
+ "volume_per_atom": 11.188712991732698,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   4,
+   8,
+   6
+  ],
+  "nq": [
+   2,
+   4,
+   3
+  ],
+  "q_div": 2,
+  "nosym": true,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 52.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 3.9025141003983066,
+ "gap_eV": 3.9025141003983066,
+ "vbm_eV": 7.93744377547719,
+ "cbm_eV": 11.839957875875497,
+ "direct_on_mesh": true,
+ "nk_irr": 100,
+ "status": "ok",
+ "wall_s": 2710.1278860569,
+ "core_s": 43362.0461769104,
+ "qe_cpu_s": 2224.48,
+ "qe_wall_s": 2709.49
+}

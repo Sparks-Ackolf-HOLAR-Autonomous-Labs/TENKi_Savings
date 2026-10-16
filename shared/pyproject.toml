@@ -1,0 +1,64 @@
+[project]
+name = "color_mixing_lab"
+version = "0.2.0"
+description = "A self-driving color mixing lab simulation system."
+requires-python = ">=3.11"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "scikit-learn>=1.6",
+    "torch>=2.6",
+    "deap>=1.4",
+    "matplotlib>=3.9,<3.11",  # 3.11 removed cm.get_cmap (91 call sites); lift after migrating
+    "pandas>=2.2",
+    "imageio>=2.35",
+    "tqdm>=4.67",
+    "ax-platform>=0.4",
+    "coloraide>=4.0",
+    "coloraide-extras>=1.0",
+    "pymixbox>=2.0",
+]
+
+[project.optional-dependencies]
+materials = [
+    "mp-api",
+    "pymatgen",
+    "jarvis-tools",
+    "requests",
+    "openpyxl",  # hardness_phase2.py reads the MatWeb xlsx
+]
+viz = [
+    "seaborn",
+    "plotly",
+    "networkx",
+]
+accel = [
+    "numba",
+]
+config = [
+    "hydra-core",
+    "omegaconf",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-benchmark>=4.0",
+    "hypothesis>=6.100",
+    "black>=24.0",
+    "mypy>=1.10",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 100
+target-version = ['py39']
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true

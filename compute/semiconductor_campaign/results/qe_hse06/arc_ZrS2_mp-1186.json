@@ -1,0 +1,44 @@
+{
+ "cid": "arc_ZrS2_mp-1186",
+ "source": "qe_hse06",
+ "natoms": 3,
+ "formula": "S2Zr",
+ "volume_per_atom": 26.45349840482773,
+ "device": "cpu:16",
+ "node": "notch310",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "nq": [
+   4,
+   4,
+   2
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 24.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.941602792063997,
+ "gap_eV": 1.941602792063997,
+ "vbm_eV": 4.54625418806964,
+ "cbm_eV": 6.487856980133637,
+ "direct_on_mesh": false,
+ "nk_irr": 35,
+ "status": "ok",
+ "wall_s": 281.42187762260437,
+ "core_s": 4502.75004196167,
+ "qe_cpu_s": 225.72,
+ "qe_wall_s": 280.22
+}

@@ -1,0 +1,39 @@
+{
+ "cid": "mp_3833_Mg(AlSi)2",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 5,
+ "energy_per_atom": -3.9522207693751534,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 19.289669518510856,
+ "wall_s": 0.5991196818649769,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 23
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   2.102738260839514,
+   -3.642050010420182,
+   2.0076250884550556e-07
+  ],
+  [
+   2.102738260839514,
+   3.642050010420182,
+   -2.0076250883918262e-07
+  ],
+  [
+   1.086809885526198e-16,
+   -4.3012801611043177e-07,
+   6.296999716612853
+  ]
+ ]
+}

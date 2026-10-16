@@ -1,0 +1,24 @@
+{
+ "n_suggested_enumerated": 141,
+ "max_suggested": 150,
+ "rule": "none (all kept)",
+ "n_mp_entries_fetched": 84,
+ "counts": {
+  "reference": 3,
+  "archived": 22,
+  "archived_fcc": 2,
+  "suggested": 141
+ },
+ "n_suggested_kept": 141,
+ "chemsys": [
+  "Al",
+  "Si",
+  "Cu",
+  "Al-Si",
+  "Al-Cu",
+  "Cu-Si",
+  "Al-Si-Cu"
+ ],
+ "max_archived_sites": 16,
+ "ehull_max_eV": 0.1
+}

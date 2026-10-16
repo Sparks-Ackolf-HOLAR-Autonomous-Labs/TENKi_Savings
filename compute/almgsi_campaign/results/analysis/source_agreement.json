@@ -1,0 +1,185 @@
+{
+ "qe_pbe": {
+  "mace_relax": {
+   "n": 179,
+   "kendall_tau": 0.8666499246609745,
+   "spearman": 0.9764336887564653,
+   "mad_eV_atom": 0.014921578459698957,
+   "mean_diff_eV_atom": -0.00828586058919666,
+   "sign_agreement": 0.9385474860335196,
+   "cost": {
+    "median_wall_s": 0.8262022545095533,
+    "total_wall_s": 166.32536897342652,
+    "n": 180,
+    "device": [
+     "cuda"
+    ]
+   }
+  },
+  "mace_md": {
+   "n": 25,
+   "kendall_tau": 0.6053511705685619,
+   "spearman": 0.7745286648711042,
+   "mad_eV_atom": 0.011347063749277773,
+   "mean_diff_eV_atom": -0.01111356829909944,
+   "sign_agreement": 0.88,
+   "cost": {
+    "median_wall_s": 105.63374112802558,
+    "total_wall_s": 3411.4039280172437,
+    "n": 32,
+    "device": [
+     "cuda"
+    ]
+   }
+  },
+  "gpumd_nep89_md": {
+   "n": 179,
+   "kendall_tau": -0.17616775489703665,
+   "spearman": -0.3061862874742639,
+   "mad_eV_atom": 0.09723481467664169,
+   "mean_diff_eV_atom": -0.0928122893143018,
+   "sign_agreement": 0.2011173184357542,
+   "cost": {
+    "median_wall_s": 4.7254715918097645,
+    "total_wall_s": 1027.0751872309484,
+    "n": 180,
+    "device": [
+     "cuda"
+    ]
+   }
+  },
+  "lammps_meam_md": {
+   "n": 176,
+   "kendall_tau": 0.4895109436903293,
+   "spearman": 0.6521226155519064,
+   "mad_eV_atom": 0.056672729024126504,
+   "mean_diff_eV_atom": 0.01831952505342826,
+   "sign_agreement": 0.7954545454545454,
+   "cost": {
+    "median_wall_s": 1.1572926831431687,
+    "total_wall_s": 200.29750584019348,
+    "n": 177,
+    "device": [
+     "cpu:1"
+    ]
+   }
+  },
+  "archive_mp": {
+   "n": 36,
+   "kendall_tau": 0.7416267942583731,
+   "spearman": 0.8864280195724955,
+   "mad_eV_atom": 0.023072811924154033,
+   "mean_diff_eV_atom": 0.0229812433343151,
+   "sign_agreement": 0.9444444444444444,
+   "cost": {}
+  },
+  "qe_hse06": {
+   "n": 179,
+   "kendall_tau": 0.8493219487694627,
+   "spearman": 0.9604291859861738,
+   "mad_eV_atom": 0.028785606387591308,
+   "mean_diff_eV_atom": 0.02563200534704811,
+   "sign_agreement": 0.9553072625698324,
+   "cost": {
+    "median_wall_s": 983.3880434036255,
+    "total_wall_s": 317549.21329808235,
+    "n": 181,
+    "device": [
+     "cpu:16",
+     "cpu:32"
+    ]
+   }
+  }
+ },
+ "qe_hse06": {
+  "mace_relax": {
+   "n": 179,
+   "kendall_tau": 0.797086891009543,
+   "spearman": 0.9424390284729081,
+   "mad_eV_atom": 0.03751188448365788,
+   "mean_diff_eV_atom": -0.033917865936244775,
+   "sign_agreement": 0.9273743016759777,
+   "cost": {
+    "median_wall_s": 0.8262022545095533,
+    "total_wall_s": 166.32536897342652,
+    "n": 180,
+    "device": [
+     "cuda"
+    ]
+   }
+  },
+  "mace_md": {
+   "n": 25,
+   "kendall_tau": 0.46488294314381273,
+   "spearman": 0.5975375144286263,
+   "mad_eV_atom": 0.028663294891546957,
+   "mean_diff_eV_atom": -0.02719206746171361,
+   "sign_agreement": 0.88,
+   "cost": {
+    "median_wall_s": 105.63374112802558,
+    "total_wall_s": 3411.4039280172437,
+    "n": 32,
+    "device": [
+     "cuda"
+    ]
+   }
+  },
+  "gpumd_nep89_md": {
+   "n": 179,
+   "kendall_tau": -0.17792566549472627,
+   "spearman": -0.2921527928893055,
+   "mad_eV_atom": 0.12384282872587732,
+   "mean_diff_eV_atom": -0.11844429466134992,
+   "sign_agreement": 0.1787709497206704,
+   "cost": {
+    "median_wall_s": 4.7254715918097645,
+    "total_wall_s": 1027.0751872309484,
+    "n": 180,
+    "device": [
+     "cuda"
+    ]
+   }
+  },
+  "lammps_meam_md": {
+   "n": 176,
+   "kendall_tau": 0.4476846138858219,
+   "spearman": 0.6111319002064723,
+   "mad_eV_atom": 0.05565669767442938,
+   "mean_diff_eV_atom": -0.00664026332531449,
+   "sign_agreement": 0.8181818181818182,
+   "cost": {
+    "median_wall_s": 1.1572926831431687,
+    "total_wall_s": 200.29750584019348,
+    "n": 177,
+    "device": [
+     "cpu:1"
+    ]
+   }
+  },
+  "archive_mp": {
+   "n": 36,
+   "kendall_tau": 0.6969696969696968,
+   "spearman": 0.8501158897759464,
+   "mad_eV_atom": 0.017192825620953735,
+   "mean_diff_eV_atom": 0.0019076952739245864,
+   "sign_agreement": 0.9166666666666666,
+   "cost": {}
+  },
+  "qe_pbe": {
+   "n": 179,
+   "kendall_tau": 0.8493219487694627,
+   "spearman": 0.9604291859861738,
+   "mad_eV_atom": 0.028785606387591308,
+   "mean_diff_eV_atom": -0.02563200534704811,
+   "sign_agreement": 0.9553072625698324,
+   "cost": {
+    "median_wall_s": 245.04911756515503,
+    "total_wall_s": 62025.01396203041,
+    "n": 179,
+    "device": [
+     "cpu:16"
+    ]
+   }
+  }
+ }
+}

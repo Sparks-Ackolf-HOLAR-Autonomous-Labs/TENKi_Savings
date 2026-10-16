@@ -1,0 +1,39 @@
+{
+ "cid": "arc_GaSe_mp-11342",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "Ga2Se2",
+ "volume_per_atom": 27.78122224519308,
+ "device": "cpu:16",
+ "node": "notch223",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "nq": [
+   4,
+   4,
+   4
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 58.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "status": "failed",
+ "wall_s": 1041.9715883731842,
+ "core_s": 16671.545413970947,
+ "qe_cpu_s": null,
+ "qe_wall_s": null,
+ "error": "rc=137; tail:      ACE projected onto    33 (nbndproj) and applied to    33 (nbnd) bands | -------------------------------------------------------------------------- | prterun noticed that process rank 1 with PID 674690 on node notch223 exited on | signal 9 (Killed). | --------------------------------------------------------------------------"
+}

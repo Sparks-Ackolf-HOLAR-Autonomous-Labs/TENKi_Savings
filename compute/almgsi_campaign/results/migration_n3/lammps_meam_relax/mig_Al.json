@@ -1,0 +1,9 @@
+{
+ "cid": "mig_Al",
+ "status": "ok",
+ "energy": -357.5756691074876,
+ "a_A": 4.049999181080588,
+ "wall_s": 0.14332224801182747,
+ "device": "cpu:1",
+ "settings": "MEAM Jelinek 2012, mover fixed, cg x3, fixed box"
+}

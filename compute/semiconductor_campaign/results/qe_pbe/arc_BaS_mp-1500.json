@@ -1,0 +1,43 @@
+{
+ "cid": "arc_BaS_mp-1500",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "BaS",
+ "volume_per_atom": 33.415904906161835,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.185381386781293,
+ "gap_eV": 2.185381386781293,
+ "vbm_eV": 5.6535774083874095,
+ "cbm_eV": 7.838958795168702,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 66.72411894798279,
+ "core_s": 1067.5859031677246,
+ "qe_cpu_s": 61.19,
+ "qe_wall_s": 65.37,
+ "energy_per_atom": -534.4537089995985
+}

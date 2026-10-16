@@ -1,0 +1,32 @@
+{
+ "cid": "vac_MgSiV",
+ "source": "qe_pbe_vacancy",
+ "status": "ok",
+ "natoms": 31,
+ "energy_per_atom": -114.82108727178097,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.93600582693451,
+ "wall_s": 3386.164029598236,
+ "qe_cpu_s": 3319.37,
+ "qe_wall_s": 3385.14,
+ "core_s": 54178.62447357178,
+ "device": "cpu:16",
+ "node": "notch434",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   4,
+   4,
+   4
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "energy": -3559.45370542521,
+ "a_A": 4.033613169999999
+}

@@ -1,0 +1,27 @@
+{
+ "cid": "mp_973364_Mg",
+ "source": "gpaw_pool_r2scan_700",
+ "status": "ok",
+ "energy": -16.79790165280599,
+ "energy_per_atom": -4.1994754132014975,
+ "natoms": 4,
+ "formula": "Mg4",
+ "wall_s": 52.564777239225805,
+ "core_s": 841.0364358276129,
+ "ncores": 16,
+ "node": "notch287",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+  "ecut_eV": 700.0,
+  "kpts": [
+   8,
+   8,
+   3
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

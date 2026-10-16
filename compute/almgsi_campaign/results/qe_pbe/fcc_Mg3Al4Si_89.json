@@ -1,0 +1,30 @@
+{
+ "cid": "fcc_Mg3Al4Si_89",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 8,
+ "energy_per_atom": -651.9935790713112,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 17.80900410582682,
+ "wall_s": 284.2731046676636,
+ "qe_cpu_s": 272.28,
+ "qe_wall_s": 283.6,
+ "core_s": 4548.369674682617,
+ "device": "cpu:16",
+ "node": "notch358",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

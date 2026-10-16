@@ -1,0 +1,44 @@
+{
+ "cid": "arc_BaTiO3_mp-5777",
+ "source": "qe_hse06",
+ "natoms": 5,
+ "formula": "BaO3Ti",
+ "volume_per_atom": 13.425503234964836,
+ "device": "cpu:16",
+ "node": "notch350",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 40.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 3.8461998316384776,
+ "gap_eV": 3.8461998316384776,
+ "vbm_eV": 8.768456437795347,
+ "cbm_eV": 12.614656269433825,
+ "direct_on_mesh": false,
+ "nk_irr": 80,
+ "status": "ok",
+ "wall_s": 1243.2452619075775,
+ "core_s": 19891.92419052124,
+ "qe_cpu_s": 985.86,
+ "qe_wall_s": 1241.35
+}

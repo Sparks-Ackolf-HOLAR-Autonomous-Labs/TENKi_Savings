@@ -1,0 +1,40 @@
+{
+ "cid": "mp_149_Si",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 2,
+ "energy_per_atom": -113.39730267897725,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 20.471445341212846,
+ "wall_s": 498.7633812427521,
+ "qe_cpu_s": 414.65999999999997,
+ "qe_wall_s": 497.26,
+ "core_s": 15960.428199768066,
+ "device": "cpu:32",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 80.0,
+  "ecutfock_Ry": 160.0,
+  "kpts": [
+   7,
+   7,
+   7
+  ],
+  "nq": [
+   7,
+   7,
+   7
+  ],
+  "q_div": 1,
+  "npool": 8,
+  "nosym": false,
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "force_symmorphic": true,
+  "mixing": "local-TF beta 0.2, maxstep 300",
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

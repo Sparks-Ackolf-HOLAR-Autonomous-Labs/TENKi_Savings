@@ -1,0 +1,44 @@
+{
+ "cid": "sug_MgCaO_rocksalt_CuAu_001",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "CaMgO2",
+ "volume_per_atom": 12.110714981422289,
+ "device": "cpu:16",
+ "node": "notch223",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   8,
+   8
+  ],
+  "nq": [
+   3,
+   4,
+   4
+  ],
+  "q_div": 2,
+  "nosym": true,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 32.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 4.73740215643284,
+ "gap_eV": 4.73740215643284,
+ "vbm_eV": 6.3602430597336825,
+ "cbm_eV": 11.097645216166523,
+ "direct_on_mesh": true,
+ "nk_irr": 196,
+ "status": "ok",
+ "wall_s": 2741.235403776169,
+ "core_s": 43859.7664604187,
+ "qe_cpu_s": 2616.71,
+ "qe_wall_s": 2740.56
+}

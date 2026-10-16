@@ -1,0 +1,41 @@
+{
+ "cid": "fcc_MgAl2Si_65",
+ "source": "mace_md",
+ "status": "ok",
+ "natoms": 144,
+ "energy_per_atom": -3.499420466952853,
+ "energy_per_atom_sem": 0.0018457012725647554,
+ "volume_per_atom": 18.85239148232459,
+ "wall_s": 60.43074285518378,
+ "device": "cuda",
+ "settings": {
+  "T_K": 300.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 300 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "ASE 3.29 + MACE-MP-0 small",
+  "dtype": "float32",
+  "ensemble": "NPT IsotropicMTKNPT",
+  "tdamp_fs": 100.0,
+  "pdamp_fs": 1000.0,
+  "supercell_reps": [
+   3,
+   3,
+   2
+  ]
+ },
+ "error": null,
+ "md_stats": {
+  "volume_per_atom_sem": 0.020016815401951594,
+  "T_mean": 305.89084299117997,
+  "n_samples": 150,
+  "V_over_V0": 1.143621589851205
+ }
+}

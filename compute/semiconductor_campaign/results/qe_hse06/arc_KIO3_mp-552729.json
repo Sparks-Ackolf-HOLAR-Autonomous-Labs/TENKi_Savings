@@ -1,0 +1,44 @@
+{
+ "cid": "arc_KIO3_mp-552729",
+ "source": "qe_hse06",
+ "natoms": 5,
+ "formula": "IKO3",
+ "volume_per_atom": 18.84056363912955,
+ "device": "cpu:16",
+ "node": "notch307",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 34.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 3.2906531422125758,
+ "gap_eV": 3.2906531422125758,
+ "vbm_eV": 3.252067821670442,
+ "cbm_eV": 6.542720963883018,
+ "direct_on_mesh": true,
+ "nk_irr": 112,
+ "status": "ok",
+ "wall_s": 1717.8928723335266,
+ "core_s": 27486.285957336426,
+ "qe_cpu_s": 1397.84,
+ "qe_wall_s": 1717.13
+}

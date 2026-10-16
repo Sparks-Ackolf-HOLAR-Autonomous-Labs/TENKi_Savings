@@ -1,0 +1,40 @@
+{
+ "cid": "mp_17659_Mg23Al30",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 53,
+ "energy_per_atom": -736.6161511703709,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 19.271045583707146,
+ "wall_s": 56299.491985082626,
+ "qe_cpu_s": 48900.0,
+ "qe_wall_s": 56280.0,
+ "core_s": 1801583.743522644,
+ "device": "cpu:32",
+ "node": "notch360",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 80.0,
+  "ecutfock_Ry": 160.0,
+  "kpts": [
+   3,
+   3,
+   3
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 1,
+  "npool": 2,
+  "nosym": false,
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "force_symmorphic": true,
+  "mixing": "local-TF beta 0.2, maxstep 300",
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

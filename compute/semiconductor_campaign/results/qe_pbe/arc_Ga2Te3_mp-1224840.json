@@ -1,0 +1,43 @@
+{
+ "cid": "arc_Ga2Te3_mp-1224840",
+ "source": "qe_pbe",
+ "natoms": 5,
+ "formula": "Ga2Te3",
+ "volume_per_atom": 33.235181325063046,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   6,
+   6
+  ],
+  "kpts_relax": [
+   6,
+   4,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 74.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.14170648652740425,
+ "gap_eV": 0.14170648652740425,
+ "vbm_eV": 7.394655009018018,
+ "cbm_eV": 7.536361495545422,
+ "direct_on_mesh": false,
+ "nk_irr": 84,
+ "status": "ok",
+ "wall_s": 609.937539100647,
+ "core_s": 9759.000625610352,
+ "qe_cpu_s": 584.3,
+ "qe_wall_s": 608.38,
+ "energy_per_atom": -2544.689217368762
+}

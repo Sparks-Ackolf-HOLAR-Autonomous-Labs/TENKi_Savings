@@ -1,0 +1,30 @@
+{
+ "cid": "fcc_Al3Si_07",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 4,
+ "energy_per_atom": -75.9829953911315,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 15.84141139208156,
+ "wall_s": 41.576406955718994,
+ "qe_cpu_s": 37.53,
+ "qe_wall_s": 40.92,
+ "core_s": 665.2225112915039,
+ "device": "cpu:16",
+ "node": "notch121",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   11,
+   11,
+   4
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

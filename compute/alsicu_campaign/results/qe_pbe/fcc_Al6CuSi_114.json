@@ -1,0 +1,33 @@
+{
+ "cid": "fcc_Al6CuSi_114",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 8,
+ "energy_per_atom": -706.6182412563687,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 15.346967577401873,
+ "wall_s": 62.969096660614014,
+ "qe_cpu_s": 59.11,
+ "qe_wall_s": 62.26,
+ "core_s": 1007.5055465698242,
+ "device": "cpu:16",
+ "node": "notch365",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   7,
+   7,
+   7
+  ],
+  "kspacing_inv_A": 0.2,
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "nstep": 150,
+  "npool": 4,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard (Al 3 e, Si 4 e, Cu 19 e)"
+ }
+}

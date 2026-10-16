@@ -1,0 +1,43 @@
+{
+ "cid": "sug_AlGaP_zincblende_CuAu_001",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "AlGaP2",
+ "volume_per_atom": 20.894584699310514,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   8,
+   10
+  ],
+  "kpts_relax": [
+   4,
+   6,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.6582340089697114,
+ "gap_eV": 1.6582340089697114,
+ "vbm_eV": 5.9842322222880036,
+ "cbm_eV": 7.642466231257715,
+ "direct_on_mesh": false,
+ "nk_irr": 156,
+ "status": "ok",
+ "wall_s": 116.85066103935242,
+ "core_s": 1869.6105766296387,
+ "qe_cpu_s": 109.47,
+ "qe_wall_s": 115.64999999999999,
+ "energy_per_atom": -630.7429201471215
+}

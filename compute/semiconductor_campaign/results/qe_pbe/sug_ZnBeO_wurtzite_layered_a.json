@@ -1,0 +1,43 @@
+{
+ "cid": "sug_ZnBeO_wurtzite_layered_a",
+ "source": "qe_pbe",
+ "natoms": 8,
+ "formula": "Be2O4Zn2",
+ "volume_per_atom": 9.312130807721687,
+ "device": "cpu:16",
+ "node": "notch339",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   12,
+   6
+  ],
+  "kpts_relax": [
+   6,
+   10,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 72.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.3815677585445716,
+ "gap_eV": 2.3815677585445716,
+ "vbm_eV": 8.90733413602331,
+ "cbm_eV": 11.288901894567882,
+ "direct_on_mesh": true,
+ "nk_irr": 100,
+ "status": "ok",
+ "wall_s": 501.1510124206543,
+ "core_s": 8018.416198730469,
+ "qe_cpu_s": 470.14000000000004,
+ "qe_wall_s": 499.27,
+ "energy_per_atom": -1742.9189092447093
+}

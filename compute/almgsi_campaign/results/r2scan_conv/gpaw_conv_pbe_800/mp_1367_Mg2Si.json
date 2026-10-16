@@ -1,0 +1,27 @@
+{
+ "cid": "mp_1367_Mg2Si",
+ "source": "gpaw_conv_pbe_800",
+ "status": "ok",
+ "energy": -9.111264605053872,
+ "energy_per_atom": -3.037088201684624,
+ "natoms": 3,
+ "formula": "Mg2Si",
+ "wall_s": 20.50261582620442,
+ "core_s": 328.0418532192707,
+ "ncores": 16,
+ "node": "notch073",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 800.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "cid": "sug_ZnCdS_wurtzite_layered_a",
+ "source": "qe_pbe",
+ "natoms": 8,
+ "formula": "Cd2S4Zn2",
+ "volume_per_atom": 22.774461050258438,
+ "device": "cpu:16",
+ "node": "notch025",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   4,
+   8,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 104.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.4290202675259698,
+ "gap_eV": 1.4290202675259698,
+ "vbm_eV": 6.870850142391457,
+ "cbm_eV": 8.299870409917427,
+ "direct_on_mesh": true,
+ "nk_irr": 128,
+ "status": "ok",
+ "wall_s": 1052.6460728645325,
+ "core_s": 16842.33716583252,
+ "qe_cpu_s": 996.6400000000001,
+ "qe_wall_s": 1050.42,
+ "energy_per_atom": -2765.7206809267764
+}

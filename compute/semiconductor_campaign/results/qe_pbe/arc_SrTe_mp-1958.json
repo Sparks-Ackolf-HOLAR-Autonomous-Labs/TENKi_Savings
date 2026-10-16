@@ -1,0 +1,43 @@
+{
+ "cid": "arc_SrTe_mp-1958",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "SrTe",
+ "volume_per_atom": 37.85813295423114,
+ "device": "cpu:16",
+ "node": "notch152",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.782408313884022,
+ "gap_eV": 1.782408313884022,
+ "vbm_eV": 6.610272321478349,
+ "cbm_eV": 8.392680635362371,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 72.97828650474548,
+ "core_s": 1167.6525840759277,
+ "qe_cpu_s": 65.59,
+ "qe_wall_s": 71.72,
+ "energy_per_atom": -1894.1997961152683
+}

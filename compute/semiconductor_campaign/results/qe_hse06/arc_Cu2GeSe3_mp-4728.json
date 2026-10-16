@@ -1,0 +1,44 @@
+{
+ "cid": "arc_Cu2GeSe3_mp-4728",
+ "source": "qe_hse06",
+ "natoms": 6,
+ "formula": "Cu2GeSe3",
+ "volume_per_atom": 22.375052307178535,
+ "device": "cpu:16",
+ "node": "notch124",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   4
+  ],
+  "nq": [
+   3,
+   3,
+   2
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 100.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.02374454543329918,
+ "gap_eV": 0.02374454543329918,
+ "vbm_eV": 8.63515285093916,
+ "cbm_eV": 8.65889739637246,
+ "direct_on_mesh": true,
+ "nk_irr": 76,
+ "status": "ok",
+ "wall_s": 13091.706371068954,
+ "core_s": 209467.30193710327,
+ "qe_cpu_s": 10380.0,
+ "qe_wall_s": 13080.0
+}

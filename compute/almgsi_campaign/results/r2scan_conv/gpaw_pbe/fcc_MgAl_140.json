@@ -1,0 +1,27 @@
+{
+ "cid": "fcc_MgAl_140",
+ "source": "gpaw_pool_pbe_700",
+ "status": "ok",
+ "energy": -5.315787007908536,
+ "energy_per_atom": -2.657893503954268,
+ "natoms": 2,
+ "formula": "AlMg",
+ "wall_s": 11.37214622925967,
+ "core_s": 181.95433966815472,
+ "ncores": 16,
+ "node": "notch064",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 700.0,
+  "kpts": [
+   9,
+   9,
+   5
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

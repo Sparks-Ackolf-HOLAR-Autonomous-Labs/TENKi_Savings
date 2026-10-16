@@ -1,0 +1,30 @@
+{
+ "cid": "mp_153_Mg",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 2,
+ "energy_per_atom": -1617.406850346638,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 22.788425545396315,
+ "wall_s": 79.03607535362244,
+ "qe_cpu_s": 60.49,
+ "qe_wall_s": 78.22,
+ "core_s": 2529.154411315918,
+ "device": "cpu:32",
+ "node": "notch273",
+ "restart_count": 0,
+ "settings": {
+  "tag": "kfine",
+  "kpts": [
+   11,
+   11,
+   6
+  ],
+  "nq": [
+   6,
+   6,
+   3
+  ],
+  "kspacing": 0.22
+ }
+}

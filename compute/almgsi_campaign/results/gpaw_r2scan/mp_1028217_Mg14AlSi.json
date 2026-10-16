@@ -1,0 +1,27 @@
+{
+ "cid": "mp_1028217_Mg14AlSi",
+ "source": "gpaw_pool_r2scan_700",
+ "status": "ok",
+ "energy": -73.2033821392668,
+ "energy_per_atom": -4.575211383704175,
+ "natoms": 16,
+ "formula": "AlMg14Si",
+ "wall_s": 345.143217433244,
+ "core_s": 5522.291478931904,
+ "ncores": 16,
+ "node": "notch095",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+  "ecut_eV": 700.0,
+  "kpts": [
+   4,
+   4,
+   3
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

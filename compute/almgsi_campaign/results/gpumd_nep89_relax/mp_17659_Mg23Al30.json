@@ -1,0 +1,43 @@
+{
+ "cid": "mp_17659_Mg23Al30",
+ "source": "gpumd_nep89_relax",
+ "status": "ok",
+ "natoms": 53,
+ "energy_per_atom": -3.089717739033249,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 18.221212158781604,
+ "wall_s": 0.5666030929423869,
+ "device": "cuda",
+ "settings": {
+  "engine": "GPUMD 5.8",
+  "potential": "NEP89 nep89_20250409",
+  "relax": "minimize fire with box change (full 3x3 cell, non-hydrostatic)",
+  "cell_used": "own cell",
+  "force_tolerance_eV_A": 0.001,
+  "max_steps": 50000,
+  "final_max_force_eV_A": 0.0003145651419345086
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   7.942333221748676,
+   -6.281184534093913,
+   -0.011091206112324413
+  ],
+  [
+   7.9423331113247535,
+   6.281184306306073,
+   -0.011091150265544714
+  ],
+  [
+   2.9883921868547154,
+   -2.509665148185422e-08,
+   9.674893750388913
+  ]
+ ],
+ "structure": {
+  "rms_disp_A": 0.08523759196868173,
+  "frac_disp_gt_1A": 0.0,
+  "max_disp_A": 0.2815449883578993
+ }
+}

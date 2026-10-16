@@ -1,0 +1,39 @@
+{
+ "cid": "fcc_Al3Si_002",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 4,
+ "energy_per_atom": -4.0132702118280985,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.251081416871923,
+ "wall_s": 0.1981230489909649,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 7
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   4.020814948009023,
+   5.66014397016483e-18,
+   8.400706667304384e-19
+  ],
+  [
+   6.717307258132897e-18,
+   4.0208149480090185,
+   3.7132689711752204e-15
+  ],
+  [
+   -6.4304974502612555e-18,
+   4.427396621524129e-15,
+   4.020814948009023
+  ]
+ ]
+}

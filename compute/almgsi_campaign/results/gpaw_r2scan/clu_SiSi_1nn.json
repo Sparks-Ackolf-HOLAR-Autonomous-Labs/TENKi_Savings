@@ -1,0 +1,27 @@
+{
+ "cid": "clu_SiSi_1nn",
+ "source": "gpaw_pool_r2scan_700",
+ "status": "ok",
+ "energy": -721.704429122303,
+ "energy_per_atom": -6.682448417799102,
+ "natoms": 108,
+ "formula": "Al106Si2",
+ "wall_s": 1433.0451838374138,
+ "core_s": 22928.72294139862,
+ "ncores": 16,
+ "node": "notch046",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+  "ecut_eV": 700.0,
+  "kpts": [
+   2,
+   2,
+   2
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "cid": "mp_12802_AlCu3",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 8,
+ "energy_per_atom": -4.211246062625849,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 12.366620162376554,
+ "wall_s": 0.3978575598448515,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 28
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   4.212854561321694,
+   -3.7515959164142595e-19,
+   -3.6201920411272466e-18
+  ],
+  [
+   -2.964544763141992e-17,
+   4.4865049213474215,
+   -4.921531681847636e-15
+  ],
+  [
+   -3.118970339409942e-17,
+   -9.1245244610052e-15,
+   5.234273286732536
+  ]
+ ]
+}

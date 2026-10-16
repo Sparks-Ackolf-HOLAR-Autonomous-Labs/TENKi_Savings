@@ -1,0 +1,9 @@
+{
+ "cid": "vac_SiV_2nn",
+ "status": "ok",
+ "energy": -125.65354251861572,
+ "a_A": 3.9899125949115586,
+ "wall_s": 0.6181530081667006,
+ "device": "cuda",
+ "settings": "NEP89, GPUMD minimize fire 0.001, fixed box"
+}

@@ -1,0 +1,44 @@
+{
+ "cid": "arc_Mg3Sb2_mp-2646",
+ "source": "qe_hse06",
+ "natoms": 5,
+ "formula": "Mg3Sb2",
+ "volume_per_atom": 26.648295736270637,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   4
+  ],
+  "nq": [
+   3,
+   3,
+   2
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 60.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.8384102141590928,
+ "gap_eV": 0.8384102141590928,
+ "vbm_eV": 6.94560463412285,
+ "cbm_eV": 7.7840148482819425,
+ "direct_on_mesh": false,
+ "nk_irr": 24,
+ "status": "ok",
+ "wall_s": 1035.7099945545197,
+ "core_s": 16571.359912872314,
+ "qe_cpu_s": 858.37,
+ "qe_wall_s": 1035.06
+}

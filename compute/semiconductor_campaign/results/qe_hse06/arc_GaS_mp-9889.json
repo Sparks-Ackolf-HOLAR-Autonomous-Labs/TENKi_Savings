@@ -1,0 +1,44 @@
+{
+ "cid": "arc_GaS_mp-9889",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "Ga2S2",
+ "volume_per_atom": 24.85857831348422,
+ "device": "cpu:32",
+ "node": "notch480",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "nq": [
+   4,
+   4,
+   4
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 38.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.7185783526508738,
+ "gap_eV": 2.7185783526508738,
+ "vbm_eV": 4.2802295469608564,
+ "cbm_eV": 6.99880789961173,
+ "direct_on_mesh": true,
+ "nk_irr": 260,
+ "status": "ok",
+ "wall_s": 21110.180719852448,
+ "core_s": 675525.7830352783,
+ "qe_cpu_s": 20640.0,
+ "qe_wall_s": 21060.0
+}

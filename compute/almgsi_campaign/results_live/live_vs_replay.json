@@ -1,0 +1,74 @@
+{
+ "reference_top10": [
+  "mp_1367_Mg2Si",
+  "mp_4499_MgAlSi",
+  "mp_1094116_MgAl2",
+  "mp_1101851_Mg2Si",
+  "fcc_MgAl2Si_59",
+  "mp_1074652_Mg2Si",
+  "mp_1039119_MgAl3",
+  "fcc_MgAl3_02",
+  "mp_1094987_MgAl",
+  "fcc_MgAl7_112"
+ ],
+ "arms": {
+  "surrogate": {
+   "n_eval": 32,
+   "live_cost_s": 3198.672155341599,
+   "replay_cost_s": 2157.3363736066967,
+   "jaccard_evaluated": 1.0,
+   "first_divergent_batch": null,
+   "n_batches": 8,
+   "top10_found_live": 7,
+   "top10_found_replay": 7,
+   "final_w_live": 0.0,
+   "final_w_replay": 0.0
+  },
+  "fixed:mace_relax": {
+   "n_eval": 32,
+   "live_cost_s": 2690.3943285946734,
+   "replay_cost_s": 2163.062546113506,
+   "jaccard_evaluated": 1.0,
+   "first_divergent_batch": null,
+   "n_batches": 8,
+   "top10_found_live": 9,
+   "top10_found_replay": 9,
+   "final_w_live": 1.0,
+   "final_w_replay": 1.0
+  },
+  "learned:mace_relax": {
+   "n_eval": 32,
+   "live_cost_s": 2522.349908439908,
+   "replay_cost_s": 2018.972420294769,
+   "jaccard_evaluated": 1.0,
+   "first_divergent_batch": null,
+   "n_batches": 8,
+   "top10_found_live": 10,
+   "top10_found_replay": 10,
+   "final_w_live": 0.5755968169761273,
+   "final_w_replay": 0.5755968169761273
+  },
+  "learned:gpumd_nep89_md": {
+   "n_eval": 32,
+   "live_cost_s": 2259.5914169228636,
+   "replay_cost_s": 2171.6022627744824,
+   "jaccard_evaluated": 1.0,
+   "first_divergent_batch": null,
+   "n_batches": 8,
+   "top10_found_live": 4,
+   "top10_found_replay": 4,
+   "final_w_live": 0.03507220748600059,
+   "final_w_replay": 0.03507220748600059
+  }
+ },
+ "value_agreement": {
+  "n": 64,
+  "kendall_tau": 1.0,
+  "mad_eV_atom": 6.3384595557491e-05,
+  "median_sem_replay_eV_atom": 0.00040552936188003886
+ },
+ "live_computed": {
+  "n": 34,
+  "total_wall_s": 1695.305575428065
+ }
+}

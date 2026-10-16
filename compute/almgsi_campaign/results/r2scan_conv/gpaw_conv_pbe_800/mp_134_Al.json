@@ -1,0 +1,27 @@
+{
+ "cid": "mp_134_Al",
+ "source": "gpaw_conv_pbe_800",
+ "status": "ok",
+ "energy": -3.7077314990981804,
+ "energy_per_atom": -3.7077314990981804,
+ "natoms": 1,
+ "formula": "Al",
+ "wall_s": 4.361203297041357,
+ "core_s": 69.7792527526617,
+ "ncores": 16,
+ "node": "notch073",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 800.0,
+  "kpts": [
+   9,
+   9,
+   9
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

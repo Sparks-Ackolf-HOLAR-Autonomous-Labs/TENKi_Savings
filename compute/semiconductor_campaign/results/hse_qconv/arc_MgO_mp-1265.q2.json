@@ -1,0 +1,44 @@
+{
+ "cid": "arc_MgO_mp-1265",
+ "source": "hse_qconv_q2",
+ "natoms": 2,
+ "formula": "MgO",
+ "volume_per_atom": 9.61517302991874,
+ "device": "cpu:16",
+ "node": "notch110",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "nq": [
+   5,
+   5,
+   5
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 6.187315251186431,
+ "gap_eV": 6.187315251186431,
+ "vbm_eV": 6.474353989666324,
+ "cbm_eV": 12.661669240852754,
+ "direct_on_mesh": true,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 1261.8343994617462,
+ "core_s": 20189.35039138794,
+ "qe_cpu_s": 1176.33,
+ "qe_wall_s": 1261.23
+}

@@ -1,0 +1,43 @@
+{
+ "cid": "arc_Mg2Ge_mp-408",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "GeMg2",
+ "volume_per_atom": 22.078569807461523,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 34.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.15784375713767673,
+ "gap_eV": 0.15784375713767673,
+ "vbm_eV": 7.040943530799959,
+ "cbm_eV": 7.198787287937636,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 51.48795962333679,
+ "core_s": 823.8073539733887,
+ "qe_cpu_s": 44.91,
+ "qe_wall_s": 49.629999999999995,
+ "energy_per_atom": -1887.9590948654024
+}

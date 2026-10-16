@@ -1,0 +1,39 @@
+{
+ "cid": "fcc_MgAl3_02",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 4,
+ "energy_per_atom": -3.197503209477082,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 17.90577952413129,
+ "wall_s": 0.7494579567573965,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 17
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   4.152896185087844,
+   -2.859563346691528e-18,
+   1.3196694767838007e-17
+  ],
+  [
+   -2.674140259539562e-18,
+   4.152896185087833,
+   1.4865678691464664e-16
+  ],
+  [
+   2.2515845640666195e-17,
+   -1.3001929765204598e-15,
+   4.15289618508784
+  ]
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "cid": "arc_GaP_mp-2490",
+ "source": "qe_hse06",
+ "natoms": 2,
+ "formula": "GaP",
+ "volume_per_atom": 20.887959957114084,
+ "device": "cpu:16",
+ "node": "notch364",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "nq": [
+   4,
+   4,
+   4
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 18.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.283266073495769,
+ "gap_eV": 2.283266073495769,
+ "vbm_eV": 6.7942090231281345,
+ "cbm_eV": 9.077475096623903,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 448.5512638092041,
+ "core_s": 7176.820220947266,
+ "qe_cpu_s": 421.6,
+ "qe_wall_s": 447.36
+}

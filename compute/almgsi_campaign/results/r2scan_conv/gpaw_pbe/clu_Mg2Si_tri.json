@@ -1,0 +1,27 @@
+{
+ "cid": "clu_Mg2Si_tri",
+ "source": "gpaw_pool_pbe_700",
+ "status": "ok",
+ "energy": -402.6900910811167,
+ "energy_per_atom": -3.728611954454784,
+ "natoms": 108,
+ "formula": "Al105Mg2Si",
+ "wall_s": 624.7311669783667,
+ "core_s": 9995.698671653867,
+ "ncores": 16,
+ "node": "notch401",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 700.0,
+  "kpts": [
+   2,
+   2,
+   2
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

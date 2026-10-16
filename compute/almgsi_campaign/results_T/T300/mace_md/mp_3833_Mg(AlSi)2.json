@@ -1,0 +1,41 @@
+{
+ "cid": "mp_3833_Mg(AlSi)2",
+ "source": "mace_md",
+ "status": "ok",
+ "natoms": 120,
+ "energy_per_atom": -3.9075359836154515,
+ "energy_per_atom_sem": 0.0001238639826066471,
+ "volume_per_atom": 19.886839811111326,
+ "wall_s": 61.41328588221222,
+ "device": "cuda",
+ "settings": {
+  "T_K": 300.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 300 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "ASE 3.29 + MACE-MP-0 small",
+  "dtype": "float32",
+  "ensemble": "NPT IsotropicMTKNPT",
+  "tdamp_fs": 100.0,
+  "pdamp_fs": 1000.0,
+  "supercell_reps": [
+   4,
+   3,
+   2
+  ]
+ },
+ "error": null,
+ "md_stats": {
+  "volume_per_atom_sem": 0.008807973239450005,
+  "T_mean": 299.5821841513296,
+  "n_samples": 150,
+  "V_over_V0": 1.0309195510556455
+ }
+}

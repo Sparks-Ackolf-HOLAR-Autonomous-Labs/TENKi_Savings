@@ -1,0 +1,44 @@
+{
+ "cid": "arc_AgF_mp-7592",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "AgF",
+ "volume_per_atom": 15.824152638026115,
+ "device": "cpu:16",
+ "node": "notch020",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   12
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "relax_nosym": true,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": -0.3281572641400956,
+ "gap_eV": 0.0,
+ "vbm_eV": 8.269248703800399,
+ "cbm_eV": 7.941091439660303,
+ "direct_on_mesh": false,
+ "nk_irr": 476,
+ "status": "ok",
+ "wall_s": 222.54344511032104,
+ "core_s": 3560.6951217651367,
+ "qe_cpu_s": 170.05,
+ "qe_wall_s": 184.82999999999998,
+ "energy_per_atom": -2444.3668590167395
+}

@@ -1,0 +1,43 @@
+{
+ "cid": "arc_InPS4_mp-20790",
+ "source": "qe_pbe",
+ "natoms": 6,
+ "formula": "InPS4",
+ "volume_per_atom": 26.110059226739356,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   6,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 42.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.319663795879972,
+ "gap_eV": 2.319663795879972,
+ "vbm_eV": 3.5900086958388524,
+ "cbm_eV": 5.909672491718824,
+ "direct_on_mesh": false,
+ "nk_irr": 148,
+ "status": "ok",
+ "wall_s": 601.7789206504822,
+ "core_s": 9628.462730407715,
+ "qe_cpu_s": 560.58,
+ "qe_wall_s": 599.93,
+ "energy_per_atom": -533.3662920496388
+}

@@ -1,0 +1,39 @@
+{
+ "cid": "fcc_AlSi_111",
+ "source": "lammps_meam_md",
+ "status": "ok",
+ "natoms": 96,
+ "energy_per_atom": -3.719003195806242,
+ "energy_per_atom_sem": 0.0015007958093128846,
+ "volume_per_atom": 17.280567152767112,
+ "wall_s": 1.7117328462190926,
+ "device": "cpu:1",
+ "settings": {
+  "T_K": 453.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 453 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "LAMMPS 2025-07-22 python module, 1 MPI rank, 1 thread",
+  "potential": "MEAM Jelinek et al. PRB 85 245102 (2012), AlSiMgCuFe.meam",
+  "ensemble": "fix 1 all npt temp 453 453 0.2 iso 0 0 2.0",
+  "supercell_reps": [
+   3,
+   2,
+   2
+  ]
+ },
+ "error": null,
+ "md_stats": {
+  "volume_per_atom_sem": 0.02455152410576338,
+  "T_mean": 448.7264889269714,
+  "n_samples": 150,
+  "V_over_V0": 1.0482717643173638
+ }
+}

@@ -1,0 +1,16 @@
+# Python environment used for the computed sources (MACE-MP-0 relaxation and MD,
+# LAMMPS MEAM through its Python module, structure generation) of the Al-Mg-Si,
+# Al-Si-Cu and semiconductor campaigns, and for the campaign and analysis scripts
+# in this folder. aarch64 Linux, Python 3.12, CUDA 13.0.
+# GPUMD 5.8 (with NEP89 nep89_20250409) is a separate binary, see REPRODUCE.md.
+# The CALPHAD receiver uses its own environment: pycalphad==0.11.2 with ase.
+ase==3.29.0
+e3nn==0.4.4
+lammps==2025.7.22.4.0
+mace-torch==0.3.16
+numpy==2.5.3
+pandas==3.0.6
+pymatgen==2026.9.24
+scikit-learn==1.9.1
+scipy==1.18.1
+torch==2.14.0

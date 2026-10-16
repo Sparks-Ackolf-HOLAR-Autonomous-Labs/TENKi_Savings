@@ -1,0 +1,27 @@
+{
+ "cid": "mp_1101851_Mg2Si",
+ "source": "gpaw_pool_r2scan_700",
+ "status": "ok",
+ "energy": -69.54719010634855,
+ "energy_per_atom": -5.795599175529046,
+ "natoms": 12,
+ "formula": "Mg8Si4",
+ "wall_s": 105.51306830625981,
+ "core_s": 1688.209092900157,
+ "ncores": 16,
+ "node": "notch288",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+  "ecut_eV": 700.0,
+  "kpts": [
+   6,
+   3,
+   3
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

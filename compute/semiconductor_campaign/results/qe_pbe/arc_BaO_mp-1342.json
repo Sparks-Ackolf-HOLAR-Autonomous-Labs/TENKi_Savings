@@ -1,0 +1,43 @@
+{
+ "cid": "arc_BaO_mp-1342",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "BaO",
+ "volume_per_atom": 21.844960606115652,
+ "device": "cpu:16",
+ "node": "notch152",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.100344879496893,
+ "gap_eV": 2.100344879496893,
+ "vbm_eV": 8.293469708178169,
+ "cbm_eV": 10.393814587675061,
+ "direct_on_mesh": true,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 77.96841239929199,
+ "core_s": 1247.4945983886719,
+ "qe_cpu_s": 70.21000000000001,
+ "qe_wall_s": 76.7,
+ "energy_per_atom": -608.5875464069394
+}

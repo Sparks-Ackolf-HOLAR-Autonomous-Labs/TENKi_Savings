@@ -1,0 +1,43 @@
+{
+ "cid": "arc_SnO_mp-2097",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "O2Sn2",
+ "volume_per_atom": 18.987448626901003,
+ "device": "cpu:16",
+ "node": "notch224",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   6
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 40.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.4941212397261481,
+ "gap_eV": 0.4941212397261481,
+ "vbm_eV": 8.904351154893472,
+ "cbm_eV": 9.39847239461962,
+ "direct_on_mesh": false,
+ "nk_irr": 60,
+ "status": "ok",
+ "wall_s": 92.86342072486877,
+ "core_s": 1485.8147315979004,
+ "qe_cpu_s": 83.66,
+ "qe_wall_s": 91.63000000000001,
+ "energy_per_atom": -1297.3977509600206
+}

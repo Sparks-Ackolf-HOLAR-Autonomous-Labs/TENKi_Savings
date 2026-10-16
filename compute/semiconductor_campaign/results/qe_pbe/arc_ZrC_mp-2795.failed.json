@@ -1,0 +1,38 @@
+{
+ "cid": "arc_ZrC_mp-2795",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "CZr",
+ "volume_per_atom": 13.08474442599877,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   12
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "status": "failed",
+ "wall_s": 28.848093271255493,
+ "core_s": 461.5694923400879,
+ "qe_cpu_s": 11.22,
+ "qe_wall_s": 13.72,
+ "energy_per_atom": -771.5514666358507,
+ "error": "relax tail: terminated by signals sent by prterun (as reported here). | -------------------------------------------------------------------------- | \u0000 || scf tail: =------------------------------------------------------------------------------= |    JOB DONE. | =------------------------------------------------------------------------------="
+}

@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CuCl_mp-22914",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "ClCu",
+ "volume_per_atom": 19.96311428441546,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.5138355176686833,
+ "gap_eV": 0.5138355176686833,
+ "vbm_eV": 7.47337714161274,
+ "cbm_eV": 7.987212659281424,
+ "direct_on_mesh": true,
+ "nk_irr": 532,
+ "status": "ok",
+ "wall_s": 86.8633029460907,
+ "core_s": 1389.8128471374512,
+ "qe_cpu_s": 76.27,
+ "qe_wall_s": 85.02000000000001,
+ "energy_per_atom": -2803.2596998005415
+}

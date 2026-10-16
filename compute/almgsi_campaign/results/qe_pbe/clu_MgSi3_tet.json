@@ -1,0 +1,30 @@
+{
+ "cid": "clu_MgSi3_tet",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 108,
+ "energy_per_atom": -78.87818459304891,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.406757797275734,
+ "wall_s": 8721.16932463646,
+ "qe_cpu_s": 8340.0,
+ "qe_wall_s": 8700.0,
+ "core_s": 279077.4183883667,
+ "device": "cpu:32",
+ "node": "notch273",
+ "restart_count": 1,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   3,
+   3,
+   3
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

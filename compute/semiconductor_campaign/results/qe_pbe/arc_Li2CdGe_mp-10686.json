@@ -1,0 +1,43 @@
+{
+ "cid": "arc_Li2CdGe_mp-10686",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "CdGeLi2",
+ "volume_per_atom": 16.536388990247865,
+ "device": "cpu:16",
+ "node": "notch109",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 40.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": -2.733714367722701,
+ "gap_eV": 0.0,
+ "vbm_eV": 9.64349861296949,
+ "cbm_eV": 6.909784245246788,
+ "direct_on_mesh": false,
+ "nk_irr": 29,
+ "status": "ok",
+ "wall_s": 26.949700117111206,
+ "core_s": 431.1952018737793,
+ "qe_cpu_s": 23.6,
+ "qe_wall_s": 25.72,
+ "energy_per_atom": -1898.6833879952067
+}

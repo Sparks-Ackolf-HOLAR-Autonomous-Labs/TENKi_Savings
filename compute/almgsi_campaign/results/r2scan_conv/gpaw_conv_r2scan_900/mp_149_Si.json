@@ -1,0 +1,27 @@
+{
+ "cid": "mp_149_Si",
+ "source": "gpaw_conv_r2scan_900",
+ "status": "ok",
+ "energy": -17.28880088285682,
+ "energy_per_atom": -8.64440044142841,
+ "natoms": 2,
+ "formula": "Si2",
+ "wall_s": 41.267260793596506,
+ "core_s": 660.2761726975441,
+ "ncores": 16,
+ "node": "notch058",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+  "ecut_eV": 900.0,
+  "kpts": [
+   7,
+   7,
+   7
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

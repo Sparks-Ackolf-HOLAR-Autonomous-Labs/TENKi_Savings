@@ -1,0 +1,29 @@
+{
+ "title": "TENKi: counting the value of borrowed knowledge to a materials campaign in measurements saved",
+ "description": "Figure scripts, result files, producing code and inputs for the paper \"TENKi: counting the value of borrowed knowledge to a materials campaign in measurements saved\" (Machine Learning: Science and Technology (IOP)). Taylor D. Sparks acknowledges support from the Army Research Office Materials Design, under Contract No. W911NF-23-1-0333.",
+ "upload_type": "software",
+ "access_right": "open",
+ "license": "cc-by-4.0",
+ "notes": "Code (Python, shell and SLURM scripts) is released under the MIT License (LICENSE). Data, result files and figures are released under the Creative Commons Attribution 4.0 International licence (LICENSE-CC-BY-4.0.txt). The archived third-party datasets (Materials Project, JARVIS-DFT, SNUMAT, the Zhuo et al. experimental compilation) keep their own terms; their sources are cited in the paper.",
+ "creators": [
+  {
+   "name": "Ackölf, Kinston",
+   "affiliation": "Materials Science & Engineering, The University of Utah",
+   "orcid": "0000-0002-5579-4878"
+  },
+  {
+   "name": "Sparks, Taylor D.",
+   "affiliation": "Materials Science & Engineering, The University of Utah",
+   "orcid": "0000-0001-8020-7711"
+  }
+ ],
+ "keywords": [
+  "transfer learning",
+  "multi-fidelity data",
+  "band gap",
+  "active learning",
+  "ranking",
+  "Plackett-Luce model",
+  "autonomous materials discovery"
+ ]
+}

@@ -1,0 +1,3850 @@
+{
+ "mp_gga_expsynth": {
+  "arc_RbBr_mp-22867": {
+   "value": 4.192,
+   "n": 1
+  },
+  "arc_LiBr_mp-23259": {
+   "value": 4.9234,
+   "n": 1
+  },
+  "arc_AlN_mp-661": {
+   "value": 4.0467,
+   "n": 1
+  },
+  "arc_CuCl_mp-22914": {
+   "value": 0.5646,
+   "n": 1
+  },
+  "arc_CdTe_mp-406": {
+   "value": 0.5846,
+   "n": 1
+  },
+  "arc_MgTe_mp-1039": {
+   "value": 2.361199999999999,
+   "n": 1
+  },
+  "arc_KCl_mp-23193": {
+   "value": 5.027,
+   "n": 1
+  },
+  "arc_SrTe_mp-1958": {
+   "value": 1.7616,
+   "n": 1
+  },
+  "arc_YN_mp-2114": {
+   "value": 0.15100000000000002,
+   "n": 1
+  },
+  "arc_CaO_mp-2605": {
+   "value": 3.6301,
+   "n": 1
+  },
+  "arc_YCuO2_mp-6972": {
+   "value": 2.6406,
+   "n": 1
+  },
+  "arc_BaSe_mp-1253": {
+   "value": 1.948799999999999,
+   "n": 1
+  },
+  "arc_CdI2_mp-567259": {
+   "value": 2.4195,
+   "n": 1
+  },
+  "arc_SnS2_mp-1170": {
+   "value": 1.514799999999999,
+   "n": 1
+  },
+  "arc_ScAgO2_mp-973185": {
+   "value": 2.074,
+   "n": 1
+  },
+  "arc_ZnTe_mp-2176": {
+   "value": 1.073299999999999,
+   "n": 1
+  },
+  "arc_SnSe2_mp-665": {
+   "value": 0.7018,
+   "n": 1
+  },
+  "arc_CuI_mp-569346": {
+   "value": 1.211999999999999,
+   "n": 1
+  },
+  "arc_InPS4_mp-20790": {
+   "value": 2.3185000000000002,
+   "n": 1
+  },
+  "arc_CaSe_mp-1415": {
+   "value": 2.0728,
+   "n": 1
+  },
+  "arc_K2Se_mp-8426": {
+   "value": 2.0925,
+   "n": 1
+  },
+  "arc_HfS2_mp-985829": {
+   "value": 1.2237,
+   "n": 1
+  },
+  "arc_NaCl_mp-22862": {
+   "value": 5.0037,
+   "n": 1
+  },
+  "arc_Cu2O_mp-361": {
+   "value": 0.512699999999999,
+   "n": 1
+  },
+  "arc_ZrS2_mp-1186": {
+   "value": 1.0418,
+   "n": 1
+  },
+  "arc_Na2S_mp-648": {
+   "value": 2.4399,
+   "n": 1
+  },
+  "arc_HfSe2_mp-985831": {
+   "value": 0.5342,
+   "n": 1
+  },
+  "arc_SrSe_mp-2758": {
+   "value": 2.2313,
+   "n": 1
+  },
+  "arc_ZnSe_mp-1190": {
+   "value": 1.1663000000000001,
+   "n": 1
+  },
+  "arc_BaTiO3_mp-5777": {
+   "value": 2.2929999999999993,
+   "n": 1
+  },
+  "arc_CaTe_mp-1519": {
+   "value": 1.5535,
+   "n": 1
+  },
+  "arc_AgBr_mp-23231": {
+   "value": 0.730399999999999,
+   "n": 1
+  },
+  "arc_BeS_mp-422": {
+   "value": 3.1453,
+   "n": 1
+  },
+  "arc_Na2Se_mp-1266": {
+   "value": 2.0153,
+   "n": 1
+  },
+  "arc_ZrSe2_mp-2076": {
+   "value": 0.3296,
+   "n": 1
+  },
+  "arc_SrS_mp-1087": {
+   "value": 2.497,
+   "n": 1
+  },
+  "arc_CsK2Sb_mp-581024": {
+   "value": 0.8633999999999991,
+   "n": 1
+  },
+  "arc_NaBr_mp-22916": {
+   "value": 4.0895,
+   "n": 1
+  },
+  "arc_ScCuO2_mp-4636": {
+   "value": 2.1669,
+   "n": 1
+  },
+  "arc_BeSe_mp-1541": {
+   "value": 2.663699999999999,
+   "n": 1
+  },
+  "arc_GeS2_mp-7582": {
+   "value": 2.5974999999999993,
+   "n": 1
+  },
+  "arc_BaS_mp-1500": {
+   "value": 2.1488,
+   "n": 1
+  },
+  "arc_ZnS_mp-10695": {
+   "value": 2.0192,
+   "n": 1
+  },
+  "arc_CsCl_mp-22865": {
+   "value": 4.988399999999999,
+   "n": 1
+  },
+  "arc_AgCl_mp-22922": {
+   "value": 0.9522,
+   "n": 1
+  },
+  "arc_CdSe_mp-2691": {
+   "value": 0.5096,
+   "n": 1
+  },
+  "arc_SnO2_mp-856": {
+   "value": 0.6519,
+   "n": 1
+  },
+  "arc_RbCl_mp-23295": {
+   "value": 4.8388,
+   "n": 1
+  },
+  "arc_CsBr_mp-22906": {
+   "value": 4.2392,
+   "n": 1
+  },
+  "arc_GaCuO2_mp-4280": {
+   "value": 0.728699999999999,
+   "n": 1
+  },
+  "arc_CdF2_mp-241": {
+   "value": 2.8977,
+   "n": 1
+  },
+  "arc_BaO_mp-1342": {
+   "value": 2.0906,
+   "n": 1
+  },
+  "arc_RbI_mp-22903": {
+   "value": 3.7765,
+   "n": 1
+  },
+  "arc_CdS_mp-2469": {
+   "value": 1.0492,
+   "n": 1
+  },
+  "arc_GaS_mp-9889": {
+   "value": 1.866499999999999,
+   "n": 1
+  },
+  "arc_LiI_mp-570935": {
+   "value": 4.3818,
+   "n": 1
+  },
+  "arc_GeO2_mp-470": {
+   "value": 1.2157,
+   "n": 1
+  },
+  "arc_SrO_mp-2472": {
+   "value": 3.2748,
+   "n": 1
+  },
+  "arc_LiZnN_mp-7575": {
+   "value": 0.5187,
+   "n": 1
+  },
+  "arc_CaMg2N2_mp-5795": {
+   "value": 1.9968999999999992,
+   "n": 1
+  },
+  "arc_LiMgAs_mp-12558": {
+   "value": 1.372299999999999,
+   "n": 1
+  },
+  "arc_AgI_mp-22925": {
+   "value": 1.3674,
+   "n": 1
+  },
+  "arc_NaInSe2_mp-22473": {
+   "value": 1.019199999999999,
+   "n": 1
+  },
+  "arc_InSe_mp-22691": {
+   "value": 0.6375000000000001,
+   "n": 1
+  },
+  "arc_InAgO2_mp-22660": {
+   "value": 0.21829999999999902,
+   "n": 1
+  },
+  "arc_GaP_mp-2490": {
+   "value": 1.603899999999999,
+   "n": 1
+  },
+  "arc_SrTiO3_mp-5229": {
+   "value": 1.771999999999999,
+   "n": 1
+  },
+  "arc_KIO3_mp-552729": {
+   "value": 2.568199999999999,
+   "n": 1
+  },
+  "arc_BaSnO3_mp-3163": {
+   "value": 0.372399999999999,
+   "n": 1
+  },
+  "arc_BaTe_mp-1000": {
+   "value": 1.593,
+   "n": 1
+  },
+  "arc_CuBr_mp-22913": {
+   "value": 0.48709999999999903,
+   "n": 1
+  },
+  "arc_InP_mp-20351": {
+   "value": 0.45460000000000006,
+   "n": 1
+  },
+  "arc_TiO2_mp-390": {
+   "value": 2.0586,
+   "n": 1
+  },
+  "arc_CsGeI3_mp-28377": {
+   "value": 0.9905,
+   "n": 1
+  },
+  "arc_CaI2_mp-30031": {
+   "value": 3.8971,
+   "n": 1
+  },
+  "arc_GaSe_mp-11342": {
+   "value": 1.2233,
+   "n": 1
+  },
+  "arc_Mg2Si_mp-1367": {
+   "value": 0.21799999999999903,
+   "n": 1
+  },
+  "arc_AlSb_mp-2624": {
+   "value": 1.2255,
+   "n": 1
+  },
+  "arc_GaAs_mp-2534": {
+   "value": 0.18610000000000002,
+   "n": 1
+  },
+  "arc_NaNO2_mp-2964": {
+   "value": 2.4493,
+   "n": 1
+  },
+  "arc_Na2Te_mp-2784": {
+   "value": 2.0282,
+   "n": 1
+  },
+  "arc_KNa2Sb_mp-15724": {
+   "value": 0.672099999999999,
+   "n": 1
+  },
+  "arc_KBr_mp-23251": {
+   "value": 4.3224,
+   "n": 1
+  },
+  "arc_GaN_mp-804": {
+   "value": 1.726499999999999,
+   "n": 1
+  },
+  "arc_SiSe2_mp-568264": {
+   "value": 2.167,
+   "n": 1
+  },
+  "arc_GeSe2_mp-10074": {
+   "value": 1.5188000000000001,
+   "n": 1
+  },
+  "arc_BP_mp-1479": {
+   "value": 1.243499999999999,
+   "n": 1
+  },
+  "arc_NaInS2_mp-20289": {
+   "value": 1.8377000000000001,
+   "n": 1
+  },
+  "arc_K2Te_mp-1747": {
+   "value": 2.141,
+   "n": 1
+  },
+  "arc_CaS_mp-1672": {
+   "value": 2.3819,
+   "n": 1
+  },
+  "arc_Cu2GeS3_mp-1072589": {
+   "value": 0.025799999999999,
+   "n": 1
+  },
+  "arc_MgSe_mp-10760": {
+   "value": 1.7609,
+   "n": 1
+  },
+  "arc_K2S_mp-1022": {
+   "value": 2.3201,
+   "n": 1
+  },
+  "arc_NaI_mp-23268": {
+   "value": 3.568699999999999,
+   "n": 1
+  },
+  "arc_CdBr2_mp-568690": {
+   "value": 2.8798,
+   "n": 1
+  },
+  "arc_GaGeTe_mp-8211": {
+   "value": 0.16720000000000002,
+   "n": 1
+  },
+  "arc_CdCl2_mp-22881": {
+   "value": 3.5244,
+   "n": 1
+  },
+  "arc_Cs3Sb_mp-10378": {
+   "value": 0.6126,
+   "n": 1
+  },
+  "arc_Mg3Sb2_mp-2646": {
+   "value": 0.2172,
+   "n": 1
+  },
+  "arc_Rb2Te_mp-441": {
+   "value": 1.8766,
+   "n": 1
+  },
+  "arc_Mg2Ge_mp-408": {
+   "value": 0.16890000000000002,
+   "n": 1
+  },
+  "arc_MgO_mp-1265": {
+   "value": 4.4292,
+   "n": 1
+  },
+  "arc_CdAs2_mp-471": {
+   "value": 0.133199999999999,
+   "n": 1
+  },
+  "arc_ZnO_mp-1986": {
+   "value": 0.630899999999999,
+   "n": 1
+  },
+  "arc_KI_mp-22898": {
+   "value": 3.8513,
+   "n": 1
+  },
+  "arc_CsI_mp-614603": {
+   "value": 3.8556,
+   "n": 1
+  },
+  "arc_BeTe_mp-252": {
+   "value": 2.017299999999999,
+   "n": 1
+  },
+  "arc_SnO_mp-2097": {
+   "value": 0.4096,
+   "n": 1
+  },
+  "arc_AlP_mp-1550": {
+   "value": 1.6294,
+   "n": 1
+  }
+ },
+ "jarvis_mbj": {
+  "arc_TeSe_mp-1217322": {
+   "value": 1.059,
+   "n": 1
+  },
+  "arc_CaMg2N2_mp-5795": {
+   "value": 3.452,
+   "n": 1
+  },
+  "arc_BaSnO3_mp-3163": {
+   "value": 2.166,
+   "n": 2
+  },
+  "arc_CuCl_mp-22914": {
+   "value": 1.587,
+   "n": 1
+  },
+  "arc_SnO2_mp-856": {
+   "value": 2.463,
+   "n": 4
+  },
+  "arc_SrTiO3_mp-5229": {
+   "value": 2.302,
+   "n": 1
+  },
+  "arc_NaInS2_mp-20289": {
+   "value": 3.191,
+   "n": 1
+  },
+  "arc_BeS_mp-422": {
+   "value": 4.2815,
+   "n": 2
+  },
+  "arc_GaSe_mp-11342": {
+   "value": 2.106,
+   "n": 1
+  },
+  "arc_AgSbTe2_mp-12360": {
+   "value": 0.006,
+   "n": 1
+  },
+  "arc_CaO_mp-2605": {
+   "value": 5.29,
+   "n": 1
+  },
+  "arc_GaN_mp-804": {
+   "value": 3.084,
+   "n": 1
+  },
+  "arc_Mg2Si_mp-1367": {
+   "value": 0.625,
+   "n": 1
+  },
+  "arc_ZnTe_mp-2176": {
+   "value": 2.233,
+   "n": 3
+  },
+  "arc_CdTe_mp-406": {
+   "value": 1.64,
+   "n": 1
+  },
+  "arc_TiTe2_mp-1907": {
+   "value": 0.0,
+   "n": 2
+  },
+  "arc_TiO2_mp-390": {
+   "value": 2.475,
+   "n": 3
+  },
+  "arc_SrTe_mp-1958": {
+   "value": 2.31,
+   "n": 1
+  },
+  "arc_CaS_mp-1672": {
+   "value": 3.289,
+   "n": 1
+  },
+  "arc_SnO_mp-2097": {
+   "value": 1.044,
+   "n": 3
+  },
+  "arc_SrS_mp-1087": {
+   "value": 3.648,
+   "n": 1
+  },
+  "arc_GeS2_mp-7582": {
+   "value": 3.131,
+   "n": 1
+  },
+  "arc_SrO_mp-2472": {
+   "value": 4.958,
+   "n": 1
+  },
+  "arc_KNa2Sb_mp-15724": {
+   "value": 1.933,
+   "n": 1
+  },
+  "arc_K2Te_mp-1747": {
+   "value": 3.951,
+   "n": 1
+  },
+  "arc_SiSe2_mp-568264": {
+   "value": 2.508,
+   "n": 3
+  },
+  "arc_CdI2_mp-567259": {
+   "value": 3.3595,
+   "n": 6
+  },
+  "arc_Mg2Ge_mp-408": {
+   "value": 0.576,
+   "n": 1
+  },
+  "arc_SiGe_mp-1219182": {
+   "value": 1.073,
+   "n": 1
+  },
+  "arc_ZnS_mp-10695": {
+   "value": 3.592,
+   "n": 1
+  },
+  "arc_AgBr_mp-23231": {
+   "value": 2.5149999999999997,
+   "n": 2
+  },
+  "arc_GeO2_mp-470": {
+   "value": 3.255,
+   "n": 3
+  },
+  "arc_GaS_mp-9889": {
+   "value": 2.524,
+   "n": 1
+  },
+  "arc_BaTiO3_mp-5777": {
+   "value": 2.5605,
+   "n": 2
+  },
+  "arc_RbNa2Sb_mp-975275": {
+   "value": 1.849,
+   "n": 1
+  },
+  "arc_BeTe_mp-252": {
+   "value": 2.821,
+   "n": 1
+  },
+  "arc_InN_mp-22205": {
+   "value": 0.758,
+   "n": 1
+  },
+  "arc_CdCl2_mp-22881": {
+   "value": 5.575,
+   "n": 1
+  },
+  "arc_BaO_mp-1342": {
+   "value": 3.411,
+   "n": 1
+  },
+  "arc_Na2S_mp-648": {
+   "value": 4.971,
+   "n": 1
+  },
+  "arc_ZrS2_mp-1186": {
+   "value": 1.172,
+   "n": 1
+  },
+  "arc_NaI_mp-23268": {
+   "value": 5.672,
+   "n": 1
+  },
+  "arc_CdO_mp-1132": {
+   "value": 1.306,
+   "n": 1
+  },
+  "arc_Ag2O_mp-353": {
+   "value": 0.508,
+   "n": 1
+  },
+  "arc_ScN_mp-2857": {
+   "value": 0.736,
+   "n": 1
+  },
+  "arc_Rb2Te_mp-441": {
+   "value": 3.439,
+   "n": 1
+  },
+  "arc_GaSb_mp-1156": {
+   "value": 0.593,
+   "n": 2
+  },
+  "arc_GaAs_mp-2534": {
+   "value": 1.321,
+   "n": 1
+  },
+  "sug_ZnSSe_zincblende_CuAu_001": {
+   "value": 2.786,
+   "n": 1
+  },
+  "arc_NaBr_mp-22916": {
+   "value": 6.848,
+   "n": 1
+  },
+  "sug_ZnCdSe_zincblende_CuPt_111": {
+   "value": 1.88,
+   "n": 1
+  },
+  "arc_AlSb_mp-2624": {
+   "value": 1.777,
+   "n": 1
+  },
+  "arc_K2S_mp-1022": {
+   "value": 4.997,
+   "n": 2
+  },
+  "sug_AlGaN_wurtzite_layered_c": {
+   "value": 3.571,
+   "n": 1
+  },
+  "arc_KCl_mp-23193": {
+   "value": 8.409,
+   "n": 1
+  },
+  "arc_K2Se_mp-8426": {
+   "value": 4.313,
+   "n": 1
+  },
+  "arc_MgSe_mp-10760": {
+   "value": 3.167,
+   "n": 2
+  },
+  "arc_InP_mp-20351": {
+   "value": 1.387,
+   "n": 2
+  },
+  "arc_BaTe_mp-1000": {
+   "value": 2.148,
+   "n": 1
+  },
+  "arc_AlN_mp-661": {
+   "value": 5.197,
+   "n": 1
+  },
+  "arc_RbI_mp-22903": {
+   "value": 5.813,
+   "n": 1
+  },
+  "arc_BeSe_mp-1541": {
+   "value": 3.885,
+   "n": 1
+  },
+  "arc_InPS4_mp-20790": {
+   "value": 3.469,
+   "n": 1
+  },
+  "arc_CdBr2_mp-568690": {
+   "value": 4.505,
+   "n": 2
+  },
+  "arc_CdS_mp-2469": {
+   "value": 2.52,
+   "n": 1
+  },
+  "sug_GaInP_zincblende_CuPt_111": {
+   "value": 1.481,
+   "n": 1
+  },
+  "arc_MgTe_mp-1039": {
+   "value": 4.048,
+   "n": 1
+  },
+  "sug_ZnCdS_wurtzite_layered_c": {
+   "value": 2.602,
+   "n": 1
+  },
+  "arc_ScCd_mp-1211": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_CdAs2_mp-471": {
+   "value": 0.855,
+   "n": 1
+  },
+  "arc_CdSe_mp-2691": {
+   "value": 1.84,
+   "n": 1
+  },
+  "arc_AlP_mp-1550": {
+   "value": 2.563,
+   "n": 1
+  },
+  "arc_Na2Te_mp-2784": {
+   "value": 3.786,
+   "n": 1
+  },
+  "arc_NaSbSe2_mp-1220879": {
+   "value": 1.338,
+   "n": 1
+  },
+  "arc_BP_mp-1479": {
+   "value": 1.914,
+   "n": 1
+  },
+  "arc_MgO_mp-1265": {
+   "value": 6.805,
+   "n": 1
+  },
+  "arc_Na2Se_mp-1266": {
+   "value": 3.933,
+   "n": 1
+  },
+  "arc_BaS_mp-1500": {
+   "value": 3.279,
+   "n": 1
+  },
+  "arc_CuI_mp-569346": {
+   "value": 2.171,
+   "n": 1
+  },
+  "arc_NaInSe2_mp-22473": {
+   "value": 2.014,
+   "n": 1
+  },
+  "arc_CaTe_mp-1519": {
+   "value": 2.012,
+   "n": 2
+  },
+  "arc_SrSe_mp-2758": {
+   "value": 3.124,
+   "n": 1
+  },
+  "arc_AgCl_mp-22922": {
+   "value": 2.8815,
+   "n": 2
+  },
+  "arc_K2RbSb_mp-976148": {
+   "value": 1.961,
+   "n": 1
+  },
+  "arc_NaCl_mp-22862": {
+   "value": 8.251,
+   "n": 1
+  },
+  "arc_SiTe2_mp-2755": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_SnSe2_mp-665": {
+   "value": 1.142,
+   "n": 1
+  },
+  "sug_GaInN_wurtzite_layered_c": {
+   "value": 1.133,
+   "n": 1
+  },
+  "arc_KBr_mp-23251": {
+   "value": 7.48,
+   "n": 1
+  },
+  "arc_ZrSe2_mp-2076": {
+   "value": 0.52,
+   "n": 1
+  },
+  "arc_AgF_mp-7592": {
+   "value": 2.089,
+   "n": 1
+  },
+  "arc_CaI2_mp-30031": {
+   "value": 4.374,
+   "n": 1
+  },
+  "sug_AlGaAs_zincblende_CuPt_111": {
+   "value": 1.625,
+   "n": 1
+  },
+  "arc_ZnO_mp-1986": {
+   "value": 2.363,
+   "n": 1
+  },
+  "arc_LiI_mp-570935": {
+   "value": 5.968,
+   "n": 1
+  },
+  "arc_CsK2Sb_mp-581024": {
+   "value": 2.045,
+   "n": 1
+  },
+  "arc_BaSe_mp-1253": {
+   "value": 2.851,
+   "n": 1
+  },
+  "arc_CdF2_mp-241": {
+   "value": 6.38,
+   "n": 1
+  },
+  "arc_GaCuO2_mp-4280": {
+   "value": 1.172,
+   "n": 1
+  },
+  "arc_YCuO2_mp-6972": {
+   "value": 2.8825,
+   "n": 2
+  },
+  "arc_SnS2_mp-1170": {
+   "value": 2.063,
+   "n": 1
+  },
+  "arc_YN_mp-2114": {
+   "value": 1.17,
+   "n": 1
+  },
+  "arc_AgI_mp-22925": {
+   "value": 2.8689999999999998,
+   "n": 2
+  },
+  "sug_ZnCdSe_zincblende_CuAu_001": {
+   "value": 2.189,
+   "n": 1
+  },
+  "arc_HfS2_mp-985829": {
+   "value": 1.684,
+   "n": 1
+  },
+  "arc_InAgO2_mp-22660": {
+   "value": 1.319,
+   "n": 1
+  },
+  "arc_ZrC_mp-2795": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_CuBr_mp-22913": {
+   "value": 1.546,
+   "n": 1
+  },
+  "arc_KIO3_mp-552729": {
+   "value": 3.9245,
+   "n": 2
+  },
+  "arc_GeSe2_mp-10074": {
+   "value": 2.055,
+   "n": 1
+  },
+  "arc_ScCuO2_mp-4636": {
+   "value": 2.457,
+   "n": 1
+  },
+  "arc_NaNO2_mp-2964": {
+   "value": 3.896,
+   "n": 1
+  },
+  "arc_CaSe_mp-1415": {
+   "value": 2.882,
+   "n": 1
+  },
+  "arc_TiSe2_mp-2194": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_ZnSe_mp-1190": {
+   "value": 2.63,
+   "n": 1
+  },
+  "sug_ZnSeTe_zincblende_CuAu_001": {
+   "value": 2.63,
+   "n": 1
+  },
+  "sug_ZnSeTe_zincblende_CuPt_111": {
+   "value": 2.63,
+   "n": 1
+  },
+  "arc_GaP_mp-2490": {
+   "value": 2.373,
+   "n": 1
+  },
+  "arc_RbBr_mp-22867": {
+   "value": 6.932,
+   "n": 1
+  },
+  "arc_AgO_mp-1065190": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_RbCl_mp-23295": {
+   "value": 7.876,
+   "n": 1
+  },
+  "arc_KI_mp-22898": {
+   "value": 6.384,
+   "n": 1
+  }
+ },
+ "snumat_hse": {
+  "arc_Mg2Ge_mp-408": {
+   "value": 0.5419559999999999,
+   "n": 1
+  },
+  "arc_GaSb_mp-1156": {
+   "value": 0.404249,
+   "n": 2
+  },
+  "arc_LiBr_mp-23259": {
+   "value": 6.159084,
+   "n": 1
+  },
+  "arc_YCuO2_mp-6972": {
+   "value": 4.134192,
+   "n": 1
+  },
+  "arc_SrTiO3_mp-5229": {
+   "value": 3.094581,
+   "n": 1
+  },
+  "arc_AlP_mp-1550": {
+   "value": 2.3268355,
+   "n": 2
+  },
+  "arc_CdO_mp-1132": {
+   "value": 0.763775,
+   "n": 1
+  },
+  "arc_KCl_mp-23193": {
+   "value": 6.353322,
+   "n": 1
+  },
+  "arc_ScAgO2_mp-973185": {
+   "value": 3.533055,
+   "n": 1
+  },
+  "arc_ZnSe_mp-1190": {
+   "value": 2.535196,
+   "n": 1
+  },
+  "sug_ZnSeTe_zincblende_CuAu_001": {
+   "value": 2.535196,
+   "n": 1
+  },
+  "sug_ZnSeTe_zincblende_CuPt_111": {
+   "value": 2.535196,
+   "n": 1
+  },
+  "arc_GaS_mp-9889": {
+   "value": 2.459878,
+   "n": 1
+  },
+  "arc_SnS2_mp-1170": {
+   "value": 2.317514,
+   "n": 1
+  },
+  "arc_CaMg2N2_mp-5795": {
+   "value": 3.130388,
+   "n": 1
+  },
+  "arc_BaSe_mp-1253": {
+   "value": 2.781561,
+   "n": 1
+  },
+  "arc_CdI2_mp-567259": {
+   "value": 3.335815,
+   "n": 4
+  },
+  "arc_Mg2Si_mp-1367": {
+   "value": 0.592441,
+   "n": 1
+  },
+  "arc_BeSe_mp-1541": {
+   "value": 3.497602,
+   "n": 1
+  },
+  "arc_CuI_mp-569346": {
+   "value": 2.604235,
+   "n": 1
+  },
+  "arc_GaAs_mp-2534": {
+   "value": 0.9537105,
+   "n": 2
+  },
+  "arc_RbBr_mp-22867": {
+   "value": 5.494126,
+   "n": 1
+  },
+  "arc_BeTe_mp-252": {
+   "value": 2.688552,
+   "n": 1
+  },
+  "arc_GeSe2_mp-10074": {
+   "value": 2.262624,
+   "n": 1
+  },
+  "arc_Li2ZnGe_mp-12411": {
+   "value": 0.369788,
+   "n": 1
+  },
+  "arc_MgO_mp-1265": {
+   "value": 6.2415105,
+   "n": 2
+  },
+  "arc_GeO2_mp-470": {
+   "value": 2.806486,
+   "n": 1
+  },
+  "arc_CsI_mp-614603": {
+   "value": 4.83487,
+   "n": 1
+  },
+  "arc_NaInSe2_mp-22473": {
+   "value": 1.785538,
+   "n": 1
+  },
+  "arc_GaN_mp-804": {
+   "value": 2.940348,
+   "n": 1
+  },
+  "arc_SrTe_mp-1958": {
+   "value": 2.449811,
+   "n": 1
+  },
+  "arc_AlSb_mp-2624": {
+   "value": 1.875019,
+   "n": 1
+  },
+  "arc_CdAs2_mp-471": {
+   "value": 0.792656,
+   "n": 1
+  },
+  "arc_InP_mp-20351": {
+   "value": 1.116432,
+   "n": 2
+  },
+  "arc_CuBr_mp-22913": {
+   "value": 2.117997,
+   "n": 1
+  },
+  "arc_K2Te_mp-1747": {
+   "value": 2.8544805,
+   "n": 2
+  },
+  "arc_RbCl_mp-23295": {
+   "value": 6.119191,
+   "n": 1
+  },
+  "arc_KNa2Sb_mp-15724": {
+   "value": 1.277168,
+   "n": 1
+  },
+  "arc_KIO3_mp-552729": {
+   "value": 3.643067,
+   "n": 1
+  },
+  "arc_BaSnO3_mp-3163": {
+   "value": 1.884762,
+   "n": 1
+  },
+  "arc_AgCl_mp-22922": {
+   "value": 2.405207,
+   "n": 1
+  },
+  "arc_ZnO_mp-1986": {
+   "value": 2.481681,
+   "n": 2
+  },
+  "arc_AgI_mp-22925": {
+   "value": 2.488344,
+   "n": 1
+  },
+  "arc_CdSe_mp-2691": {
+   "value": 1.40393,
+   "n": 1
+  },
+  "arc_CdF2_mp-241": {
+   "value": 5.061095,
+   "n": 1
+  },
+  "arc_SrS_mp-1087": {
+   "value": 3.458586,
+   "n": 1
+  },
+  "arc_NaInS2_mp-20289": {
+   "value": 2.719779,
+   "n": 1
+  },
+  "arc_InAgO2_mp-22660": {
+   "value": 1.407334,
+   "n": 1
+  },
+  "arc_NaI_mp-23268": {
+   "value": 4.628271,
+   "n": 1
+  },
+  "arc_CaSe_mp-1415": {
+   "value": 3.028541,
+   "n": 1
+  },
+  "arc_BP_mp-1479": {
+   "value": 1.973924,
+   "n": 1
+  },
+  "arc_AgF_mp-7592": {
+   "value": 1.25455,
+   "n": 1
+  },
+  "arc_ScCuO2_mp-4636": {
+   "value": 3.657285,
+   "n": 1
+  },
+  "arc_TiO2_mp-390": {
+   "value": 3.278111,
+   "n": 1
+  },
+  "arc_ZnS_mp-10695": {
+   "value": 3.6156915,
+   "n": 2
+  },
+  "arc_InPS4_mp-20790": {
+   "value": 3.291447,
+   "n": 1
+  },
+  "arc_K2Se_mp-8426": {
+   "value": 2.9619985,
+   "n": 2
+  },
+  "arc_CaS_mp-1672": {
+   "value": 3.421917,
+   "n": 1
+  },
+  "arc_CsCl_mp-22865": {
+   "value": 6.346826,
+   "n": 1
+  },
+  "arc_GaSe_mp-11342": {
+   "value": 1.661536,
+   "n": 1
+  },
+  "arc_Na2S_mp-648": {
+   "value": 3.494743,
+   "n": 1
+  },
+  "arc_BeS_mp-422": {
+   "value": 4.091376,
+   "n": 2
+  },
+  "arc_BaTe_mp-1000": {
+   "value": 2.326601,
+   "n": 1
+  },
+  "arc_NaCl_mp-22862": {
+   "value": 6.667959,
+   "n": 1
+  },
+  "arc_K2S_mp-1022": {
+   "value": 3.25143,
+   "n": 1
+  },
+  "arc_Cu2O_mp-361": {
+   "value": 1.96662,
+   "n": 1
+  },
+  "arc_BaTiO3_mp-5777": {
+   "value": 1.881988,
+   "n": 1
+  },
+  "arc_SrO_mp-2472": {
+   "value": 4.770824,
+   "n": 1
+  },
+  "arc_NaNO2_mp-2964": {
+   "value": 4.413895,
+   "n": 1
+  },
+  "arc_Ag2O_mp-353": {
+   "value": 1.121675,
+   "n": 1
+  },
+  "arc_NaBr_mp-22916": {
+   "value": 5.317755,
+   "n": 1
+  },
+  "arc_Rb2Te_mp-441": {
+   "value": 2.604895,
+   "n": 1
+  },
+  "arc_MgSe_mp-10760": {
+   "value": 2.627516,
+   "n": 1
+  },
+  "arc_CaO_mp-2605": {
+   "value": 5.316624,
+   "n": 1
+  },
+  "arc_ZnTe_mp-2176": {
+   "value": 2.192322,
+   "n": 1
+  },
+  "arc_LiMgAs_mp-12558": {
+   "value": 1.973654,
+   "n": 1
+  },
+  "arc_BaS_mp-1500": {
+   "value": 3.075817,
+   "n": 1
+  },
+  "arc_GaGeTe_mp-8211": {
+   "value": 0.647722,
+   "n": 1
+  },
+  "arc_SnO_mp-2097": {
+   "value": 0.522754,
+   "n": 1
+  },
+  "arc_CdCl2_mp-22881": {
+   "value": 4.87382,
+   "n": 1
+  },
+  "arc_SnO2_mp-856": {
+   "value": 2.285662,
+   "n": 1
+  },
+  "arc_InN_mp-22205": {
+   "value": 0.503533,
+   "n": 1
+  },
+  "arc_Cu2GeS3_mp-1072589": {
+   "value": 0.43690300000000004,
+   "n": 1
+  },
+  "arc_CuCl_mp-22914": {
+   "value": 2.333013,
+   "n": 1
+  },
+  "arc_SiSe2_mp-568264": {
+   "value": 2.631459,
+   "n": 1
+  },
+  "arc_KI_mp-22898": {
+   "value": 4.857818,
+   "n": 1
+  },
+  "arc_SrSe_mp-2758": {
+   "value": 3.097511,
+   "n": 1
+  },
+  "arc_BaO_mp-1342": {
+   "value": 3.353773,
+   "n": 1
+  },
+  "arc_RbI_mp-22903": {
+   "value": 4.77049,
+   "n": 1
+  },
+  "arc_CaTe_mp-1519": {
+   "value": 2.379372,
+   "n": 1
+  },
+  "arc_GeS2_mp-7582": {
+   "value": 3.458665,
+   "n": 1
+  },
+  "arc_YN_mp-2114": {
+   "value": 1.099241,
+   "n": 1
+  },
+  "arc_Na2Te_mp-2784": {
+   "value": 2.806577,
+   "n": 1
+  },
+  "arc_CdBr2_mp-568690": {
+   "value": 4.059497,
+   "n": 1
+  },
+  "arc_CdTe_mp-406": {
+   "value": 1.632519,
+   "n": 1
+  },
+  "arc_CdS_mp-2469": {
+   "value": 2.102119,
+   "n": 1
+  },
+  "arc_Na2Se_mp-1266": {
+   "value": 2.972606,
+   "n": 1
+  },
+  "arc_Cs3Sb_mp-10378": {
+   "value": 1.221163,
+   "n": 1
+  },
+  "arc_CsGeI3_mp-28377": {
+   "value": 1.340255,
+   "n": 1
+  },
+  "arc_GaP_mp-2490": {
+   "value": 2.428519,
+   "n": 1
+  },
+  "arc_CsK2Sb_mp-581024": {
+   "value": 1.430175,
+   "n": 1
+  },
+  "arc_KBr_mp-23251": {
+   "value": 5.595042,
+   "n": 1
+  },
+  "arc_AgBr_mp-23231": {
+   "value": 2.013035,
+   "n": 1
+  },
+  "arc_CsBr_mp-22906": {
+   "value": 5.63782,
+   "n": 1
+  },
+  "arc_GaCuO2_mp-4280": {
+   "value": 2.158588,
+   "n": 1
+  },
+  "arc_InSe_mp-22691": {
+   "value": 1.037299,
+   "n": 1
+  }
+ },
+ "jarvis_optb88vdw": {
+  "arc_Cu2GeSe3_mp-4728": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_RbNa2Sb_mp-975275": {
+   "value": 0.7969999999999999,
+   "n": 2
+  },
+  "arc_AgBr_mp-23231": {
+   "value": 0.789,
+   "n": 3
+  },
+  "arc_K2S_mp-1022": {
+   "value": 2.384,
+   "n": 2
+  },
+  "arc_TiO2_mp-390": {
+   "value": 2.0255,
+   "n": 4
+  },
+  "arc_CuBr_mp-22913": {
+   "value": 0.632,
+   "n": 1
+  },
+  "arc_GaAgO2_mp-1096971": {
+   "value": 0.7030000000000001,
+   "n": 2
+  },
+  "arc_Cu2O_mp-361": {
+   "value": 0.644,
+   "n": 1
+  },
+  "arc_CdF2_mp-241": {
+   "value": 3.063,
+   "n": 1
+  },
+  "sug_AlGaAs_zincblende_CuPt_111": {
+   "value": 0.651,
+   "n": 1
+  },
+  "arc_BaSnO3_mp-3163": {
+   "value": 0.578,
+   "n": 2
+  },
+  "arc_MgTe_mp-1039": {
+   "value": 2.53,
+   "n": 1
+  },
+  "arc_InPS4_mp-20790": {
+   "value": 2.329,
+   "n": 1
+  },
+  "arc_SnO2_mp-856": {
+   "value": 0.8945000000000001,
+   "n": 6
+  },
+  "arc_TiS2_mp-558110": {
+   "value": 0.0,
+   "n": 4
+  },
+  "arc_AgO_mp-1065190": {
+   "value": 0.0,
+   "n": 2
+  },
+  "arc_ZnTe_mp-2176": {
+   "value": 1.057,
+   "n": 3
+  },
+  "arc_NaBr_mp-22916": {
+   "value": 4.404,
+   "n": 1
+  },
+  "arc_CdI2_mp-567259": {
+   "value": 2.189,
+   "n": 9
+  },
+  "arc_CdTe_mp-406": {
+   "value": 0.498,
+   "n": 1
+  },
+  "arc_K2Se_mp-8426": {
+   "value": 2.171,
+   "n": 1
+  },
+  "arc_SiTe2_mp-2755": {
+   "value": 0.0,
+   "n": 2
+  },
+  "arc_InP_mp-20351": {
+   "value": 0.331,
+   "n": 2
+  },
+  "arc_SrTe_mp-1958": {
+   "value": 1.772,
+   "n": 1
+  },
+  "arc_AgSbTe2_mp-12360": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_GaSb_mp-1156": {
+   "value": 0.0,
+   "n": 2
+  },
+  "arc_CdBr2_mp-568690": {
+   "value": 2.713,
+   "n": 2
+  },
+  "arc_BaTiO3_mp-5777": {
+   "value": 2.179,
+   "n": 3
+  },
+  "arc_TeSe_mp-1217322": {
+   "value": 0.413,
+   "n": 1
+  },
+  "arc_CuI_mp-569346": {
+   "value": 1.297,
+   "n": 1
+  },
+  "arc_SrS_mp-1087": {
+   "value": 2.54,
+   "n": 2
+  },
+  "arc_KCl_mp-23193": {
+   "value": 5.326,
+   "n": 1
+  },
+  "arc_SiSe2_mp-568264": {
+   "value": 1.666,
+   "n": 4
+  },
+  "arc_GaN_mp-804": {
+   "value": 1.943,
+   "n": 1
+  },
+  "arc_SrO_mp-2472": {
+   "value": 3.405,
+   "n": 1
+  },
+  "sug_ZnSSe_zincblende_CuAu_001": {
+   "value": 1.406,
+   "n": 1
+  },
+  "arc_HfSe2_mp-985831": {
+   "value": 0.502,
+   "n": 2
+  },
+  "arc_NaSbSe2_mp-1220879": {
+   "value": 0.936,
+   "n": 1
+  },
+  "arc_GeO2_mp-470": {
+   "value": 1.327,
+   "n": 4
+  },
+  "arc_K2Te_mp-1747": {
+   "value": 2.187,
+   "n": 1
+  },
+  "arc_AgI_mp-22925": {
+   "value": 1.2595,
+   "n": 2
+  },
+  "arc_CaMg2N2_mp-5795": {
+   "value": 2.487,
+   "n": 1
+  },
+  "sug_AlGaN_wurtzite_layered_c": {
+   "value": 2.776,
+   "n": 1
+  },
+  "arc_KIO3_mp-552729": {
+   "value": 2.6654999999999998,
+   "n": 2
+  },
+  "arc_BP_mp-1479": {
+   "value": 1.515,
+   "n": 1
+  },
+  "arc_AlSb_mp-2624": {
+   "value": 1.322,
+   "n": 1
+  },
+  "arc_AlN_mp-661": {
+   "value": 4.474,
+   "n": 1
+  },
+  "sug_ZnCdSe_zincblende_CuAu_001": {
+   "value": 0.712,
+   "n": 1
+  },
+  "arc_NaInSe2_mp-22473": {
+   "value": 1.001,
+   "n": 1
+  },
+  "arc_SnS2_mp-1170": {
+   "value": 1.224,
+   "n": 1
+  },
+  "arc_ZnO_mp-1986": {
+   "value": 0.872,
+   "n": 1
+  },
+  "arc_LiBr_mp-23259": {
+   "value": 5.211,
+   "n": 2
+  },
+  "arc_CsK2Sb_mp-581024": {
+   "value": 1.207,
+   "n": 1
+  },
+  "arc_BaSe_mp-1253": {
+   "value": 1.9155,
+   "n": 2
+  },
+  "arc_CaSe_mp-1415": {
+   "value": 2.137,
+   "n": 1
+  },
+  "arc_CaS_mp-1672": {
+   "value": 2.347,
+   "n": 1
+  },
+  "arc_CaO_mp-2605": {
+   "value": 3.742,
+   "n": 1
+  },
+  "arc_Ag2O_mp-353": {
+   "value": 0.146,
+   "n": 1
+  },
+  "arc_CuCl_mp-22914": {
+   "value": 0.6575,
+   "n": 2
+  },
+  "arc_SrGe2_mp-7390": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_AgF_mp-7592": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_SnO_mp-2097": {
+   "value": 0.505,
+   "n": 3
+  },
+  "arc_MgSe_mp-10760": {
+   "value": 2.117,
+   "n": 2
+  },
+  "arc_ZrSe2_mp-2076": {
+   "value": 0.30600000000000005,
+   "n": 2
+  },
+  "arc_CdCl2_mp-22881": {
+   "value": 3.342,
+   "n": 1
+  },
+  "arc_KBr_mp-23251": {
+   "value": 4.602,
+   "n": 1
+  },
+  "arc_ScAgO2_mp-973185": {
+   "value": 2.287,
+   "n": 1
+  },
+  "arc_AlP_mp-1550": {
+   "value": 1.794,
+   "n": 1
+  },
+  "arc_Li2ZnGe_mp-12411": {
+   "value": 0.031,
+   "n": 1
+  },
+  "arc_BaTe_mp-1000": {
+   "value": 1.5885,
+   "n": 2
+  },
+  "arc_Na2S_mp-648": {
+   "value": 2.59,
+   "n": 1
+  },
+  "arc_ZrC_mp-2795": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_LiMgAs_mp-12558": {
+   "value": 1.521,
+   "n": 1
+  },
+  "arc_LiI_mp-570935": {
+   "value": 4.553,
+   "n": 1
+  },
+  "sug_GaInP_zincblende_CuPt_111": {
+   "value": 0.423,
+   "n": 1
+  },
+  "arc_InN_mp-22205": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_RbCl_mp-23295": {
+   "value": 4.9695,
+   "n": 2
+  },
+  "arc_InSe_mp-22691": {
+   "value": 0.174,
+   "n": 1
+  },
+  "arc_NaInS2_mp-20289": {
+   "value": 1.848,
+   "n": 1
+  },
+  "arc_ZrS2_mp-1186": {
+   "value": 0.911,
+   "n": 1
+  },
+  "arc_GeSe2_mp-10074": {
+   "value": 1.236,
+   "n": 1
+  },
+  "arc_ScN_mp-2857": {
+   "value": 0.02,
+   "n": 1
+  },
+  "arc_GaS_mp-9889": {
+   "value": 1.346,
+   "n": 1
+  },
+  "arc_TiSe2_mp-2194": {
+   "value": 0.0,
+   "n": 3
+  },
+  "arc_SiGe_mp-1219182": {
+   "value": 0.694,
+   "n": 1
+  },
+  "arc_CaTe_mp-1519": {
+   "value": 1.5579999999999998,
+   "n": 2
+  },
+  "arc_NaI_mp-23268": {
+   "value": 3.851,
+   "n": 1
+  },
+  "arc_BaO_mp-1342": {
+   "value": 2.0665,
+   "n": 2
+  },
+  "arc_CdS_mp-2469": {
+   "value": 0.993,
+   "n": 1
+  },
+  "arc_Na2Te_mp-2784": {
+   "value": 2.137,
+   "n": 1
+  },
+  "arc_Mg2Si_mp-1367": {
+   "value": 0.381,
+   "n": 1
+  },
+  "arc_Cu2GeS3_mp-1072589": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_YCuO2_mp-6972": {
+   "value": 2.8765,
+   "n": 2
+  },
+  "arc_TiTe2_mp-1907": {
+   "value": 0.0,
+   "n": 3
+  },
+  "arc_GeS2_mp-7582": {
+   "value": 2.218,
+   "n": 1
+  },
+  "arc_CdSe_mp-2691": {
+   "value": 0.455,
+   "n": 2
+  },
+  "arc_KI_mp-22898": {
+   "value": 4.092,
+   "n": 1
+  },
+  "sug_ZnCdS_wurtzite_layered_c": {
+   "value": 1.205,
+   "n": 1
+  },
+  "arc_AgCl_mp-22922": {
+   "value": 0.924,
+   "n": 2
+  },
+  "arc_YN_mp-2114": {
+   "value": 0.314,
+   "n": 1
+  },
+  "arc_Mg3Sb2_mp-2646": {
+   "value": 0.253,
+   "n": 2
+  },
+  "arc_GaGeTe_mp-8211": {
+   "value": 0.053,
+   "n": 1
+  },
+  "arc_GaCuO2_mp-4280": {
+   "value": 0.9545,
+   "n": 2
+  },
+  "arc_LiZnN_mp-7575": {
+   "value": 0.826,
+   "n": 1
+  },
+  "arc_Na2Se_mp-1266": {
+   "value": 2.173,
+   "n": 1
+  },
+  "arc_K2RbSb_mp-976148": {
+   "value": 1.033,
+   "n": 1
+  },
+  "arc_CaI2_mp-30031": {
+   "value": 3.446,
+   "n": 1
+  },
+  "arc_KNa2Sb_mp-15724": {
+   "value": 0.92,
+   "n": 1
+  },
+  "arc_SnSe2_mp-665": {
+   "value": 0.4075,
+   "n": 2
+  },
+  "arc_NaSbTe2_mp-1220883": {
+   "value": 0.803,
+   "n": 1
+  },
+  "arc_HfS2_mp-985829": {
+   "value": 1.078,
+   "n": 1
+  },
+  "arc_Rb2Te_mp-441": {
+   "value": 1.887,
+   "n": 1
+  },
+  "arc_CdAs2_mp-471": {
+   "value": 0.109,
+   "n": 1
+  },
+  "arc_RbBr_mp-22867": {
+   "value": 4.436,
+   "n": 1
+  },
+  "arc_MgO_mp-1265": {
+   "value": 5.131,
+   "n": 1
+  },
+  "arc_NaCl_mp-22862": {
+   "value": 5.321,
+   "n": 1
+  },
+  "sug_GaInN_wurtzite_layered_c": {
+   "value": 0.217,
+   "n": 1
+  },
+  "arc_BeS_mp-422": {
+   "value": 3.3209999999999997,
+   "n": 2
+  },
+  "arc_GaAs_mp-2534": {
+   "value": 0.085,
+   "n": 1
+  },
+  "arc_CdO_mp-1132": {
+   "value": 0.0,
+   "n": 1
+  },
+  "sug_ZnCdSe_zincblende_CuPt_111": {
+   "value": 0.484,
+   "n": 1
+  },
+  "arc_ScCd_mp-1211": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_ScCuO2_mp-4636": {
+   "value": 2.399,
+   "n": 1
+  },
+  "arc_SrSe_mp-2758": {
+   "value": 2.24,
+   "n": 1
+  },
+  "arc_GaP_mp-2490": {
+   "value": 1.482,
+   "n": 1
+  },
+  "arc_GaSe_mp-11342": {
+   "value": 0.835,
+   "n": 1
+  },
+  "arc_BeTe_mp-252": {
+   "value": 2.202,
+   "n": 1
+  },
+  "arc_BaS_mp-1500": {
+   "value": 2.148,
+   "n": 1
+  },
+  "arc_BeSe_mp-1541": {
+   "value": 2.848,
+   "n": 1
+  },
+  "arc_NaNO2_mp-2964": {
+   "value": 2.414,
+   "n": 1
+  },
+  "arc_ZnS_mp-10695": {
+   "value": 2.086,
+   "n": 1
+  },
+  "arc_InAgO2_mp-22660": {
+   "value": 0.406,
+   "n": 1
+  },
+  "arc_SrTiO3_mp-5229": {
+   "value": 1.814,
+   "n": 1
+  },
+  "arc_Li2CdGe_mp-10686": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_Mg2Ge_mp-408": {
+   "value": 0.299,
+   "n": 1
+  },
+  "arc_RbI_mp-22903": {
+   "value": 3.969,
+   "n": 1
+  },
+  "arc_ZnSe_mp-1190": {
+   "value": 1.224,
+   "n": 1
+  },
+  "sug_ZnSeTe_zincblende_CuAu_001": {
+   "value": 1.224,
+   "n": 1
+  },
+  "sug_ZnSeTe_zincblende_CuPt_111": {
+   "value": 1.224,
+   "n": 1
+  }
+ },
+ "mp_gga": {
+  "arc_BaSe_mp-1253": {
+   "value": 1.948799999999999,
+   "n": 1
+  },
+  "arc_GaAs_mp-2534": {
+   "value": 0.1861,
+   "n": 1
+  },
+  "arc_CdSe_mp-2691": {
+   "value": 0.5096,
+   "n": 1
+  },
+  "arc_ZnSe_mp-1190": {
+   "value": 1.1663,
+   "n": 1
+  },
+  "arc_BaTiO3_mp-5777": {
+   "value": 2.2929999999999997,
+   "n": 1
+  },
+  "arc_SrSe_mp-2758": {
+   "value": 2.2313,
+   "n": 1
+  },
+  "arc_CsK2Sb_mp-581024": {
+   "value": 0.8633999999999991,
+   "n": 1
+  },
+  "arc_GeSe2_mp-10074": {
+   "value": 1.5188,
+   "n": 1
+  },
+  "arc_CdI2_mp-567259": {
+   "value": 2.4195,
+   "n": 1
+  },
+  "arc_Na2S_mp-648": {
+   "value": 2.4399,
+   "n": 1
+  },
+  "arc_GaGeTe_mp-8211": {
+   "value": 0.1672,
+   "n": 1
+  },
+  "arc_BeSe_mp-1541": {
+   "value": 2.663699999999999,
+   "n": 1
+  },
+  "arc_CaMg2N2_mp-5795": {
+   "value": 1.9968999999999992,
+   "n": 1
+  },
+  "arc_GeO2_mp-470": {
+   "value": 1.2157,
+   "n": 1
+  },
+  "arc_CuBr_mp-22913": {
+   "value": 0.487099999999999,
+   "n": 1
+  },
+  "arc_YCuO2_mp-6972": {
+   "value": 2.6406,
+   "n": 1
+  },
+  "arc_NaSbSe2_mp-1220879": {
+   "value": 0.6374999999999991,
+   "n": 1
+  },
+  "arc_NaSbTe2_mp-1220883": {
+   "value": 0.658899999999999,
+   "n": 1
+  },
+  "arc_NaNO2_mp-2964": {
+   "value": 2.4493,
+   "n": 1
+  },
+  "arc_SiGe_mp-1219182": {
+   "value": 0.6059999999999991,
+   "n": 1
+  },
+  "arc_CsI_mp-614603": {
+   "value": 3.8556,
+   "n": 1
+  },
+  "arc_LiI_mp-570935": {
+   "value": 4.3818,
+   "n": 1
+  },
+  "arc_NaBr_mp-22916": {
+   "value": 4.0895,
+   "n": 1
+  },
+  "arc_SrS_mp-1087": {
+   "value": 2.497,
+   "n": 1
+  },
+  "arc_CsCl_mp-22865": {
+   "value": 4.988399999999999,
+   "n": 1
+  },
+  "arc_LiMgAs_mp-12558": {
+   "value": 1.372299999999999,
+   "n": 1
+  },
+  "arc_MgO_mp-1265": {
+   "value": 4.4292,
+   "n": 1
+  },
+  "arc_RbBr_mp-22867": {
+   "value": 4.192,
+   "n": 1
+  },
+  "arc_SrO_mp-2472": {
+   "value": 3.2748,
+   "n": 1
+  },
+  "arc_LiZnN_mp-7575": {
+   "value": 0.5187,
+   "n": 1
+  },
+  "arc_RbI_mp-22903": {
+   "value": 3.7765,
+   "n": 1
+  },
+  "arc_CaTe_mp-1519": {
+   "value": 1.5535,
+   "n": 1
+  },
+  "arc_Mg2Si_mp-1367": {
+   "value": 0.217999999999999,
+   "n": 1
+  },
+  "arc_AlSb_mp-2624": {
+   "value": 1.2255,
+   "n": 1
+  },
+  "arc_KIO3_mp-552729": {
+   "value": 2.568199999999999,
+   "n": 1
+  },
+  "arc_BaSnO3_mp-3163": {
+   "value": 0.372399999999999,
+   "n": 1
+  },
+  "arc_RbNa2Sb_mp-975275": {
+   "value": 0.5682,
+   "n": 1
+  },
+  "arc_K2Se_mp-8426": {
+   "value": 2.0925,
+   "n": 1
+  },
+  "arc_AgBr_mp-23231": {
+   "value": 0.730399999999999,
+   "n": 1
+  },
+  "arc_ZnS_mp-10695": {
+   "value": 2.0192,
+   "n": 1
+  },
+  "arc_BaTe_mp-1000": {
+   "value": 1.593,
+   "n": 1
+  },
+  "arc_AlN_mp-661": {
+   "value": 4.0467,
+   "n": 1
+  },
+  "arc_CdBr2_mp-568690": {
+   "value": 2.8798,
+   "n": 1
+  },
+  "arc_CaI2_mp-30031": {
+   "value": 3.8971,
+   "n": 1
+  },
+  "arc_K2Te_mp-1747": {
+   "value": 2.141,
+   "n": 1
+  },
+  "arc_AlP_mp-1550": {
+   "value": 1.6294,
+   "n": 1
+  },
+  "arc_KI_mp-22898": {
+   "value": 3.8513,
+   "n": 1
+  },
+  "arc_CaS_mp-1672": {
+   "value": 2.3819,
+   "n": 1
+  },
+  "arc_CaO_mp-2605": {
+   "value": 3.6301,
+   "n": 1
+  },
+  "arc_CuCl_mp-22914": {
+   "value": 0.5646,
+   "n": 1
+  },
+  "arc_GaN_mp-804": {
+   "value": 1.726499999999999,
+   "n": 1
+  },
+  "arc_Mg3Sb2_mp-2646": {
+   "value": 0.2172,
+   "n": 1
+  },
+  "arc_CdTe_mp-406": {
+   "value": 0.5846,
+   "n": 1
+  },
+  "arc_SnO2_mp-856": {
+   "value": 0.6519,
+   "n": 1
+  },
+  "arc_K2RbSb_mp-976148": {
+   "value": 0.6879000000000001,
+   "n": 1
+  },
+  "arc_GeS2_mp-7582": {
+   "value": 2.5974999999999997,
+   "n": 1
+  },
+  "arc_BeTe_mp-252": {
+   "value": 2.017299999999999,
+   "n": 1
+  },
+  "arc_NaInS2_mp-20289": {
+   "value": 1.8377,
+   "n": 1
+  },
+  "arc_ScCuO2_mp-4636": {
+   "value": 2.1669,
+   "n": 1
+  },
+  "arc_KBr_mp-23251": {
+   "value": 4.3224,
+   "n": 1
+  },
+  "arc_TiO2_mp-390": {
+   "value": 2.0586,
+   "n": 1
+  },
+  "arc_MgTe_mp-1039": {
+   "value": 2.361199999999999,
+   "n": 1
+  },
+  "arc_NaInSe2_mp-22473": {
+   "value": 1.019199999999999,
+   "n": 1
+  },
+  "arc_ZrSe2_mp-2076": {
+   "value": 0.3296,
+   "n": 1
+  },
+  "arc_BeS_mp-422": {
+   "value": 3.1453,
+   "n": 1
+  },
+  "arc_TeSe_mp-1217322": {
+   "value": 0.7062,
+   "n": 1
+  },
+  "arc_ZnO_mp-1986": {
+   "value": 0.630899999999999,
+   "n": 1
+  },
+  "arc_InP_mp-20351": {
+   "value": 0.4546,
+   "n": 1
+  },
+  "arc_Na2Te_mp-2784": {
+   "value": 2.0282,
+   "n": 1
+  },
+  "arc_ScAgO2_mp-973185": {
+   "value": 2.074,
+   "n": 1
+  },
+  "arc_SnO_mp-2097": {
+   "value": 0.4096,
+   "n": 1
+  },
+  "arc_CdF2_mp-241": {
+   "value": 2.8977,
+   "n": 1
+  },
+  "arc_Cu2O_mp-361": {
+   "value": 0.512699999999999,
+   "n": 1
+  },
+  "arc_LiBr_mp-23259": {
+   "value": 4.9234,
+   "n": 1
+  },
+  "arc_KNa2Sb_mp-15724": {
+   "value": 0.672099999999999,
+   "n": 1
+  },
+  "arc_MgSe_mp-10760": {
+   "value": 1.7609,
+   "n": 1
+  },
+  "arc_SnS2_mp-1170": {
+   "value": 1.514799999999999,
+   "n": 1
+  },
+  "arc_CuI_mp-569346": {
+   "value": 1.211999999999999,
+   "n": 1
+  },
+  "arc_Cu2GeS3_mp-1072589": {
+   "value": 0.025799999999999,
+   "n": 1
+  },
+  "arc_GaS_mp-9889": {
+   "value": 1.866499999999999,
+   "n": 1
+  },
+  "arc_RbCl_mp-23295": {
+   "value": 4.8388,
+   "n": 1
+  },
+  "arc_NaCl_mp-22862": {
+   "value": 5.0037,
+   "n": 1
+  },
+  "arc_ZrS2_mp-1186": {
+   "value": 1.0418,
+   "n": 1
+  },
+  "arc_InPS4_mp-20790": {
+   "value": 2.3185,
+   "n": 1
+  },
+  "arc_CaSe_mp-1415": {
+   "value": 2.0728,
+   "n": 1
+  },
+  "arc_KCl_mp-23193": {
+   "value": 5.027,
+   "n": 1
+  },
+  "arc_GaAgO2_mp-1096971": {
+   "value": 0.5611,
+   "n": 1
+  },
+  "arc_SrTe_mp-1958": {
+   "value": 1.7616,
+   "n": 1
+  },
+  "arc_BP_mp-1479": {
+   "value": 1.243499999999999,
+   "n": 1
+  },
+  "arc_GaSe_mp-11342": {
+   "value": 1.2233,
+   "n": 1
+  },
+  "arc_Ga2Te3_mp-1224840": {
+   "value": 0.182999999999999,
+   "n": 1
+  },
+  "arc_CsGeI3_mp-28377": {
+   "value": 0.9905,
+   "n": 1
+  },
+  "arc_GaCuO2_mp-4280": {
+   "value": 0.728699999999999,
+   "n": 1
+  },
+  "arc_GaP_mp-2490": {
+   "value": 1.603899999999999,
+   "n": 1
+  },
+  "arc_InSe_mp-22691": {
+   "value": 0.6375000000000001,
+   "n": 1
+  },
+  "arc_Rb2Te_mp-441": {
+   "value": 1.8766,
+   "n": 1
+  },
+  "arc_AgCl_mp-22922": {
+   "value": 0.9522,
+   "n": 1
+  },
+  "arc_YN_mp-2114": {
+   "value": 0.151,
+   "n": 1
+  },
+  "arc_BaO_mp-1342": {
+   "value": 2.0906,
+   "n": 1
+  },
+  "arc_CsBr_mp-22906": {
+   "value": 4.2392,
+   "n": 1
+  },
+  "arc_HfS2_mp-985829": {
+   "value": 1.2237,
+   "n": 1
+  },
+  "arc_NaI_mp-23268": {
+   "value": 3.568699999999999,
+   "n": 1
+  },
+  "arc_InAgO2_mp-22660": {
+   "value": 0.218299999999999,
+   "n": 1
+  },
+  "arc_Cs3Sb_mp-10378": {
+   "value": 0.6126,
+   "n": 1
+  },
+  "arc_ZnTe_mp-2176": {
+   "value": 1.073299999999999,
+   "n": 1
+  },
+  "arc_SiSe2_mp-568264": {
+   "value": 2.167,
+   "n": 1
+  },
+  "arc_CdCl2_mp-22881": {
+   "value": 3.5244,
+   "n": 1
+  },
+  "arc_K2S_mp-1022": {
+   "value": 2.3201,
+   "n": 1
+  },
+  "arc_SrTiO3_mp-5229": {
+   "value": 1.771999999999999,
+   "n": 1
+  },
+  "arc_SnSe2_mp-665": {
+   "value": 0.7018,
+   "n": 1
+  },
+  "arc_Na2Se_mp-1266": {
+   "value": 2.0153,
+   "n": 1
+  },
+  "arc_Mg3AsN_mp-1206514": {
+   "value": 2.281799999999999,
+   "n": 1
+  },
+  "arc_BaS_mp-1500": {
+   "value": 2.1488,
+   "n": 1
+  },
+  "arc_Mg2Ge_mp-408": {
+   "value": 0.1689,
+   "n": 1
+  },
+  "arc_CdAs2_mp-471": {
+   "value": 0.133199999999999,
+   "n": 1
+  },
+  "arc_HfSe2_mp-985831": {
+   "value": 0.5342,
+   "n": 1
+  },
+  "arc_AgI_mp-22925": {
+   "value": 1.3674,
+   "n": 1
+  },
+  "arc_CsRb2Sb_mp-984761": {
+   "value": 0.6525000000000001,
+   "n": 1
+  },
+  "arc_CdS_mp-2469": {
+   "value": 1.0492,
+   "n": 1
+  }
+ },
+ "snumat_gga": {
+  "arc_SnO_mp-2097": {
+   "value": 0.114246,
+   "n": 1
+  },
+  "arc_MgSe_mp-10760": {
+   "value": 1.768883,
+   "n": 1
+  },
+  "arc_GaGeTe_mp-8211": {
+   "value": 0.054852,
+   "n": 1
+  },
+  "arc_GaS_mp-9889": {
+   "value": 1.524493,
+   "n": 1
+  },
+  "arc_Li2ZnGe_mp-12411": {
+   "value": 0.040132,
+   "n": 1
+  },
+  "arc_SiSe2_mp-568264": {
+   "value": 1.66379,
+   "n": 1
+  },
+  "arc_K2S_mp-1022": {
+   "value": 2.315954,
+   "n": 1
+  },
+  "arc_GaAs_mp-2534": {
+   "value": 0.18221700000000002,
+   "n": 2
+  },
+  "arc_GeSe2_mp-10074": {
+   "value": 1.417681,
+   "n": 1
+  },
+  "arc_K2Te_mp-1747": {
+   "value": 2.1144905,
+   "n": 2
+  },
+  "arc_BeS_mp-422": {
+   "value": 3.1333135,
+   "n": 2
+  },
+  "arc_CsBr_mp-22906": {
+   "value": 4.453972,
+   "n": 1
+  },
+  "arc_InPS4_mp-20790": {
+   "value": 2.235295,
+   "n": 1
+  },
+  "arc_TiO2_mp-390": {
+   "value": 1.895032,
+   "n": 1
+  },
+  "arc_RbBr_mp-22867": {
+   "value": 4.326222,
+   "n": 1
+  },
+  "arc_AgI_mp-22925": {
+   "value": 1.338733,
+   "n": 1
+  },
+  "arc_GaN_mp-804": {
+   "value": 1.714188,
+   "n": 1
+  },
+  "arc_KBr_mp-23251": {
+   "value": 4.416618,
+   "n": 1
+  },
+  "arc_Na2S_mp-648": {
+   "value": 2.514301,
+   "n": 1
+  },
+  "arc_Na2Se_mp-1266": {
+   "value": 2.073629,
+   "n": 1
+  },
+  "arc_Na2Te_mp-2784": {
+   "value": 2.061883,
+   "n": 1
+  },
+  "arc_BaTe_mp-1000": {
+   "value": 1.589143,
+   "n": 1
+  },
+  "arc_SrTiO3_mp-5229": {
+   "value": 1.74343,
+   "n": 1
+  },
+  "arc_ZnS_mp-10695": {
+   "value": 2.860332,
+   "n": 2
+  },
+  "arc_NaBr_mp-22916": {
+   "value": 4.120055,
+   "n": 1
+  },
+  "arc_NaNO2_mp-2964": {
+   "value": 2.421871,
+   "n": 1
+  },
+  "arc_CdS_mp-2469": {
+   "value": 1.078913,
+   "n": 1
+  },
+  "arc_ZnO_mp-1986": {
+   "value": 1.750382,
+   "n": 2
+  },
+  "arc_BP_mp-1479": {
+   "value": 1.235905,
+   "n": 1
+  },
+  "arc_CdSe_mp-2691": {
+   "value": 0.477402,
+   "n": 1
+  },
+  "arc_BeSe_mp-1541": {
+   "value": 2.62509,
+   "n": 1
+  },
+  "arc_AlP_mp-1550": {
+   "value": 1.6249885,
+   "n": 2
+  },
+  "arc_SrS_mp-1087": {
+   "value": 2.47816,
+   "n": 1
+  },
+  "arc_SrTe_mp-1958": {
+   "value": 1.690515,
+   "n": 1
+  },
+  "arc_AgCl_mp-22922": {
+   "value": 0.904581,
+   "n": 1
+  },
+  "arc_CdCl2_mp-22881": {
+   "value": 3.463756,
+   "n": 1
+  },
+  "arc_GaP_mp-2490": {
+   "value": 1.542517,
+   "n": 1
+  },
+  "arc_CdI2_mp-567259": {
+   "value": 2.3531225,
+   "n": 4
+  },
+  "arc_InN_mp-22205": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_MgO_mp-1265": {
+   "value": 4.515670999999999,
+   "n": 2
+  },
+  "arc_LiBr_mp-23259": {
+   "value": 4.933235,
+   "n": 1
+  },
+  "arc_ScAgO2_mp-973185": {
+   "value": 2.140471,
+   "n": 1
+  },
+  "arc_BaSe_mp-1253": {
+   "value": 1.924453,
+   "n": 1
+  },
+  "arc_CaO_mp-2605": {
+   "value": 3.642091,
+   "n": 1
+  },
+  "arc_GaCuO2_mp-4280": {
+   "value": 0.97665,
+   "n": 1
+  },
+  "arc_Mg2Si_mp-1367": {
+   "value": 0.218807,
+   "n": 1
+  },
+  "arc_Mg2Ge_mp-408": {
+   "value": 0.15157299999999996,
+   "n": 1
+  },
+  "arc_AgBr_mp-23231": {
+   "value": 0.671593,
+   "n": 1
+  },
+  "arc_CuBr_mp-22913": {
+   "value": 1.223435,
+   "n": 1
+  },
+  "arc_CdTe_mp-406": {
+   "value": 0.844649,
+   "n": 1
+  },
+  "arc_GaSe_mp-11342": {
+   "value": 0.838272,
+   "n": 1
+  },
+  "arc_CuI_mp-569346": {
+   "value": 1.75155,
+   "n": 1
+  },
+  "arc_SnS2_mp-1170": {
+   "value": 1.524003,
+   "n": 1
+  },
+  "arc_K2Se_mp-8426": {
+   "value": 2.094868,
+   "n": 2
+  },
+  "arc_LiMgAs_mp-12558": {
+   "value": 1.364537,
+   "n": 1
+  },
+  "arc_CaSe_mp-1415": {
+   "value": 2.050394,
+   "n": 1
+  },
+  "arc_RbI_mp-22903": {
+   "value": 3.779106,
+   "n": 1
+  },
+  "arc_InSe_mp-22691": {
+   "value": 0.334599,
+   "n": 1
+  },
+  "arc_GeS2_mp-7582": {
+   "value": 2.400864,
+   "n": 1
+  },
+  "arc_CdBr2_mp-568690": {
+   "value": 2.86348,
+   "n": 1
+  },
+  "arc_AgF_mp-7592": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_Cu2GeS3_mp-1072589": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_InAgO2_mp-22660": {
+   "value": 0.154163,
+   "n": 1
+  },
+  "arc_CaS_mp-1672": {
+   "value": 2.359182,
+   "n": 1
+  },
+  "arc_NaInS2_mp-20289": {
+   "value": 1.821332,
+   "n": 1
+  },
+  "arc_NaI_mp-23268": {
+   "value": 3.621361,
+   "n": 1
+  },
+  "arc_YN_mp-2114": {
+   "value": 0.186896,
+   "n": 1
+  },
+  "arc_Rb2Te_mp-441": {
+   "value": 1.863966,
+   "n": 1
+  },
+  "arc_BaTiO3_mp-5777": {
+   "value": 0.454864,
+   "n": 1
+  },
+  "arc_CuCl_mp-22914": {
+   "value": 1.400749,
+   "n": 1
+  },
+  "arc_NaCl_mp-22862": {
+   "value": 5.297766,
+   "n": 1
+  },
+  "arc_InP_mp-20351": {
+   "value": 0.3993995,
+   "n": 2
+  },
+  "arc_SrO_mp-2472": {
+   "value": 3.280869,
+   "n": 1
+  },
+  "arc_ZnSe_mp-1190": {
+   "value": 1.788975,
+   "n": 1
+  },
+  "sug_ZnSeTe_zincblende_CuAu_001": {
+   "value": 1.788975,
+   "n": 1
+  },
+  "sug_ZnSeTe_zincblende_CuPt_111": {
+   "value": 1.788975,
+   "n": 1
+  },
+  "arc_SrSe_mp-2758": {
+   "value": 2.199261,
+   "n": 1
+  },
+  "arc_CsCl_mp-22865": {
+   "value": 5.039919,
+   "n": 1
+  },
+  "arc_GaSb_mp-1156": {
+   "value": 0.0,
+   "n": 2
+  },
+  "arc_CdO_mp-1132": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_CsK2Sb_mp-581024": {
+   "value": 0.831579,
+   "n": 1
+  },
+  "arc_CsI_mp-614603": {
+   "value": 3.871615,
+   "n": 1
+  },
+  "arc_CdF2_mp-241": {
+   "value": 2.971267,
+   "n": 1
+  },
+  "arc_NaInSe2_mp-22473": {
+   "value": 1.035742,
+   "n": 1
+  },
+  "arc_BaS_mp-1500": {
+   "value": 2.145482,
+   "n": 1
+  },
+  "arc_Cu2O_mp-361": {
+   "value": 0.647621,
+   "n": 1
+  },
+  "arc_KNa2Sb_mp-15724": {
+   "value": 0.669578,
+   "n": 1
+  },
+  "arc_GeO2_mp-470": {
+   "value": 0.987565,
+   "n": 1
+  },
+  "arc_AlSb_mp-2624": {
+   "value": 1.21879,
+   "n": 1
+  },
+  "arc_Cs3Sb_mp-10378": {
+   "value": 0.666073,
+   "n": 1
+  },
+  "arc_KI_mp-22898": {
+   "value": 3.860678,
+   "n": 1
+  },
+  "arc_KIO3_mp-552729": {
+   "value": 2.598955,
+   "n": 1
+  },
+  "arc_YCuO2_mp-6972": {
+   "value": 2.894446,
+   "n": 1
+  },
+  "arc_CdAs2_mp-471": {
+   "value": 0.130143,
+   "n": 1
+  },
+  "arc_BaO_mp-1342": {
+   "value": 2.045991,
+   "n": 1
+  },
+  "arc_RbCl_mp-23295": {
+   "value": 4.81337,
+   "n": 1
+  },
+  "arc_CaMg2N2_mp-5795": {
+   "value": 2.045806,
+   "n": 1
+  },
+  "arc_BeTe_mp-252": {
+   "value": 2.005379,
+   "n": 1
+  },
+  "arc_CsGeI3_mp-28377": {
+   "value": 0.9339770000000001,
+   "n": 1
+  },
+  "arc_BaSnO3_mp-3163": {
+   "value": 0.32632,
+   "n": 1
+  },
+  "arc_ScCuO2_mp-4636": {
+   "value": 2.675656,
+   "n": 1
+  },
+  "arc_SnO2_mp-856": {
+   "value": 0.629998,
+   "n": 1
+  },
+  "arc_KCl_mp-23193": {
+   "value": 5.040855,
+   "n": 1
+  },
+  "arc_CaTe_mp-1519": {
+   "value": 1.552095,
+   "n": 1
+  },
+  "arc_Ag2O_mp-353": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_ZnTe_mp-2176": {
+   "value": 1.598007,
+   "n": 1
+  }
+ },
+ "expt_zhuo": {
+  "arc_InP_mp-20351": {
+   "value": 1.3800000000000001,
+   "n": 20
+  },
+  "arc_CdTe_mp-406": {
+   "value": 1.57,
+   "n": 16
+  },
+  "arc_CdSe_mp-2691": {
+   "value": 1.83,
+   "n": 25
+  },
+  "arc_AlP_mp-1550": {
+   "value": 2.52,
+   "n": 11
+  },
+  "arc_ZnTe_mp-2176": {
+   "value": 2.285,
+   "n": 18
+  },
+  "arc_CdS_mp-2469": {
+   "value": 2.55,
+   "n": 27
+  },
+  "arc_GeSe2_mp-10074": {
+   "value": 2.37,
+   "n": 4
+  },
+  "arc_BaTiO3_mp-5777": {
+   "value": 3.06,
+   "n": 5
+  },
+  "arc_TeSe_mp-1217322": {
+   "value": 1.58,
+   "n": 1
+  },
+  "arc_CuCl_mp-22914": {
+   "value": 3.255,
+   "n": 14
+  },
+  "arc_ZnS_mp-10695": {
+   "value": 3.6950000000000003,
+   "n": 20
+  },
+  "arc_CsGeI3_mp-28377": {
+   "value": 1.6,
+   "n": 1
+  },
+  "arc_GaP_mp-2490": {
+   "value": 2.76,
+   "n": 4
+  },
+  "arc_GaSe_mp-11342": {
+   "value": 2.1,
+   "n": 26
+  },
+  "arc_AgI_mp-22925": {
+   "value": 2.965,
+   "n": 6
+  },
+  "arc_KNa2Sb_mp-15724": {
+   "value": 1.05,
+   "n": 2
+  },
+  "arc_ZrSe2_mp-2076": {
+   "value": 2.0,
+   "n": 1
+  },
+  "arc_GaSb_mp-1156": {
+   "value": 0.81,
+   "n": 15
+  },
+  "arc_RbBr_mp-22867": {
+   "value": 7.45,
+   "n": 4
+  },
+  "arc_CsI_mp-614603": {
+   "value": 6.37,
+   "n": 3
+  },
+  "arc_NaNO2_mp-2964": {
+   "value": 3.06,
+   "n": 4
+  },
+  "arc_BP_mp-1479": {
+   "value": 4.2,
+   "n": 1
+  },
+  "arc_LiI_mp-570935": {
+   "value": 5.9,
+   "n": 3
+  },
+  "arc_Ga2Te3_mp-1224840": {
+   "value": 1.3900000000000001,
+   "n": 4
+  },
+  "arc_InSe_mp-22691": {
+   "value": 1.28,
+   "n": 20
+  },
+  "arc_CdCl2_mp-22881": {
+   "value": 5.75,
+   "n": 2
+  },
+  "arc_SrS_mp-1087": {
+   "value": 4.779999999999999,
+   "n": 2
+  },
+  "arc_GaS_mp-9889": {
+   "value": 2.59,
+   "n": 13
+  },
+  "arc_CuBr_mp-22913": {
+   "value": 3.005,
+   "n": 8
+  },
+  "arc_CsCl_mp-22865": {
+   "value": 7.949999999999999,
+   "n": 2
+  },
+  "arc_KI_mp-22898": {
+   "value": 6.2,
+   "n": 9
+  },
+  "arc_GaAs_mp-2534": {
+   "value": 1.51,
+   "n": 25
+  },
+  "arc_CdAs2_mp-471": {
+   "value": 1.085,
+   "n": 6
+  },
+  "arc_GaN_mp-804": {
+   "value": 3.475,
+   "n": 16
+  },
+  "arc_ZnSe_mp-1190": {
+   "value": 2.8,
+   "n": 16
+  },
+  "arc_RbCl_mp-23295": {
+   "value": 8.29,
+   "n": 5
+  },
+  "arc_InN_mp-22205": {
+   "value": 2.1,
+   "n": 7
+  },
+  "arc_NaI_mp-23268": {
+   "value": 5.93,
+   "n": 5
+  },
+  "arc_CdF2_mp-241": {
+   "value": 6.0,
+   "n": 1
+  },
+  "arc_AlN_mp-661": {
+   "value": 6.09,
+   "n": 5
+  },
+  "arc_K2Te_mp-1747": {
+   "value": 1.9,
+   "n": 1
+  },
+  "arc_Na2S_mp-648": {
+   "value": 2.4,
+   "n": 1
+  },
+  "arc_Cu2O_mp-361": {
+   "value": 2.59,
+   "n": 3
+  },
+  "arc_SiTe2_mp-2755": {
+   "value": 2.015,
+   "n": 2
+  },
+  "arc_CdO_mp-1132": {
+   "value": 2.3,
+   "n": 1
+  },
+  "arc_Cu2GeS3_mp-1072589": {
+   "value": 0.53,
+   "n": 1
+  },
+  "arc_ZnO_mp-1986": {
+   "value": 3.44,
+   "n": 22
+  },
+  "arc_K2S_mp-1022": {
+   "value": 2.1,
+   "n": 1
+  },
+  "arc_InAgO2_mp-22660": {
+   "value": 4.2,
+   "n": 1
+  },
+  "arc_CsK2Sb_mp-581024": {
+   "value": 1.1,
+   "n": 2
+  },
+  "arc_Na2Te_mp-2784": {
+   "value": 2.3,
+   "n": 1
+  },
+  "arc_Ag2O_mp-353": {
+   "value": 1.57,
+   "n": 5
+  },
+  "arc_AlSb_mp-2624": {
+   "value": 1.65,
+   "n": 15
+  },
+  "arc_AgSbSe2_mp-1229000": {
+   "value": 0.67,
+   "n": 5
+  },
+  "arc_AgF_mp-7592": {
+   "value": 2.8,
+   "n": 1
+  },
+  "arc_GeO2_mp-470": {
+   "value": 5.5600000000000005,
+   "n": 3
+  },
+  "arc_NaSbSe2_mp-1220879": {
+   "value": 1.3599999999999999,
+   "n": 3
+  },
+  "arc_Li2ZnGe_mp-12411": {
+   "value": 1.1,
+   "n": 1
+  },
+  "arc_CaTe_mp-1519": {
+   "value": 4.1850000000000005,
+   "n": 2
+  },
+  "arc_BaSe_mp-1253": {
+   "value": 3.6,
+   "n": 3
+  },
+  "arc_NaCl_mp-22862": {
+   "value": 8.5,
+   "n": 3
+  },
+  "arc_ScN_mp-2857": {
+   "value": 2.6,
+   "n": 1
+  },
+  "arc_SrTe_mp-1958": {
+   "value": 3.75,
+   "n": 2
+  },
+  "arc_KIO3_mp-552729": {
+   "value": 3.85,
+   "n": 4
+  },
+  "arc_GaAgO2_mp-1096971": {
+   "value": 2.2,
+   "n": 1
+  },
+  "arc_CaSe_mp-1415": {
+   "value": 4.9350000000000005,
+   "n": 2
+  },
+  "arc_BaS_mp-1500": {
+   "value": 3.8899999999999997,
+   "n": 2
+  },
+  "arc_AgBr_mp-23231": {
+   "value": 2.52,
+   "n": 1
+  },
+  "arc_AgO_mp-1065190": {
+   "value": 1.57,
+   "n": 1
+  },
+  "arc_Mg3AsN_mp-1206514": {
+   "value": 1.33,
+   "n": 1
+  },
+  "arc_NaBr_mp-22916": {
+   "value": 7.26,
+   "n": 3
+  },
+  "arc_ScCuO2_mp-4636": {
+   "value": 3.3,
+   "n": 1
+  },
+  "arc_GaGeTe_mp-8211": {
+   "value": 1.1,
+   "n": 1
+  },
+  "arc_KCl_mp-23193": {
+   "value": 8.5,
+   "n": 1
+  },
+  "arc_GaCuO2_mp-4280": {
+   "value": 1.47,
+   "n": 1
+  },
+  "arc_MgSe_mp-10760": {
+   "value": 5.63,
+   "n": 3
+  },
+  "arc_SiGe_mp-1219182": {
+   "value": 0.88,
+   "n": 1
+  },
+  "arc_CaO_mp-2605": {
+   "value": 7.0,
+   "n": 5
+  },
+  "arc_RbI_mp-22903": {
+   "value": 6.255,
+   "n": 8
+  },
+  "arc_HfS2_mp-985829": {
+   "value": 2.9,
+   "n": 1
+  },
+  "arc_SiSe2_mp-568264": {
+   "value": 1.73,
+   "n": 3
+  },
+  "arc_ZrS2_mp-1186": {
+   "value": 2.75,
+   "n": 1
+  },
+  "arc_SnO_mp-2097": {
+   "value": 3.0,
+   "n": 1
+  },
+  "arc_HfSe2_mp-985831": {
+   "value": 2.2,
+   "n": 1
+  },
+  "arc_NaSbTe2_mp-1220883": {
+   "value": 0.47000000000000003,
+   "n": 1
+  },
+  "arc_CuI_mp-569346": {
+   "value": 3.07,
+   "n": 5
+  },
+  "arc_CaI2_mp-30031": {
+   "value": 5.98,
+   "n": 1
+  },
+  "arc_AgSbTe2_mp-12360": {
+   "value": 0.48,
+   "n": 3
+  },
+  "arc_SrTiO3_mp-5229": {
+   "value": 3.275,
+   "n": 4
+  },
+  "arc_CsBr_mp-22906": {
+   "value": 6.99,
+   "n": 2
+  },
+  "arc_LiBr_mp-23259": {
+   "value": 7.725,
+   "n": 2
+  },
+  "arc_ScCd_mp-1211": {
+   "value": 1.71,
+   "n": 1
+  },
+  "arc_SrO_mp-2472": {
+   "value": 5.734999999999999,
+   "n": 2
+  },
+  "arc_InPS4_mp-20790": {
+   "value": 3.12,
+   "n": 1
+  },
+  "arc_Na2Se_mp-1266": {
+   "value": 2.0,
+   "n": 1
+  },
+  "arc_SnO2_mp-856": {
+   "value": 3.6,
+   "n": 1
+  },
+  "arc_RbNa2Sb_mp-975275": {
+   "value": 1.0,
+   "n": 1
+  },
+  "arc_CaMg2N2_mp-5795": {
+   "value": 3.25,
+   "n": 1
+  },
+  "arc_MgTe_mp-1039": {
+   "value": 3.6,
+   "n": 1
+  },
+  "arc_YCuO2_mp-6972": {
+   "value": 3.5,
+   "n": 1
+  },
+  "arc_ScAgO2_mp-973185": {
+   "value": 3.8,
+   "n": 1
+  },
+  "arc_NaInSe2_mp-22473": {
+   "value": 2.8,
+   "n": 1
+  },
+  "arc_Mg2Si_mp-1367": {
+   "value": 2.27,
+   "n": 1
+  },
+  "arc_BaSnO3_mp-3163": {
+   "value": 3.1,
+   "n": 1
+  },
+  "arc_GeS2_mp-7582": {
+   "value": 3.5700000000000003,
+   "n": 4
+  },
+  "arc_TiSe2_mp-2194": {
+   "value": 1.55,
+   "n": 1
+  },
+  "arc_YN_mp-2114": {
+   "value": 1.9,
+   "n": 1
+  },
+  "arc_AgCl_mp-22922": {
+   "value": 5.13,
+   "n": 1
+  },
+  "arc_NaInS2_mp-20289": {
+   "value": 1.9,
+   "n": 1
+  },
+  "arc_MgO_mp-1265": {
+   "value": 7.74,
+   "n": 4
+  },
+  "arc_SrGe2_mp-7390": {
+   "value": 0.9,
+   "n": 1
+  },
+  "arc_SnS2_mp-1170": {
+   "value": 2.43,
+   "n": 1
+  },
+  "arc_BaTe_mp-1000": {
+   "value": 3.4,
+   "n": 1
+  },
+  "arc_CaS_mp-1672": {
+   "value": 5.4,
+   "n": 3
+  },
+  "arc_KBr_mp-23251": {
+   "value": 7.6,
+   "n": 1
+  },
+  "arc_BeTe_mp-252": {
+   "value": 2.89,
+   "n": 1
+  },
+  "arc_TiO2_mp-390": {
+   "value": 3.3,
+   "n": 1
+  },
+  "arc_Mg3Sb2_mp-2646": {
+   "value": 0.81,
+   "n": 2
+  },
+  "arc_Li2CdGe_mp-10686": {
+   "value": 0.99,
+   "n": 1
+  },
+  "arc_SnSe2_mp-665": {
+   "value": 1.62,
+   "n": 1
+  },
+  "arc_Cu2GeSe3_mp-4728": {
+   "value": 0.9750000000000001,
+   "n": 2
+  },
+  "arc_SbAs_mp-1219457": {
+   "value": 1.6,
+   "n": 1
+  },
+  "arc_Rb2Te_mp-441": {
+   "value": 4.5,
+   "n": 1
+  },
+  "arc_CdBr2_mp-568690": {
+   "value": 4.47,
+   "n": 1
+  },
+  "arc_BeS_mp-422": {
+   "value": 4.17,
+   "n": 1
+  },
+  "arc_ZrC_mp-2795": {
+   "value": 0.6000000000000001,
+   "n": 1
+  },
+  "arc_K2Se_mp-8426": {
+   "value": 1.8,
+   "n": 1
+  },
+  "arc_BeSe_mp-1541": {
+   "value": 4.0,
+   "n": 1
+  },
+  "arc_CsRb2Sb_mp-984761": {
+   "value": 1.5,
+   "n": 1
+  },
+  "arc_TiTe2_mp-1907": {
+   "value": 1.0,
+   "n": 1
+  },
+  "arc_K2RbSb_mp-976148": {
+   "value": 1.2,
+   "n": 1
+  },
+  "arc_CdI2_mp-567259": {
+   "value": 3.8,
+   "n": 1
+  },
+  "arc_LiZnN_mp-7575": {
+   "value": 1.945,
+   "n": 2
+  },
+  "arc_SrSe_mp-2758": {
+   "value": 4.42,
+   "n": 1
+  },
+  "arc_BaO_mp-1342": {
+   "value": 4.8,
+   "n": 1
+  },
+  "arc_TiS2_mp-558110": {
+   "value": 1.9500000000000002,
+   "n": 1
+  },
+  "arc_Mg2Ge_mp-408": {
+   "value": 1.67,
+   "n": 1
+  },
+  "arc_Cs3Sb_mp-10378": {
+   "value": 1.6,
+   "n": 1
+  },
+  "arc_LiMgAs_mp-12558": {
+   "value": 0.7000000000000001,
+   "n": 1
+  }
+ },
+ "mp_r2scan": {
+  "arc_BaO_mp-1342": {
+   "value": 2.5191999999999997,
+   "n": 1
+  },
+  "arc_NaI_mp-23268": {
+   "value": 4.4899,
+   "n": 1
+  },
+  "arc_Na2Te_mp-2784": {
+   "value": 2.6959,
+   "n": 1
+  },
+  "arc_ZnO_mp-1986": {
+   "value": 1.1224,
+   "n": 1
+  },
+  "arc_CuBr_mp-22913": {
+   "value": 0.8598000000000003,
+   "n": 1
+  },
+  "arc_CsRb2Sb_mp-984761": {
+   "value": 1.3251000000000002,
+   "n": 1
+  },
+  "arc_HfS2_mp-985829": {
+   "value": 1.5274,
+   "n": 1
+  },
+  "arc_SrSe_mp-2758": {
+   "value": 2.6524,
+   "n": 1
+  },
+  "arc_CdBr2_mp-568690": {
+   "value": 3.4484000000000004,
+   "n": 1
+  },
+  "arc_SnS2_mp-1170": {
+   "value": 1.9699999999999998,
+   "n": 1
+  },
+  "arc_RbNa2Sb_mp-975275": {
+   "value": 1.3527999999999998,
+   "n": 1
+  },
+  "arc_BaSnO3_mp-3163": {
+   "value": 1.4537999999999998,
+   "n": 1
+  },
+  "arc_ZnS_mp-10695": {
+   "value": 2.7188,
+   "n": 1
+  },
+  "arc_ZrSe2_mp-2076": {
+   "value": 0.7635000000000001,
+   "n": 1
+  },
+  "arc_CsK2Sb_mp-581024": {
+   "value": 1.6099,
+   "n": 1
+  },
+  "arc_GeSe2_mp-10074": {
+   "value": 2.0151,
+   "n": 1
+  },
+  "arc_CsGeI3_mp-28377": {
+   "value": 1.2045000000000001,
+   "n": 1
+  },
+  "arc_SiSe2_mp-568264": {
+   "value": 2.3719,
+   "n": 1
+  },
+  "arc_AgBr_mp-23231": {
+   "value": 1.3163,
+   "n": 1
+  },
+  "arc_NaCl_mp-22862": {
+   "value": 6.0382,
+   "n": 1
+  },
+  "arc_Na2Se_mp-1266": {
+   "value": 2.715,
+   "n": 1
+  },
+  "arc_AgCl_mp-22922": {
+   "value": 1.4237000000000002,
+   "n": 1
+  },
+  "arc_SrS_mp-1087": {
+   "value": 2.9037,
+   "n": 1
+  },
+  "arc_NaSbSe2_mp-1220879": {
+   "value": 0.9529000000000005,
+   "n": 1
+  },
+  "arc_NaNO2_mp-2964": {
+   "value": 2.8022,
+   "n": 1
+  },
+  "arc_MgO_mp-1265": {
+   "value": 5.748400000000001,
+   "n": 1
+  },
+  "arc_K2RbSb_mp-976148": {
+   "value": 1.3589,
+   "n": 1
+  },
+  "arc_SnSe2_mp-665": {
+   "value": 1.0986999999999996,
+   "n": 1
+  },
+  "arc_ZnSe_mp-1190": {
+   "value": 1.8738,
+   "n": 1
+  },
+  "arc_GaP_mp-2490": {
+   "value": 1.8506,
+   "n": 1
+  },
+  "arc_Na2S_mp-648": {
+   "value": 3.1315,
+   "n": 1
+  },
+  "arc_BaTiO3_mp-5777": {
+   "value": 2.5115,
+   "n": 1
+  },
+  "arc_K2Se_mp-8426": {
+   "value": 2.5551,
+   "n": 1
+  },
+  "arc_HfSe2_mp-985831": {
+   "value": 0.9125999999999999,
+   "n": 1
+  },
+  "arc_SiGe_mp-1219182": {
+   "value": 0.8050000000000006,
+   "n": 1
+  },
+  "arc_AlN_mp-661": {
+   "value": 4.7235000000000005,
+   "n": 1
+  },
+  "arc_GaCuO2_mp-4280": {
+   "value": 1.2639000000000005,
+   "n": 1
+  },
+  "arc_GeO2_mp-470": {
+   "value": 2.4209999999999994,
+   "n": 1
+  },
+  "arc_Mg3AsN_mp-1206514": {
+   "value": 2.0841,
+   "n": 1
+  },
+  "arc_BaSe_mp-1253": {
+   "value": 2.3206,
+   "n": 1
+  },
+  "arc_KCl_mp-23193": {
+   "value": 5.8495,
+   "n": 1
+  },
+  "arc_CaO_mp-2605": {
+   "value": 4.286700000000001,
+   "n": 1
+  },
+  "arc_SrO_mp-2472": {
+   "value": 3.7542999999999997,
+   "n": 1
+  },
+  "arc_CdI2_mp-567259": {
+   "value": 2.8552999999999997,
+   "n": 1
+  },
+  "arc_CuCl_mp-22914": {
+   "value": 0.9281000000000001,
+   "n": 1
+  },
+  "arc_BaTe_mp-1000": {
+   "value": 1.9524000000000001,
+   "n": 1
+  },
+  "arc_SnO2_mp-856": {
+   "value": 1.7478000000000002,
+   "n": 1
+  },
+  "arc_KBr_mp-23251": {
+   "value": 5.0938,
+   "n": 1
+  },
+  "arc_KI_mp-22898": {
+   "value": 4.587,
+   "n": 1
+  },
+  "arc_MgTe_mp-1039": {
+   "value": 3.1167000000000007,
+   "n": 1
+  },
+  "arc_Mg2Si_mp-1367": {
+   "value": 0.5872999999999999,
+   "n": 1
+  },
+  "arc_CaS_mp-1672": {
+   "value": 2.8823999999999996,
+   "n": 1
+  },
+  "arc_GaS_mp-9889": {
+   "value": 2.2561,
+   "n": 1
+  },
+  "arc_YCuO2_mp-6972": {
+   "value": 3.0663,
+   "n": 1
+  },
+  "arc_NaBr_mp-22916": {
+   "value": 5.0426,
+   "n": 1
+  },
+  "arc_Cu2GeS3_mp-1072589": {
+   "value": 0.0,
+   "n": 1
+  },
+  "arc_CdTe_mp-406": {
+   "value": 1.1464,
+   "n": 1
+  },
+  "arc_KIO3_mp-552729": {
+   "value": 3.5303000000000004,
+   "n": 1
+  },
+  "arc_CuI_mp-569346": {
+   "value": 1.7156000000000002,
+   "n": 1
+  },
+  "arc_LiI_mp-570935": {
+   "value": 5.0877,
+   "n": 1
+  },
+  "arc_LiZnN_mp-7575": {
+   "value": 1.1130999999999998,
+   "n": 1
+  },
+  "arc_GaGeTe_mp-8211": {
+   "value": 0.6585000000000001,
+   "n": 1
+  },
+  "arc_NaInS2_mp-20289": {
+   "value": 2.4593000000000003,
+   "n": 1
+  },
+  "arc_CaTe_mp-1519": {
+   "value": 1.9656000000000002,
+   "n": 1
+  },
+  "arc_AgI_mp-22925": {
+   "value": 1.7906,
+   "n": 1
+  },
+  "arc_CaMg2N2_mp-5795": {
+   "value": 2.7462999999999997,
+   "n": 1
+  },
+  "arc_Cs3Sb_mp-10378": {
+   "value": 1.2671999999999999,
+   "n": 1
+  },
+  "arc_GeS2_mp-7582": {
+   "value": 2.9868999999999994,
+   "n": 1
+  },
+  "arc_BeSe_mp-1541": {
+   "value": 3.2622000000000004,
+   "n": 1
+  },
+  "arc_BP_mp-1479": {
+   "value": 1.4585999999999997,
+   "n": 1
+  },
+  "arc_AlSb_mp-2624": {
+   "value": 1.4907000000000004,
+   "n": 1
+  },
+  "arc_Mg3Sb2_mp-2646": {
+   "value": 0.5853999999999999,
+   "n": 1
+  },
+  "arc_MgSe_mp-10760": {
+   "value": 2.7067,
+   "n": 1
+  },
+  "arc_CaI2_mp-30031": {
+   "value": 4.1956,
+   "n": 1
+  },
+  "arc_GaN_mp-804": {
+   "value": 2.3064999999999998,
+   "n": 1
+  },
+  "arc_CsCl_mp-22865": {
+   "value": 5.9152000000000005,
+   "n": 1
+  },
+  "arc_GaAs_mp-2534": {
+   "value": 0.5924999999999998,
+   "n": 1
+  },
+  "arc_BaS_mp-1500": {
+   "value": 2.5108,
+   "n": 1
+  },
+  "arc_K2Te_mp-1747": {
+   "value": 2.5918,
+   "n": 1
+  },
+  "arc_Mg2Ge_mp-408": {
+   "value": 0.5802,
+   "n": 1
+  },
+  "arc_K2S_mp-1022": {
+   "value": 2.7586,
+   "n": 1
+  },
+  "arc_SrTiO3_mp-5229": {
+   "value": 2.2300999999999997,
+   "n": 1
+  },
+  "arc_InP_mp-20351": {
+   "value": 1.0400999999999998,
+   "n": 1
+  },
+  "arc_CdCl2_mp-22881": {
+   "value": 4.206300000000001,
+   "n": 1
+  },
+  "arc_YN_mp-2114": {
+   "value": 0.6576999999999997,
+   "n": 1
+  },
+  "arc_AlP_mp-1550": {
+   "value": 2.0556,
+   "n": 1
+  },
+  "arc_SnO_mp-2097": {
+   "value": 0.3016999999999994,
+   "n": 1
+  },
+  "arc_CdAs2_mp-471": {
+   "value": 0.6687999999999996,
+   "n": 1
+  },
+  "arc_GaAgO2_mp-1096971": {
+   "value": 1.0724,
+   "n": 1
+  },
+  "arc_BeS_mp-422": {
+   "value": 3.7605,
+   "n": 1
+  },
+  "arc_SrTe_mp-1958": {
+   "value": 2.1502000000000003,
+   "n": 1
+  },
+  "arc_Cu2O_mp-361": {
+   "value": 0.7928999999999995,
+   "n": 1
+  },
+  "arc_InAgO2_mp-22660": {
+   "value": 0.7081999999999997,
+   "n": 1
+  },
+  "arc_GaSe_mp-11342": {
+   "value": 1.8837000000000002,
+   "n": 1
+  },
+  "arc_InSe_mp-22691": {
+   "value": 1.0415999999999994,
+   "n": 1
+  },
+  "arc_CsI_mp-614603": {
+   "value": 4.4483500000000005,
+   "n": 1
+  },
+  "arc_CsBr_mp-22906": {
+   "value": 5.163,
+   "n": 1
+  },
+  "arc_ScCuO2_mp-4636": {
+   "value": 2.4744,
+   "n": 1
+  },
+  "arc_NaSbTe2_mp-1220883": {
+   "value": 0.9813999999999998,
+   "n": 1
+  },
+  "arc_Rb2Te_mp-441": {
+   "value": 2.2977,
+   "n": 1
+  },
+  "arc_KNa2Sb_mp-15724": {
+   "value": 1.4695999999999998,
+   "n": 1
+  },
+  "arc_NaInSe2_mp-22473": {
+   "value": 1.6451000000000002,
+   "n": 1
+  },
+  "arc_BeTe_mp-252": {
+   "value": 2.4227,
+   "n": 1
+  },
+  "arc_LiMgAs_mp-12558": {
+   "value": 1.7521999999999998,
+   "n": 1
+  },
+  "arc_RbBr_mp-22867": {
+   "value": 4.9079999999999995,
+   "n": 1
+  },
+  "arc_CdS_mp-2469": {
+   "value": 1.5288999999999997,
+   "n": 1
+  },
+  "arc_ZrS2_mp-1186": {
+   "value": 1.3991000000000002,
+   "n": 1
+  },
+  "arc_CaSe_mp-1415": {
+   "value": 2.5227000000000004,
+   "n": 1
+  },
+  "arc_ScAgO2_mp-973185": {
+   "value": 2.5253,
+   "n": 1
+  },
+  "arc_TiO2_mp-390": {
+   "value": 2.5443499999999997,
+   "n": 1
+  },
+  "arc_TeSe_mp-1217322": {
+   "value": 0.9807999999999995,
+   "n": 1
+  },
+  "arc_LiBr_mp-23259": {
+   "value": 6.0288,
+   "n": 1
+  },
+  "arc_CdSe_mp-2691": {
+   "value": 1.0211999999999999,
+   "n": 1
+  },
+  "arc_InPS4_mp-20790": {
+   "value": 3.0046999999999997,
+   "n": 1
+  },
+  "arc_RbCl_mp-23295": {
+   "value": 5.5543,
+   "n": 1
+  },
+  "arc_ZnTe_mp-2176": {
+   "value": 1.7888,
+   "n": 1
+  },
+  "arc_CdF2_mp-241": {
+   "value": 3.7487,
+   "n": 1
+  },
+  "arc_RbI_mp-22903": {
+   "value": 4.4621,
+   "n": 1
+  }
+ }
+}

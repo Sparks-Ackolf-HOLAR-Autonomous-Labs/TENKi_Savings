@@ -1,0 +1,3350 @@
+{
+  "inputs": {
+    "input_dir": "shared/output/bandgap_cluster_run2/paired_campaign_k4",
+    "n_checkpoint_files": 400,
+    "checkpoints": [
+      24,
+      48,
+      72,
+      96,
+      120,
+      144,
+      168,
+      192,
+      216,
+      240
+    ],
+    "early_window_checkpoints": [
+      24,
+      48,
+      72,
+      96,
+      120
+    ],
+    "receivers": [
+      "expt_zhuo",
+      "jarvis_mbj",
+      "jarvis_optb88vdw",
+      "mp_gga",
+      "mp_gga_expsynth",
+      "mp_r2scan",
+      "snumat_gga",
+      "snumat_hse"
+    ],
+    "min_class_size": 30,
+    "bootstrap_seed": 42
+  },
+  "cost_table": {
+    "mp_gga": {
+      "low": 10.0,
+      "mid": 40.0,
+      "high": 120.0,
+      "unit": "cpu_core_hours_per_evaluation",
+      "provenance": "planning estimate: GGA-level static DFT relaxation+bands at high-throughput database scale, order 10-100 CPU-core-hours per material (typical MP/JARVIS/SNUMAT workflow scale); assumption, not measured microdata"
+    },
+    "mp_gga_expsynth": {
+      "low": 10.0,
+      "mid": 40.0,
+      "high": 120.0,
+      "unit": "cpu_core_hours_per_evaluation",
+      "provenance": "planning estimate: GGA-level static DFT relaxation+bands at high-throughput database scale, order 10-100 CPU-core-hours per material (typical MP/JARVIS/SNUMAT workflow scale); assumption, not measured microdata (same GGA workflow, experimentally synthesizable subset)"
+    },
+    "snumat_gga": {
+      "low": 10.0,
+      "mid": 40.0,
+      "high": 120.0,
+      "unit": "cpu_core_hours_per_evaluation",
+      "provenance": "planning estimate: GGA-level static DFT relaxation+bands at high-throughput database scale, order 10-100 CPU-core-hours per material (typical MP/JARVIS/SNUMAT workflow scale); assumption, not measured microdata"
+    },
+    "jarvis_optb88vdw": {
+      "low": 10.0,
+      "mid": 40.0,
+      "high": 120.0,
+      "unit": "cpu_core_hours_per_evaluation",
+      "provenance": "planning estimate: GGA-level static DFT relaxation+bands at high-throughput database scale, order 10-100 CPU-core-hours per material (typical MP/JARVIS/SNUMAT workflow scale); assumption, not measured microdata (OptB88vdW is a GGA-class vdW functional)"
+    },
+    "mp_r2scan": {
+      "low": 20.0,
+      "mid": 80.0,
+      "high": 240.0,
+      "unit": "cpu_core_hours_per_evaluation",
+      "provenance": "planning estimate: r2SCAN meta-GGA static workflow, roughly 2-3x GGA cost per material; assumption, not measured microdata"
+    },
+    "jarvis_mbj": {
+      "low": 10.0,
+      "mid": 50.0,
+      "high": 150.0,
+      "unit": "cpu_core_hours_per_evaluation",
+      "provenance": "planning estimate: TBmBJ is a cheap potential-only correction on a converged density, near-GGA cost per material; assumption, not measured microdata"
+    },
+    "snumat_hse": {
+      "low": 300.0,
+      "mid": 2000.0,
+      "high": 8000.0,
+      "unit": "cpu_core_hours_per_evaluation",
+      "provenance": "planning estimate: HSE06 hybrid-functional band structure, 30-100x GGA cost per material; assumption, not measured microdata"
+    },
+    "expt_zhuo": {
+      "low": 8.0,
+      "mid": 40.0,
+      "high": 160.0,
+      "unit": "person_instrument_hours_per_evaluation",
+      "provenance": "planning estimate: experimental band gap = powder synthesis + diffuse-reflectance/UV-Vis measurement + analysis per sample; assumption, not measured microdata"
+    }
+  },
+  "cost_table_note": "planning-grade order-of-magnitude assumptions with stated provenance, operator-adjustable via --cost-json; NOT measured microdata. Receiver-native currencies (CPU-core-hours vs person+instrument-hours) are never converted into each other; usd_illustration_mid is a labelled illustration only.",
+  "usd_rates_illustration": {
+    "usd_per_cpu_core_hour": 0.05,
+    "usd_per_lab_hour": 75.0
+  },
+  "method": "per seed: reuse tau at the early-window end (budget 120) -> linearly interpolated budget at which the matched-seed cold curve (anchored at budget 0, tau 0) reaches it; never -> max budget, censored; evaluations_saved = cold budget - early budget",
+  "cells": {
+    "full": {
+      "pair": {
+        "expt_zhuo": {
+          "jarvis_mbj": {
+            "evals_saved_mean": 22.492155844155846,
+            "evals_saved_ci": [
+              -0.4152129870129891,
+              46.003846753246755
+            ],
+            "censored_frac": 0.22,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 224.92155844155846,
+            "hours_saved_mid": 1124.6077922077923,
+            "hours_saved_high": 3373.823376623377,
+            "hours_saved_mid_ci": [
+              -20.760649350649455,
+              2300.1923376623376
+            ],
+            "usd_illustration_mid": 56.230389610389615,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 28.115194805194808,
+            "breakeven_records_worst": 1.4057597402597404,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 19.389714285714284,
+            "evals_saved_ci": [
+              -1.6527571428571441,
+              39.632299999999994
+            ],
+            "censored_frac": 0.26,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 193.89714285714285,
+            "hours_saved_mid": 775.5885714285714,
+            "hours_saved_high": 2326.7657142857142,
+            "hours_saved_mid_ci": [
+              -66.11028571428577,
+              1585.2919999999997
+            ],
+            "usd_illustration_mid": 38.779428571428575,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 19.389714285714284,
+            "breakeven_records_worst": 1.2118571428571427,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": -6.576671328671329,
+            "evals_saved_ci": [
+              -26.449669930069934,
+              12.500090909090886
+            ],
+            "censored_frac": 0.08,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -65.7667132867133,
+            "hours_saved_mid": -263.0668531468532,
+            "hours_saved_high": -789.2005594405596,
+            "hours_saved_mid_ci": [
+              -1057.9867972027973,
+              500.00363636363545
+            ],
+            "usd_illustration_mid": -13.15334265734266,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -6.576671328671329,
+            "breakeven_records_worst": -0.4110419580419581,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 7.782588235294117,
+            "evals_saved_ci": [
+              -14.563305882352942,
+              28.559670588235292
+            ],
+            "censored_frac": 0.24,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 77.82588235294116,
+            "hours_saved_mid": 311.30352941176466,
+            "hours_saved_high": 933.9105882352941,
+            "hours_saved_mid_ci": [
+              -582.5322352941178,
+              1142.3868235294117
+            ],
+            "usd_illustration_mid": 15.565176470588234,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 7.782588235294116,
+            "breakeven_records_worst": 0.48641176470588227,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 47.69684210526316,
+            "evals_saved_ci": [
+              27.386526315789478,
+              68.18142105263156
+            ],
+            "censored_frac": 0.4,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 953.9368421052632,
+            "hours_saved_mid": 3815.7473684210527,
+            "hours_saved_high": 11447.242105263158,
+            "hours_saved_mid_ci": [
+              2190.9221052631583,
+              5454.513684210525
+            ],
+            "usd_illustration_mid": 190.78736842105263,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 95.39368421052632,
+            "breakeven_records_worst": 5.962105263157895,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": 93.2395294117647,
+            "evals_saved_ci": [
+              76.3068,
+              107.32232941176468
+            ],
+            "censored_frac": 0.72,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 932.395294117647,
+            "hours_saved_mid": 3729.581176470588,
+            "hours_saved_high": 11188.743529411764,
+            "hours_saved_mid_ci": [
+              3052.272,
+              4292.893176470588
+            ],
+            "usd_illustration_mid": 186.4790588235294,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 93.2395294117647,
+            "breakeven_records_worst": 5.827470588235294,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": 88.87200000000001,
+            "evals_saved_ci": [
+              71.925,
+              103.94639999999998
+            ],
+            "censored_frac": 0.64,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 26661.600000000006,
+            "hours_saved_mid": 177744.00000000003,
+            "hours_saved_high": 710976.0000000001,
+            "hours_saved_mid_ci": [
+              143850.0,
+              207892.79999999996
+            ],
+            "usd_illustration_mid": 8887.200000000003,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 4443.6,
+            "breakeven_records_worst": 166.63500000000005,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": true,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "jarvis_mbj": {
+          "expt_zhuo": {
+            "evals_saved_mean": -56.16303147007791,
+            "evals_saved_ci": [
+              -68.80693222195761,
+              -41.80229215119247
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -449.3042517606233,
+            "hours_saved_mid": -2246.5212588031163,
+            "hours_saved_high": -8986.085035212465,
+            "hours_saved_mid_ci": [
+              -2752.2772888783043,
+              -1672.0916860476987
+            ],
+            "usd_illustration_mid": -168489.09441023372,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -44.93042517606233,
+            "breakeven_records_worst": -2.9953616784041555,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 46.36171428571428,
+            "evals_saved_ci": [
+              24.979442857142857,
+              67.64737142857142
+            ],
+            "censored_frac": 0.42,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 463.61714285714277,
+            "hours_saved_mid": 1854.468571428571,
+            "hours_saved_high": 5563.405714285714,
+            "hours_saved_mid_ci": [
+              999.1777142857143,
+              2705.894857142857
+            ],
+            "usd_illustration_mid": 92.72342857142856,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 37.08937142857142,
+            "breakeven_records_worst": 3.090780952380952,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 113.12,
+            "evals_saved_ci": [
+              105.76,
+              118.88
+            ],
+            "censored_frac": 0.88,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1131.2,
+            "hours_saved_mid": 4524.8,
+            "hours_saved_high": 13574.400000000001,
+            "hours_saved_mid_ci": [
+              4230.400000000001,
+              4755.2
+            ],
+            "usd_illustration_mid": 226.24,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 90.49600000000001,
+            "breakeven_records_worst": 7.541333333333333,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 106.44,
+            "evals_saved_ci": [
+              94.32,
+              116.64
+            ],
+            "censored_frac": 0.86,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1064.4,
+            "hours_saved_mid": 4257.6,
+            "hours_saved_high": 12772.8,
+            "hours_saved_mid_ci": [
+              3772.7999999999997,
+              4665.6
+            ],
+            "usd_illustration_mid": 212.88000000000002,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 85.152,
+            "breakeven_records_worst": 7.096000000000001,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 89.16061919504644,
+            "evals_saved_ci": [
+              69.86606191950463,
+              105.60736842105258
+            ],
+            "censored_frac": 0.78,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1783.2123839009287,
+            "hours_saved_mid": 7132.849535603715,
+            "hours_saved_high": 21398.548606811146,
+            "hours_saved_mid_ci": [
+              5589.284953560371,
+              8448.589473684207
+            ],
+            "usd_illustration_mid": 356.64247678018575,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 142.6569907120743,
+            "breakeven_records_worst": 11.888082559339525,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -13.102416936005172,
+            "evals_saved_ci": [
+              -32.59411995798319,
+              8.88279726890755
+            ],
+            "censored_frac": 0.1,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -131.02416936005173,
+            "hours_saved_mid": -524.0966774402069,
+            "hours_saved_high": -1572.2900323206206,
+            "hours_saved_mid_ci": [
+              -1303.7647983193276,
+              355.31189075630203
+            ],
+            "usd_illustration_mid": -26.204833872010347,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -10.481933548804138,
+            "breakeven_records_worst": -0.8734944624003449,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -26.40446218487395,
+            "evals_saved_ci": [
+              -43.95484936974791,
+              -6.989764075630257
+            ],
+            "censored_frac": 0.08,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -7921.338655462185,
+            "hours_saved_mid": -52808.924369747896,
+            "hours_saved_high": -211235.69747899158,
+            "hours_saved_mid_ci": [
+              -87909.69873949583,
+              -13979.528151260514
+            ],
+            "usd_illustration_mid": -2640.446218487395,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -1056.178487394958,
+            "breakeven_records_worst": -52.8089243697479,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "jarvis_optb88vdw": {
+          "expt_zhuo": {
+            "evals_saved_mean": -56.13195223352499,
+            "evals_saved_ci": [
+              -69.63678151260504,
+              -41.01584847412649
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -449.05561786819993,
+            "hours_saved_mid": -2245.2780893409995,
+            "hours_saved_high": -8981.112357363998,
+            "hours_saved_mid_ci": [
+              -2785.4712605042014,
+              -1640.6339389650598
+            ],
+            "usd_illustration_mid": -168395.85670057495,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -56.131952233524984,
+            "breakeven_records_worst": -3.742130148901666,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 37.87809523809524,
+            "evals_saved_ci": [
+              16.556047619047618,
+              60.172571428571416
+            ],
+            "censored_frac": 0.32,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 378.7809523809524,
+            "hours_saved_mid": 1893.9047619047622,
+            "hours_saved_high": 5681.714285714286,
+            "hours_saved_mid_ci": [
+              827.8023809523809,
+              3008.628571428571
+            ],
+            "usd_illustration_mid": 94.69523809523811,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 47.347619047619055,
+            "breakeven_records_worst": 3.1565079365079365,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 82.99054545454547,
+            "evals_saved_ci": [
+              65.56472727272727,
+              99.56694545454545
+            ],
+            "censored_frac": 0.6,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 829.9054545454546,
+            "hours_saved_mid": 3319.6218181818185,
+            "hours_saved_high": 9958.865454545456,
+            "hours_saved_mid_ci": [
+              2622.589090909091,
+              3982.677818181818
+            ],
+            "usd_illustration_mid": 165.98109090909094,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 82.99054545454547,
+            "breakeven_records_worst": 6.915878787878788,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 49.46588235294117,
+            "evals_saved_ci": [
+              27.703823529411764,
+              70.34923529411763
+            ],
+            "censored_frac": 0.4,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 494.65882352941173,
+            "hours_saved_mid": 1978.635294117647,
+            "hours_saved_high": 5935.90588235294,
+            "hours_saved_mid_ci": [
+              1108.1529411764704,
+              2813.9694117647055
+            ],
+            "usd_illustration_mid": 98.93176470588236,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 49.46588235294117,
+            "breakeven_records_worst": 4.122156862745098,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 68.14588235294117,
+            "evals_saved_ci": [
+              47.10588235294117,
+              87.28164705882352
+            ],
+            "censored_frac": 0.52,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1362.9176470588234,
+            "hours_saved_mid": 5451.6705882352935,
+            "hours_saved_high": 16355.011764705881,
+            "hours_saved_mid_ci": [
+              3768.4705882352937,
+              6982.531764705882
+            ],
+            "usd_illustration_mid": 272.5835294117647,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 136.29176470588234,
+            "breakeven_records_worst": 11.357647058823527,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -13.928813833225597,
+            "evals_saved_ci": [
+              -32.92569524886877,
+              6.249614738202956
+            ],
+            "censored_frac": 0.08,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -139.28813833225598,
+            "hours_saved_mid": -557.1525533290239,
+            "hours_saved_high": -1671.4576599870716,
+            "hours_saved_mid_ci": [
+              -1317.0278099547509,
+              249.98458952811825
+            ],
+            "usd_illustration_mid": -27.857627666451197,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -13.928813833225599,
+            "breakeven_records_worst": -1.1607344861021331,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -20.066537815126054,
+            "evals_saved_ci": [
+              -38.35714579831932,
+              -0.09338487394961179
+            ],
+            "censored_frac": 0.1,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -6019.961344537816,
+            "hours_saved_mid": -40133.07563025211,
+            "hours_saved_high": -160532.30252100845,
+            "hours_saved_mid_ci": [
+              -76714.29159663865,
+              -186.76974789922357
+            ],
+            "usd_illustration_mid": -2006.6537815126057,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -1003.3268907563028,
+            "breakeven_records_worst": -50.166344537815135,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "mp_gga": {
+          "expt_zhuo": {
+            "evals_saved_mean": -74.79713314549228,
+            "evals_saved_ci": [
+              -84.61283772017455,
+              -64.39671592494194
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -598.3770651639383,
+            "hours_saved_mid": -2991.8853258196914,
+            "hours_saved_high": -11967.541303278766,
+            "hours_saved_mid_ci": [
+              -3384.513508806982,
+              -2575.8686369976776
+            ],
+            "usd_illustration_mid": -224391.39943647684,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -74.79713314549228,
+            "breakeven_records_worst": -4.986475543032819,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 98.52,
+            "evals_saved_ci": [
+              83.32,
+              110.72
+            ],
+            "censored_frac": 0.74,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 985.1999999999999,
+            "hours_saved_mid": 4926.0,
+            "hours_saved_high": 14778.0,
+            "hours_saved_mid_ci": [
+              4166.0,
+              5536.0
+            ],
+            "usd_illustration_mid": 246.3,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 123.15,
+            "breakeven_records_worst": 8.209999999999999,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 85.44,
+            "evals_saved_ci": [
+              69.24,
+              101.04
+            ],
+            "censored_frac": 0.66,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 854.4,
+            "hours_saved_mid": 3417.6,
+            "hours_saved_high": 10252.8,
+            "hours_saved_mid_ci": [
+              2769.6,
+              4041.6000000000004
+            ],
+            "usd_illustration_mid": 170.88,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 85.44,
+            "breakeven_records_worst": 7.12,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 77.86588235294117,
+            "evals_saved_ci": [
+              59.12876470588234,
+              95.73211764705881
+            ],
+            "censored_frac": 0.6,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 778.6588235294117,
+            "hours_saved_mid": 3114.635294117647,
+            "hours_saved_high": 9343.905882352941,
+            "hours_saved_mid_ci": [
+              2365.1505882352935,
+              3829.2847058823527
+            ],
+            "usd_illustration_mid": 155.73176470588237,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 77.86588235294117,
+            "breakeven_records_worst": 6.488823529411764,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 57.75826625386997,
+            "evals_saved_ci": [
+              36.33360371517028,
+              77.44289783281731
+            ],
+            "censored_frac": 0.46,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1155.1653250773993,
+            "hours_saved_mid": 4620.661300309597,
+            "hours_saved_high": 13861.983900928793,
+            "hours_saved_mid_ci": [
+              2906.6882972136223,
+              6195.431826625385
+            ],
+            "usd_illustration_mid": 231.03306501547988,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 115.51653250773992,
+            "breakeven_records_worst": 9.626377708978328,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -46.544395545630834,
+            "evals_saved_ci": [
+              -61.84541252864783,
+              -29.380995193531962
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -465.44395545630834,
+            "hours_saved_mid": -1861.7758218252334,
+            "hours_saved_high": -5585.327465475701,
+            "hours_saved_mid_ci": [
+              -2473.816501145913,
+              -1175.2398077412786
+            ],
+            "usd_illustration_mid": -93.08879109126167,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -46.544395545630834,
+            "breakeven_records_worst": -3.8786996288025697,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -51.63865571683218,
+            "evals_saved_ci": [
+              -65.96058120066208,
+              -36.51185434173671
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -15491.596715049654,
+            "hours_saved_mid": -103277.31143366436,
+            "hours_saved_high": -413109.24573465745,
+            "hours_saved_mid_ci": [
+              -131921.16240132417,
+              -73023.70868347342
+            ],
+            "usd_illustration_mid": -5163.865571683218,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -2581.932785841609,
+            "breakeven_records_worst": -129.09663929208045,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "mp_gga_expsynth": {
+          "expt_zhuo": {
+            "evals_saved_mean": -69.27777713308365,
+            "evals_saved_ci": [
+              -79.97823759707785,
+              -55.9429018770703
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -554.2222170646692,
+            "hours_saved_mid": -2771.111085323346,
+            "hours_saved_high": -11084.444341293383,
+            "hours_saved_mid_ci": [
+              -3199.129503883114,
+              -2237.716075082812
+            ],
+            "usd_illustration_mid": -207833.33139925095,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -69.27777713308365,
+            "breakeven_records_worst": -4.6185184755389095,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 107.84,
+            "evals_saved_ci": [
+              95.196,
+              119.52
+            ],
+            "censored_frac": 0.9,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1078.4,
+            "hours_saved_mid": 5392.0,
+            "hours_saved_high": 16176.0,
+            "hours_saved_mid_ci": [
+              4759.8,
+              5976.0
+            ],
+            "usd_illustration_mid": 269.6,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 134.8,
+            "breakeven_records_worst": 8.986666666666668,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 64.10571428571428,
+            "evals_saved_ci": [
+              43.24928571428571,
+              83.46064285714284
+            ],
+            "censored_frac": 0.54,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 641.0571428571428,
+            "hours_saved_mid": 2564.2285714285713,
+            "hours_saved_high": 7692.685714285714,
+            "hours_saved_mid_ci": [
+              1729.9714285714285,
+              3338.4257142857136
+            ],
+            "usd_illustration_mid": 128.21142857142857,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 64.10571428571428,
+            "breakeven_records_worst": 5.342142857142857,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 93.2,
+            "evals_saved_ci": [
+              76.88,
+              107.12
+            ],
+            "censored_frac": 0.74,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 932.0,
+            "hours_saved_mid": 3728.0,
+            "hours_saved_high": 11184.0,
+            "hours_saved_mid_ci": [
+              3075.2,
+              4284.8
+            ],
+            "usd_illustration_mid": 186.4,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 93.2,
+            "breakeven_records_worst": 7.766666666666667,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 95.37473684210526,
+            "evals_saved_ci": [
+              78.64184210526315,
+              109.92
+            ],
+            "censored_frac": 0.82,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1907.4947368421053,
+            "hours_saved_mid": 7629.978947368421,
+            "hours_saved_high": 22889.936842105264,
+            "hours_saved_mid_ci": [
+              6291.347368421052,
+              8793.6
+            ],
+            "usd_illustration_mid": 381.4989473684211,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 190.74947368421053,
+            "breakeven_records_worst": 15.89578947368421,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -15.250416936005172,
+            "evals_saved_ci": [
+              -34.05453303167421,
+              5.898746509372976
+            ],
+            "censored_frac": 0.08,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -152.50416936005172,
+            "hours_saved_mid": -610.0166774402069,
+            "hours_saved_high": -1830.0500323206206,
+            "hours_saved_mid_ci": [
+              -1362.1813212669686,
+              235.94986037491904
+            ],
+            "usd_illustration_mid": -30.500833872010347,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -15.250416936005172,
+            "breakeven_records_worst": -1.270868078000431,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -23.323184873949582,
+            "evals_saved_ci": [
+              -40.556519327731095,
+              -5.1904302521008825
+            ],
+            "censored_frac": 0.08,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -6996.955462184875,
+            "hours_saved_mid": -46646.36974789917,
+            "hours_saved_high": -186585.47899159667,
+            "hours_saved_mid_ci": [
+              -81113.0386554622,
+              -10380.860504201764
+            ],
+            "usd_illustration_mid": -2332.3184873949585,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -1166.1592436974793,
+            "breakeven_records_worst": -58.30796218487396,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "mp_r2scan": {
+          "expt_zhuo": {
+            "evals_saved_mean": -46.03571163202123,
+            "evals_saved_ci": [
+              -61.20302167182663,
+              -28.868522865988506
+            ],
+            "censored_frac": 0.06,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -368.28569305616986,
+            "hours_saved_mid": -1841.4284652808492,
+            "hours_saved_high": -7365.713861123397,
+            "hours_saved_mid_ci": [
+              -2448.120866873065,
+              -1154.7409146395403
+            ],
+            "usd_illustration_mid": -138107.13489606368,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -23.017855816010616,
+            "breakeven_records_worst": -1.5345237210673743,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 90.56,
+            "evals_saved_ci": [
+              71.04,
+              106.56399999999998
+            ],
+            "censored_frac": 0.7,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 905.6,
+            "hours_saved_mid": 4528.0,
+            "hours_saved_high": 13584.0,
+            "hours_saved_mid_ci": [
+              3552.0000000000005,
+              5328.199999999999
+            ],
+            "usd_illustration_mid": 226.4,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 56.6,
+            "breakeven_records_worst": 3.7733333333333334,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 81.98,
+            "evals_saved_ci": [
+              64.079,
+              96.8605
+            ],
+            "censored_frac": 0.64,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 819.8000000000001,
+            "hours_saved_mid": 3279.2000000000003,
+            "hours_saved_high": 9837.6,
+            "hours_saved_mid_ci": [
+              2563.16,
+              3874.42
+            ],
+            "usd_illustration_mid": 163.96000000000004,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 40.99,
+            "breakeven_records_worst": 3.4158333333333335,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 70.17454545454547,
+            "evals_saved_ci": [
+              51.017454545454534,
+              87.78418181818176
+            ],
+            "censored_frac": 0.5,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 701.7454545454547,
+            "hours_saved_mid": 2806.9818181818187,
+            "hours_saved_high": 8420.945454545456,
+            "hours_saved_mid_ci": [
+              2040.6981818181814,
+              3511.3672727272706
+            ],
+            "usd_illustration_mid": 140.34909090909093,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 35.08727272727273,
+            "breakeven_records_worst": 2.9239393939393943,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 98.4,
+            "evals_saved_ci": [
+              82.08,
+              111.84
+            ],
+            "censored_frac": 0.82,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 984.0,
+            "hours_saved_mid": 3936.0,
+            "hours_saved_high": 11808.0,
+            "hours_saved_mid_ci": [
+              3283.2,
+              4473.6
+            ],
+            "usd_illustration_mid": 196.8,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 49.2,
+            "breakeven_records_worst": 4.1,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": 8.273463477698773,
+            "evals_saved_ci": [
+              -13.32249366515837,
+              29.977649191984487
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 82.73463477698772,
+            "hours_saved_mid": 330.9385391079509,
+            "hours_saved_high": 992.8156173238527,
+            "hours_saved_mid_ci": [
+              -532.8997466063348,
+              1199.1059676793795
+            ],
+            "usd_illustration_mid": 16.546926955397545,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 4.136731738849386,
+            "breakeven_records_worst": 0.3447276449041155,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -1.9776134453781515,
+            "evals_saved_ci": [
+              -21.07519831932773,
+              17.27705378151257
+            ],
+            "censored_frac": 0.1,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -593.2840336134454,
+            "hours_saved_mid": -3955.226890756303,
+            "hours_saved_high": -15820.907563025212,
+            "hours_saved_mid_ci": [
+              -42150.39663865546,
+              34554.10756302514
+            ],
+            "usd_illustration_mid": -197.76134453781515,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -49.44033613445379,
+            "breakeven_records_worst": -2.4720168067226895,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "snumat_gga": {
+          "expt_zhuo": {
+            "evals_saved_mean": 3.909031402034498,
+            "evals_saved_ci": [
+              -17.64096505970809,
+              26.73844847412648
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": 31.272251216275983,
+            "hours_saved_mid": 156.3612560813799,
+            "hours_saved_high": 625.4450243255196,
+            "hours_saved_mid_ci": [
+              -705.6386023883236,
+              1069.537938965059
+            ],
+            "usd_illustration_mid": 11727.094206103493,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 3.909031402034498,
+            "breakeven_records_worst": 0.2606020934689665,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": -34.27492640692641,
+            "evals_saved_ci": [
+              -50.30817878787879,
+              -16.588324242424253
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -342.7492640692641,
+            "hours_saved_mid": -1713.7463203463205,
+            "hours_saved_high": -5141.238961038962,
+            "hours_saved_mid_ci": [
+              -2515.4089393939394,
+              -829.4162121212127
+            ],
+            "usd_illustration_mid": -85.68731601731604,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -42.84365800865801,
+            "breakeven_records_worst": -2.8562438672438675,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 13.527238095238095,
+            "evals_saved_ci": [
+              -7.940914285714287,
+              36.1537
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 135.27238095238096,
+            "hours_saved_mid": 541.0895238095238,
+            "hours_saved_high": 1623.2685714285715,
+            "hours_saved_mid_ci": [
+              -317.6365714285715,
+              1446.1480000000001
+            ],
+            "usd_illustration_mid": 27.054476190476194,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 13.527238095238095,
+            "breakeven_records_worst": 1.1272698412698412,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": -46.34582217782217,
+            "evals_saved_ci": [
+              -60.9266015984016,
+              -31.9594221778222
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -463.45822177822174,
+            "hours_saved_mid": -1853.832887112887,
+            "hours_saved_high": -5561.498661338661,
+            "hours_saved_mid_ci": [
+              -2437.064063936064,
+              -1278.376887112888
+            ],
+            "usd_illustration_mid": -92.69164435564436,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -46.34582217782217,
+            "breakeven_records_worst": -3.8621518481518478,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": -34.911450980392154,
+            "evals_saved_ci": [
+              -50.57742352941177,
+              -17.140862745098048
+            ],
+            "censored_frac": 0.06,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -349.1145098039215,
+            "hours_saved_mid": -1396.458039215686,
+            "hours_saved_high": -4189.3741176470585,
+            "hours_saved_mid_ci": [
+              -2023.0969411764706,
+              -685.6345098039219
+            ],
+            "usd_illustration_mid": -69.82290196078431,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -34.911450980392154,
+            "breakeven_records_worst": -2.909287581699346,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 9.864426520847571,
+            "evals_saved_ci": [
+              -10.827869583048534,
+              31.45046315789468
+            ],
+            "censored_frac": 0.16,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 197.28853041695143,
+            "hours_saved_mid": 789.1541216678057,
+            "hours_saved_high": 2367.4623650034173,
+            "hours_saved_mid_ci": [
+              -866.2295666438827,
+              2516.0370526315746
+            ],
+            "usd_illustration_mid": 39.45770608339029,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 19.728853041695142,
+            "breakeven_records_worst": 1.6440710868079287,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": 112.8,
+            "evals_saved_ci": [
+              104.64,
+              118.56
+            ],
+            "censored_frac": 0.86,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 33840.0,
+            "hours_saved_mid": 225600.0,
+            "hours_saved_high": 902400.0,
+            "hours_saved_mid_ci": [
+              209280.0,
+              237120.0
+            ],
+            "usd_illustration_mid": 11280.0,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 5640.0,
+            "breakeven_records_worst": 282.0,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": true,
+            "from_scratch_pays_worst": true
+          }
+        },
+        "snumat_hse": {
+          "expt_zhuo": {
+            "evals_saved_mean": 3.909031402034498,
+            "evals_saved_ci": [
+              -17.742475011057056,
+              26.221274657231294
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": 31.272251216275983,
+            "hours_saved_mid": 156.3612560813799,
+            "hours_saved_high": 625.4450243255196,
+            "hours_saved_mid_ci": [
+              -709.6990004422822,
+              1048.8509862892518
+            ],
+            "usd_illustration_mid": 11727.094206103493,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 0.07818062804068995,
+            "breakeven_records_worst": 0.003909031402034498,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": -34.27492640692641,
+            "evals_saved_ci": [
+              -49.76052251082251,
+              -17.94601904761906
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -342.7492640692641,
+            "hours_saved_mid": -1713.7463203463205,
+            "hours_saved_high": -5141.238961038962,
+            "hours_saved_mid_ci": [
+              -2488.0261255411256,
+              -897.300952380953
+            ],
+            "usd_illustration_mid": -85.68731601731604,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -0.8568731601731603,
+            "breakeven_records_worst": -0.04284365800865801,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 13.527238095238095,
+            "evals_saved_ci": [
+              -7.9326285714285705,
+              35.17210952380952
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 135.27238095238096,
+            "hours_saved_mid": 541.0895238095238,
+            "hours_saved_high": 1623.2685714285715,
+            "hours_saved_mid_ci": [
+              -317.3051428571428,
+              1406.8843809523808
+            ],
+            "usd_illustration_mid": 27.054476190476194,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 0.2705447619047619,
+            "breakeven_records_worst": 0.01690904761904762,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": -46.34582217782217,
+            "evals_saved_ci": [
+              -60.2420961038961,
+              -31.08089630369631
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -463.45822177822174,
+            "hours_saved_mid": -1853.832887112887,
+            "hours_saved_high": -5561.498661338661,
+            "hours_saved_mid_ci": [
+              -2409.683844155844,
+              -1243.2358521478525
+            ],
+            "usd_illustration_mid": -92.69164435564436,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -0.9269164435564435,
+            "breakeven_records_worst": -0.05793227772227772,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": -34.911450980392154,
+            "evals_saved_ci": [
+              -50.751098039215684,
+              -18.305745098039225
+            ],
+            "censored_frac": 0.06,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -349.1145098039215,
+            "hours_saved_mid": -1396.458039215686,
+            "hours_saved_high": -4189.3741176470585,
+            "hours_saved_mid_ci": [
+              -2030.0439215686274,
+              -732.229803921569
+            ],
+            "usd_illustration_mid": -69.82290196078431,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -0.698229019607843,
+            "breakeven_records_worst": -0.04363931372549019,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 9.864426520847571,
+            "evals_saved_ci": [
+              -11.788072180451127,
+              31.30430389610389
+            ],
+            "censored_frac": 0.16,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 197.28853041695143,
+            "hours_saved_mid": 789.1541216678057,
+            "hours_saved_high": 2367.4623650034173,
+            "hours_saved_mid_ci": [
+              -943.0457744360901,
+              2504.344311688311
+            ],
+            "usd_illustration_mid": 39.45770608339029,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 0.39457706083390287,
+            "breakeven_records_worst": 0.02466106630211893,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": 114.22588235294117,
+            "evals_saved_ci": [
+              102.69141176470588,
+              120.0
+            ],
+            "censored_frac": 0.96,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1142.2588235294118,
+            "hours_saved_mid": 4569.035294117647,
+            "hours_saved_high": 13707.10588235294,
+            "hours_saved_mid_ci": [
+              4107.656470588235,
+              4800.0
+            ],
+            "usd_illustration_mid": 228.45176470588237,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 2.2845176470588235,
+            "breakeven_records_worst": 0.14278235294117647,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        }
+      },
+      "kway": {
+        "expt_zhuo": {
+          "jarvis_mbj": {
+            "evals_saved_mean": -23.61186013986014,
+            "evals_saved_ci": [
+              -42.10727272727273,
+              -3.6067090909091255
+            ],
+            "censored_frac": 0.08,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -236.1186013986014,
+            "hours_saved_mid": -1180.593006993007,
+            "hours_saved_high": -3541.779020979021,
+            "hours_saved_mid_ci": [
+              -2105.3636363636365,
+              -180.3354545454563
+            ],
+            "usd_illustration_mid": -59.02965034965035,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -29.514825174825177,
+            "breakeven_records_worst": -1.4757412587412588,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 22.752,
+            "evals_saved_ci": [
+              1.0423,
+              44.234999999999985
+            ],
+            "censored_frac": 0.18,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 227.51999999999998,
+            "hours_saved_mid": 910.0799999999999,
+            "hours_saved_high": 2730.24,
+            "hours_saved_mid_ci": [
+              41.692,
+              1769.3999999999994
+            ],
+            "usd_illustration_mid": 45.504,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 22.752,
+            "breakeven_records_worst": 1.422,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": -26.1212132181544,
+            "evals_saved_ci": [
+              -44.10161428767311,
+              -7.098374358974409
+            ],
+            "censored_frac": 0.08,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -261.212132181544,
+            "hours_saved_mid": -1044.848528726176,
+            "hours_saved_high": -3134.5455861785276,
+            "hours_saved_mid_ci": [
+              -1764.0645715069243,
+              -283.9349743589764
+            ],
+            "usd_illustration_mid": -52.242426436308804,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -26.121213218154402,
+            "breakeven_records_worst": -1.6325758261346501,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": -26.706610722610726,
+            "evals_saved_ci": [
+              -42.810397202797205,
+              -9.325865268065277
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -267.06610722610725,
+            "hours_saved_mid": -1068.264428904429,
+            "hours_saved_high": -3204.793286713287,
+            "hours_saved_mid_ci": [
+              -1712.4158881118883,
+              -373.0346107226111
+            ],
+            "usd_illustration_mid": -53.41322144522145,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -26.706610722610726,
+            "breakeven_records_worst": -1.6691631701631704,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 27.43542857142857,
+            "evals_saved_ci": [
+              5.234399999999999,
+              49.01442857142855
+            ],
+            "censored_frac": 0.32,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 548.7085714285714,
+            "hours_saved_mid": 2194.8342857142857,
+            "hours_saved_high": 6584.502857142857,
+            "hours_saved_mid_ci": [
+              418.75199999999995,
+              3921.154285714284
+            ],
+            "usd_illustration_mid": 109.7417142857143,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 54.87085714285714,
+            "breakeven_records_worst": 3.4294285714285713,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": 66.584,
+            "evals_saved_ci": [
+              46.8454,
+              85.04599999999998
+            ],
+            "censored_frac": 0.5,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 665.84,
+            "hours_saved_mid": 2663.36,
+            "hours_saved_high": 7990.08,
+            "hours_saved_mid_ci": [
+              1873.8159999999998,
+              3401.8399999999992
+            ],
+            "usd_illustration_mid": 133.168,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 66.584,
+            "breakeven_records_worst": 4.1615,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": 33.624,
+            "evals_saved_ci": [
+              10.902600000000001,
+              55.92399999999998
+            ],
+            "censored_frac": 0.4,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 10087.2,
+            "hours_saved_mid": 67248.0,
+            "hours_saved_high": 268992.0,
+            "hours_saved_mid_ci": [
+              21805.200000000004,
+              111847.99999999996
+            ],
+            "usd_illustration_mid": 3362.4,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 1681.2,
+            "breakeven_records_worst": 63.045,
+            "donor_records_needed": 210,
+            "from_scratch_pays_mid": true,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "jarvis_mbj": {
+          "expt_zhuo": {
+            "evals_saved_mean": -63.20393533401583,
+            "evals_saved_ci": [
+              -75.40834939797045,
+              -48.72242332404438
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -505.63148267212665,
+            "hours_saved_mid": -2528.157413360633,
+            "hours_saved_high": -10112.629653442533,
+            "hours_saved_mid_ci": [
+              -3016.3339759188184,
+              -1948.896932961775
+            ],
+            "usd_illustration_mid": -189611.8060020475,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -50.56314826721266,
+            "breakeven_records_worst": -3.370876551147511,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 65.18836363636363,
+            "evals_saved_ci": [
+              43.72603636363637,
+              85.49945454545453
+            ],
+            "censored_frac": 0.56,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 651.8836363636364,
+            "hours_saved_mid": 2607.5345454545454,
+            "hours_saved_high": 7822.603636363636,
+            "hours_saved_mid_ci": [
+              1749.0414545454546,
+              3419.978181818181
+            ],
+            "usd_illustration_mid": 130.37672727272727,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 52.15069090909091,
+            "breakeven_records_worst": 4.345890909090909,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 80.30337662337662,
+            "evals_saved_ci": [
+              62.6032987012987,
+              96.99942857142855
+            ],
+            "censored_frac": 0.56,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 803.0337662337662,
+            "hours_saved_mid": 3212.1350649350647,
+            "hours_saved_high": 9636.405194805195,
+            "hours_saved_mid_ci": [
+              2504.131948051948,
+              3879.977142857142
+            ],
+            "usd_illustration_mid": 160.60675324675324,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 64.24270129870129,
+            "breakeven_records_worst": 5.353558441558441,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 76.84,
+            "evals_saved_ci": [
+              59.477,
+              93.08099999999999
+            ],
+            "censored_frac": 0.6,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 768.4000000000001,
+            "hours_saved_mid": 3073.6000000000004,
+            "hours_saved_high": 9220.800000000001,
+            "hours_saved_mid_ci": [
+              2379.08,
+              3723.24
+            ],
+            "usd_illustration_mid": 153.68000000000004,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 61.47200000000001,
+            "breakeven_records_worst": 5.122666666666667,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 63.88,
+            "evals_saved_ci": [
+              45.36,
+              81.401
+            ],
+            "censored_frac": 0.46,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1277.6000000000001,
+            "hours_saved_mid": 5110.400000000001,
+            "hours_saved_high": 15331.2,
+            "hours_saved_mid_ci": [
+              3628.8,
+              6512.08
+            ],
+            "usd_illustration_mid": 255.52000000000004,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 102.20800000000001,
+            "breakeven_records_worst": 8.517333333333335,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -30.50716883116883,
+            "evals_saved_ci": [
+              -46.88892727272727,
+              -12.417479220779228
+            ],
+            "censored_frac": 0.08,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -305.0716883116883,
+            "hours_saved_mid": -1220.2867532467533,
+            "hours_saved_high": -3660.8602597402596,
+            "hours_saved_mid_ci": [
+              -1875.557090909091,
+              -496.6991688311691
+            ],
+            "usd_illustration_mid": -61.01433766233767,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -24.405735064935065,
+            "breakeven_records_worst": -2.0338112554112553,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -42.27800999001,
+            "evals_saved_ci": [
+              -57.91363676323677,
+              -25.710273326673335
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -12683.402997002999,
+            "hours_saved_mid": -84556.01998001999,
+            "hours_saved_high": -338224.07992007997,
+            "hours_saved_mid_ci": [
+              -115827.27352647354,
+              -51420.54665334667
+            ],
+            "usd_illustration_mid": -4227.800999001,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -1691.1203996003999,
+            "breakeven_records_worst": -84.55601998002,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "jarvis_optb88vdw": {
+          "expt_zhuo": {
+            "evals_saved_mean": -68.91575762936753,
+            "evals_saved_ci": [
+              -78.02962158337019,
+              -57.69253215391421
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -551.3260610349403,
+            "hours_saved_mid": -2756.6303051747013,
+            "hours_saved_high": -11026.521220698805,
+            "hours_saved_mid_ci": [
+              -3121.1848633348072,
+              -2307.701286156568
+            ],
+            "usd_illustration_mid": -206747.2728881026,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -68.91575762936753,
+            "breakeven_records_worst": -4.594383841957836,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": -5.476270396270397,
+            "evals_saved_ci": [
+              -27.82901351981352,
+              18.00099393939394
+            ],
+            "censored_frac": 0.22,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -54.762703962703974,
+            "hours_saved_mid": -273.81351981351986,
+            "hours_saved_high": -821.4405594405596,
+            "hours_saved_mid_ci": [
+              -1391.450675990676,
+              900.049696969697
+            ],
+            "usd_illustration_mid": -13.690675990675993,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -6.845337995337997,
+            "breakeven_records_worst": -0.45635586635586645,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 33.777662337662335,
+            "evals_saved_ci": [
+              10.623831168831169,
+              56.10985714285714
+            ],
+            "censored_frac": 0.34,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 337.7766233766233,
+            "hours_saved_mid": 1351.1064935064933,
+            "hours_saved_high": 4053.3194805194803,
+            "hours_saved_mid_ci": [
+              424.95324675324673,
+              2244.3942857142856
+            ],
+            "usd_illustration_mid": 67.55532467532467,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 33.777662337662335,
+            "breakeven_records_worst": 2.8148051948051944,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 21.570666666666668,
+            "evals_saved_ci": [
+              0.48333333333333317,
+              42.04299999999999
+            ],
+            "censored_frac": 0.26,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 215.70666666666668,
+            "hours_saved_mid": 862.8266666666667,
+            "hours_saved_high": 2588.48,
+            "hours_saved_mid_ci": [
+              19.33333333333333,
+              1681.7199999999998
+            ],
+            "usd_illustration_mid": 43.141333333333336,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 21.570666666666668,
+            "breakeven_records_worst": 1.7975555555555556,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 40.00685714285714,
+            "evals_saved_ci": [
+              18.124542857142856,
+              62.007285714285715
+            ],
+            "censored_frac": 0.38,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 800.1371428571429,
+            "hours_saved_mid": 3200.5485714285714,
+            "hours_saved_high": 9601.645714285714,
+            "hours_saved_mid_ci": [
+              1449.9634285714285,
+              4960.582857142857
+            ],
+            "usd_illustration_mid": 160.02742857142857,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 80.01371428571429,
+            "breakeven_records_worst": 6.667809523809524,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -33.18602597402597,
+            "evals_saved_ci": [
+              -49.40224545454546,
+              -15.933035064935076
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -331.8602597402597,
+            "hours_saved_mid": -1327.4410389610389,
+            "hours_saved_high": -3982.3231168831167,
+            "hours_saved_mid_ci": [
+              -1976.0898181818184,
+              -637.321402597403
+            ],
+            "usd_illustration_mid": -66.37205194805195,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -33.18602597402597,
+            "breakeven_records_worst": -2.7655021645021645,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -42.53257675657675,
+            "evals_saved_ci": [
+              -57.114065934065934,
+              -26.519458141858156
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -12759.773026973025,
+            "hours_saved_mid": -85065.1535131535,
+            "hours_saved_high": -340260.614052614,
+            "hours_saved_mid_ci": [
+              -114228.13186813187,
+              -53038.91628371631
+            ],
+            "usd_illustration_mid": -4253.2576756576755,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -2126.6288378288377,
+            "breakeven_records_worst": -106.33144189144188,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "mp_gga": {
+          "expt_zhuo": {
+            "evals_saved_mean": -78.96407248479076,
+            "evals_saved_ci": [
+              -87.24644890651145,
+              -68.10027434979882
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -631.7125798783261,
+            "hours_saved_mid": -3158.5628993916307,
+            "hours_saved_high": -12634.251597566523,
+            "hours_saved_mid_ci": [
+              -3489.8579562604577,
+              -2724.010973991953
+            ],
+            "usd_illustration_mid": -236892.2174543723,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -78.96407248479076,
+            "breakeven_records_worst": -5.264271498986051,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 32.672,
+            "evals_saved_ci": [
+              10.539,
+              55.400999999999996
+            ],
+            "censored_frac": 0.38,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 326.71999999999997,
+            "hours_saved_mid": 1633.6,
+            "hours_saved_high": 4900.799999999999,
+            "hours_saved_mid_ci": [
+              526.9499999999999,
+              2770.0499999999997
+            ],
+            "usd_illustration_mid": 81.68,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 40.839999999999996,
+            "breakeven_records_worst": 2.7226666666666666,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 72.3,
+            "evals_saved_ci": [
+              50.915699999999994,
+              91.63889999999996
+            ],
+            "censored_frac": 0.58,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 723.0,
+            "hours_saved_mid": 2892.0,
+            "hours_saved_high": 8676.0,
+            "hours_saved_mid_ci": [
+              2036.6279999999997,
+              3665.5559999999987
+            ],
+            "usd_illustration_mid": 144.6,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 72.3,
+            "breakeven_records_worst": 6.025,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 33.304,
+            "evals_saved_ci": [
+              13.4772,
+              53.52199999999999
+            ],
+            "censored_frac": 0.34,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 333.04,
+            "hours_saved_mid": 1332.16,
+            "hours_saved_high": 3996.4800000000005,
+            "hours_saved_mid_ci": [
+              539.088,
+              2140.8799999999997
+            ],
+            "usd_illustration_mid": 66.608,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 33.304,
+            "breakeven_records_worst": 2.7753333333333337,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 33.10285714285714,
+            "evals_saved_ci": [
+              12.603285714285713,
+              53.889142857142836
+            ],
+            "censored_frac": 0.32,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 662.0571428571428,
+            "hours_saved_mid": 2648.2285714285713,
+            "hours_saved_high": 7944.685714285713,
+            "hours_saved_mid_ci": [
+              1008.262857142857,
+              4311.131428571427
+            ],
+            "usd_illustration_mid": 132.41142857142856,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 66.20571428571428,
+            "breakeven_records_worst": 5.517142857142857,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -59.842285714285715,
+            "evals_saved_ci": [
+              -70.7596038961039,
+              -46.496063636363644
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -598.4228571428572,
+            "hours_saved_mid": -2393.691428571429,
+            "hours_saved_high": -7181.074285714286,
+            "hours_saved_mid_ci": [
+              -2830.384155844156,
+              -1859.8425454545459
+            ],
+            "usd_illustration_mid": -119.68457142857145,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -59.84228571428572,
+            "breakeven_records_worst": -4.9868571428571435,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -66.6440785880786,
+            "evals_saved_ci": [
+              -78.65147998668,
+              -52.86960879120881
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -19993.22357642358,
+            "hours_saved_mid": -133288.1571761572,
+            "hours_saved_high": -533152.6287046288,
+            "hours_saved_mid_ci": [
+              -157302.95997336,
+              -105739.21758241762
+            ],
+            "usd_illustration_mid": -6664.40785880786,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -3332.20392940393,
+            "breakeven_records_worst": -166.6101964701965,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "mp_gga_expsynth": {
+          "expt_zhuo": {
+            "evals_saved_mean": -65.13374048861355,
+            "evals_saved_ci": [
+              -77.94953184029593,
+              -49.482589806478394
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -521.0699239089084,
+            "hours_saved_mid": -2605.3496195445423,
+            "hours_saved_high": -10421.39847817817,
+            "hours_saved_mid_ci": [
+              -3117.9812736118374,
+              -1979.3035922591357
+            ],
+            "usd_illustration_mid": -195401.22146584067,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -65.13374048861355,
+            "breakeven_records_worst": -4.342249365907571,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 52.478153846153845,
+            "evals_saved_ci": [
+              30.764307692307693,
+              72.1182
+            ],
+            "censored_frac": 0.44,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 524.7815384615385,
+            "hours_saved_mid": 2623.9076923076923,
+            "hours_saved_high": 7871.723076923076,
+            "hours_saved_mid_ci": [
+              1538.2153846153847,
+              3605.91
+            ],
+            "usd_illustration_mid": 131.19538461538463,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 65.59769230769231,
+            "breakeven_records_worst": 4.373179487179487,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 61.748727272727265,
+            "evals_saved_ci": [
+              38.57162727272728,
+              82.98811818181817
+            ],
+            "censored_frac": 0.58,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 617.4872727272726,
+            "hours_saved_mid": 2469.9490909090905,
+            "hours_saved_high": 7409.847272727272,
+            "hours_saved_mid_ci": [
+              1542.8650909090911,
+              3319.5247272727265
+            ],
+            "usd_illustration_mid": 123.49745454545453,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 61.748727272727265,
+            "breakeven_records_worst": 5.145727272727272,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 58.25974025974026,
+            "evals_saved_ci": [
+              37.75387012987013,
+              78.34314285714285
+            ],
+            "censored_frac": 0.5,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 582.5974025974026,
+            "hours_saved_mid": 2330.3896103896104,
+            "hours_saved_high": 6991.168831168831,
+            "hours_saved_mid_ci": [
+              1510.1548051948052,
+              3133.7257142857143
+            ],
+            "usd_illustration_mid": 116.51948051948052,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 58.25974025974026,
+            "breakeven_records_worst": 4.854978354978355,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 71.48,
+            "evals_saved_ci": [
+              53.36,
+              88.92099999999999
+            ],
+            "censored_frac": 0.52,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1429.6000000000001,
+            "hours_saved_mid": 5718.400000000001,
+            "hours_saved_high": 17155.2,
+            "hours_saved_mid_ci": [
+              4268.8,
+              7113.679999999999
+            ],
+            "usd_illustration_mid": 285.92,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 142.96,
+            "breakeven_records_worst": 11.913333333333334,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -26.1785974025974,
+            "evals_saved_ci": [
+              -43.096432467532466,
+              -8.347984415584422
+            ],
+            "censored_frac": 0.06,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -261.785974025974,
+            "hours_saved_mid": -1047.143896103896,
+            "hours_saved_high": -3141.431688311688,
+            "hours_saved_mid_ci": [
+              -1723.8572987012985,
+              -333.9193766233769
+            ],
+            "usd_illustration_mid": -52.3571948051948,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -26.178597402597397,
+            "breakeven_records_worst": -2.1815497835497832,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -35.353438561438566,
+            "evals_saved_ci": [
+              -51.227199000999,
+              -18.25440219780221
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -10606.03156843157,
+            "hours_saved_mid": -70706.87712287714,
+            "hours_saved_high": -282827.50849150855,
+            "hours_saved_mid_ci": [
+              -102454.39800199801,
+              -36508.80439560442
+            ],
+            "usd_illustration_mid": -3535.343856143857,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -1767.6719280719285,
+            "breakeven_records_worst": -88.38359640359641,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "mp_r2scan": {
+          "expt_zhuo": {
+            "evals_saved_mean": -58.04361481243215,
+            "evals_saved_ci": [
+              -71.87456281613123,
+              -43.1116898556552
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -464.3489184994572,
+            "hours_saved_mid": -2321.7445924972862,
+            "hours_saved_high": -9286.978369989145,
+            "hours_saved_mid_ci": [
+              -2874.9825126452492,
+              -1724.467594226208
+            ],
+            "usd_illustration_mid": -174130.84443729647,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -29.021807406216077,
+            "breakeven_records_worst": -1.9347871604144051,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 38.92923076923077,
+            "evals_saved_ci": [
+              16.70992307692308,
+              58.693230769230745
+            ],
+            "censored_frac": 0.36,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 389.2923076923077,
+            "hours_saved_mid": 1946.4615384615386,
+            "hours_saved_high": 5839.384615384615,
+            "hours_saved_mid_ci": [
+              835.496153846154,
+              2934.661538461537
+            ],
+            "usd_illustration_mid": 97.32307692307694,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 24.33076923076923,
+            "breakeven_records_worst": 1.622051282051282,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 66.70836363636364,
+            "evals_saved_ci": [
+              45.02163636363636,
+              87.10945454545455
+            ],
+            "censored_frac": 0.56,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 667.0836363636364,
+            "hours_saved_mid": 2668.3345454545456,
+            "hours_saved_high": 8005.003636363637,
+            "hours_saved_mid_ci": [
+              1800.8654545454544,
+              3484.3781818181824
+            ],
+            "usd_illustration_mid": 133.4167272727273,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 33.35418181818182,
+            "breakeven_records_worst": 2.7795151515151515,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 35.95398624904507,
+            "evals_saved_ci": [
+              12.120084950343772,
+              60.02361115355232
+            ],
+            "censored_frac": 0.4,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 359.53986249045073,
+            "hours_saved_mid": 1438.159449961803,
+            "hours_saved_high": 4314.4783498854085,
+            "hours_saved_mid_ci": [
+              484.8033980137509,
+              2400.9444461420926
+            ],
+            "usd_illustration_mid": 71.90797249809015,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 17.976993124522537,
+            "breakeven_records_worst": 1.498082760376878,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 73.92,
+            "evals_saved_ci": [
+              55.44,
+              91.68
+            ],
+            "censored_frac": 0.56,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 739.2,
+            "hours_saved_mid": 2956.8,
+            "hours_saved_high": 8870.4,
+            "hours_saved_mid_ci": [
+              2217.6,
+              3667.2000000000003
+            ],
+            "usd_illustration_mid": 147.84,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 36.96,
+            "breakeven_records_worst": 3.08,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": -7.822181818181819,
+            "evals_saved_ci": [
+              -28.45608181818182,
+              12.857345454545447
+            ],
+            "censored_frac": 0.12,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -78.2218181818182,
+            "hours_saved_mid": -312.8872727272728,
+            "hours_saved_high": -938.6618181818183,
+            "hours_saved_mid_ci": [
+              -1138.2432727272728,
+              514.2938181818179
+            ],
+            "usd_illustration_mid": -15.64436363636364,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -3.91109090909091,
+            "breakeven_records_worst": -0.32592424242424245,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -22.439238095238093,
+            "evals_saved_ci": [
+              -39.40933333333333,
+              -4.131095238095272
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -6731.771428571427,
+            "hours_saved_mid": -44878.47619047618,
+            "hours_saved_high": -179513.90476190473,
+            "hours_saved_mid_ci": [
+              -78818.66666666666,
+              -8262.190476190543
+            ],
+            "usd_illustration_mid": -2243.9238095238093,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -560.9809523809523,
+            "breakeven_records_worst": -28.049047619047613,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "snumat_gga": {
+          "expt_zhuo": {
+            "evals_saved_mean": -17.29752016404648,
+            "evals_saved_ci": [
+              -39.2202023239918,
+              3.957835680109357
+            ],
+            "censored_frac": 0.16,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -138.38016131237185,
+            "hours_saved_mid": -691.9008065618593,
+            "hours_saved_high": -2767.6032262474373,
+            "hours_saved_mid_ci": [
+              -1568.808092959672,
+              158.31342720437428
+            ],
+            "usd_illustration_mid": -51892.56049213945,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -17.29752016404648,
+            "breakeven_records_worst": -1.1531680109364322,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": -61.392857808857805,
+            "evals_saved_ci": [
+              -72.06202074592075,
+              -49.84162424242426
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -613.9285780885781,
+            "hours_saved_mid": -3069.6428904428903,
+            "hours_saved_high": -9208.928671328671,
+            "hours_saved_mid_ci": [
+              -3603.1010372960372,
+              -2492.081212121213
+            ],
+            "usd_illustration_mid": -153.48214452214452,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -76.74107226107226,
+            "breakeven_records_worst": -5.116071484071484,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 8.495636363636365,
+            "evals_saved_ci": [
+              -13.977627272727275,
+              31.69745454545454
+            ],
+            "censored_frac": 0.16,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 84.95636363636365,
+            "hours_saved_mid": 339.8254545454546,
+            "hours_saved_high": 1019.4763636363638,
+            "hours_saved_mid_ci": [
+              -559.105090909091,
+              1267.8981818181817
+            ],
+            "usd_illustration_mid": 16.99127272727273,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 8.495636363636365,
+            "breakeven_records_worst": 0.707969696969697,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": -53.52920389414507,
+            "evals_saved_ci": [
+              -67.70104010695188,
+              -37.58699587275472
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -535.2920389414508,
+            "hours_saved_mid": -2141.168155765803,
+            "hours_saved_high": -6423.504467297408,
+            "hours_saved_mid_ci": [
+              -2708.0416042780753,
+              -1503.4798349101889
+            ],
+            "usd_illustration_mid": -107.05840778829015,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -53.52920389414508,
+            "breakeven_records_worst": -4.460766991178756,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": -50.28758974358974,
+            "evals_saved_ci": [
+              -60.30477948717948,
+              -39.842
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -502.8758974358974,
+            "hours_saved_mid": -2011.5035897435896,
+            "hours_saved_high": -6034.510769230769,
+            "hours_saved_mid_ci": [
+              -2412.1911794871794,
+              -1593.6799999999998
+            ],
+            "usd_illustration_mid": -100.57517948717948,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -50.28758974358974,
+            "breakeven_records_worst": -4.1906324786324785,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 7.030857142857141,
+            "evals_saved_ci": [
+              -13.342999999999998,
+              27.233771428571412
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 140.61714285714282,
+            "hours_saved_mid": 562.4685714285713,
+            "hours_saved_high": 1687.4057142857139,
+            "hours_saved_mid_ci": [
+              -1067.4399999999998,
+              2178.701714285713
+            ],
+            "usd_illustration_mid": 28.123428571428565,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 14.061714285714283,
+            "breakeven_records_worst": 1.1718095238095236,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": 70.08,
+            "evals_saved_ci": [
+              49.917,
+              88.80299999999998
+            ],
+            "censored_frac": 0.56,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 21024.0,
+            "hours_saved_mid": 140160.0,
+            "hours_saved_high": 560640.0,
+            "hours_saved_mid_ci": [
+              99834.0,
+              177605.99999999997
+            ],
+            "usd_illustration_mid": 7008.0,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 3504.0,
+            "breakeven_records_worst": 175.2,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": true,
+            "from_scratch_pays_worst": false
+          }
+        },
+        "snumat_hse": {
+          "expt_zhuo": {
+            "evals_saved_mean": -17.29752016404648,
+            "evals_saved_ci": [
+              -38.12364210526316,
+              3.664454682159934
+            ],
+            "censored_frac": 0.16,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -138.38016131237185,
+            "hours_saved_mid": -691.9008065618593,
+            "hours_saved_high": -2767.6032262474373,
+            "hours_saved_mid_ci": [
+              -1524.9456842105265,
+              146.57818728639737
+            ],
+            "usd_illustration_mid": -51892.56049213945,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -0.3459504032809297,
+            "breakeven_records_worst": -0.01729752016404648,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": -61.392857808857805,
+            "evals_saved_ci": [
+              -72.15634685314686,
+              -49.47911794871795
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -613.9285780885781,
+            "hours_saved_mid": -3069.6428904428903,
+            "hours_saved_high": -9208.928671328671,
+            "hours_saved_mid_ci": [
+              -3607.817342657343,
+              -2473.9558974358974
+            ],
+            "usd_illustration_mid": -153.48214452214452,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -1.5348214452214453,
+            "breakeven_records_worst": -0.07674107226107227,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 8.495636363636365,
+            "evals_saved_ci": [
+              -13.72009090909091,
+              30.214181818181817
+            ],
+            "censored_frac": 0.16,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 84.95636363636365,
+            "hours_saved_mid": 339.8254545454546,
+            "hours_saved_high": 1019.4763636363638,
+            "hours_saved_mid_ci": [
+              -548.8036363636364,
+              1208.5672727272727
+            ],
+            "usd_illustration_mid": 16.99127272727273,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 0.1699127272727273,
+            "breakeven_records_worst": 0.010619545454545456,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": -53.52920389414507,
+            "evals_saved_ci": [
+              -67.58065683532155,
+              -37.1808702043055
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -535.2920389414508,
+            "hours_saved_mid": -2141.168155765803,
+            "hours_saved_high": -6423.504467297408,
+            "hours_saved_mid_ci": [
+              -2703.2262734128617,
+              -1487.23480817222
+            ],
+            "usd_illustration_mid": -107.05840778829015,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -1.0705840778829014,
+            "breakeven_records_worst": -0.06691150486768134,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": -50.28758974358974,
+            "evals_saved_ci": [
+              -60.40706666666667,
+              -39.73370256410257
+            ],
+            "censored_frac": 0.0,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -502.8758974358974,
+            "hours_saved_mid": -2011.5035897435896,
+            "hours_saved_high": -6034.510769230769,
+            "hours_saved_mid_ci": [
+              -2416.282666666667,
+              -1589.3481025641029
+            ],
+            "usd_illustration_mid": -100.57517948717948,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": -1.005751794871795,
+            "breakeven_records_worst": -0.06285948717948718,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 7.030857142857141,
+            "evals_saved_ci": [
+              -13.635142857142858,
+              27.864
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 140.61714285714282,
+            "hours_saved_mid": 562.4685714285713,
+            "hours_saved_high": 1687.4057142857139,
+            "hours_saved_mid_ci": [
+              -1090.8114285714287,
+              2229.12
+            ],
+            "usd_illustration_mid": 28.123428571428565,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 0.28123428571428566,
+            "breakeven_records_worst": 0.017577142857142854,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": 90.96,
+            "evals_saved_ci": [
+              76.08,
+              104.16
+            ],
+            "censored_frac": 0.68,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 909.5999999999999,
+            "hours_saved_mid": 3638.3999999999996,
+            "hours_saved_high": 10915.199999999999,
+            "hours_saved_mid_ci": [
+              3043.2,
+              4166.4
+            ],
+            "usd_illustration_mid": 181.92,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "breakeven_records_mid": 1.8192,
+            "breakeven_records_worst": 0.1137,
+            "donor_records_needed": 240,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        }
+      }
+    },
+    "combined": {
+      "pair": {
+        "__combined__": {
+          "expt_zhuo": {
+            "evals_saved_mean": -36.201125165855814,
+            "evals_saved_ci": [
+              -52.038633967271124,
+              -19.37220079610792
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -289.6090013268465,
+            "hours_saved_mid": -1448.0450066342325,
+            "hours_saved_high": -5792.18002653693,
+            "hours_saved_mid_ci": [
+              -2081.545358690845,
+              -774.8880318443167
+            ],
+            "usd_illustration_mid": -108603.37549756744,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": -4.426338448226911,
+            "breakeven_records_worst": -0.2285527631666207,
+            "donor_records_needed": 1680,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 60.09236363636364,
+            "evals_saved_ci": [
+              36.901509090909094,
+              81.71350909090908
+            ],
+            "censored_frac": 0.48,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 600.9236363636364,
+            "hours_saved_mid": 3004.618181818182,
+            "hours_saved_high": 9013.854545454546,
+            "hours_saved_mid_ci": [
+              1845.0754545454547,
+              4085.675454545454
+            ],
+            "usd_illustration_mid": 150.2309090909091,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 9.22470494417863,
+            "breakeven_records_worst": 0.4737010647010647,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 54.24914285714286,
+            "evals_saved_ci": [
+              32.78122857142857,
+              74.0611714285714
+            ],
+            "censored_frac": 0.5,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 542.4914285714285,
+            "hours_saved_mid": 2169.965714285714,
+            "hours_saved_high": 6509.897142857143,
+            "hours_saved_mid_ci": [
+              1311.249142857143,
+              2962.446857142856
+            ],
+            "usd_illustration_mid": 108.49828571428571,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 6.633082969432313,
+            "breakeven_records_worst": 0.42619977553310884,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 14.34047152847153,
+            "evals_saved_ci": [
+              -6.73454025974026,
+              35.881748051948044
+            ],
+            "censored_frac": 0.18,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 143.4047152847153,
+            "hours_saved_mid": 573.6188611388612,
+            "hours_saved_high": 1720.8565834165836,
+            "hours_saved_mid_ci": [
+              -269.3816103896104,
+              1435.2699220779218
+            ],
+            "usd_illustration_mid": 28.680943056943065,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 1.753420099551104,
+            "breakeven_records_worst": 0.11266363714848565,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 52.67855971479501,
+            "evals_saved_ci": [
+              28.73096470588235,
+              74.72280784313725
+            ],
+            "censored_frac": 0.46,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 526.78559714795,
+            "hours_saved_mid": 2107.1423885918,
+            "hours_saved_high": 6321.427165775401,
+            "hours_saved_mid_ci": [
+              1149.238588235294,
+              2988.91231372549
+            ],
+            "usd_illustration_mid": 105.35711942959001,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 6.441046602682358,
+            "breakeven_records_worst": 0.413860738500073,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 81.35138842581567,
+            "evals_saved_ci": [
+              58.95304453441296,
+              102.10153846153844
+            ],
+            "censored_frac": 0.78,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1627.0277685163135,
+            "hours_saved_mid": 6508.111074065254,
+            "hours_saved_high": 19524.33322219576,
+            "hours_saved_mid_ci": [
+              4716.243562753037,
+              8168.123076923075
+            ],
+            "usd_illustration_mid": 325.40555370326274,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 20.247456674869678,
+            "breakeven_records_worst": 1.2956990192962679,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": 8.465243697478991,
+            "evals_saved_ci": [
+              -12.637557983193279,
+              30.14311428571428
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 84.65243697478991,
+            "hours_saved_mid": 338.60974789915963,
+            "hours_saved_high": 1015.8292436974789,
+            "hours_saved_mid_ci": [
+              -505.50231932773113,
+              1205.7245714285712
+            ],
+            "usd_illustration_mid": 16.930487394957982,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 1.0350516311328022,
+            "breakeven_records_worst": 0.06650584274113686,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": 4.837243697478992,
+            "evals_saved_ci": [
+              -13.462885714285717,
+              24.609957983193258
+            ],
+            "censored_frac": 0.12,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1451.1731092436976,
+            "hours_saved_mid": 9674.487394957983,
+            "hours_saved_high": 38697.94957983193,
+            "hours_saved_mid_ci": [
+              -26925.771428571432,
+              49219.915966386514
+            ],
+            "usd_illustration_mid": 483.7243697478992,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 205.21639928698752,
+            "breakeven_records_worst": 9.862341519131926,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        }
+      },
+      "kway": {
+        "__combined__": {
+          "expt_zhuo": {
+            "evals_saved_mean": -47.49708849664268,
+            "evals_saved_ci": [
+              -61.07588083309879,
+              -31.60743918620081
+            ],
+            "censored_frac": 0.04,
+            "n_seeds": 50,
+            "receiver_unit": "person_instrument_hours_per_evaluation",
+            "hours_saved_low": -379.97670797314146,
+            "hours_saved_mid": -1899.8835398657072,
+            "hours_saved_high": -7599.534159462829,
+            "hours_saved_mid_ci": [
+              -2443.0352333239516,
+              -1264.2975674480324
+            ],
+            "usd_illustration_mid": -142491.26548992805,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": -5.807504270331855,
+            "breakeven_records_worst": -0.299868878896504,
+            "donor_records_needed": 1680,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_mbj": {
+            "evals_saved_mean": 10.87832167832168,
+            "evals_saved_ci": [
+              -10.120356643356642,
+              33.107454545454544
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 108.7832167832168,
+            "hours_saved_mid": 543.916083916084,
+            "hours_saved_high": 1631.748251748252,
+            "hours_saved_mid_ci": [
+              -506.01783216783207,
+              1655.3727272727272
+            ],
+            "usd_illustration_mid": 27.1958041958042,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 1.6699178014967488,
+            "breakeven_records_worst": 0.08575253575253576,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "jarvis_optb88vdw": {
+            "evals_saved_mean": 43.97142857142857,
+            "evals_saved_ci": [
+              20.59482857142857,
+              66.7038857142857
+            ],
+            "censored_frac": 0.46,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 439.71428571428567,
+            "hours_saved_mid": 1758.8571428571427,
+            "hours_saved_high": 5276.571428571428,
+            "hours_saved_mid_ci": [
+              823.7931428571428,
+              2668.1554285714283
+            ],
+            "usd_illustration_mid": 87.94285714285714,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 5.376419213973798,
+            "breakeven_records_worst": 0.3454545454545454,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga": {
+            "evals_saved_mean": 3.9235617715617717,
+            "evals_saved_ci": [
+              -18.00519160839161,
+              25.643539393939346
+            ],
+            "censored_frac": 0.22,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 39.235617715617714,
+            "hours_saved_mid": 156.94247086247086,
+            "hours_saved_high": 470.8274125874126,
+            "hours_saved_mid_ci": [
+              -720.2076643356644,
+              1025.7415757575739
+            ],
+            "usd_illustration_mid": 7.847123543123543,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 0.47973681049663575,
+            "breakeven_records_worst": 0.030824839956153087,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_gga_expsynth": {
+            "evals_saved_mean": 32.264,
+            "evals_saved_ci": [
+              12.3004,
+              51.712799999999994
+            ],
+            "censored_frac": 0.3,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 322.64000000000004,
+            "hours_saved_mid": 1290.5600000000002,
+            "hours_saved_high": 3871.6800000000003,
+            "hours_saved_mid_ci": [
+              492.01599999999996,
+              2068.5119999999997
+            ],
+            "usd_illustration_mid": 64.528,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 3.9449432314410484,
+            "breakeven_records_worst": 0.2534769921436588,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "mp_r2scan": {
+            "evals_saved_mean": 71.28,
+            "evals_saved_ci": [
+              52.08,
+              88.80599999999997
+            ],
+            "censored_frac": 0.54,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 1425.6,
+            "hours_saved_mid": 5702.4,
+            "hours_saved_high": 17107.2,
+            "hours_saved_mid_ci": [
+              4166.4,
+              7104.479999999998
+            ],
+            "usd_illustration_mid": 285.12,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 17.740799999999997,
+            "breakeven_records_worst": 1.1352901023890785,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_gga": {
+            "evals_saved_mean": 7.290155844155844,
+            "evals_saved_ci": [
+              -13.430475324675323,
+              28.40487272727271
+            ],
+            "censored_frac": 0.2,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": 72.90155844155845,
+            "hours_saved_mid": 291.6062337662338,
+            "hours_saved_high": 874.8187012987013,
+            "hours_saved_mid_ci": [
+              -537.2190129870129,
+              1136.1949090909084
+            ],
+            "usd_illustration_mid": 14.58031168831169,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": 0.8913727669710203,
+            "breakeven_records_worst": 0.05727395163758801,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          },
+          "snumat_hse": {
+            "evals_saved_mean": -35.42687445887446,
+            "evals_saved_ci": [
+              -51.424240692640694,
+              -17.73409610389612
+            ],
+            "censored_frac": 0.02,
+            "n_seeds": 50,
+            "receiver_unit": "cpu_core_hours_per_evaluation",
+            "hours_saved_low": -10628.062337662337,
+            "hours_saved_mid": -70853.74891774892,
+            "hours_saved_high": -283414.9956709957,
+            "hours_saved_mid_ci": [
+              -102848.48138528138,
+              -35468.19220779224
+            ],
+            "usd_illustration_mid": -3542.6874458874463,
+            "donor_framing_archived": "donor ranking already archived in a public database; marginal donor cost ~ 0, hours_saved is pure leverage",
+            "donor_cost_note": "combined prior pools all other channels; donor unit cost taken as the MEAN unit cost over the 7 donors (records would be spread across donors)",
+            "breakeven_records_mid": -1502.9583103764921,
+            "breakeven_records_worst": -72.22954986760811,
+            "donor_records_needed": 1650,
+            "from_scratch_pays_mid": false,
+            "from_scratch_pays_worst": false
+          }
+        }
+      }
+    }
+  },
+  "sensitivity": {
+    "full|pair": {
+      "n_cells": 56,
+      "archived_net_positive": 35,
+      "archived_ci_lower_positive": 25,
+      "from_scratch_pays_mid": 2,
+      "from_scratch_pays_worst_case": 1
+    },
+    "full|kway": {
+      "n_cells": 56,
+      "archived_net_positive": 29,
+      "archived_ci_lower_positive": 25,
+      "from_scratch_pays_mid": 2,
+      "from_scratch_pays_worst_case": 0
+    },
+    "combined|pair": {
+      "n_cells": 8,
+      "archived_net_positive": 7,
+      "archived_ci_lower_positive": 4,
+      "from_scratch_pays_mid": 0,
+      "from_scratch_pays_worst_case": 0
+    },
+    "combined|kway": {
+      "n_cells": 8,
+      "archived_net_positive": 6,
+      "archived_ci_lower_positive": 3,
+      "from_scratch_pays_mid": 0,
+      "from_scratch_pays_worst_case": 0
+    }
+  },
+  "donor_class_counts": {
+    "mp_gga": {
+      "boride": 313,
+      "carbide": 311,
+      "chalcogenide": 9487,
+      "halide": 21859,
+      "nitride": 2945,
+      "other": 2644,
+      "oxide": 54102,
+      "pnictide": 3035
+    },
+    "snumat_hse": {
+      "boride": 44,
+      "carbide": 93,
+      "chalcogenide": 2268,
+      "halide": 2798,
+      "nitride": 501,
+      "other": 259,
+      "oxide": 3866,
+      "pnictide": 651
+    },
+    "mp_r2scan": {
+      "boride": 61,
+      "carbide": 76,
+      "chalcogenide": 2630,
+      "halide": 4255,
+      "nitride": 475,
+      "other": 399,
+      "oxide": 5517,
+      "pnictide": 743
+    },
+    "mp_gga_expsynth": {
+      "boride": 147,
+      "carbide": 177,
+      "chalcogenide": 3334,
+      "halide": 7977,
+      "nitride": 1016,
+      "other": 424,
+      "oxide": 13295,
+      "pnictide": 746
+    },
+    "jarvis_optb88vdw": {
+      "boride": 133,
+      "carbide": 188,
+      "chalcogenide": 3826,
+      "halide": 6507,
+      "nitride": 1022,
+      "other": 668,
+      "oxide": 9623,
+      "pnictide": 824
+    },
+    "snumat_gga": {
+      "boride": 40,
+      "carbide": 86,
+      "chalcogenide": 2167,
+      "halide": 2767,
+      "nitride": 483,
+      "other": 227,
+      "oxide": 3737,
+      "pnictide": 565
+    },
+    "jarvis_mbj": {
+      "boride": 78,
+      "carbide": 120,
+      "chalcogenide": 1862,
+      "halide": 2459,
+      "nitride": 473,
+      "other": 442,
+      "oxide": 3032,
+      "pnictide": 584
+    },
+    "expt_zhuo": {
+      "boride": 31,
+      "chalcogenide": 2220,
+      "halide": 420,
+      "nitride": 71,
+      "other": 104,
+      "oxide": 551,
+      "pnictide": 495
+    }
+  }
+}

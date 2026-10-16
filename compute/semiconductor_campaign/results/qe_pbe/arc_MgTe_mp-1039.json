@@ -1,0 +1,44 @@
+{
+ "cid": "arc_MgTe_mp-1039",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "Mg2Te2",
+ "volume_per_atom": 34.521146920764664,
+ "device": "cpu:16",
+ "node": "notch070",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   4
+  ],
+  "relax_nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 52.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.3423991747175936,
+ "gap_eV": 2.3423991747175936,
+ "vbm_eV": 4.249245504059414,
+ "cbm_eV": 6.5916446787770075,
+ "direct_on_mesh": true,
+ "nk_irr": 30,
+ "status": "ok",
+ "wall_s": 110.88409686088562,
+ "core_s": 1774.14554977417,
+ "qe_cpu_s": 101.85000000000001,
+ "qe_wall_s": 108.36,
+ "energy_per_atom": -2235.684124520472
+}

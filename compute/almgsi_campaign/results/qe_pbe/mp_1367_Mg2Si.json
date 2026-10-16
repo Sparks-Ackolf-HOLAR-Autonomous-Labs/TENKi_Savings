@@ -1,0 +1,30 @@
+{
+ "cid": "mp_1367_Mg2Si",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 3,
+ "energy_per_atom": -1116.0378127691458,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 21.426653712398803,
+ "wall_s": 82.49008107185364,
+ "qe_cpu_s": 75.82,
+ "qe_wall_s": 81.91,
+ "core_s": 1319.8412971496582,
+ "device": "cpu:16",
+ "node": "notch379",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   9,
+   9,
+   9
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

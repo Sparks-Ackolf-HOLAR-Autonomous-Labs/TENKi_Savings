@@ -1,0 +1,46 @@
+{
+ "cid": "mp_542854_Mg9Si5",
+ "source": "mace_md",
+ "status": "ok",
+ "natoms": 112,
+ "energy_per_atom": -2.9524059350149967,
+ "energy_per_atom_sem": 0.00043130795995230273,
+ "volume_per_atom": 19.983848840366335,
+ "wall_s": 56.38414083281532,
+ "device": "cuda",
+ "settings": {
+  "T_K": 300.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 300 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "ASE 3.29 + MACE-MP-0 small",
+  "dtype": "float32",
+  "ensemble": "NPT IsotropicMTKNPT",
+  "tdamp_fs": 100.0,
+  "pdamp_fs": 1000.0,
+  "supercell_reps": [
+   2,
+   2,
+   1
+  ]
+ },
+ "error": null,
+ "structure": {
+  "rms_disp_A": 1.0106684900352412,
+  "frac_disp_gt_1A": 0.10714285714285714,
+  "max_disp_A": 3.919153681352636
+ },
+ "md_stats": {
+  "volume_per_atom_sem": 0.011651767220170578,
+  "T_mean": 302.20131193067266,
+  "n_samples": 150,
+  "V_over_V0": 1.0324693312360789
+ }
+}

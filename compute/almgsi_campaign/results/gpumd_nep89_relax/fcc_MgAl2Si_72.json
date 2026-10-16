@@ -1,0 +1,44 @@
+{
+ "cid": "fcc_MgAl2Si_72",
+ "source": "gpumd_nep89_relax",
+ "status": "ok",
+ "natoms": 4,
+ "energy_per_atom": -3.866553783416748,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.449661387034364,
+ "wall_s": 1.4725023289211094,
+ "device": "cuda",
+ "settings": {
+  "engine": "GPUMD 5.8",
+  "potential": "NEP89 nep89_20250409",
+  "relax": "minimize fire with box change (full 3x3 cell, non-hydrostatic)",
+  "cell_used": "own cell",
+  "force_tolerance_eV_A": 0.001,
+  "max_steps": 50000,
+  "final_max_force_eV_A": 4.713052476290613e-06,
+  "gpu_contended": true
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   -2.0657508832311744,
+   -2.0657509757275587,
+   1.039268412366747e-08
+  ],
+  [
+   -2.0657508855001683,
+   2.0657509742567712,
+   5.129821597809205e-09
+  ],
+  [
+   4.1389305882429894e-08,
+   -3.883711948026248e-08,
+   -7.709585770736656
+  ]
+ ],
+ "structure": {
+  "rms_disp_A": 0.13589927752161932,
+  "frac_disp_gt_1A": 0.0,
+  "max_disp_A": 0.19219066426005216
+ }
+}

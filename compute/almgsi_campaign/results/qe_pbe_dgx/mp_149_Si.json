@@ -1,0 +1,30 @@
+{
+ "cid": "mp_149_Si",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 2,
+ "energy_per_atom": -115.1300532776314,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 20.471445273809255,
+ "wall_s": 51.68177366256714,
+ "qe_cpu_s": 49.19,
+ "qe_wall_s": 51.53,
+ "core_s": 413.4541893005371,
+ "device": "cpu:8",
+ "node": null,
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

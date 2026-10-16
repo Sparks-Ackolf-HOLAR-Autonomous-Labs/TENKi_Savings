@@ -1,0 +1,44 @@
+{
+ "cid": "arc_NaNO2_mp-2964",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "NNaO2",
+ "volume_per_atom": 14.035260903695647,
+ "device": "cpu:16",
+ "node": "notch417",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   6,
+   6
+  ],
+  "nq": [
+   4,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 4.426947734085444,
+ "gap_eV": 4.426947734085444,
+ "vbm_eV": 0.4110590431517212,
+ "cbm_eV": 4.838006777237165,
+ "direct_on_mesh": false,
+ "nk_irr": 148,
+ "status": "ok",
+ "wall_s": 818.0630450248718,
+ "core_s": 13089.00872039795,
+ "qe_cpu_s": 772.13,
+ "qe_wall_s": 816.75
+}

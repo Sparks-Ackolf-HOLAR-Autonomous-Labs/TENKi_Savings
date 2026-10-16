@@ -1,0 +1,30 @@
+{
+ "cid": "mp_1367_Mg2Si",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 3,
+ "energy_per_atom": -1115.9419417038287,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 21.426653712398803,
+ "wall_s": 160.20827960968018,
+ "qe_cpu_s": 133.26,
+ "qe_wall_s": 159.31,
+ "core_s": 5126.664947509766,
+ "device": "cpu:32",
+ "node": "notch273",
+ "restart_count": 0,
+ "settings": {
+  "tag": "base",
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "kspacing": 0.3
+ }
+}

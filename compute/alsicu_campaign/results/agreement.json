@@ -1,0 +1,22 @@
+{
+ "mace_relax_vs_archive_mp_MPheld_compounds": {
+  "n": 16,
+  "kendall_tau": 0.7395,
+  "mae_eV_atom": 0.0159
+ },
+ "mace_relax_vs_qe_pbe_all_compounds": {
+  "n": 157,
+  "kendall_tau": 0.8953,
+  "mae_eV_atom": 0.0255
+ },
+ "qe_pbe_vs_archive_mp_MPheld_compounds": {
+  "n": 16,
+  "kendall_tau": 0.9076,
+  "mae_eV_atom": 0.0169
+ },
+ "archive_mp_vs_qe_pbe_MPheld_compounds": {
+  "n": 16,
+  "kendall_tau": 0.9076,
+  "mae_eV_atom": 0.0169
+ }
+}

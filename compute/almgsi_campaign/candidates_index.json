@@ -1,0 +1,1930 @@
+[
+ {
+  "cid": "mp_134_Al",
+  "kind": "reference",
+  "formula": "Al",
+  "nsites": 1,
+  "spg": "Fm-3m",
+  "mpid": "mp-134",
+  "mp_ef": 0.0,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1183144_Al",
+  "kind": "archived",
+  "formula": "Al",
+  "nsites": 4,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-1183144",
+  "mp_ef": 0.010480727500000064,
+  "mp_ehull": 0.010480727500000064,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_2647008_Al",
+  "kind": "archived",
+  "formula": "Al",
+  "nsites": 2,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-2647008",
+  "mp_ef": 0.03207822500000024,
+  "mp_ehull": 0.03207822500000024,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_153_Mg",
+  "kind": "reference",
+  "formula": "Mg",
+  "nsites": 2,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-153",
+  "mp_ef": 0.0,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1094122_Mg",
+  "kind": "archived",
+  "formula": "Mg",
+  "nsites": 9,
+  "spg": "R-3m",
+  "mpid": "mp-1094122",
+  "mp_ef": 0.003384133333333613,
+  "mp_ehull": 0.003384133333333317,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_973364_Mg",
+  "kind": "archived",
+  "formula": "Mg",
+  "nsites": 4,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-973364",
+  "mp_ef": 0.008570822499999409,
+  "mp_ehull": 0.008570822499999409,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1056702_Mg",
+  "kind": "archived",
+  "formula": "Mg",
+  "nsites": 1,
+  "spg": "Fm-3m",
+  "mpid": "mp-1056702",
+  "mp_ef": 0.03018996499999993,
+  "mp_ehull": 0.03018996499999993,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1056351_Mg",
+  "kind": "archived",
+  "formula": "Mg",
+  "nsites": 1,
+  "spg": "I4/mmm",
+  "mpid": "mp-1056351",
+  "mp_ef": 0.037615175,
+  "mp_ehull": 0.037615175,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_110_Mg",
+  "kind": "archived",
+  "formula": "Mg",
+  "nsites": 1,
+  "spg": "Im-3m",
+  "mpid": "mp-110",
+  "mp_ef": 0.03967987500000003,
+  "mp_ehull": 0.03967987500000003,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_3833_Mg(AlSi)2",
+  "kind": "archived",
+  "formula": "Mg(AlSi)2",
+  "nsites": 5,
+  "spg": "P-3m1",
+  "mpid": "mp-3833",
+  "mp_ef": 0.02731407299999944,
+  "mp_ehull": 0.059893702000000104,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1028210_Mg14AlSi",
+  "kind": "archived",
+  "formula": "Mg14AlSi",
+  "nsites": 16,
+  "spg": "P-6m2",
+  "mpid": "mp-1028210",
+  "mp_ef": 0.04972893437500003,
+  "mp_ehull": 0.07150068106770835,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1028217_Mg14AlSi",
+  "kind": "archived",
+  "formula": "Mg14AlSi",
+  "nsites": 16,
+  "spg": "Amm2",
+  "mpid": "mp-1028217",
+  "mp_ef": 0.07108002687500026,
+  "mp_ehull": 0.09285177356770857,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1023506_Mg15Al",
+  "kind": "archived",
+  "formula": "Mg15Al",
+  "nsites": 16,
+  "spg": "P-6m2",
+  "mpid": "mp-1023506",
+  "mp_ef": 0.03975776093749994,
+  "mp_ehull": 0.04116723950520851,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1023509_Mg15Si",
+  "kind": "archived",
+  "formula": "Mg15Si",
+  "nsites": 16,
+  "spg": "P-6m2",
+  "mpid": "mp-1023509",
+  "mp_ef": 0.058707445937500324,
+  "mp_ehull": 0.0790697140625003,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1367_Mg2Si",
+  "kind": "archived",
+  "formula": "Mg2Si",
+  "nsites": 3,
+  "spg": "Fm-3m",
+  "mpid": "mp-1367",
+  "mp_ef": -0.10859876333333318,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1101851_Mg2Si",
+  "kind": "archived",
+  "formula": "Mg2Si",
+  "nsites": 12,
+  "spg": "Pnma",
+  "mpid": "mp-1101851",
+  "mp_ef": -0.02097149166666649,
+  "mp_ehull": 0.0876272716666664,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1074652_Mg2Si",
+  "kind": "archived",
+  "formula": "Mg2Si",
+  "nsites": 6,
+  "spg": "P4/nmm",
+  "mpid": "mp-1074652",
+  "mp_ef": -0.020515808333333514,
+  "mp_ehull": 0.08808295499999952,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_978271_Mg3Al",
+  "kind": "archived",
+  "formula": "Mg3Al",
+  "nsites": 4,
+  "spg": "Pm-3m",
+  "mpid": "mp-978271",
+  "mp_ef": 0.02186951125000025,
+  "mp_ehull": 0.027507425520833628,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1094970_Mg3Al",
+  "kind": "archived",
+  "formula": "Mg3Al",
+  "nsites": 8,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-1094970",
+  "mp_ef": 0.029916161250000073,
+  "mp_ehull": 0.03555407552083345,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1094961_Mg3Al",
+  "kind": "archived",
+  "formula": "Mg3Al",
+  "nsites": 4,
+  "spg": "I4/mmm",
+  "mpid": "mp-1094961",
+  "mp_ef": 0.03952205625000005,
+  "mp_ehull": 0.045159970520833426,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1016233_Mg3Al",
+  "kind": "archived",
+  "formula": "Mg3Al",
+  "nsites": 4,
+  "spg": "Pmm2",
+  "mpid": "mp-1016233",
+  "mp_ef": 0.05032762375000033,
+  "mp_ehull": 0.055965538020833705,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1094666_Mg3Al",
+  "kind": "archived",
+  "formula": "Mg3Al",
+  "nsites": 4,
+  "spg": "Fm-3m",
+  "mpid": "mp-1094666",
+  "mp_ef": 0.07094717125000027,
+  "mp_ehull": 0.07658508552083365,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1016271_Mg7Al",
+  "kind": "archived",
+  "formula": "Mg7Al",
+  "nsites": 8,
+  "spg": "P-6m2",
+  "mpid": "mp-1016271",
+  "mp_ef": 0.04122504562500051,
+  "mp_ehull": 0.0440440027604172,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1094987_MgAl",
+  "kind": "archived",
+  "formula": "MgAl",
+  "nsites": 4,
+  "spg": "Pmma",
+  "mpid": "mp-1094987",
+  "mp_ef": 0.04447777250000007,
+  "mp_ehull": 0.05468241875000013,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1039019_MgAl",
+  "kind": "archived",
+  "formula": "MgAl",
+  "nsites": 2,
+  "spg": "P-6m2",
+  "mpid": "mp-1039019",
+  "mp_ef": 0.05358336749999992,
+  "mp_ehull": 0.06378801374999998,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1038779_MgAl",
+  "kind": "archived",
+  "formula": "MgAl",
+  "nsites": 2,
+  "spg": "R-3m",
+  "mpid": "mp-1038779",
+  "mp_ef": 0.06514492250000004,
+  "mp_ehull": 0.0753495687500001,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1038934_MgAl",
+  "kind": "archived",
+  "formula": "MgAl",
+  "nsites": 2,
+  "spg": "Pm-3m",
+  "mpid": "mp-1038934",
+  "mp_ef": 0.08001797249999987,
+  "mp_ehull": 0.09022261874999993,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1094116_MgAl2",
+  "kind": "archived",
+  "formula": "MgAl2",
+  "nsites": 12,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-1094116",
+  "mp_ef": -0.011892303333333132,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1102064_MgAl2",
+  "kind": "archived",
+  "formula": "MgAl2",
+  "nsites": 12,
+  "spg": "I4_1/amd",
+  "mpid": "mp-1102064",
+  "mp_ef": 0.02971320249999998,
+  "mp_ehull": 0.04160550583333311,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1222013_MgAl2",
+  "kind": "archived",
+  "formula": "MgAl2",
+  "nsites": 3,
+  "spg": "P-3m1",
+  "mpid": "mp-1222013",
+  "mp_ef": 0.05063334416666739,
+  "mp_ehull": 0.06252564750000067,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1038916_MgAl3",
+  "kind": "archived",
+  "formula": "MgAl3",
+  "nsites": 4,
+  "spg": "I4/mmm",
+  "mpid": "mp-1038916",
+  "mp_ef": 0.016106823749999943,
+  "mp_ehull": 0.025026051249999792,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1039119_MgAl3",
+  "kind": "archived",
+  "formula": "MgAl3",
+  "nsites": 8,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-1039119",
+  "mp_ef": 0.02541121249999989,
+  "mp_ehull": 0.03433043999999974,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_4499_MgAlSi",
+  "kind": "archived",
+  "formula": "MgAlSi",
+  "nsites": 12,
+  "spg": "Pnma",
+  "mpid": "mp-4499",
+  "mp_ef": -0.005254592500000044,
+  "mp_ehull": 0.04904478916666699,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1073794_MgSi",
+  "kind": "archived",
+  "formula": "MgSi",
+  "nsites": 12,
+  "spg": "P2_1/m",
+  "mpid": "mp-1073794",
+  "mp_ef": 0.01766338916666695,
+  "mp_ehull": 0.09911246166666698,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_149_Si",
+  "kind": "reference",
+  "formula": "Si",
+  "nsites": 2,
+  "spg": "Fd-3m",
+  "mpid": "mp-149",
+  "mp_ef": 0.0,
+  "mp_ehull": 0.0,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_165_Si",
+  "kind": "archived",
+  "formula": "Si",
+  "nsites": 4,
+  "spg": "P6_3/mmc",
+  "mpid": "mp-165",
+  "mp_ef": 0.01360687000000027,
+  "mp_ehull": 0.01360687000000027,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "mp_1079297_Si",
+  "kind": "archived",
+  "formula": "Si",
+  "nsites": 8,
+  "spg": "C2/m",
+  "mpid": "mp-1079297",
+  "mp_ef": 0.08220610625000013,
+  "mp_ehull": 0.08220610625000013,
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al3Si_00",
+  "kind": "suggested",
+  "formula": "Al3Si",
+  "nsites": 4,
+  "spg": "Pm-3m",
+  "mpid": null,
+  "cell": "conv4",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_01",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 2,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv4",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl3_02",
+  "kind": "suggested",
+  "formula": "MgAl3",
+  "nsites": 4,
+  "spg": "Pm-3m",
+  "mpid": null,
+  "cell": "conv4",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_03",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 4,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv4",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_04",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 2,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv4",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al7Si_05",
+  "kind": "suggested",
+  "formula": "Al7Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al3Si_06",
+  "kind": "suggested",
+  "formula": "Al3Si",
+  "nsites": 8,
+  "spg": "Pmma",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al3Si_07",
+  "kind": "suggested",
+  "formula": "Al3Si",
+  "nsites": 4,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al3Si_08",
+  "kind": "suggested",
+  "formula": "Al3Si",
+  "nsites": 4,
+  "spg": "I4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al5Si3_09",
+  "kind": "suggested",
+  "formula": "Al5Si3",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al5Si3_10",
+  "kind": "suggested",
+  "formula": "Al5Si3",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al5Si3_11",
+  "kind": "suggested",
+  "formula": "Al5Si3",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al5Si3_12",
+  "kind": "suggested",
+  "formula": "Al5Si3",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_13",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 4,
+  "spg": "P4/nmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_14",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_15",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_16",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 8,
+  "spg": "P4/nmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_17",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 8,
+  "spg": "P4_2/mmc",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_18",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 4,
+  "spg": "I4_1/amd",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl7_19",
+  "kind": "suggested",
+  "formula": "MgAl7",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl6Si_20",
+  "kind": "suggested",
+  "formula": "MgAl6Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl6Si_21",
+  "kind": "suggested",
+  "formula": "MgAl6Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl6Si_22",
+  "kind": "suggested",
+  "formula": "MgAl6Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl6Si_23",
+  "kind": "suggested",
+  "formula": "MgAl6Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_24",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_25",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_26",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_27",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_28",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_29",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_30",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_31",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_32",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_33",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_34",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_35",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_36",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_37",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_38",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_39",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_40",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_41",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_42",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_43",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_44",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_45",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_46",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl3_47",
+  "kind": "suggested",
+  "formula": "MgAl3",
+  "nsites": 8,
+  "spg": "Pmma",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl3_48",
+  "kind": "suggested",
+  "formula": "MgAl3",
+  "nsites": 4,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl3_49",
+  "kind": "archived_fcc",
+  "formula": "MgAl3",
+  "nsites": 4,
+  "spg": "I4/mmm",
+  "mpid": "mp-1038916",
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_50",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_51",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_52",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_53",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_54",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_55",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_56",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_57",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_58",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_59",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmma",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_60",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_61",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_62",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_63",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_64",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmma",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_65",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_66",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_67",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmma",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_68",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 4,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_69",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_70",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_71",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "P4/nmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_72",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 4,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_73",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_74",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_75",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "P4_2/mmc",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_76",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "P4/nmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_77",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_78",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "P4_2/mmc",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_79",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 4,
+  "spg": "I-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_80",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 4,
+  "spg": "I4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al5_81",
+  "kind": "suggested",
+  "formula": "Mg3Al5",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al5_82",
+  "kind": "suggested",
+  "formula": "Mg3Al5",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al5_83",
+  "kind": "suggested",
+  "formula": "Mg3Al5",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al5_84",
+  "kind": "suggested",
+  "formula": "Mg3Al5",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_85",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_86",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_87",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_88",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "P4mm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_89",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_90",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_91",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_92",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "Pmmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_93",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_94",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_95",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_96",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "P-4m2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_97",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_98",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_99",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 4,
+  "spg": "P4/nmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_100",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 8,
+  "spg": "P4/mmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_101",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 8,
+  "spg": "Pmm2",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_102",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 8,
+  "spg": "P4/nmm",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_103",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 8,
+  "spg": "P4_2/mmc",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_104",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 4,
+  "spg": "I4_1/amd",
+  "mpid": null,
+  "cell": "conv1x1x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al7Si_105",
+  "kind": "suggested",
+  "formula": "Al7Si",
+  "nsites": 8,
+  "spg": "Fm-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al3Si_106",
+  "kind": "suggested",
+  "formula": "Al3Si",
+  "nsites": 4,
+  "spg": "Cmmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al5Si3_107",
+  "kind": "suggested",
+  "formula": "Al5Si3",
+  "nsites": 8,
+  "spg": "R-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Al5Si3_108",
+  "kind": "suggested",
+  "formula": "Al5Si3",
+  "nsites": 8,
+  "spg": "I4/mmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_109",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 2,
+  "spg": "R-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_110",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 8,
+  "spg": "Fd-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_AlSi_111",
+  "kind": "suggested",
+  "formula": "AlSi",
+  "nsites": 8,
+  "spg": "Imma",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl7_112",
+  "kind": "suggested",
+  "formula": "MgAl7",
+  "nsites": 8,
+  "spg": "Fm-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl6Si_113",
+  "kind": "suggested",
+  "formula": "MgAl6Si",
+  "nsites": 8,
+  "spg": "Immm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl6Si_114",
+  "kind": "suggested",
+  "formula": "MgAl6Si",
+  "nsites": 8,
+  "spg": "Fm-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_115",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "C2/m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_116",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "I4/mmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl5Si2_117",
+  "kind": "suggested",
+  "formula": "MgAl5Si2",
+  "nsites": 8,
+  "spg": "Immm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_118",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "R-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_119",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "R-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_120",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "C2/m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_121",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "C2/m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl4Si3_122",
+  "kind": "suggested",
+  "formula": "MgAl4Si3",
+  "nsites": 8,
+  "spg": "I4/mmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl3_123",
+  "kind": "suggested",
+  "formula": "MgAl3",
+  "nsites": 4,
+  "spg": "Cmmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_124",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "C2/m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_125",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "Immm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg2Al5Si_126",
+  "kind": "suggested",
+  "formula": "Mg2Al5Si",
+  "nsites": 8,
+  "spg": "I4/mmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_127",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 4,
+  "spg": "P2/m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_128",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Imma",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_129",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Imma",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_130",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "P-1",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_131",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 4,
+  "spg": "Cmmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl2Si_132",
+  "kind": "suggested",
+  "formula": "MgAl2Si",
+  "nsites": 8,
+  "spg": "Imma",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al5_133",
+  "kind": "suggested",
+  "formula": "Mg3Al5",
+  "nsites": 8,
+  "spg": "R-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al5_134",
+  "kind": "suggested",
+  "formula": "Mg3Al5",
+  "nsites": 8,
+  "spg": "I4/mmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_135",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "R-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_136",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "R-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_137",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "C2/m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_138",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "C2/m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_Mg3Al4Si_139",
+  "kind": "suggested",
+  "formula": "Mg3Al4Si",
+  "nsites": 8,
+  "spg": "I4/mmm",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_140",
+  "kind": "archived_fcc",
+  "formula": "MgAl",
+  "nsites": 2,
+  "spg": "R-3m",
+  "mpid": "mp-1038779",
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_141",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 8,
+  "spg": "Fd-3m",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "fcc_MgAl_142",
+  "kind": "suggested",
+  "formula": "MgAl",
+  "nsites": 8,
+  "spg": "Imma",
+  "mpid": null,
+  "cell": "prim2x2x2",
+  "property": "formation_energy"
+ },
+ {
+  "cid": "clu_Al108",
+  "kind": "cluster_ref",
+  "formula": "Al108",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Mg1",
+  "kind": "cluster_ref",
+  "formula": "Al107Mg",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Si1",
+  "kind": "cluster_ref",
+  "formula": "Al107Si",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgSi_1nn",
+  "kind": "cluster",
+  "formula": "Al106MgSi",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgSi_2nn",
+  "kind": "cluster",
+  "formula": "Al106MgSi",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgMg_1nn",
+  "kind": "cluster",
+  "formula": "Al106Mg2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_SiSi_1nn",
+  "kind": "cluster",
+  "formula": "Al106Si2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_SiSi_2nn",
+  "kind": "cluster",
+  "formula": "Al106Si2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Mg2Si_tri",
+  "kind": "cluster",
+  "formula": "Al105Mg2Si",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgSi2_tri",
+  "kind": "cluster",
+  "formula": "Al105MgSi2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Mg2Si2_tet",
+  "kind": "cluster",
+  "formula": "Al104Mg2Si2",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_Mg3Si_tet",
+  "kind": "cluster",
+  "formula": "Al104Mg3Si",
+  "nsites": 108,
+  "property": "cluster_binding"
+ },
+ {
+  "cid": "clu_MgSi3_tet",
+  "kind": "cluster",
+  "formula": "Al104MgSi3",
+  "nsites": 108,
+  "property": "cluster_binding"
+ }
+]

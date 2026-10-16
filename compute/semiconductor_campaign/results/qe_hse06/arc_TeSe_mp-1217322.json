@@ -1,0 +1,44 @@
+{
+ "cid": "arc_TeSe_mp-1217322",
+ "source": "qe_hse06",
+ "natoms": 6,
+ "formula": "Se3Te3",
+ "volume_per_atom": 31.045097495633513,
+ "device": "cpu:16",
+ "node": "notch342",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   2
+  ],
+  "nq": [
+   3,
+   3,
+   1
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 96.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.0894634529348002,
+ "gap_eV": 1.0894634529348002,
+ "vbm_eV": 7.388046823193176,
+ "cbm_eV": 8.477510276127976,
+ "direct_on_mesh": false,
+ "nk_irr": 40,
+ "status": "ok",
+ "wall_s": 2805.8255541324615,
+ "core_s": 44893.208866119385,
+ "qe_cpu_s": 2330.32,
+ "qe_wall_s": 2804.88
+}

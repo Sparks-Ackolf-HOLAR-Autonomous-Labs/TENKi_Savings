@@ -1,0 +1,44 @@
+{
+ "cid": "arc_GeO2_mp-470",
+ "source": "qe_hse06",
+ "natoms": 6,
+ "formula": "Ge2O4",
+ "volume_per_atom": 9.72505278277202,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   6,
+   6
+  ],
+  "nq": [
+   4,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 52.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.89373895682189,
+ "gap_eV": 2.89373895682189,
+ "vbm_eV": 9.022434009546606,
+ "cbm_eV": 11.916172966368496,
+ "direct_on_mesh": true,
+ "nk_irr": 65,
+ "status": "ok",
+ "wall_s": 651.6824142932892,
+ "core_s": 10426.918628692627,
+ "qe_cpu_s": 620.22,
+ "qe_wall_s": 650.68
+}

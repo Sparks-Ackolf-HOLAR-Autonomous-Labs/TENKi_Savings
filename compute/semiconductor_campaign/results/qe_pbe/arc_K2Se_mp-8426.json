@@ -1,0 +1,43 @@
+{
+ "cid": "arc_K2Se_mp-8426",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "K2Se",
+ "volume_per_atom": 38.71895016740799,
+ "device": "cpu:16",
+ "node": "notch457",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 34.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.0935222185517124,
+ "gap_eV": 2.0935222185517124,
+ "vbm_eV": 2.8148856176212935,
+ "cbm_eV": 4.908407836173006,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 138.06966352462769,
+ "core_s": 2209.114616394043,
+ "qe_cpu_s": 125.91999999999999,
+ "qe_wall_s": 136.28,
+ "energy_per_atom": -1646.0027639205082
+}

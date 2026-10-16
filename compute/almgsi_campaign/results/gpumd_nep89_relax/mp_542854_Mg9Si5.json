@@ -1,0 +1,43 @@
+{
+ "cid": "mp_542854_Mg9Si5",
+ "source": "gpumd_nep89_relax",
+ "status": "ok",
+ "natoms": 28,
+ "energy_per_atom": -3.230196850640433,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 17.72125979863316,
+ "wall_s": 0.5675388551317155,
+ "device": "cuda",
+ "settings": {
+  "engine": "GPUMD 5.8",
+  "potential": "NEP89 nep89_20250409",
+  "relax": "minimize fire with box change (full 3x3 cell, non-hydrostatic)",
+  "cell_used": "own cell",
+  "force_tolerance_eV_A": 0.001,
+  "max_steps": 50000,
+  "final_max_force_eV_A": 0.0004897187263850356
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   7.6427541465640525,
+   -6.805298692225702e-06,
+   3.104681400246151e-08
+  ],
+  [
+   -3.821371223773856,
+   6.618822640727885,
+   -7.048967882381633e-08
+  ],
+  [
+   6.146820883124571e-08,
+   -1.9167390359890456e-08,
+   9.808943070253013
+  ]
+ ],
+ "structure": {
+  "rms_disp_A": 0.17596906075383087,
+  "frac_disp_gt_1A": 0.0,
+  "max_disp_A": 0.2799561445376485
+ }
+}

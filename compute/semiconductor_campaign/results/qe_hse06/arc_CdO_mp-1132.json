@@ -1,0 +1,44 @@
+{
+ "cid": "arc_CdO_mp-1132",
+ "source": "qe_hse06",
+ "natoms": 2,
+ "formula": "CdO",
+ "volume_per_atom": 13.370733738783146,
+ "device": "cpu:16",
+ "node": "notch268",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "nq": [
+   4,
+   4,
+   4
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.8731550576217924,
+ "gap_eV": 0.8731550576217924,
+ "vbm_eV": 11.227043204556832,
+ "cbm_eV": 12.100198262178624,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 878.2318301200867,
+ "core_s": 14051.709281921387,
+ "qe_cpu_s": 826.73,
+ "qe_wall_s": 877.43
+}

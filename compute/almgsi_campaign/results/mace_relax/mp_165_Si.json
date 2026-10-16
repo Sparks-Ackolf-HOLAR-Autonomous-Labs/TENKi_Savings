@@ -1,0 +1,39 @@
+{
+ "cid": "mp_165_Si",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 4,
+ "energy_per_atom": -5.371768425650869,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 20.43541794128315,
+ "wall_s": 1.1085335789248347,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 26
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   3.7343252380549696,
+   -1.0006084373082005,
+   4.762543734602326e-06
+  ],
+  [
+   -1.0006086854875613,
+   3.7343237710682033,
+   -4.948620897711867e-06
+  ],
+  [
+   6.1045338825850715e-06,
+   -6.232506843715097e-06,
+   6.315042618951558
+  ]
+ ]
+}

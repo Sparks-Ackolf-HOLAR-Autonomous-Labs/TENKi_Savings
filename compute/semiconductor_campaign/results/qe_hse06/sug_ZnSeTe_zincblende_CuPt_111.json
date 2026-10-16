@@ -1,0 +1,44 @@
+{
+ "cid": "sug_ZnSeTe_zincblende_CuPt_111",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "Se2Zn2",
+ "volume_per_atom": 23.512885576462686,
+ "device": "cpu:16",
+ "node": "notch445",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "nq": [
+   4,
+   4,
+   2
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 72.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.33109132499086,
+ "gap_eV": 2.33109132499086,
+ "vbm_eV": 7.104687953379537,
+ "cbm_eV": 9.435779278370397,
+ "direct_on_mesh": true,
+ "nk_irr": 35,
+ "status": "ok",
+ "wall_s": 2022.926628112793,
+ "core_s": 32366.826049804688,
+ "qe_cpu_s": 1707.72,
+ "qe_wall_s": 2020.96
+}

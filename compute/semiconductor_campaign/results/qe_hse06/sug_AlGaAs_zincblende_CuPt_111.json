@@ -1,0 +1,44 @@
+{
+ "cid": "sug_AlGaAs_zincblende_CuPt_111",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "AlAs2Ga",
+ "volume_per_atom": 23.623019260053816,
+ "device": "cpu:16",
+ "node": "notch346",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "nq": [
+   4,
+   4,
+   2
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 46.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.4085584540572214,
+ "gap_eV": 1.4085584540572214,
+ "vbm_eV": 6.575415861388842,
+ "cbm_eV": 7.983974315446063,
+ "direct_on_mesh": true,
+ "nk_irr": 35,
+ "status": "ok",
+ "wall_s": 993.5666697025299,
+ "core_s": 15897.066715240479,
+ "qe_cpu_s": 820.91,
+ "qe_wall_s": 991.44
+}

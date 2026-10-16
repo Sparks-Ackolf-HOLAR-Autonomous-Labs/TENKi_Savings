@@ -1,0 +1,30 @@
+{
+ "cid": "mp_149_Si",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 2,
+ "energy_per_atom": -113.39550114915085,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 20.471445341212846,
+ "wall_s": 941.6895129680634,
+ "qe_cpu_s": 790.56,
+ "qe_wall_s": 940.75,
+ "core_s": 30134.064414978027,
+ "device": "cpu:32",
+ "node": "notch273",
+ "restart_count": 0,
+ "settings": {
+  "tag": "kfine",
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "nq": [
+   5,
+   5,
+   5
+  ],
+  "kspacing": 0.22
+ }
+}

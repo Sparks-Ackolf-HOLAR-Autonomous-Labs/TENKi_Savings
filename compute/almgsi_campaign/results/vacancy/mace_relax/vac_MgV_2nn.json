@@ -1,0 +1,10 @@
+{
+ "cid": "vac_MgV_2nn",
+ "status": "ok",
+ "energy": -112.31140611969913,
+ "natoms": 31,
+ "a_A": 4.054411409976602,
+ "wall_s": 0.14798018103465438,
+ "device": "cuda",
+ "settings": "MACE-MP-0 small float64, BFGS fmax 0.01 eV/A, fixed cell"
+}

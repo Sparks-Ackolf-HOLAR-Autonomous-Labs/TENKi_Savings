@@ -1,0 +1,44 @@
+{
+ "cid": "arc_Rb2Te_mp-441",
+ "source": "qe_hse06",
+ "natoms": 3,
+ "formula": "Rb2Te",
+ "volume_per_atom": 52.97961615449421,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 34.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.6821536060965308,
+ "gap_eV": 2.6821536060965308,
+ "vbm_eV": 2.2426643570677047,
+ "cbm_eV": 4.9248179631642355,
+ "direct_on_mesh": false,
+ "nk_irr": 68,
+ "status": "ok",
+ "wall_s": 2738.4627916812897,
+ "core_s": 43815.404666900635,
+ "qe_cpu_s": 2321.11,
+ "qe_wall_s": 2737.74
+}

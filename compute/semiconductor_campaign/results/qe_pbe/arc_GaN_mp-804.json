@@ -1,0 +1,43 @@
+{
+ "cid": "arc_GaN_mp-804",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "Ga2N2",
+ "volume_per_atom": 11.766305712842478,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 36.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.743728309971079,
+ "gap_eV": 1.743728309971079,
+ "vbm_eV": 10.166142599529543,
+ "cbm_eV": 11.909870909500622,
+ "direct_on_mesh": true,
+ "nk_irr": 76,
+ "status": "ok",
+ "wall_s": 32.64843988418579,
+ "core_s": 522.3750381469727,
+ "qe_cpu_s": 28.37,
+ "qe_wall_s": 31.259999999999998,
+ "energy_per_atom": -1182.0720735300406
+}

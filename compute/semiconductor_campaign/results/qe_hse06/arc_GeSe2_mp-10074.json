@@ -1,0 +1,44 @@
+{
+ "cid": "arc_GeSe2_mp-10074",
+ "source": "qe_hse06",
+ "natoms": 6,
+ "formula": "Ge2Se4",
+ "volume_per_atom": 29.498601842223994,
+ "device": "cpu:16",
+ "node": "notch297",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 92.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.4947764610948466,
+ "gap_eV": 2.4947764610948466,
+ "vbm_eV": 4.726492833569578,
+ "cbm_eV": 7.221269294664425,
+ "direct_on_mesh": true,
+ "nk_irr": 112,
+ "status": "ok",
+ "wall_s": 21160.42804145813,
+ "core_s": 338566.8486633301,
+ "qe_cpu_s": 17520.0,
+ "qe_wall_s": 21120.0
+}

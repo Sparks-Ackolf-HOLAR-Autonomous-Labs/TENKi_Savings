@@ -1,0 +1,43 @@
+{
+ "cid": "sug_GaInN_wurtzite_layered_a",
+ "source": "qe_pbe",
+ "natoms": 8,
+ "formula": "Ga2In2N4",
+ "volume_per_atom": 13.79687291304734,
+ "device": "cpu:16",
+ "node": "notch339",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   4,
+   8,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 72.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.34641072858021715,
+ "gap_eV": 0.34641072858021715,
+ "vbm_eV": 9.869657814154614,
+ "cbm_eV": 10.216068542734831,
+ "direct_on_mesh": true,
+ "nk_irr": 128,
+ "status": "ok",
+ "wall_s": 229.2537703514099,
+ "core_s": 3668.0603256225586,
+ "qe_cpu_s": 213.51,
+ "qe_wall_s": 227.38,
+ "energy_per_atom": -1113.5712809550785
+}

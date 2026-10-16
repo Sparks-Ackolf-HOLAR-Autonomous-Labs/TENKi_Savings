@@ -1,0 +1,14 @@
+{
+  "stats": {
+    "mp_gga": 95920,
+    "mp_r2scan": 14672,
+    "mp_gga_expsynth": 27347,
+    "expt_zhuo": 6354,
+    "jarvis_optb88vdw": 75993,
+    "jarvis_mbj": 19805,
+    "snumat_gga": 10481,
+    "snumat_hse": 10481
+  },
+  "manifest_sha256": "f2158ecdc78e022926f6b05a40433152f069d706ec4d2cb706977e99c7a531f3",
+  "built": "2026-09-25 12:21 UTC"
+}

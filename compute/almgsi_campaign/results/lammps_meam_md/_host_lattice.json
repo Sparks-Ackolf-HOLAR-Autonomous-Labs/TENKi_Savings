@@ -1,0 +1,6 @@
+{
+ "lattice_a": 4.0499991809526295,
+ "E0_per_atom": -3.3530000141821263,
+ "method": "LAMMPS fix box/relax iso 0 + cg minimize x3, clu_Al108",
+ "wall_s": 0.28045074408873916
+}

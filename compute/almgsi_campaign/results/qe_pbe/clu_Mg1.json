@@ -1,0 +1,30 @@
+{
+ "cid": "clu_Mg1",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 108,
+ "energy_per_atom": -77.44115490350485,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.406757797275734,
+ "wall_s": 1492.2163472175598,
+ "qe_cpu_s": 1428.15,
+ "qe_wall_s": 1491.35,
+ "core_s": 47750.923110961914,
+ "device": "cpu:32",
+ "node": "notch268",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   3,
+   3,
+   3
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

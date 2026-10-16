@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CdAs2_mp-471",
+ "source": "qe_pbe",
+ "natoms": 6,
+ "formula": "As4Cd2",
+ "volume_per_atom": 25.835654197940865,
+ "device": "cpu:16",
+ "node": "notch034",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   6,
+   6
+  ],
+  "kpts_relax": [
+   6,
+   4,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 100.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.21819262866966582,
+ "gap_eV": 0.21819262866966582,
+ "vbm_eV": 8.797333628063601,
+ "cbm_eV": 9.015526256733267,
+ "direct_on_mesh": false,
+ "nk_irr": 134,
+ "status": "ok",
+ "wall_s": 415.32484793663025,
+ "core_s": 6645.197566986084,
+ "qe_cpu_s": 386.82,
+ "qe_wall_s": 413.05,
+ "energy_per_atom": -3514.583737517094
+}

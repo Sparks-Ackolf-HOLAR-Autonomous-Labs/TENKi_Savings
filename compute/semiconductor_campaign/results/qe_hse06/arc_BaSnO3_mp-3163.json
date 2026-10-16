@@ -1,0 +1,44 @@
+{
+ "cid": "arc_BaSnO3_mp-3163",
+ "source": "qe_hse06",
+ "natoms": 5,
+ "formula": "BaO3Sn",
+ "volume_per_atom": 14.668558052243673,
+ "device": "cpu:16",
+ "node": "notch473",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 42.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.6615375868642008,
+ "gap_eV": 1.6615375868642008,
+ "vbm_eV": 8.605347102988842,
+ "cbm_eV": 10.266884689853043,
+ "direct_on_mesh": false,
+ "nk_irr": 20,
+ "status": "ok",
+ "wall_s": 242.97677969932556,
+ "core_s": 3887.628475189209,
+ "qe_cpu_s": 186.19,
+ "qe_wall_s": 240.88
+}

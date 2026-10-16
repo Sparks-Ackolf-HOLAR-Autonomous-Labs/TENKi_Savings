@@ -1,0 +1,27 @@
+{
+ "cid": "mp_165_Si",
+ "source": "gpaw_pool_pbe_700",
+ "status": "ok",
+ "energy": -21.54465163091334,
+ "energy_per_atom": -5.386162907728335,
+ "natoms": 4,
+ "formula": "Si4",
+ "wall_s": 10.81760070938617,
+ "core_s": 173.08161135017872,
+ "ncores": 16,
+ "node": "notch118",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 700.0,
+  "kpts": [
+   7,
+   7,
+   4
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

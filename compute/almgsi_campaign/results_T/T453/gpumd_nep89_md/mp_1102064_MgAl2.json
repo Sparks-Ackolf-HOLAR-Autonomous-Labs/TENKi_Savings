@@ -1,0 +1,40 @@
+{
+ "cid": "mp_1102064_MgAl2",
+ "source": "gpumd_nep89_md",
+ "status": "ok",
+ "natoms": 108,
+ "energy_per_atom": -3.219738874141358,
+ "energy_per_atom_sem": 0.0017013797919755195,
+ "volume_per_atom": 18.037776636065704,
+ "wall_s": 7.110188609920442,
+ "device": "cuda",
+ "settings": {
+  "T_K": 453.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 453 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "GPUMD 5.8",
+  "potential": "NEP89 nep89_20250409",
+  "ensemble": "npt_mttk temp 453 453 iso 0 0 tperiod 100 pperiod 1000",
+  "ensemble_units": "coupling times in time steps (2 fs); pressure GPa; modulus GPa",
+  "supercell_reps": [
+   3,
+   3,
+   1
+  ]
+ },
+ "error": null,
+ "md_stats": {
+  "volume_per_atom_sem": 0.019757921110696953,
+  "T_mean": 440.2178503826666,
+  "n_samples": 150,
+  "V_over_V0": 0.9777771032238367
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "cid": "mp_153_Mg",
+ "source": "gpumd_nep89_md",
+ "status": "ok",
+ "natoms": 96,
+ "energy_per_atom": -1.7518307981229169,
+ "energy_per_atom_sem": 0.0007803013442716558,
+ "volume_per_atom": 21.993009780530713,
+ "wall_s": 7.8995582717470825,
+ "device": "cuda",
+ "settings": {
+  "T_K": 300.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 300 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "GPUMD 5.8",
+  "potential": "NEP89 nep89_20250409",
+  "ensemble": "npt_mttk temp 300 300 iso 0 0 tperiod 100 pperiod 1000",
+  "ensemble_units": "coupling times in time steps (2 fs); pressure GPa; modulus GPa",
+  "supercell_reps": [
+   4,
+   4,
+   3
+  ],
+  "gpu_contended": true
+ },
+ "error": null,
+ "structure": {
+  "rms_disp_A": 0.21173388226909426,
+  "frac_disp_gt_1A": 0.0,
+  "max_disp_A": 0.4410801127630628
+ },
+ "md_stats": {
+  "volume_per_atom_sem": 0.01626067076407859,
+  "T_mean": 290.81689681973336,
+  "n_samples": 150,
+  "V_over_V0": 0.9818527904463713
+ }
+}

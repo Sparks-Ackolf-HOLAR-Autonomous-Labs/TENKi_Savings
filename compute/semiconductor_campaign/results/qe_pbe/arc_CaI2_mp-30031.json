@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CaI2_mp-30031",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "CaI2",
+ "volume_per_atom": 46.19513885041153,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 24.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 3.887889365961149,
+ "gap_eV": 3.887889365961149,
+ "vbm_eV": 1.4308551494884716,
+ "cbm_eV": 5.3187445154496205,
+ "direct_on_mesh": false,
+ "nk_irr": 35,
+ "status": "ok",
+ "wall_s": 175.00661826133728,
+ "core_s": 2800.1058921813965,
+ "qe_cpu_s": 164.38,
+ "qe_wall_s": 173.70000000000002,
+ "energy_per_atom": -587.4858663189806
+}

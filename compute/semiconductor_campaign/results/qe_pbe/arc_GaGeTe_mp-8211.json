@@ -1,0 +1,43 @@
+{
+ "cid": "arc_GaGeTe_mp-8211",
+ "source": "qe_pbe",
+ "natoms": 6,
+ "formula": "Ga2Ge2Te2",
+ "volume_per_atom": 29.88639516210286,
+ "device": "cpu:16",
+ "node": "notch326",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 86.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.0705798787899985,
+ "gap_eV": 0.0705798787899985,
+ "vbm_eV": 7.405009254471752,
+ "cbm_eV": 7.47558913326175,
+ "direct_on_mesh": true,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 4988.359993219376,
+ "core_s": 79813.75989151001,
+ "qe_cpu_s": 4859.030000000001,
+ "qe_wall_s": 4987.21,
+ "energy_per_atom": -2455.191240001654
+}

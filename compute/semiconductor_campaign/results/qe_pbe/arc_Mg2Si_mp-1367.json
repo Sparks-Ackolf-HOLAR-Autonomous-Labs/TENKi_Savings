@@ -1,0 +1,43 @@
+{
+ "cid": "arc_Mg2Si_mp-1367",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "Mg2Si",
+ "volume_per_atom": 21.48210408989009,
+ "device": "cpu:16",
+ "node": "notch109",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 24.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.21714077008009358,
+ "gap_eV": 0.21714077008009358,
+ "vbm_eV": 5.798307368207258,
+ "cbm_eV": 6.0154481382873515,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 60.03045034408569,
+ "core_s": 960.4872055053711,
+ "qe_cpu_s": 54.29,
+ "qe_wall_s": 58.8,
+ "energy_per_atom": -1116.0389190027015
+}

@@ -1,0 +1,43 @@
+{
+ "cid": "arc_Na2Te_mp-2784",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "Na2Te",
+ "volume_per_atom": 32.88019622616352,
+ "device": "cpu:16",
+ "node": "notch224",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 34.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.0225524765196226,
+ "gap_eV": 2.0225524765196226,
+ "vbm_eV": 2.7347307805708305,
+ "cbm_eV": 4.757283257090453,
+ "direct_on_mesh": true,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 126.91432809829712,
+ "core_s": 2030.629249572754,
+ "qe_cpu_s": 114.44999999999999,
+ "qe_wall_s": 125.67000000000002,
+ "energy_per_atom": -1781.3522737579551
+}

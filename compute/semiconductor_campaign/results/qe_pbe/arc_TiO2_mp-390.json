@@ -1,0 +1,43 @@
+{
+ "cid": "arc_TiO2_mp-390",
+ "source": "qe_pbe",
+ "natoms": 6,
+ "formula": "O4Ti2",
+ "volume_per_atom": 11.643110200591467,
+ "device": "cpu:16",
+ "node": "notch223",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 48.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.167729719351815,
+ "gap_eV": 2.167729719351815,
+ "vbm_eV": 6.993748467602819,
+ "cbm_eV": 9.161478186954634,
+ "direct_on_mesh": false,
+ "nk_irr": 304,
+ "status": "ok",
+ "wall_s": 569.8441734313965,
+ "core_s": 9117.506774902344,
+ "qe_cpu_s": 541.38,
+ "qe_wall_s": 568.31,
+ "energy_per_atom": -840.008622039747
+}

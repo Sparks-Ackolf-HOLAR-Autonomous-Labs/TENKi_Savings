@@ -1,0 +1,44 @@
+{
+ "cid": "arc_AgI_mp-22925",
+ "source": "qe_hse06",
+ "natoms": 2,
+ "formula": "AgI",
+ "volume_per_atom": 36.4578629592206,
+ "device": "cpu:16",
+ "node": "notch263",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.5208414151981895,
+ "gap_eV": 2.5208414151981895,
+ "vbm_eV": 4.170530314609182,
+ "cbm_eV": 6.691371729807371,
+ "direct_on_mesh": true,
+ "nk_irr": 68,
+ "status": "ok",
+ "wall_s": 584.219272851944,
+ "core_s": 9347.508365631104,
+ "qe_cpu_s": 475.53,
+ "qe_wall_s": 583.1
+}

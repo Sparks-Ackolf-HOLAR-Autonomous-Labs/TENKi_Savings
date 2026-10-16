@@ -1,0 +1,151 @@
+{
+ "receivers": {
+  "qe_pbe": {
+   "donors": {
+    "mace_relax": {
+     "sigma": 0.9128777502191316,
+     "rho": 0.44527012405547445,
+     "omega": 0.42654793678027325,
+     "delta": 0.9315999374943328,
+     "learned_early_share": 0.7935934501169414,
+     "fixed_cost_frac_to_8of10_k4": 0.05328728867908694,
+     "donor_cost_frac": 0.00016209402087705589,
+     "donor_inclusive_cost_frac": 0.053449382699964,
+     "tau_full": 0.8685486170516111,
+     "delta_md_noise": {
+      "mean": 0.9315999374943328,
+      "p05": 0.9315999374943328,
+      "p95": 0.9315999374943328
+     }
+    },
+    "gpumd_nep89_md": {
+     "sigma": -0.42553665836959076,
+     "rho": 0.16675098748573652,
+     "omega": 0.3422713989095313,
+     "delta": -0.6010570697933855,
+     "learned_early_share": 0.6914847320870335,
+     "fixed_cost_frac_to_8of10_k4": 0.9677333002682227,
+     "donor_cost_frac": 0.0009531831272826567,
+     "donor_inclusive_cost_frac": 0.9686864833955053,
+     "tau_full": -0.11619617907043057,
+     "delta_md_noise": {
+      "mean": -0.5898371484716655,
+      "p05": -0.657240035132155,
+      "p95": -0.5486527236325057
+     }
+    },
+    "lammps_meam_md": {
+     "sigma": 0.7169595431722477,
+     "rho": 0.23020129070174458,
+     "omega": 0.3451365252943961,
+     "delta": 0.6020243085795962,
+     "learned_early_share": 0.6313716159484253,
+     "fixed_cost_frac_to_8of10_k4": 0.515525525482156,
+     "donor_cost_frac": 0.00018934474458887665,
+     "donor_inclusive_cost_frac": 0.5157148702267449,
+     "tau_full": 0.4727272727272728,
+     "delta_md_noise": {
+      "mean": 0.570183479688269,
+      "p05": 0.5139813833756504,
+      "p95": 0.619760270942314
+     }
+    }
+   },
+   "spearman_delta_vs_early": 0.5,
+   "top_pick_share_over_md_draws": {
+    "mace_relax": 1.0000000000000002
+   },
+   "spearman_over_md_draws": {
+    "mean": 0.5,
+    "min": 0.5,
+    "max": 0.5
+   },
+   "top_by_delta": "mace_relax",
+   "top_measured": "mace_relax",
+   "no_donor_cost_frac_to_8of10_k4": 0.18872199535283696,
+   "receiver_total_wall_s": 61284.81881904602
+  },
+  "qe_hse06": {
+   "donors": {
+    "mace_relax": {
+     "sigma": 0.9089910452646629,
+     "rho": 0.4583198058887202,
+     "omega": 0.5503897252706892,
+     "delta": 0.8169211258826939,
+     "learned_early_share": 0.6589662330777749,
+     "fixed_cost_frac_to_8of10_k4": 0.10575745076852401,
+     "donor_cost_frac": 1.6621989898150956e-05,
+     "donor_inclusive_cost_frac": 0.10577407275842217,
+     "tau_full": 0.7996863416025093,
+     "delta_md_noise": {
+      "mean": 0.8169211258826939,
+      "p05": 0.8169211258826939,
+      "p95": 0.8169211258826939
+     }
+    },
+    "gpumd_nep89_md": {
+     "sigma": -0.40486607672628516,
+     "rho": 0.1695467992392729,
+     "omega": 0.5269904285610906,
+     "delta": -0.7623097060481028,
+     "learned_early_share": 0.4751758602488596,
+     "fixed_cost_frac_to_8of10_k4": 0.9211980261353541,
+     "donor_cost_frac": 9.774450795317964e-05,
+     "donor_inclusive_cost_frac": 0.9212957706433073,
+     "tau_full": -0.12318220701454236,
+     "delta_md_noise": {
+      "mean": -0.7293294524297991,
+      "p05": -0.8061283225322299,
+      "p95": -0.6776520812955844
+     }
+    },
+    "lammps_meam_md": {
+     "sigma": 0.7142585765733162,
+     "rho": 0.2365916979024352,
+     "omega": 0.3280868289476119,
+     "delta": 0.6227634455281394,
+     "learned_early_share": 0.29422229679564876,
+     "fixed_cost_frac_to_8of10_k4": 0.6690003180656061,
+     "donor_cost_frac": 1.9416425200602655e-05,
+     "donor_inclusive_cost_frac": 0.6690197344908068,
+     "tau_full": 0.4373983739837399,
+     "delta_md_noise": {
+      "mean": 0.5891879064399145,
+      "p05": 0.5290720691677882,
+      "p95": 0.6392982573964039
+     }
+    },
+    "qe_pbe": {
+     "sigma": 0.9081928786088082,
+     "rho": 0.45661974098897473,
+     "omega": 0.36621583195782936,
+     "delta": 0.9985967876399536,
+     "learned_early_share": 0.741557209662653,
+     "fixed_cost_frac_to_8of10_k4": 0.0840752465518933,
+     "donor_cost_frac": 0.1025453610701551,
+     "donor_inclusive_cost_frac": 0.1866206076220484,
+     "tau_full": 0.8581408611348732,
+     "delta_md_noise": {
+      "mean": 0.9985967876399536,
+      "p05": 0.9985967876399536,
+      "p95": 0.9985967876399536
+     }
+    }
+   },
+   "spearman_delta_vs_early": 0.7999999999999999,
+   "top_pick_share_over_md_draws": {
+    "qe_pbe": 1.0000000000000002
+   },
+   "spearman_over_md_draws": {
+    "mean": 0.78,
+    "min": 0.39999999999999997,
+    "max": 0.7999999999999999
+   },
+   "top_by_delta": "qe_pbe",
+   "top_measured": "qe_pbe",
+   "no_donor_cost_frac_to_8of10_k4": 0.2854188961208786,
+   "receiver_total_wall_s": 298818.09464359283
+  }
+ },
+ "md_noise_draws": 20
+}

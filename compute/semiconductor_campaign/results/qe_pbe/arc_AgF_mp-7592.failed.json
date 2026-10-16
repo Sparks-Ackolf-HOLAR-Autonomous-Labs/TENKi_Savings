@@ -1,0 +1,38 @@
+{
+ "cid": "arc_AgF_mp-7592",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "AgF",
+ "volume_per_atom": 14.903040915252454,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   12
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "status": "failed",
+ "wall_s": 67.18241930007935,
+ "core_s": 1074.9187088012695,
+ "qe_cpu_s": 32.56,
+ "qe_wall_s": 36.78,
+ "energy_per_atom": -2444.3562878013536,
+ "error": "relax tail: terminated by signals sent by prterun (as reported here). | -------------------------------------------------------------------------- | \u0000 || scf tail: =------------------------------------------------------------------------------= |    JOB DONE. | =------------------------------------------------------------------------------="
+}

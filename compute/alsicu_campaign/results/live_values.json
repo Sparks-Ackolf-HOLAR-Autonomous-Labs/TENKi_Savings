@@ -1,0 +1,2559 @@
+{
+ "mace_relax": {
+  "mp_134_Al": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 2.180159696843475,
+   "status": "ok"
+  },
+  "mp_1183144_Al": {
+   "property": "formation_energy",
+   "value": -0.0008589783659362915,
+   "sem": 0.0,
+   "wall_s": 0.20339295733720064,
+   "status": "ok"
+  },
+  "mp_2647008_Al": {
+   "property": "formation_energy",
+   "value": -0.0017295989411674206,
+   "sem": 0.0,
+   "wall_s": 0.2347748028114438,
+   "status": "ok"
+  },
+  "mp_985806_Al2Cu": {
+   "property": "formation_energy",
+   "value": -0.21430656479388932,
+   "sem": 0.0,
+   "wall_s": 0.17123888386413455,
+   "status": "ok"
+  },
+  "mp_998_Al2Cu": {
+   "property": "formation_energy",
+   "value": -0.19813082323122067,
+   "sem": 0.0,
+   "wall_s": 0.36573815857991576,
+   "status": "ok"
+  },
+  "mp_985825_Al3Cu": {
+   "property": "formation_energy",
+   "value": -0.10395204487488341,
+   "sem": 0.0,
+   "wall_s": 0.19715525303035975,
+   "status": "ok"
+  },
+  "mp_1183161_Al3Cu": {
+   "property": "formation_energy",
+   "value": -0.04317300764209753,
+   "sem": 0.0,
+   "wall_s": 0.06761918310075998,
+   "status": "ok"
+  },
+  "mp_10886_Al3Cu2": {
+   "property": "formation_energy",
+   "value": -0.19095396121165154,
+   "sem": 0.0,
+   "wall_s": 0.3308048122562468,
+   "status": "ok"
+  },
+  "mp_2500_AlCu": {
+   "property": "formation_energy",
+   "value": -0.23977252606406685,
+   "sem": 0.0,
+   "wall_s": 0.5145012140274048,
+   "status": "ok"
+  },
+  "mp_1022721_AlCu": {
+   "property": "formation_energy",
+   "value": -0.20410530994077503,
+   "sem": 0.0,
+   "wall_s": 0.11421449296176434,
+   "status": "ok"
+  },
+  "mp_12802_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.216034444603729,
+   "sem": 0.0,
+   "wall_s": 0.3978575598448515,
+   "status": "ok"
+  },
+  "mp_1183216_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.20915525426925674,
+   "sem": 0.0,
+   "wall_s": 0.8918652571737766,
+   "status": "ok"
+  },
+  "mp_1008555_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.19728237620263078,
+   "sem": 0.0,
+   "wall_s": 0.3385331449098885,
+   "status": "ok"
+  },
+  "mp_12777_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.1883935504842822,
+   "sem": 0.0,
+   "wall_s": 0.14836761401966214,
+   "status": "ok"
+  },
+  "mp_30_Cu": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 0.4743168861605227,
+   "status": "ok"
+  },
+  "mp_989695_Cu": {
+   "property": "formation_energy",
+   "value": 0.001361135313917572,
+   "sem": 0.0,
+   "wall_s": 0.14918065583333373,
+   "status": "ok"
+  },
+  "mp_989782_Cu": {
+   "property": "formation_energy",
+   "value": 0.002699885347159814,
+   "sem": 0.0,
+   "wall_s": 0.6480587730184197,
+   "status": "ok"
+  },
+  "mp_998890_Cu": {
+   "property": "formation_energy",
+   "value": 0.02606724062727217,
+   "sem": 0.0,
+   "wall_s": 0.4628622205927968,
+   "status": "ok"
+  },
+  "mp_1010136_Cu": {
+   "property": "formation_energy",
+   "value": 0.02603293439630594,
+   "sem": 0.0,
+   "wall_s": 0.4653065181337297,
+   "status": "ok"
+  },
+  "mp_867317_Cu3Si": {
+   "property": "formation_energy",
+   "value": -0.07330364758537478,
+   "sem": 0.0,
+   "wall_s": 0.6788130491040647,
+   "status": "ok"
+  },
+  "mp_972828_Cu3Si": {
+   "property": "formation_energy",
+   "value": -0.0750566812957798,
+   "sem": 0.0,
+   "wall_s": 0.5796143081970513,
+   "status": "ok"
+  },
+  "mp_1206157_Cu7Si2": {
+   "property": "formation_energy",
+   "value": -0.04551249729286533,
+   "sem": 0.0,
+   "wall_s": 0.9109454909339547,
+   "status": "ok"
+  },
+  "mp_149_Si": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 0.5676054777577519,
+   "status": "ok"
+  },
+  "mp_165_Si": {
+   "property": "formation_energy",
+   "value": -0.0008777060104740997,
+   "sem": 0.0,
+   "wall_s": 0.6735484702512622,
+   "status": "ok"
+  },
+  "mp_1079297_Si": {
+   "property": "formation_energy",
+   "value": 0.04869907095610948,
+   "sem": 0.0,
+   "wall_s": 0.7022551861591637,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_000": {
+   "property": "formation_energy",
+   "value": -0.043172216992168,
+   "sem": 0.0,
+   "wall_s": 0.42549968091771007,
+   "status": "ok"
+  },
+  "fcc_AlCu_001": {
+   "property": "formation_energy",
+   "value": -0.2221806225114844,
+   "sem": 0.0,
+   "wall_s": 0.8532645697705448,
+   "status": "ok"
+  },
+  "fcc_Al3Si_002": {
+   "property": "formation_energy",
+   "value": 0.11164342299221053,
+   "sem": 0.0,
+   "wall_s": 0.1981230489909649,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_003": {
+   "property": "formation_energy",
+   "value": 0.08815446354945822,
+   "sem": 0.0,
+   "wall_s": 1.0792642519809306,
+   "status": "ok"
+  },
+  "fcc_AlSi_004": {
+   "property": "formation_energy",
+   "value": 0.2129575783370634,
+   "sem": 0.0,
+   "wall_s": 1.032033754978329,
+   "status": "ok"
+  },
+  "fcc_Al7Cu_005": {
+   "property": "formation_energy",
+   "value": -0.0039057473079031624,
+   "sem": 0.0,
+   "wall_s": 0.5029101972468197,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_006": {
+   "property": "formation_energy",
+   "value": -0.04618417409369213,
+   "sem": 0.0,
+   "wall_s": 1.1527326260693371,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_007": {
+   "property": "formation_energy",
+   "value": -0.10395456319061402,
+   "sem": 0.0,
+   "wall_s": 0.9785233307629824,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_008": {
+   "property": "formation_energy",
+   "value": -0.01545091591817993,
+   "sem": 0.0,
+   "wall_s": 0.6270508882589638,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_009": {
+   "property": "formation_energy",
+   "value": -0.12149609302292275,
+   "sem": 0.0,
+   "wall_s": 1.7003586399368942,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_010": {
+   "property": "formation_energy",
+   "value": -0.11872774879984282,
+   "sem": 0.0,
+   "wall_s": 2.223730450961739,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_011": {
+   "property": "formation_energy",
+   "value": -0.09918082457068111,
+   "sem": 0.0,
+   "wall_s": 2.073162221349776,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_012": {
+   "property": "formation_energy",
+   "value": -0.13433397333976993,
+   "sem": 0.0,
+   "wall_s": 1.8500934150069952,
+   "status": "ok"
+  },
+  "fcc_AlCu_013": {
+   "property": "formation_energy",
+   "value": -0.17836307136761453,
+   "sem": 0.0,
+   "wall_s": 2.6727975229732692,
+   "status": "ok"
+  },
+  "fcc_AlCu_014": {
+   "property": "formation_energy",
+   "value": -0.13256405137291027,
+   "sem": 0.0,
+   "wall_s": 2.13295309105888,
+   "status": "ok"
+  },
+  "fcc_AlCu_015": {
+   "property": "formation_energy",
+   "value": -0.1743936653890148,
+   "sem": 0.0,
+   "wall_s": 2.141868358012289,
+   "status": "ok"
+  },
+  "fcc_AlCu_016": {
+   "property": "formation_energy",
+   "value": -0.14781465204765842,
+   "sem": 0.0,
+   "wall_s": 2.168049401137978,
+   "status": "ok"
+  },
+  "fcc_AlCu_017": {
+   "property": "formation_energy",
+   "value": -0.2020593853474888,
+   "sem": 0.0,
+   "wall_s": 1.906450673006475,
+   "status": "ok"
+  },
+  "fcc_AlCu_018": {
+   "property": "formation_energy",
+   "value": -0.19315876867271298,
+   "sem": 0.0,
+   "wall_s": 1.6308243228122592,
+   "status": "ok"
+  },
+  "fcc_Al7Si_019": {
+   "property": "formation_energy",
+   "value": 0.05347356105033452,
+   "sem": 0.0,
+   "wall_s": 0.3886880408972502,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_020": {
+   "property": "formation_energy",
+   "value": 0.052969599310978666,
+   "sem": 0.0,
+   "wall_s": 2.1926337061449885,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_021": {
+   "property": "formation_energy",
+   "value": 0.03903328231826264,
+   "sem": 0.0,
+   "wall_s": 1.6949848057702184,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_022": {
+   "property": "formation_energy",
+   "value": 0.038806953901939556,
+   "sem": 0.0,
+   "wall_s": 1.4042985271662474,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_023": {
+   "property": "formation_energy",
+   "value": 0.062203007723459214,
+   "sem": 0.0,
+   "wall_s": 1.1653073229826987,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_024": {
+   "property": "formation_energy",
+   "value": -0.03468802703405949,
+   "sem": 0.0,
+   "wall_s": 0.7152696577832103,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_025": {
+   "property": "formation_energy",
+   "value": 0.015030551093747846,
+   "sem": 0.0,
+   "wall_s": 0.6977361510507762,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_026": {
+   "property": "formation_energy",
+   "value": 0.00044070986666522316,
+   "sem": 0.0,
+   "wall_s": 0.9081877288408577,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_027": {
+   "property": "formation_energy",
+   "value": 0.02355340248967419,
+   "sem": 0.0,
+   "wall_s": 0.9928440009243786,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_028": {
+   "property": "formation_energy",
+   "value": 0.04907398515130712,
+   "sem": 0.0,
+   "wall_s": 1.4473333158530295,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_029": {
+   "property": "formation_energy",
+   "value": 0.019547374524806926,
+   "sem": 0.0,
+   "wall_s": 1.333199749700725,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_030": {
+   "property": "formation_energy",
+   "value": 0.03247372943492355,
+   "sem": 0.0,
+   "wall_s": 0.5709288418292999,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_031": {
+   "property": "formation_energy",
+   "value": 0.022900062497857476,
+   "sem": 0.0,
+   "wall_s": 0.9624861283227801,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_032": {
+   "property": "formation_energy",
+   "value": -0.045600979581857715,
+   "sem": 0.0,
+   "wall_s": 1.2327266200445592,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_033": {
+   "property": "formation_energy",
+   "value": -0.05504059095348013,
+   "sem": 0.0,
+   "wall_s": 1.287926396355033,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_034": {
+   "property": "formation_energy",
+   "value": -0.07145941532985245,
+   "sem": 0.0,
+   "wall_s": 1.4549554591067135,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_035": {
+   "property": "formation_energy",
+   "value": -0.056921134212362334,
+   "sem": 0.0,
+   "wall_s": 1.3103010416962206,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_036": {
+   "property": "formation_energy",
+   "value": -0.04230210707144999,
+   "sem": 0.0,
+   "wall_s": 1.340977670159191,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_037": {
+   "property": "formation_energy",
+   "value": -0.0366665604517602,
+   "sem": 0.0,
+   "wall_s": 1.3096780157648027,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_038": {
+   "property": "formation_energy",
+   "value": -0.036615231798616366,
+   "sem": 0.0,
+   "wall_s": 1.292630609124899,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_039": {
+   "property": "formation_energy",
+   "value": -0.023166085410999182,
+   "sem": 0.0,
+   "wall_s": 1.1825781781226397,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_040": {
+   "property": "formation_energy",
+   "value": -0.041586598874050695,
+   "sem": 0.0,
+   "wall_s": 1.42367302486673,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_041": {
+   "property": "formation_energy",
+   "value": -0.06473139379365311,
+   "sem": 0.0,
+   "wall_s": 1.5641821003518999,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_042": {
+   "property": "formation_energy",
+   "value": -0.04526848722647725,
+   "sem": 0.0,
+   "wall_s": 1.2961459360085428,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_043": {
+   "property": "formation_energy",
+   "value": -0.05872276875213012,
+   "sem": 0.0,
+   "wall_s": 1.3418897092342377,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_044": {
+   "property": "formation_energy",
+   "value": -0.04504852026539674,
+   "sem": 0.0,
+   "wall_s": 1.4895211630500853,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_045": {
+   "property": "formation_energy",
+   "value": -0.03083112076935124,
+   "sem": 0.0,
+   "wall_s": 1.333516958169639,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_046": {
+   "property": "formation_energy",
+   "value": -0.0698717072384547,
+   "sem": 0.0,
+   "wall_s": 1.1743988213129342,
+   "status": "ok"
+  },
+  "fcc_Al3Si_047": {
+   "property": "formation_energy",
+   "value": 0.09199268502374336,
+   "sem": 0.0,
+   "wall_s": 1.5462851230986416,
+   "status": "ok"
+  },
+  "fcc_Al3Si_048": {
+   "property": "formation_energy",
+   "value": 0.11352565372375123,
+   "sem": 0.0,
+   "wall_s": 0.985689421184361,
+   "status": "ok"
+  },
+  "fcc_Al3Si_049": {
+   "property": "formation_energy",
+   "value": 0.10344470596260136,
+   "sem": 0.0,
+   "wall_s": 0.5854373169131577,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_050": {
+   "property": "formation_energy",
+   "value": 0.11165733674528378,
+   "sem": 0.0,
+   "wall_s": 1.371471136342734,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_051": {
+   "property": "formation_energy",
+   "value": 0.07731734690905578,
+   "sem": 0.0,
+   "wall_s": 1.5776348588988185,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_052": {
+   "property": "formation_energy",
+   "value": 0.10020336174529887,
+   "sem": 0.0,
+   "wall_s": 1.6672659828327596,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_053": {
+   "property": "formation_energy",
+   "value": 0.12359411191211445,
+   "sem": 0.0,
+   "wall_s": 1.6147497366182506,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_054": {
+   "property": "formation_energy",
+   "value": 0.12777666096340545,
+   "sem": 0.0,
+   "wall_s": 1.0232572611421347,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_055": {
+   "property": "formation_energy",
+   "value": 0.10982442215747179,
+   "sem": 0.0,
+   "wall_s": 1.0173259750008583,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_056": {
+   "property": "formation_energy",
+   "value": 0.11283468371818883,
+   "sem": 0.0,
+   "wall_s": 1.528613492846489,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_057": {
+   "property": "formation_energy",
+   "value": 0.11401229523365197,
+   "sem": 0.0,
+   "wall_s": 1.9531634990125895,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_058": {
+   "property": "formation_energy",
+   "value": 0.08195321497613928,
+   "sem": 0.0,
+   "wall_s": 1.697043779771775,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_059": {
+   "property": "formation_energy",
+   "value": 0.10872618876427831,
+   "sem": 0.0,
+   "wall_s": 0.9793598810210824,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_060": {
+   "property": "formation_energy",
+   "value": 0.07554313890291597,
+   "sem": 0.0,
+   "wall_s": 1.4232228249311447,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_061": {
+   "property": "formation_energy",
+   "value": 0.01767490919296444,
+   "sem": 0.0,
+   "wall_s": 3.1299373963847756,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_062": {
+   "property": "formation_energy",
+   "value": 0.09443060414837268,
+   "sem": 0.0,
+   "wall_s": 2.65837534237653,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_063": {
+   "property": "formation_energy",
+   "value": 0.08231223602619986,
+   "sem": 0.0,
+   "wall_s": 1.5681365919299424,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_064": {
+   "property": "formation_energy",
+   "value": 0.030180276400091355,
+   "sem": 0.0,
+   "wall_s": 0.9695023102685809,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_065": {
+   "property": "formation_energy",
+   "value": 0.03607913827907927,
+   "sem": 0.0,
+   "wall_s": 1.1518845199607313,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_066": {
+   "property": "formation_energy",
+   "value": 0.016381240101298378,
+   "sem": 0.0,
+   "wall_s": 0.764452253933996,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_067": {
+   "property": "formation_energy",
+   "value": 0.00150983730106935,
+   "sem": 0.0,
+   "wall_s": 1.050278679933399,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_068": {
+   "property": "formation_energy",
+   "value": 0.04552318689030477,
+   "sem": 0.0,
+   "wall_s": 0.5892572388984263,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_069": {
+   "property": "formation_energy",
+   "value": 0.08482420202476648,
+   "sem": 0.0,
+   "wall_s": 0.7577309971675277,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_070": {
+   "property": "formation_energy",
+   "value": 0.11027356470195437,
+   "sem": 0.0,
+   "wall_s": 0.5079533788375556,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_071": {
+   "property": "formation_energy",
+   "value": 0.10387561346684793,
+   "sem": 0.0,
+   "wall_s": 0.8663940811529756,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_072": {
+   "property": "formation_energy",
+   "value": 0.03498188059812479,
+   "sem": 0.0,
+   "wall_s": 0.595693520270288,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_073": {
+   "property": "formation_energy",
+   "value": 0.04760541161322651,
+   "sem": 0.0,
+   "wall_s": 0.629761328920722,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_074": {
+   "property": "formation_energy",
+   "value": 0.08217122699819823,
+   "sem": 0.0,
+   "wall_s": 0.7057494088076055,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_075": {
+   "property": "formation_energy",
+   "value": 0.11772480464044444,
+   "sem": 0.0,
+   "wall_s": 0.5099729080684483,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_076": {
+   "property": "formation_energy",
+   "value": 0.0551583742364703,
+   "sem": 0.0,
+   "wall_s": 0.6086194887757301,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_077": {
+   "property": "formation_energy",
+   "value": 0.0717440747434055,
+   "sem": 0.0,
+   "wall_s": 0.6871586670167744,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_078": {
+   "property": "formation_energy",
+   "value": 0.10593961867225277,
+   "sem": 0.0,
+   "wall_s": 0.6407790989615023,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_079": {
+   "property": "formation_energy",
+   "value": 0.12342455530786944,
+   "sem": 0.0,
+   "wall_s": 0.6757748480886221,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_080": {
+   "property": "formation_energy",
+   "value": 0.08133171927140959,
+   "sem": 0.0,
+   "wall_s": 1.031661540735513,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_081": {
+   "property": "formation_energy",
+   "value": 0.16027991801456531,
+   "sem": 0.0,
+   "wall_s": 0.9501499361358583,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_082": {
+   "property": "formation_energy",
+   "value": 0.15672513923229525,
+   "sem": 0.0,
+   "wall_s": 1.482703666202724,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_083": {
+   "property": "formation_energy",
+   "value": 0.1367071780075091,
+   "sem": 0.0,
+   "wall_s": 1.0572530310600996,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_084": {
+   "property": "formation_energy",
+   "value": 0.16362997833361304,
+   "sem": 0.0,
+   "wall_s": 1.0041635180823505,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_085": {
+   "property": "formation_energy",
+   "value": 0.19296582676174556,
+   "sem": 0.0,
+   "wall_s": 1.4922915119677782,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_086": {
+   "property": "formation_energy",
+   "value": 0.14997490933750357,
+   "sem": 0.0,
+   "wall_s": 1.5098312902264297,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_087": {
+   "property": "formation_energy",
+   "value": 0.14436724115018884,
+   "sem": 0.0,
+   "wall_s": 2.1977611468173563,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_088": {
+   "property": "formation_energy",
+   "value": 0.14965147693852043,
+   "sem": 0.0,
+   "wall_s": 1.5359207671135664,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_089": {
+   "property": "formation_energy",
+   "value": 0.18755909619430544,
+   "sem": 0.0,
+   "wall_s": 1.0043109757825732,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_090": {
+   "property": "formation_energy",
+   "value": 0.1733664937549746,
+   "sem": 0.0,
+   "wall_s": 1.8856137422844768,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_091": {
+   "property": "formation_energy",
+   "value": 0.14745480165662994,
+   "sem": 0.0,
+   "wall_s": 0.9814835302531719,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_092": {
+   "property": "formation_energy",
+   "value": 0.12079173007067667,
+   "sem": 0.0,
+   "wall_s": 1.586676720995456,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_093": {
+   "property": "formation_energy",
+   "value": 0.14344254075217777,
+   "sem": 0.0,
+   "wall_s": 1.6412942572496831,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_094": {
+   "property": "formation_energy",
+   "value": 0.17364166831907135,
+   "sem": 0.0,
+   "wall_s": 1.3372185281477869,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_095": {
+   "property": "formation_energy",
+   "value": 0.14542738772958708,
+   "sem": 0.0,
+   "wall_s": 1.3848471413366497,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_096": {
+   "property": "formation_energy",
+   "value": 0.16219209658531608,
+   "sem": 0.0,
+   "wall_s": 1.3064013556577265,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_097": {
+   "property": "formation_energy",
+   "value": 0.15768614593165453,
+   "sem": 0.0,
+   "wall_s": 2.167471006978303,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_098": {
+   "property": "formation_energy",
+   "value": 0.16511426383043415,
+   "sem": 0.0,
+   "wall_s": 1.3344725519418716,
+   "status": "ok"
+  },
+  "fcc_AlSi_099": {
+   "property": "formation_energy",
+   "value": 0.24536119244870802,
+   "sem": 0.0,
+   "wall_s": 1.2372749191708863,
+   "status": "ok"
+  },
+  "fcc_AlSi_100": {
+   "property": "formation_energy",
+   "value": 0.2217765874977604,
+   "sem": 0.0,
+   "wall_s": 1.0554602136835456,
+   "status": "ok"
+  },
+  "fcc_AlSi_101": {
+   "property": "formation_energy",
+   "value": 0.20437685625771485,
+   "sem": 0.0,
+   "wall_s": 2.1496480628848076,
+   "status": "ok"
+  },
+  "fcc_AlSi_102": {
+   "property": "formation_energy",
+   "value": 0.18737149501884476,
+   "sem": 0.0,
+   "wall_s": 1.3318936149589717,
+   "status": "ok"
+  },
+  "fcc_AlSi_103": {
+   "property": "formation_energy",
+   "value": 0.21043561917753761,
+   "sem": 0.0,
+   "wall_s": 1.1795447659678757,
+   "status": "ok"
+  },
+  "fcc_AlSi_104": {
+   "property": "formation_energy",
+   "value": 0.19538663086393582,
+   "sem": 0.0,
+   "wall_s": 0.9335099598392844,
+   "status": "ok"
+  },
+  "fcc_Al7Cu_105": {
+   "property": "formation_energy",
+   "value": -0.008345471469758614,
+   "sem": 0.0,
+   "wall_s": 0.2251131422817707,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_106": {
+   "property": "formation_energy",
+   "value": -0.059153164912461254,
+   "sem": 0.0,
+   "wall_s": 0.7247745441272855,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_107": {
+   "property": "formation_energy",
+   "value": -0.12238517825080608,
+   "sem": 0.0,
+   "wall_s": 1.226986579131335,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_108": {
+   "property": "formation_energy",
+   "value": -0.1286653037208132,
+   "sem": 0.0,
+   "wall_s": 1.0880427551455796,
+   "status": "ok"
+  },
+  "fcc_AlCu_109": {
+   "property": "formation_energy",
+   "value": -0.17856811439473264,
+   "sem": 0.0,
+   "wall_s": 1.0087782139889896,
+   "status": "ok"
+  },
+  "fcc_AlCu_110": {
+   "property": "formation_energy",
+   "value": -0.14049336281285774,
+   "sem": 0.0,
+   "wall_s": 0.8904396370053291,
+   "status": "ok"
+  },
+  "fcc_AlCu_111": {
+   "property": "formation_energy",
+   "value": -0.17967642558834962,
+   "sem": 0.0,
+   "wall_s": 1.313831230159849,
+   "status": "ok"
+  },
+  "fcc_Al7Si_112": {
+   "property": "formation_energy",
+   "value": 0.054805725419956985,
+   "sem": 0.0,
+   "wall_s": 0.17269921582192183,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_113": {
+   "property": "formation_energy",
+   "value": 0.05156126366825564,
+   "sem": 0.0,
+   "wall_s": 0.74905237974599,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_114": {
+   "property": "formation_energy",
+   "value": 0.050727997193554364,
+   "sem": 0.0,
+   "wall_s": 0.528187669813633,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_115": {
+   "property": "formation_energy",
+   "value": 0.012031470337858785,
+   "sem": 0.0,
+   "wall_s": 0.7504363860934973,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_116": {
+   "property": "formation_energy",
+   "value": 0.0237998835924369,
+   "sem": 0.0,
+   "wall_s": 0.9059405447915196,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_117": {
+   "property": "formation_energy",
+   "value": 0.007785425010528257,
+   "sem": 0.0,
+   "wall_s": 0.7604255601763725,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_118": {
+   "property": "formation_energy",
+   "value": -0.04513089787182811,
+   "sem": 0.0,
+   "wall_s": 0.9821573151275516,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_119": {
+   "property": "formation_energy",
+   "value": -0.039525412874305,
+   "sem": 0.0,
+   "wall_s": 1.05688024032861,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_120": {
+   "property": "formation_energy",
+   "value": -0.04783177898030755,
+   "sem": 0.0,
+   "wall_s": 1.4128278158605099,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_121": {
+   "property": "formation_energy",
+   "value": -0.04586291366877071,
+   "sem": 0.0,
+   "wall_s": 1.6433359081856906,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_122": {
+   "property": "formation_energy",
+   "value": -0.05542826810872303,
+   "sem": 0.0,
+   "wall_s": 1.6074345568194985,
+   "status": "ok"
+  },
+  "fcc_Al3Si_123": {
+   "property": "formation_energy",
+   "value": 0.11886309624186397,
+   "sem": 0.0,
+   "wall_s": 0.7828904949128628,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_124": {
+   "property": "formation_energy",
+   "value": 0.12308354374398034,
+   "sem": 0.0,
+   "wall_s": 1.5369087685830891,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_125": {
+   "property": "formation_energy",
+   "value": 0.11359488420311936,
+   "sem": 0.0,
+   "wall_s": 2.0297706588171422,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_126": {
+   "property": "formation_energy",
+   "value": 0.11275925188051117,
+   "sem": 0.0,
+   "wall_s": 1.6779637867584825,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_127": {
+   "property": "formation_energy",
+   "value": 0.09259746596719998,
+   "sem": 0.0,
+   "wall_s": 1.8553593740798533,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_128": {
+   "property": "formation_energy",
+   "value": 0.10584760095960588,
+   "sem": 0.0,
+   "wall_s": 1.3184993010945618,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_129": {
+   "property": "formation_energy",
+   "value": 0.11022439033856957,
+   "sem": 0.0,
+   "wall_s": 1.627802477683872,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_130": {
+   "property": "formation_energy",
+   "value": 0.09223002451813977,
+   "sem": 0.0,
+   "wall_s": 1.3667514696717262,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_131": {
+   "property": "formation_energy",
+   "value": 0.0715349374611578,
+   "sem": 0.0,
+   "wall_s": 2.381251664366573,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_132": {
+   "property": "formation_energy",
+   "value": 0.0891734533727635,
+   "sem": 0.0,
+   "wall_s": 1.985981633886695,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_133": {
+   "property": "formation_energy",
+   "value": 0.18355295087290768,
+   "sem": 0.0,
+   "wall_s": 1.2307475139386952,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_134": {
+   "property": "formation_energy",
+   "value": 0.17667371535452725,
+   "sem": 0.0,
+   "wall_s": 2.074390340130776,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_135": {
+   "property": "formation_energy",
+   "value": 0.17010100746617618,
+   "sem": 0.0,
+   "wall_s": 1.8117342852056026,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_136": {
+   "property": "formation_energy",
+   "value": 0.2095115126993028,
+   "sem": 0.0,
+   "wall_s": 1.5876577692106366,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_137": {
+   "property": "formation_energy",
+   "value": 0.18432597877007795,
+   "sem": 0.0,
+   "wall_s": 2.1172566167078912,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_138": {
+   "property": "formation_energy",
+   "value": 0.1908696202443123,
+   "sem": 0.0,
+   "wall_s": 1.725926695857197,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_139": {
+   "property": "formation_energy",
+   "value": 0.15664862619133868,
+   "sem": 0.0,
+   "wall_s": 1.5411165221594274,
+   "status": "ok"
+  },
+  "fcc_AlSi_140": {
+   "property": "formation_energy",
+   "value": 0.19937350819012645,
+   "sem": 0.0,
+   "wall_s": 0.6027126139961183,
+   "status": "ok"
+  },
+  "fcc_AlSi_141": {
+   "property": "formation_energy",
+   "value": 0.2672140056398553,
+   "sem": 0.0,
+   "wall_s": 0.28604100923985243,
+   "status": "ok"
+  },
+  "fcc_AlSi_142": {
+   "property": "formation_energy",
+   "value": 0.2465040148505495,
+   "sem": 0.0,
+   "wall_s": 1.0531438970938325,
+   "status": "ok"
+  },
+  "_reference_wall_s": {
+   "mp_134_Al": 2.180159696843475,
+   "mp_149_Si": 0.5676054777577519,
+   "mp_30_Cu": 0.4743168861605227
+  }
+ },
+ "qe_pbe": {
+  "mp_134_Al": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 40.894333362579346,
+   "status": "ok"
+  },
+  "mp_1183144_Al": {
+   "property": "formation_energy",
+   "value": 0.004766924656806282,
+   "sem": 0.0,
+   "wall_s": 40.86888289451599,
+   "status": "ok"
+  },
+  "mp_2647008_Al": {
+   "property": "formation_energy",
+   "value": 0.02272211977159344,
+   "sem": 0.0,
+   "wall_s": 23.75000762939453,
+   "status": "ok"
+  },
+  "mp_985806_Al2Cu": {
+   "property": "formation_energy",
+   "value": -0.22510129467036677,
+   "sem": 0.0,
+   "wall_s": 178.81666779518127,
+   "status": "ok"
+  },
+  "mp_998_Al2Cu": {
+   "property": "formation_energy",
+   "value": -0.1917434231752395,
+   "sem": 0.0,
+   "wall_s": 687.586451292038,
+   "status": "ok"
+  },
+  "mp_985825_Al3Cu": {
+   "property": "formation_energy",
+   "value": -0.1172055291090146,
+   "sem": 0.0,
+   "wall_s": 83.77839756011963,
+   "status": "ok"
+  },
+  "mp_1183161_Al3Cu": {
+   "property": "formation_energy",
+   "value": -0.058317946376064356,
+   "sem": 0.0,
+   "wall_s": 25.11293339729309,
+   "status": "ok"
+  },
+  "mp_10886_Al3Cu2": {
+   "property": "formation_energy",
+   "value": -0.2010266465508721,
+   "sem": 0.0,
+   "wall_s": 78.62358212471008,
+   "status": "ok"
+  },
+  "mp_2500_AlCu": {
+   "property": "formation_energy",
+   "value": -0.26080893286098217,
+   "sem": 0.0,
+   "wall_s": 1266.4211990833282,
+   "status": "ok"
+  },
+  "mp_1022721_AlCu": {
+   "property": "formation_energy",
+   "value": -0.18265547777764368,
+   "sem": 0.0,
+   "wall_s": 11.21329116821289,
+   "status": "ok"
+  },
+  "mp_12802_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.22076609566329353,
+   "sem": 0.0,
+   "wall_s": 452.0370364189148,
+   "status": "ok"
+  },
+  "mp_1183216_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.21466441849725015,
+   "sem": 0.0,
+   "wall_s": 171.74892854690552,
+   "status": "ok"
+  },
+  "mp_1008555_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.1977107554603208,
+   "sem": 0.0,
+   "wall_s": 36.21427059173584,
+   "status": "ok"
+  },
+  "mp_12777_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.195287513486619,
+   "sem": 0.0,
+   "wall_s": 212.72000670433044,
+   "status": "ok"
+  },
+  "mp_30_Cu": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 113.95528936386108,
+   "status": "ok"
+  },
+  "mp_989695_Cu": {
+   "property": "formation_energy",
+   "value": -0.0007624290283274604,
+   "sem": 0.0,
+   "wall_s": 718.0002110004425,
+   "status": "ok"
+  },
+  "mp_989782_Cu": {
+   "property": "formation_energy",
+   "value": -0.0024195684363803593,
+   "sem": 0.0,
+   "wall_s": 264.0414686203003,
+   "status": "ok"
+  },
+  "mp_998890_Cu": {
+   "property": "formation_energy",
+   "value": 0.02177700029915286,
+   "sem": 0.0,
+   "wall_s": 51.58395743370056,
+   "status": "ok"
+  },
+  "mp_1010136_Cu": {
+   "property": "formation_energy",
+   "value": 0.02194625512129278,
+   "sem": 0.0,
+   "wall_s": 59.288904905319214,
+   "status": "ok"
+  },
+  "mp_867317_Cu3Si": {
+   "property": "formation_energy",
+   "value": -0.08119357237993796,
+   "sem": 0.0,
+   "wall_s": 1013.4801471233368,
+   "status": "ok"
+  },
+  "mp_972828_Cu3Si": {
+   "property": "formation_energy",
+   "value": -0.06308283017907712,
+   "sem": 0.0,
+   "wall_s": 694.1781196594238,
+   "status": "ok"
+  },
+  "mp_1206157_Cu7Si2": {
+   "property": "formation_energy",
+   "value": -0.04555858783506039,
+   "sem": 0.0,
+   "wall_s": 779.6844518184662,
+   "status": "ok"
+  },
+  "mp_149_Si": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 75.45674419403076,
+   "status": "ok"
+  },
+  "mp_165_Si": {
+   "property": "formation_energy",
+   "value": 0.0016196217093806808,
+   "sem": 0.0,
+   "wall_s": 139.15159058570862,
+   "status": "ok"
+  },
+  "mp_1079297_Si": {
+   "property": "formation_energy",
+   "value": null,
+   "sem": null,
+   "wall_s": 5720.530111789703,
+   "status": "failed"
+  },
+  "fcc_Al3Cu_000": {
+   "property": "formation_energy",
+   "value": -0.058761798100064766,
+   "sem": 0.0,
+   "wall_s": 28.68058753013611,
+   "status": "ok"
+  },
+  "fcc_AlCu_001": {
+   "property": "formation_energy",
+   "value": -0.17428729622270112,
+   "sem": 0.0,
+   "wall_s": 50.90511131286621,
+   "status": "ok"
+  },
+  "fcc_Al3Si_002": {
+   "property": "formation_energy",
+   "value": 0.10718993621627959,
+   "sem": 0.0,
+   "wall_s": 15.340098142623901,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_003": {
+   "property": "formation_energy",
+   "value": 0.04808452633632143,
+   "sem": 0.0,
+   "wall_s": 105.76908421516418,
+   "status": "ok"
+  },
+  "fcc_AlSi_004": {
+   "property": "formation_energy",
+   "value": 0.21930785448171264,
+   "sem": 0.0,
+   "wall_s": 18.91232466697693,
+   "status": "ok"
+  },
+  "fcc_Al7Cu_005": {
+   "property": "formation_energy",
+   "value": -0.04024220482029506,
+   "sem": 0.0,
+   "wall_s": 152.78750038146973,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_006": {
+   "property": "formation_energy",
+   "value": -0.08069466862052366,
+   "sem": 0.0,
+   "wall_s": 591.9738981723785,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_007": {
+   "property": "formation_energy",
+   "value": -0.12370146524790471,
+   "sem": 0.0,
+   "wall_s": 75.47771620750427,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_008": {
+   "property": "formation_energy",
+   "value": -0.06356209071918784,
+   "sem": 0.0,
+   "wall_s": 176.28790593147278,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_009": {
+   "property": "formation_energy",
+   "value": -0.12222815576122059,
+   "sem": 0.0,
+   "wall_s": 820.2822494506836,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_010": {
+   "property": "formation_energy",
+   "value": -0.10668696775572073,
+   "sem": 0.0,
+   "wall_s": 577.0983901023865,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_011": {
+   "property": "formation_energy",
+   "value": -0.10725638301990159,
+   "sem": 0.0,
+   "wall_s": 293.41859698295593,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_012": {
+   "property": "formation_energy",
+   "value": -0.11783945236591364,
+   "sem": 0.0,
+   "wall_s": 325.8284947872162,
+   "status": "ok"
+  },
+  "fcc_AlCu_013": {
+   "property": "formation_energy",
+   "value": -0.10341044473807415,
+   "sem": 0.0,
+   "wall_s": 190.87194061279297,
+   "status": "ok"
+  },
+  "fcc_AlCu_014": {
+   "property": "formation_energy",
+   "value": -0.12986130675277607,
+   "sem": 0.0,
+   "wall_s": 323.72050523757935,
+   "status": "ok"
+  },
+  "fcc_AlCu_015": {
+   "property": "formation_energy",
+   "value": -0.1439998838539971,
+   "sem": 0.0,
+   "wall_s": 565.7315940856934,
+   "status": "ok"
+  },
+  "fcc_AlCu_016": {
+   "property": "formation_energy",
+   "value": -0.14501850808379757,
+   "sem": 0.0,
+   "wall_s": 324.36719489097595,
+   "status": "ok"
+  },
+  "fcc_AlCu_017": {
+   "property": "formation_energy",
+   "value": -0.159406494546932,
+   "sem": 0.0,
+   "wall_s": 246.34398221969604,
+   "status": "ok"
+  },
+  "fcc_AlCu_018": {
+   "property": "formation_energy",
+   "value": -0.16523699324261543,
+   "sem": 0.0,
+   "wall_s": 270.19317173957825,
+   "status": "ok"
+  },
+  "fcc_Al7Si_019": {
+   "property": "formation_energy",
+   "value": 0.048238304682918454,
+   "sem": 0.0,
+   "wall_s": 229.00704383850098,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_020": {
+   "property": "formation_energy",
+   "value": 0.016529709639101497,
+   "sem": 0.0,
+   "wall_s": 420.9226577281952,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_021": {
+   "property": "formation_energy",
+   "value": 0.012323951795224275,
+   "sem": 0.0,
+   "wall_s": 209.88924551010132,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_022": {
+   "property": "formation_energy",
+   "value": 0.005706465795356053,
+   "sem": 0.0,
+   "wall_s": 158.5498034954071,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_023": {
+   "property": "formation_energy",
+   "value": 0.013014950934689296,
+   "sem": 0.0,
+   "wall_s": 188.1386923789978,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_024": {
+   "property": "formation_energy",
+   "value": -0.061161485217624545,
+   "sem": 0.0,
+   "wall_s": 542.6687138080597,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_025": {
+   "property": "formation_energy",
+   "value": -0.02082779911809496,
+   "sem": 0.0,
+   "wall_s": 1183.3687393665314,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_026": {
+   "property": "formation_energy",
+   "value": -0.030853817373397874,
+   "sem": 0.0,
+   "wall_s": 1016.516916513443,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_027": {
+   "property": "formation_energy",
+   "value": 0.002776785909347268,
+   "sem": 0.0,
+   "wall_s": 1261.9608237743378,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_028": {
+   "property": "formation_energy",
+   "value": 0.00030306681439640215,
+   "sem": 0.0,
+   "wall_s": 630.3299360275269,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_029": {
+   "property": "formation_energy",
+   "value": -0.021564462365248005,
+   "sem": 0.0,
+   "wall_s": 1077.1699090003967,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_030": {
+   "property": "formation_energy",
+   "value": -0.012893282023924257,
+   "sem": 0.0,
+   "wall_s": 467.7149410247803,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_031": {
+   "property": "formation_energy",
+   "value": 0.004787316189322155,
+   "sem": 0.0,
+   "wall_s": 487.5367588996887,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_032": {
+   "property": "formation_energy",
+   "value": -0.07054414126628217,
+   "sem": 0.0,
+   "wall_s": 516.4552054405212,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_033": {
+   "property": "formation_energy",
+   "value": -0.07076793791098979,
+   "sem": 0.0,
+   "wall_s": 412.7768852710724,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_034": {
+   "property": "formation_energy",
+   "value": -0.07991132083894925,
+   "sem": 0.0,
+   "wall_s": 504.0395119190216,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_035": {
+   "property": "formation_energy",
+   "value": -0.058158725752367246,
+   "sem": 0.0,
+   "wall_s": 1058.6296162605286,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_036": {
+   "property": "formation_energy",
+   "value": -0.07315876432072699,
+   "sem": 0.0,
+   "wall_s": 520.6152794361115,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_037": {
+   "property": "formation_energy",
+   "value": -0.05864375170505198,
+   "sem": 0.0,
+   "wall_s": 590.011821269989,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_038": {
+   "property": "formation_energy",
+   "value": -0.0463562121459411,
+   "sem": 0.0,
+   "wall_s": 731.032666683197,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_039": {
+   "property": "formation_energy",
+   "value": -0.05408509619575241,
+   "sem": 0.0,
+   "wall_s": 322.8244867324829,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_040": {
+   "property": "formation_energy",
+   "value": -0.046532507914765375,
+   "sem": 0.0,
+   "wall_s": 806.7624359130859,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_041": {
+   "property": "formation_energy",
+   "value": -0.06552360648980837,
+   "sem": 0.0,
+   "wall_s": 755.65949010849,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_042": {
+   "property": "formation_energy",
+   "value": -0.05744112748276464,
+   "sem": 0.0,
+   "wall_s": 479.4147596359253,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_043": {
+   "property": "formation_energy",
+   "value": -0.07668816615238327,
+   "sem": 0.0,
+   "wall_s": 913.2746832370758,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_044": {
+   "property": "formation_energy",
+   "value": -0.05205211652206643,
+   "sem": 0.0,
+   "wall_s": 818.9273121356964,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_045": {
+   "property": "formation_energy",
+   "value": -0.054160097579018185,
+   "sem": 0.0,
+   "wall_s": 493.6168932914734,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_046": {
+   "property": "formation_energy",
+   "value": -0.060339021067875365,
+   "sem": 0.0,
+   "wall_s": 377.3922162055969,
+   "status": "ok"
+  },
+  "fcc_Al3Si_047": {
+   "property": "formation_energy",
+   "value": 0.10217212257828834,
+   "sem": 0.0,
+   "wall_s": 501.5149610042572,
+   "status": "ok"
+  },
+  "fcc_Al3Si_048": {
+   "property": "formation_energy",
+   "value": 0.09268262782425296,
+   "sem": 0.0,
+   "wall_s": 52.40763759613037,
+   "status": "ok"
+  },
+  "fcc_Al3Si_049": {
+   "property": "formation_energy",
+   "value": 0.09676787324136882,
+   "sem": 0.0,
+   "wall_s": 127.75962448120117,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_050": {
+   "property": "formation_energy",
+   "value": 0.08704174146969024,
+   "sem": 0.0,
+   "wall_s": 514.2333643436432,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_051": {
+   "property": "formation_energy",
+   "value": 0.06521254633059925,
+   "sem": 0.0,
+   "wall_s": 660.9627728462219,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_052": {
+   "property": "formation_energy",
+   "value": 0.06522785273534737,
+   "sem": 0.0,
+   "wall_s": 676.4155900478363,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_053": {
+   "property": "formation_energy",
+   "value": 0.08849416621767148,
+   "sem": 0.0,
+   "wall_s": 254.65520930290222,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_054": {
+   "property": "formation_energy",
+   "value": 0.0660492454363748,
+   "sem": 0.0,
+   "wall_s": 156.4279556274414,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_055": {
+   "property": "formation_energy",
+   "value": 0.07592818614891428,
+   "sem": 0.0,
+   "wall_s": 574.3691294193268,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_056": {
+   "property": "formation_energy",
+   "value": 0.07239820607526326,
+   "sem": 0.0,
+   "wall_s": 195.1017463207245,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_057": {
+   "property": "formation_energy",
+   "value": 0.0768457200788788,
+   "sem": 0.0,
+   "wall_s": 278.0040259361267,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_058": {
+   "property": "formation_energy",
+   "value": 0.06777262756293112,
+   "sem": 0.0,
+   "wall_s": 227.01185059547424,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_059": {
+   "property": "formation_energy",
+   "value": 0.054356172624135723,
+   "sem": 0.0,
+   "wall_s": 519.5667102336884,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_060": {
+   "property": "formation_energy",
+   "value": 0.04251197457541522,
+   "sem": 0.0,
+   "wall_s": 505.3491585254669,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_061": {
+   "property": "formation_energy",
+   "value": 0.056488779985453874,
+   "sem": 0.0,
+   "wall_s": 695.8144254684448,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_062": {
+   "property": "formation_energy",
+   "value": 0.07151645511806848,
+   "sem": 0.0,
+   "wall_s": 945.2810773849487,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_063": {
+   "property": "formation_energy",
+   "value": 0.046390889656219514,
+   "sem": 0.0,
+   "wall_s": 684.8382799625397,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_064": {
+   "property": "formation_energy",
+   "value": 0.017869887418783037,
+   "sem": 0.0,
+   "wall_s": 675.0612723827362,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_065": {
+   "property": "formation_energy",
+   "value": 0.021232194332014842,
+   "sem": 0.0,
+   "wall_s": 694.4736187458038,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_066": {
+   "property": "formation_energy",
+   "value": -0.0024102145223423577,
+   "sem": 0.0,
+   "wall_s": 745.2695376873016,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_067": {
+   "property": "formation_energy",
+   "value": 0.013782209984128713,
+   "sem": 0.0,
+   "wall_s": 766.848858833313,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_068": {
+   "property": "formation_energy",
+   "value": 0.030606176751540204,
+   "sem": 0.0,
+   "wall_s": 130.11997961997986,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_069": {
+   "property": "formation_energy",
+   "value": 0.04846407415301357,
+   "sem": 0.0,
+   "wall_s": 812.8796257972717,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_070": {
+   "property": "formation_energy",
+   "value": 0.07607858007930801,
+   "sem": 0.0,
+   "wall_s": 423.7216556072235,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_071": {
+   "property": "formation_energy",
+   "value": 0.06802565944066075,
+   "sem": 0.0,
+   "wall_s": 476.18783473968506,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_072": {
+   "property": "formation_energy",
+   "value": -0.005405167721086457,
+   "sem": 0.0,
+   "wall_s": 134.75697565078735,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_073": {
+   "property": "formation_energy",
+   "value": 0.012910935410797464,
+   "sem": 0.0,
+   "wall_s": 339.0142788887024,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_074": {
+   "property": "formation_energy",
+   "value": 0.03290394022009124,
+   "sem": 0.0,
+   "wall_s": 584.2659451961517,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_075": {
+   "property": "formation_energy",
+   "value": 0.056226887400168124,
+   "sem": 0.0,
+   "wall_s": 233.05820631980896,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_076": {
+   "property": "formation_energy",
+   "value": 0.00750381187107152,
+   "sem": 0.0,
+   "wall_s": 417.65884947776794,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_077": {
+   "property": "formation_energy",
+   "value": 0.029595528858987308,
+   "sem": 0.0,
+   "wall_s": 689.5068197250366,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_078": {
+   "property": "formation_energy",
+   "value": 0.05603790432259004,
+   "sem": 0.0,
+   "wall_s": 248.1224069595337,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_079": {
+   "property": "formation_energy",
+   "value": 0.05771535022798702,
+   "sem": 0.0,
+   "wall_s": 252.72811007499695,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_080": {
+   "property": "formation_energy",
+   "value": 0.03950623886506577,
+   "sem": 0.0,
+   "wall_s": 218.24412727355957,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_081": {
+   "property": "formation_energy",
+   "value": 0.15954171812954598,
+   "sem": 0.0,
+   "wall_s": 186.55998015403748,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_082": {
+   "property": "formation_energy",
+   "value": 0.14753268710876455,
+   "sem": 0.0,
+   "wall_s": 503.27045702934265,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_083": {
+   "property": "formation_energy",
+   "value": 0.15622112967305668,
+   "sem": 0.0,
+   "wall_s": 222.1337170600891,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_084": {
+   "property": "formation_energy",
+   "value": 0.15008149262284576,
+   "sem": 0.0,
+   "wall_s": 202.74548316001892,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_085": {
+   "property": "formation_energy",
+   "value": 0.14940028958245577,
+   "sem": 0.0,
+   "wall_s": 598.7328312397003,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_086": {
+   "property": "formation_energy",
+   "value": 0.1385669435114778,
+   "sem": 0.0,
+   "wall_s": 451.8270444869995,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_087": {
+   "property": "formation_energy",
+   "value": 0.13098753500787552,
+   "sem": 0.0,
+   "wall_s": 683.0221848487854,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_088": {
+   "property": "formation_energy",
+   "value": 0.14245325668798614,
+   "sem": 0.0,
+   "wall_s": 629.1671676635742,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_089": {
+   "property": "formation_energy",
+   "value": 0.1543564184091899,
+   "sem": 0.0,
+   "wall_s": 1079.8978924751282,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_090": {
+   "property": "formation_energy",
+   "value": 0.1422941551140866,
+   "sem": 0.0,
+   "wall_s": 1616.6279389858246,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_091": {
+   "property": "formation_energy",
+   "value": 0.12575813583475792,
+   "sem": 0.0,
+   "wall_s": 1403.6448259353638,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_092": {
+   "property": "formation_energy",
+   "value": 0.14170560684374323,
+   "sem": 0.0,
+   "wall_s": 886.392511844635,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_093": {
+   "property": "formation_energy",
+   "value": 0.1371636863369865,
+   "sem": 0.0,
+   "wall_s": 1746.2326996326447,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_094": {
+   "property": "formation_energy",
+   "value": 0.15243122983940793,
+   "sem": 0.0,
+   "wall_s": 801.705414056778,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_095": {
+   "property": "formation_energy",
+   "value": 0.12110561804990994,
+   "sem": 0.0,
+   "wall_s": 799.9379920959473,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_096": {
+   "property": "formation_energy",
+   "value": 0.12514166187929732,
+   "sem": 0.0,
+   "wall_s": 847.7963154315948,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_097": {
+   "property": "formation_energy",
+   "value": 0.1462746707084186,
+   "sem": 0.0,
+   "wall_s": 990.7282152175903,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_098": {
+   "property": "formation_energy",
+   "value": 0.12148460463185984,
+   "sem": 0.0,
+   "wall_s": 565.515031337738,
+   "status": "ok"
+  },
+  "fcc_AlSi_099": {
+   "property": "formation_energy",
+   "value": 0.22814322152463262,
+   "sem": 0.0,
+   "wall_s": 61.969226598739624,
+   "status": "ok"
+  },
+  "fcc_AlSi_100": {
+   "property": "formation_energy",
+   "value": 0.21578204115159494,
+   "sem": 0.0,
+   "wall_s": 153.9019250869751,
+   "status": "ok"
+  },
+  "fcc_AlSi_101": {
+   "property": "formation_energy",
+   "value": 0.21131323423822934,
+   "sem": 0.0,
+   "wall_s": 508.75045442581177,
+   "status": "ok"
+  },
+  "fcc_AlSi_102": {
+   "property": "formation_energy",
+   "value": 0.21001875458027186,
+   "sem": 0.0,
+   "wall_s": 224.7464406490326,
+   "status": "ok"
+  },
+  "fcc_AlSi_103": {
+   "property": "formation_energy",
+   "value": 0.21109700576026214,
+   "sem": 0.0,
+   "wall_s": 163.94982862472534,
+   "status": "ok"
+  },
+  "fcc_AlSi_104": {
+   "property": "formation_energy",
+   "value": 0.21028996706556313,
+   "sem": 0.0,
+   "wall_s": 133.4691197872162,
+   "status": "ok"
+  },
+  "fcc_Al7Cu_105": {
+   "property": "formation_energy",
+   "value": -0.03808706302960019,
+   "sem": 0.0,
+   "wall_s": 60.50670075416565,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_106": {
+   "property": "formation_energy",
+   "value": -0.07019653281417959,
+   "sem": 0.0,
+   "wall_s": 145.47492241859436,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_107": {
+   "property": "formation_energy",
+   "value": -0.09988350893816289,
+   "sem": 0.0,
+   "wall_s": 330.486679315567,
+   "status": "ok"
+  },
+  "fcc_Al5Cu3_108": {
+   "property": "formation_energy",
+   "value": -0.09504469520022951,
+   "sem": 0.0,
+   "wall_s": 279.1260483264923,
+   "status": "ok"
+  },
+  "fcc_AlCu_109": {
+   "property": "formation_energy",
+   "value": -0.13897596466085815,
+   "sem": 0.0,
+   "wall_s": 137.21047401428223,
+   "status": "ok"
+  },
+  "fcc_AlCu_110": {
+   "property": "formation_energy",
+   "value": -0.09643145547157772,
+   "sem": 0.0,
+   "wall_s": 114.13555073738098,
+   "status": "ok"
+  },
+  "fcc_AlCu_111": {
+   "property": "formation_energy",
+   "value": -0.13428606523426723,
+   "sem": 0.0,
+   "wall_s": 679.13316655159,
+   "status": "ok"
+  },
+  "fcc_Al7Si_112": {
+   "property": "formation_energy",
+   "value": 0.04851438120351048,
+   "sem": 0.0,
+   "wall_s": 35.71742796897888,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_113": {
+   "property": "formation_energy",
+   "value": 0.025695184811482363,
+   "sem": 0.0,
+   "wall_s": 591.5286016464233,
+   "status": "ok"
+  },
+  "fcc_Al6CuSi_114": {
+   "property": "formation_energy",
+   "value": 0.0026594538134077084,
+   "sem": 0.0,
+   "wall_s": 62.969096660614014,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_115": {
+   "property": "formation_energy",
+   "value": -0.01804774784234553,
+   "sem": 0.0,
+   "wall_s": 1321.3891999721527,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_116": {
+   "property": "formation_energy",
+   "value": -0.009971459425813123,
+   "sem": 0.0,
+   "wall_s": 459.121778011322,
+   "status": "ok"
+  },
+  "fcc_Al5Cu2Si_117": {
+   "property": "formation_energy",
+   "value": -0.03506726243388414,
+   "sem": 0.0,
+   "wall_s": 740.8076105117798,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_118": {
+   "property": "formation_energy",
+   "value": -0.05670711734579825,
+   "sem": 0.0,
+   "wall_s": 409.9840486049652,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_119": {
+   "property": "formation_energy",
+   "value": -0.038798402680289,
+   "sem": 0.0,
+   "wall_s": 633.4732990264893,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_120": {
+   "property": "formation_energy",
+   "value": -0.040025619192750383,
+   "sem": 0.0,
+   "wall_s": 2459.880875825882,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_121": {
+   "property": "formation_energy",
+   "value": -0.05846718382246152,
+   "sem": 0.0,
+   "wall_s": 1919.230993270874,
+   "status": "ok"
+  },
+  "fcc_Al4Cu3Si_122": {
+   "property": "formation_energy",
+   "value": -0.062166571782530156,
+   "sem": 0.0,
+   "wall_s": 640.202358007431,
+   "status": "ok"
+  },
+  "fcc_Al3Si_123": {
+   "property": "formation_energy",
+   "value": 0.09939615301039595,
+   "sem": 0.0,
+   "wall_s": 73.00705099105835,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_124": {
+   "property": "formation_energy",
+   "value": 0.09249328759737807,
+   "sem": 0.0,
+   "wall_s": 829.6296575069427,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_125": {
+   "property": "formation_energy",
+   "value": 0.0715912354090733,
+   "sem": 0.0,
+   "wall_s": 594.9844591617584,
+   "status": "ok"
+  },
+  "fcc_Al5CuSi2_126": {
+   "property": "formation_energy",
+   "value": 0.08310432190846484,
+   "sem": 0.0,
+   "wall_s": 333.3797347545624,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_127": {
+   "property": "formation_energy",
+   "value": 0.04094109526189271,
+   "sem": 0.0,
+   "wall_s": 193.12507820129395,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_128": {
+   "property": "formation_energy",
+   "value": 0.05281937557164085,
+   "sem": 0.0,
+   "wall_s": 391.0321750640869,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_129": {
+   "property": "formation_energy",
+   "value": 0.06113740314061644,
+   "sem": 0.0,
+   "wall_s": 604.024652004242,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_130": {
+   "property": "formation_energy",
+   "value": 0.033202755255285155,
+   "sem": 0.0,
+   "wall_s": 1590.8921535015106,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_131": {
+   "property": "formation_energy",
+   "value": 0.008007256530923712,
+   "sem": 0.0,
+   "wall_s": 113.64378809928894,
+   "status": "ok"
+  },
+  "fcc_Al2CuSi_132": {
+   "property": "formation_energy",
+   "value": 0.05521683475684469,
+   "sem": 0.0,
+   "wall_s": 520.9767248630524,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_133": {
+   "property": "formation_energy",
+   "value": 0.16023736021180923,
+   "sem": 0.0,
+   "wall_s": 109.16276860237122,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_134": {
+   "property": "formation_energy",
+   "value": 0.1522597981060585,
+   "sem": 0.0,
+   "wall_s": 148.68781161308289,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_135": {
+   "property": "formation_energy",
+   "value": 0.16481639024653916,
+   "sem": 0.0,
+   "wall_s": 660.2493824958801,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_136": {
+   "property": "formation_energy",
+   "value": 0.15996614772643625,
+   "sem": 0.0,
+   "wall_s": 539.7932932376862,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_137": {
+   "property": "formation_energy",
+   "value": 0.1411462427852257,
+   "sem": 0.0,
+   "wall_s": 1549.3645994663239,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_138": {
+   "property": "formation_energy",
+   "value": 0.15436072120963829,
+   "sem": 0.0,
+   "wall_s": 2418.0501210689545,
+   "status": "ok"
+  },
+  "fcc_Al4CuSi3_139": {
+   "property": "formation_energy",
+   "value": 0.1341698045866906,
+   "sem": 0.0,
+   "wall_s": 483.2064063549042,
+   "status": "ok"
+  },
+  "fcc_AlSi_140": {
+   "property": "formation_energy",
+   "value": 0.23121752992845757,
+   "sem": 0.0,
+   "wall_s": 167.07024717330933,
+   "status": "ok"
+  },
+  "fcc_AlSi_141": {
+   "property": "formation_energy",
+   "value": 0.2198264014608604,
+   "sem": 0.0,
+   "wall_s": 40.24418354034424,
+   "status": "ok"
+  },
+  "fcc_AlSi_142": {
+   "property": "formation_energy",
+   "value": 0.2203797960215148,
+   "sem": 0.0,
+   "wall_s": 362.7037093639374,
+   "status": "ok"
+  },
+  "_reference_wall_s": {
+   "mp_134_Al": 40.894333362579346,
+   "mp_149_Si": 75.45674419403076,
+   "mp_30_Cu": 113.95528936386108
+  }
+ },
+ "archive_mp": {
+  "mp_134_Al": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_1183144_Al": {
+   "property": "formation_energy",
+   "value": 0.010480727500000064,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_2647008_Al": {
+   "property": "formation_energy",
+   "value": 0.03207822500000024,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_985806_Al2Cu": {
+   "property": "formation_energy",
+   "value": -0.21265698333333324,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_998_Al2Cu": {
+   "property": "formation_energy",
+   "value": -0.16506810666666638,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_985825_Al3Cu": {
+   "property": "formation_energy",
+   "value": -0.1030184899999993,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_1183161_Al3Cu": {
+   "property": "formation_energy",
+   "value": -0.06324690249999954,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_10886_Al3Cu2": {
+   "property": "formation_energy",
+   "value": -0.19531484999999976,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_2500_AlCu": {
+   "property": "formation_energy",
+   "value": -0.24248409000000065,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_1022721_AlCu": {
+   "property": "formation_energy",
+   "value": -0.16842285199999907,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_12802_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.20196853000000026,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_1183216_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.19943870250000018,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_1008555_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.19345201249999988,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_12777_AlCu3": {
+   "property": "formation_energy",
+   "value": -0.18091732749999956,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_30_Cu": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_989695_Cu": {
+   "property": "formation_energy",
+   "value": 0.007716539999998773,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_989782_Cu": {
+   "property": "formation_energy",
+   "value": 0.012339934999999969,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_998890_Cu": {
+   "property": "formation_energy",
+   "value": 0.033066179999998724,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_1010136_Cu": {
+   "property": "formation_energy",
+   "value": 0.035562810000000056,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_867317_Cu3Si": {
+   "property": "formation_energy",
+   "value": -0.04622685250000025,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_972828_Cu3Si": {
+   "property": "formation_energy",
+   "value": -0.038787216250000256,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_1206157_Cu7Si2": {
+   "property": "formation_energy",
+   "value": -0.008602459037037293,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_149_Si": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_165_Si": {
+   "property": "formation_energy",
+   "value": 0.01360687000000027,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "mp_1079297_Si": {
+   "property": "formation_energy",
+   "value": 0.08220610625000013,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_000": {
+   "property": "formation_energy",
+   "value": -0.06324690249999954,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  },
+  "fcc_Al3Cu_007": {
+   "property": "formation_energy",
+   "value": -0.1030184899999993,
+   "sem": 0.0,
+   "wall_s": 0.0,
+   "status": "ok"
+  }
+ }
+}

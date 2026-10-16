@@ -1,0 +1,43 @@
+{
+ "cid": "arc_SrTiO3_mp-5229",
+ "source": "qe_pbe",
+ "natoms": 5,
+ "formula": "O3SrTi",
+ "volume_per_atom": 12.169137553222317,
+ "device": "cpu:16",
+ "node": "notch307",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 40.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.8664866658808457,
+ "gap_eV": 1.8664866658808457,
+ "vbm_eV": 9.749899232367621,
+ "cbm_eV": 11.616385898248467,
+ "direct_on_mesh": false,
+ "nk_irr": 35,
+ "status": "ok",
+ "wall_s": 34.279311180114746,
+ "core_s": 548.4689788818359,
+ "qe_cpu_s": 30.869999999999997,
+ "qe_wall_s": 33.07,
+ "energy_per_atom": -781.1945265487968
+}

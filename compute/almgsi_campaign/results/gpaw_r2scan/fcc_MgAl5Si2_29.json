@@ -1,0 +1,27 @@
+{
+ "cid": "fcc_MgAl5Si2_29",
+ "source": "gpaw_pool_r2scan_700",
+ "status": "ok",
+ "energy": -53.27471108523974,
+ "energy_per_atom": -6.659338885654967,
+ "natoms": 8,
+ "formula": "Al5MgSi2",
+ "wall_s": 50.0534135280177,
+ "core_s": 800.8546164482832,
+ "ncores": 16,
+ "node": "notch373",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "MGGA_X_R2SCAN+MGGA_C_R2SCAN",
+  "ecut_eV": 700.0,
+  "kpts": [
+   6,
+   6,
+   3
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

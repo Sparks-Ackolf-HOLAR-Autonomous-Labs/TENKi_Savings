@@ -1,0 +1,43 @@
+{
+ "cid": "arc_LiMgAs_mp-12558",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "AsLiMg",
+ "volume_per_atom": 19.925685634608357,
+ "device": "cpu:16",
+ "node": "notch223",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 28.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.3752130859445701,
+ "gap_eV": 1.3752130859445701,
+ "vbm_eV": 5.514323154031685,
+ "cbm_eV": 6.889536239976255,
+ "direct_on_mesh": false,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 136.54756879806519,
+ "core_s": 2184.761100769043,
+ "qe_cpu_s": 127.6,
+ "qe_wall_s": 135.19,
+ "energy_per_atom": -1566.9227743329666
+}

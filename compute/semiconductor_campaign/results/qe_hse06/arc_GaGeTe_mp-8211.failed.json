@@ -1,0 +1,39 @@
+{
+ "cid": "arc_GaGeTe_mp-8211",
+ "source": "qe_hse06",
+ "natoms": 6,
+ "formula": "Ga2Ge2Te2",
+ "volume_per_atom": 29.88639516210286,
+ "device": "cpu:16",
+ "node": "notch429",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 86.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "status": "failed",
+ "wall_s": 1334.916264295578,
+ "core_s": 21358.660228729248,
+ "qe_cpu_s": null,
+ "qe_wall_s": null,
+ "error": "rc=137; tail:      ACE projected onto    47 (nbndproj) and applied to    47 (nbnd) bands | -------------------------------------------------------------------------- | prterun noticed that process rank 0 with PID 4193869 on node notch429 exited on | signal 9 (Killed). | --------------------------------------------------------------------------"
+}

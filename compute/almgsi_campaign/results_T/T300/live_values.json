@@ -1,0 +1,4022 @@
+{
+ "gpumd_nep89_md": {
+  "mp_134_Al": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.00044354526427437565,
+   "wall_s": 33.723614055197686,
+   "status": "ok"
+  },
+  "mp_1183144_Al": {
+   "property": "formation_energy",
+   "value": 0.011010000374812812,
+   "sem": 0.0008464525464526029,
+   "wall_s": 32.72002382809296,
+   "status": "ok"
+  },
+  "mp_2647008_Al": {
+   "property": "formation_energy",
+   "value": 0.023901667001721805,
+   "sem": 0.0007489881382548348,
+   "wall_s": 32.015427036210895,
+   "status": "ok"
+  },
+  "mp_153_Mg": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0011035127438069332,
+   "wall_s": 30.907756225205958,
+   "status": "ok"
+  },
+  "mp_1094122_Mg": {
+   "property": "formation_energy",
+   "value": 0.0020509066844909274,
+   "sem": 0.0012644516995690314,
+   "wall_s": 31.66253886697814,
+   "status": "ok"
+  },
+  "mp_973364_Mg": {
+   "property": "formation_energy",
+   "value": 0.003859659065104548,
+   "sem": 0.0009243849144596087,
+   "wall_s": 31.463467814959586,
+   "status": "ok"
+  },
+  "mp_1056702_Mg": {
+   "property": "formation_energy",
+   "value": 0.007640101656250398,
+   "sem": 0.0009886352091878123,
+   "wall_s": 30.158424815163016,
+   "status": "ok"
+  },
+  "mp_1056351_Mg": {
+   "property": "formation_energy",
+   "value": 0.011775268725583654,
+   "sem": 0.0010293299758166927,
+   "wall_s": 30.359492130111903,
+   "status": "ok"
+  },
+  "mp_110_Mg": {
+   "property": "formation_energy",
+   "value": 0.010572281684917195,
+   "sem": 0.0013543526947421103,
+   "wall_s": 30.85949676297605,
+   "status": "ok"
+  },
+  "mp_3833_Mg(AlSi)2": {
+   "property": "formation_energy",
+   "value": -0.02277236469361643,
+   "sem": 0.005296408707172314,
+   "wall_s": 27.001755068078637,
+   "status": "ok"
+  },
+  "mp_1028210_Mg14AlSi": {
+   "property": "formation_energy",
+   "value": -0.015008269166992882,
+   "sem": 0.0009056576552139248,
+   "wall_s": 7.1536948452703655,
+   "status": "ok"
+  },
+  "mp_1028217_Mg14AlSi": {
+   "property": "formation_energy",
+   "value": -0.012425212726368262,
+   "sem": 0.0008042417894546085,
+   "wall_s": 7.056989793665707,
+   "status": "ok"
+  },
+  "mp_1023506_Mg15Al": {
+   "property": "formation_energy",
+   "value": -0.004184225468598479,
+   "sem": 0.0011200299941858537,
+   "wall_s": 6.956408657133579,
+   "status": "ok"
+  },
+  "mp_1023509_Mg15Si": {
+   "property": "formation_energy",
+   "value": -0.009471331501518687,
+   "sem": 0.0013321307578345058,
+   "wall_s": 6.906962777022272,
+   "status": "ok"
+  },
+  "mp_1367_Mg2Si": {
+   "property": "formation_energy",
+   "value": 0.0887590569117287,
+   "sem": 0.001243004126052839,
+   "wall_s": 8.220451018307358,
+   "status": "ok"
+  },
+  "mp_1101851_Mg2Si": {
+   "property": "formation_energy",
+   "value": -0.07070924769907405,
+   "sem": 0.0009056449770932749,
+   "wall_s": 6.807987681124359,
+   "status": "ok"
+  },
+  "mp_1074652_Mg2Si": {
+   "property": "formation_energy",
+   "value": -0.07365401125555593,
+   "sem": 0.004107336591751409,
+   "wall_s": 4.679848948027939,
+   "status": "ok"
+  },
+  "mp_978271_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.014369854230646073,
+   "sem": 0.0008747996784266959,
+   "wall_s": 4.326650117058307,
+   "status": "ok"
+  },
+  "mp_1094970_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.019490580640368016,
+   "sem": 0.0011536571512996,
+   "wall_s": 7.499142047949135,
+   "status": "ok"
+  },
+  "mp_1094961_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.011565910925707357,
+   "sem": 0.0009264342900828635,
+   "wall_s": 7.534709651954472,
+   "status": "ok"
+  },
+  "mp_1016233_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.00012816967231232823,
+   "sem": 0.000818255479986665,
+   "wall_s": 5.294078818988055,
+   "status": "ok"
+  },
+  "mp_1094666_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.004299732206571871,
+   "sem": 0.0007502024604801237,
+   "wall_s": 8.662887583021075,
+   "status": "ok"
+  },
+  "mp_1016271_Mg7Al": {
+   "property": "formation_energy",
+   "value": -0.010020700537197835,
+   "sem": 0.0012884899819580352,
+   "wall_s": 7.855456201825291,
+   "status": "ok"
+  },
+  "mp_1094987_MgAl": {
+   "property": "formation_energy",
+   "value": -0.013805002867540939,
+   "sem": 0.0006891132131168148,
+   "wall_s": 4.69007171317935,
+   "status": "ok"
+  },
+  "mp_1039019_MgAl": {
+   "property": "formation_energy",
+   "value": 0.029143326976208694,
+   "sem": 0.0012988963391627516,
+   "wall_s": 7.158309801016003,
+   "status": "ok"
+  },
+  "mp_1038779_MgAl": {
+   "property": "formation_energy",
+   "value": 0.03965597599547932,
+   "sem": 0.0011708355637578,
+   "wall_s": 8.262782324105501,
+   "status": "ok"
+  },
+  "mp_1038934_MgAl": {
+   "property": "formation_energy",
+   "value": 0.010101884307458509,
+   "sem": 0.0006874748052130292,
+   "wall_s": 3.7822479619644582,
+   "status": "ok"
+  },
+  "mp_1094116_MgAl2": {
+   "property": "formation_energy",
+   "value": -0.01497785843797228,
+   "sem": 0.0009825778645329625,
+   "wall_s": 6.957607442047447,
+   "status": "ok"
+  },
+  "mp_1102064_MgAl2": {
+   "property": "formation_energy",
+   "value": -0.00048015577115201324,
+   "sem": 0.001182988414513243,
+   "wall_s": 6.955205349717289,
+   "status": "ok"
+  },
+  "mp_1222013_MgAl2": {
+   "property": "formation_energy",
+   "value": 0.043181555230082935,
+   "sem": 0.0006113146816722657,
+   "wall_s": 8.410281094256788,
+   "status": "ok"
+  },
+  "mp_1038916_MgAl3": {
+   "property": "formation_energy",
+   "value": -0.00723557302897504,
+   "sem": 0.0008194259127543862,
+   "wall_s": 7.9614576222375035,
+   "status": "ok"
+  },
+  "mp_1039119_MgAl3": {
+   "property": "formation_energy",
+   "value": -0.0039929183836049376,
+   "sem": 0.00045809794271263466,
+   "wall_s": 7.309102863073349,
+   "status": "ok"
+  },
+  "mp_4499_MgAlSi": {
+   "property": "formation_energy",
+   "value": -0.10655281375937964,
+   "sem": 0.0006047995276306407,
+   "wall_s": 3.730152583681047,
+   "status": "ok"
+  },
+  "mp_1073794_MgSi": {
+   "property": "formation_energy",
+   "value": -0.11354102789232234,
+   "sem": 0.0009623306797243479,
+   "wall_s": 6.189020294230431,
+   "status": "ok"
+  },
+  "mp_149_Si": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0012731061175712088,
+   "wall_s": 7.040632889140397,
+   "status": "ok"
+  },
+  "mp_165_Si": {
+   "property": "formation_energy",
+   "value": 0.005892847047221927,
+   "sem": 0.0010015277813753402,
+   "wall_s": 5.705775229725987,
+   "status": "ok"
+  },
+  "mp_1079297_Si": {
+   "property": "formation_energy",
+   "value": 0.10122455623402882,
+   "sem": 0.003727889614766984,
+   "wall_s": 7.194094858132303,
+   "status": "ok"
+  },
+  "fcc_Al3Si_00": {
+   "property": "formation_energy",
+   "value": -0.035018711408045355,
+   "sem": 0.0012389823213538387,
+   "wall_s": 5.5870087668299675,
+   "status": "ok"
+  },
+  "fcc_AlSi_01": {
+   "property": "formation_energy",
+   "value": -0.018152773314416226,
+   "sem": 0.0005643909805231229,
+   "wall_s": 8.598714436870068,
+   "status": "ok"
+  },
+  "fcc_MgAl3_02": {
+   "property": "formation_energy",
+   "value": -0.009969466875424882,
+   "sem": 0.0008457129585898948,
+   "wall_s": 5.687318907119334,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_03": {
+   "property": "formation_energy",
+   "value": -0.08370779700077868,
+   "sem": 0.0005694060831099851,
+   "wall_s": 4.235255809966475,
+   "status": "ok"
+  },
+  "fcc_MgAl_04": {
+   "property": "formation_energy",
+   "value": -0.009135367373097059,
+   "sem": 0.0011399974825281281,
+   "wall_s": 7.889080249704421,
+   "status": "ok"
+  },
+  "fcc_Al7Si_05": {
+   "property": "formation_energy",
+   "value": -0.016730317181942844,
+   "sem": 0.000722811840596936,
+   "wall_s": 5.5438720472157,
+   "status": "ok"
+  },
+  "fcc_Al3Si_06": {
+   "property": "formation_energy",
+   "value": -0.022385353436439992,
+   "sem": 0.0018703099695411031,
+   "wall_s": 5.2822991302236915,
+   "status": "ok"
+  },
+  "fcc_Al3Si_07": {
+   "property": "formation_energy",
+   "value": -0.028899560518847345,
+   "sem": 0.0006558628172053419,
+   "wall_s": 9.90501751517877,
+   "status": "ok"
+  },
+  "fcc_Al3Si_08": {
+   "property": "formation_energy",
+   "value": -0.026847683495699215,
+   "sem": 0.0004057469295206045,
+   "wall_s": 10.45905179111287,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_09": {
+   "property": "formation_energy",
+   "value": -0.014523376164548463,
+   "sem": 0.0010858575569159768,
+   "wall_s": 6.438360346946865,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_10": {
+   "property": "formation_energy",
+   "value": -0.019854098190010827,
+   "sem": 0.0022887832252905037,
+   "wall_s": 6.590116620063782,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_11": {
+   "property": "formation_energy",
+   "value": -0.0107859211765855,
+   "sem": 0.0022013868645333013,
+   "wall_s": 6.752375890966505,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_12": {
+   "property": "formation_energy",
+   "value": -0.024963345995567376,
+   "sem": 0.002162968240006457,
+   "wall_s": 5.487231411039829,
+   "status": "ok"
+  },
+  "fcc_AlSi_13": {
+   "property": "formation_energy",
+   "value": -0.015248262203652718,
+   "sem": 0.0025105957334938906,
+   "wall_s": 10.1187225705944,
+   "status": "ok"
+  },
+  "fcc_AlSi_14": {
+   "property": "formation_energy",
+   "value": -0.0036407545315451095,
+   "sem": 0.0028673697783183423,
+   "wall_s": 6.539633144624531,
+   "status": "ok"
+  },
+  "fcc_AlSi_15": {
+   "property": "formation_energy",
+   "value": -0.002333895671824404,
+   "sem": 0.0023293926109974445,
+   "wall_s": 6.443592855706811,
+   "status": "ok"
+  },
+  "fcc_AlSi_16": {
+   "property": "formation_energy",
+   "value": 0.007584680761508533,
+   "sem": 0.002702366841145644,
+   "wall_s": 5.0408691870979965,
+   "status": "ok"
+  },
+  "fcc_AlSi_17": {
+   "property": "formation_energy",
+   "value": 0.004699314922156805,
+   "sem": 0.002628800148762497,
+   "wall_s": 5.444559900090098,
+   "status": "ok"
+  },
+  "fcc_AlSi_18": {
+   "property": "formation_energy",
+   "value": 0.0010097096326515675,
+   "sem": 0.0007698899626585333,
+   "wall_s": 11.767887488007545,
+   "status": "ok"
+  },
+  "fcc_MgAl7_19": {
+   "property": "formation_energy",
+   "value": -0.0009820232812192131,
+   "sem": 0.0005579334624425026,
+   "wall_s": 5.587802181951702,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_20": {
+   "property": "formation_energy",
+   "value": -0.029615901043124726,
+   "sem": 0.0005293814890240062,
+   "wall_s": 5.5891170729883015,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_21": {
+   "property": "formation_energy",
+   "value": -0.0346627445528469,
+   "sem": 0.0005527451387059565,
+   "wall_s": 5.647417429834604,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_22": {
+   "property": "formation_energy",
+   "value": -0.027086277534789538,
+   "sem": 0.00044943278916067153,
+   "wall_s": 5.551490629091859,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_23": {
+   "property": "formation_energy",
+   "value": -0.024578216338957404,
+   "sem": 0.000623754998164807,
+   "wall_s": 5.644603414926678,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_24": {
+   "property": "formation_energy",
+   "value": -0.037938900229565586,
+   "sem": 0.00046802090601267594,
+   "wall_s": 5.687875965144485,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_25": {
+   "property": "formation_energy",
+   "value": -0.03933895536475118,
+   "sem": 0.0005267284785072513,
+   "wall_s": 5.68460483988747,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_26": {
+   "property": "formation_energy",
+   "value": -0.03422464314669549,
+   "sem": 0.0009504949129346885,
+   "wall_s": 5.641392229124904,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_27": {
+   "property": "formation_energy",
+   "value": -0.04833284918095471,
+   "sem": 0.0011156384116102213,
+   "wall_s": 5.645757768303156,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_28": {
+   "property": "formation_energy",
+   "value": -0.03700488886428799,
+   "sem": 0.0013429468663153676,
+   "wall_s": 5.639267235994339,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_29": {
+   "property": "formation_energy",
+   "value": -0.033390670629565466,
+   "sem": 0.0009422606169106649,
+   "wall_s": 5.645130310207605,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_30": {
+   "property": "formation_energy",
+   "value": -0.040527670305492425,
+   "sem": 0.0009650124554274061,
+   "wall_s": 5.638056085444987,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_31": {
+   "property": "formation_energy",
+   "value": -0.0542522324601209,
+   "sem": 0.0005316087045132237,
+   "wall_s": 5.638678480871022,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_32": {
+   "property": "formation_energy",
+   "value": -0.03860804042678856,
+   "sem": 0.0005208456126527571,
+   "wall_s": 5.64385565277189,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_33": {
+   "property": "formation_energy",
+   "value": -0.03271276251786004,
+   "sem": 0.000977898096178794,
+   "wall_s": 5.788445506710559,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_34": {
+   "property": "formation_energy",
+   "value": -0.02682475176878585,
+   "sem": 0.001184680622996444,
+   "wall_s": 5.781750787049532,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_35": {
+   "property": "formation_energy",
+   "value": -0.0374308015086009,
+   "sem": 0.0016255177707101215,
+   "wall_s": 5.685035571921617,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_36": {
+   "property": "formation_energy",
+   "value": -0.025887601449804176,
+   "sem": 0.0008267594537409197,
+   "wall_s": 5.640748227015138,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_37": {
+   "property": "formation_energy",
+   "value": -0.03252161408637866,
+   "sem": 0.0007131209828929418,
+   "wall_s": 5.886259301099926,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_38": {
+   "property": "formation_energy",
+   "value": -0.042674577398415625,
+   "sem": 0.0009797557771716449,
+   "wall_s": 5.939085468184203,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_39": {
+   "property": "formation_energy",
+   "value": -0.030966705114618964,
+   "sem": 0.0004707018871744121,
+   "wall_s": 5.8350476808846,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_40": {
+   "property": "formation_energy",
+   "value": -0.04598139536322998,
+   "sem": 0.0011891329007222373,
+   "wall_s": 5.946253426373005,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_41": {
+   "property": "formation_energy",
+   "value": -0.04031248051461889,
+   "sem": 0.000949068505522475,
+   "wall_s": 5.294154776260257,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_42": {
+   "property": "formation_energy",
+   "value": -0.02467226600721295,
+   "sem": 0.000859698769545657,
+   "wall_s": 5.143895505927503,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_43": {
+   "property": "formation_energy",
+   "value": -0.0338123809720261,
+   "sem": 0.0007787618324046378,
+   "wall_s": 4.991945422720164,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_44": {
+   "property": "formation_energy",
+   "value": -0.03874991190443344,
+   "sem": 0.0011946008331194147,
+   "wall_s": 4.9960920750163496,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_45": {
+   "property": "formation_energy",
+   "value": -0.02701044482850934,
+   "sem": 0.0010065638964683954,
+   "wall_s": 5.4946902501396835,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_46": {
+   "property": "formation_energy",
+   "value": -0.050972847794712006,
+   "sem": 0.001092920914406357,
+   "wall_s": 4.539389613084495,
+   "status": "ok"
+  },
+  "fcc_MgAl3_47": {
+   "property": "formation_energy",
+   "value": -0.0033639635243454258,
+   "sem": 0.0005682073208506071,
+   "wall_s": 4.591065409127623,
+   "status": "ok"
+  },
+  "fcc_MgAl3_48": {
+   "property": "formation_energy",
+   "value": 0.006598408307541825,
+   "sem": 0.00043061284559927135,
+   "wall_s": 9.11306063272059,
+   "status": "ok"
+  },
+  "fcc_MgAl3_49": {
+   "property": "formation_energy",
+   "value": -0.006544824409993544,
+   "sem": 0.0008379606495544772,
+   "wall_s": 11.32209195382893,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_50": {
+   "property": "formation_energy",
+   "value": -0.04285150602930532,
+   "sem": 0.0005625589508696536,
+   "wall_s": 5.698830361943692,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_51": {
+   "property": "formation_energy",
+   "value": -0.03236450354134224,
+   "sem": 0.0006772054664502172,
+   "wall_s": 5.701806480064988,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_52": {
+   "property": "formation_energy",
+   "value": -0.029204560075601904,
+   "sem": 0.0009517188267473689,
+   "wall_s": 5.800284013617784,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_53": {
+   "property": "formation_energy",
+   "value": -0.027012596654768295,
+   "sem": 0.0006401520911927884,
+   "wall_s": 5.643391754012555,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_54": {
+   "property": "formation_energy",
+   "value": -0.017116816395046808,
+   "sem": 0.0006691130423938926,
+   "wall_s": 5.702109009027481,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_55": {
+   "property": "formation_energy",
+   "value": -0.0476755246853231,
+   "sem": 0.0013772214743510336,
+   "wall_s": 5.70127713913098,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_56": {
+   "property": "formation_energy",
+   "value": -0.04507149325476911,
+   "sem": 0.0006028365394566209,
+   "wall_s": 5.7501635872758925,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_57": {
+   "property": "formation_energy",
+   "value": -0.044196676723749384,
+   "sem": 0.0010615349586236913,
+   "wall_s": 5.8015406262129545,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_58": {
+   "property": "formation_energy",
+   "value": -0.04688769755708355,
+   "sem": 0.00034088159855973484,
+   "wall_s": 5.698009822051972,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_59": {
+   "property": "formation_energy",
+   "value": -0.06191478850093324,
+   "sem": 0.0003885039757525517,
+   "wall_s": 5.148868599906564,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_60": {
+   "property": "formation_energy",
+   "value": -0.048659341087043284,
+   "sem": 0.000688153765988671,
+   "wall_s": 4.290551424026489,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_61": {
+   "property": "formation_energy",
+   "value": -0.055668644298618286,
+   "sem": 0.0008682066129502645,
+   "wall_s": 4.741679946426302,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_62": {
+   "property": "formation_energy",
+   "value": -0.06638477516713692,
+   "sem": 0.0011953265120711138,
+   "wall_s": 4.640852109063417,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_63": {
+   "property": "formation_energy",
+   "value": -0.04811927170139629,
+   "sem": 0.001495344581728114,
+   "wall_s": 5.496655925177038,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_64": {
+   "property": "formation_energy",
+   "value": -0.0409636698597291,
+   "sem": 0.0008422317334249765,
+   "wall_s": 5.499467560555786,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_65": {
+   "property": "formation_energy",
+   "value": -0.04202985531019321,
+   "sem": 0.0006718853612658947,
+   "wall_s": 4.989436683245003,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_66": {
+   "property": "formation_energy",
+   "value": -0.044064399235655305,
+   "sem": 0.0011865617621482465,
+   "wall_s": 4.084311900660396,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_67": {
+   "property": "formation_energy",
+   "value": -0.042864338531026114,
+   "sem": 0.001034817529602779,
+   "wall_s": 4.189397762995213,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_68": {
+   "property": "formation_energy",
+   "value": -0.033524607850179855,
+   "sem": 0.0006372833206425878,
+   "wall_s": 11.578308735974133,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_69": {
+   "property": "formation_energy",
+   "value": -0.030919874258803492,
+   "sem": 0.0005576977551251642,
+   "wall_s": 4.633602179121226,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_70": {
+   "property": "formation_energy",
+   "value": -0.04569486412130308,
+   "sem": 0.0006057932021422863,
+   "wall_s": 4.688258957583457,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_71": {
+   "property": "formation_energy",
+   "value": -0.037243477211118314,
+   "sem": 0.0005413491329086244,
+   "wall_s": 4.9429743038490415,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_72": {
+   "property": "formation_energy",
+   "value": -0.034972765628305424,
+   "sem": 0.000500483313314216,
+   "wall_s": 10.056634901091456,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_73": {
+   "property": "formation_energy",
+   "value": -0.0667140890629696,
+   "sem": 0.0006206533050258045,
+   "wall_s": 4.731553006917238,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_74": {
+   "property": "formation_energy",
+   "value": -0.06373968426297028,
+   "sem": 0.0007875127216104737,
+   "wall_s": 4.78029920021072,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_75": {
+   "property": "formation_energy",
+   "value": -0.06608488080139541,
+   "sem": 0.0005095603383895165,
+   "wall_s": 4.730690319091082,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_76": {
+   "property": "formation_energy",
+   "value": -0.05940581151250646,
+   "sem": 0.0004914377709607472,
+   "wall_s": 4.380226355977356,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_77": {
+   "property": "formation_energy",
+   "value": -0.0620678306236182,
+   "sem": 0.0006709612120064082,
+   "wall_s": 4.636440030764788,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_78": {
+   "property": "formation_energy",
+   "value": -0.07539744851435914,
+   "sem": 0.0004610410463883765,
+   "wall_s": 4.579948474653065,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_79": {
+   "property": "formation_energy",
+   "value": -0.06465569399090176,
+   "sem": 0.0005104462280015727,
+   "wall_s": 9.49781169835478,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_80": {
+   "property": "formation_energy",
+   "value": -0.07169808826497581,
+   "sem": 0.0005585745709973326,
+   "wall_s": 11.709613947197795,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_81": {
+   "property": "formation_energy",
+   "value": -0.001304293587841343,
+   "sem": 0.0007252017878661371,
+   "wall_s": 5.244581508915871,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_82": {
+   "property": "formation_energy",
+   "value": -0.007295999599878034,
+   "sem": 0.0005518339994482037,
+   "wall_s": 5.288774403743446,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_83": {
+   "property": "formation_energy",
+   "value": -0.0069129078364524865,
+   "sem": 0.00040609116038161155,
+   "wall_s": 5.298500280361623,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_84": {
+   "property": "formation_energy",
+   "value": -0.006581138665155972,
+   "sem": 0.0010116356469911574,
+   "wall_s": 5.297428777907044,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_85": {
+   "property": "formation_energy",
+   "value": -0.04066840105669112,
+   "sem": 0.0008065419604546272,
+   "wall_s": 5.3994800806976855,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_86": {
+   "property": "formation_energy",
+   "value": -0.031005038156690645,
+   "sem": 0.0006188121129771239,
+   "wall_s": 5.3460817858576775,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_87": {
+   "property": "formation_energy",
+   "value": -0.029505251340950167,
+   "sem": 0.0007413244341037911,
+   "wall_s": 5.394775635097176,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_88": {
+   "property": "formation_energy",
+   "value": -0.029836229618728005,
+   "sem": 0.0004735820781830703,
+   "wall_s": 5.435960730072111,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_89": {
+   "property": "formation_energy",
+   "value": -0.05687545123308002,
+   "sem": 0.0004958181981918388,
+   "wall_s": 5.388676637783647,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_90": {
+   "property": "formation_energy",
+   "value": -0.048295658383080475,
+   "sem": 0.0007585078515331894,
+   "wall_s": 5.438496971968561,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_91": {
+   "property": "formation_energy",
+   "value": -0.044991519896969034,
+   "sem": 0.0004711730909874567,
+   "wall_s": 4.734030316118151,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_92": {
+   "property": "formation_energy",
+   "value": -0.0464822859682652,
+   "sem": 0.000789407956686444,
+   "wall_s": 4.63220239803195,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_93": {
+   "property": "formation_energy",
+   "value": -0.04974318363400565,
+   "sem": 0.0005347031515330537,
+   "wall_s": 5.256906419992447,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_94": {
+   "property": "formation_energy",
+   "value": -0.05464820107011681,
+   "sem": 0.0007145383337020226,
+   "wall_s": 4.682812200859189,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_95": {
+   "property": "formation_energy",
+   "value": -0.04237573319419097,
+   "sem": 0.0006023683249980553,
+   "wall_s": 4.581877593882382,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_96": {
+   "property": "formation_energy",
+   "value": -0.04355004310854316,
+   "sem": 0.0007918740797364629,
+   "wall_s": 4.329648121725768,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_97": {
+   "property": "formation_energy",
+   "value": -0.05150298847335755,
+   "sem": 0.0006108322333633592,
+   "wall_s": 4.233108437154442,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_98": {
+   "property": "formation_energy",
+   "value": -0.04517356620854329,
+   "sem": 0.0013613397622016955,
+   "wall_s": 3.881889375858009,
+   "status": "ok"
+  },
+  "fcc_MgAl_99": {
+   "property": "formation_energy",
+   "value": -0.000930577813374911,
+   "sem": 0.0005672582782077086,
+   "wall_s": 8.900533334817737,
+   "status": "ok"
+  },
+  "fcc_MgAl_100": {
+   "property": "formation_energy",
+   "value": -0.004897308691152791,
+   "sem": 0.0010020150506238874,
+   "wall_s": 4.034221237059683,
+   "status": "ok"
+  },
+  "fcc_MgAl_101": {
+   "property": "formation_energy",
+   "value": -0.005566938796245147,
+   "sem": 0.0012430454959124436,
+   "wall_s": 4.288299971725792,
+   "status": "ok"
+  },
+  "fcc_MgAl_102": {
+   "property": "formation_energy",
+   "value": -0.007350412376338156,
+   "sem": 0.001541824090044286,
+   "wall_s": 3.8341060150414705,
+   "status": "ok"
+  },
+  "fcc_MgAl_103": {
+   "property": "formation_energy",
+   "value": -0.006065230398096588,
+   "sem": 0.0014972620910568462,
+   "wall_s": 3.787067657802254,
+   "status": "ok"
+  },
+  "fcc_MgAl_104": {
+   "property": "formation_energy",
+   "value": -0.003057054244084978,
+   "sem": 0.0010548483134830257,
+   "wall_s": 7.301965886726975,
+   "status": "ok"
+  },
+  "fcc_Al7Si_105": {
+   "property": "formation_energy",
+   "value": -0.01989351175092402,
+   "sem": 0.00040662064846240303,
+   "wall_s": 7.550803822930902,
+   "status": "ok"
+  },
+  "fcc_Al3Si_106": {
+   "property": "formation_energy",
+   "value": -0.022310853635514327,
+   "sem": 0.0008719783821008692,
+   "wall_s": 7.646696636918932,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_107": {
+   "property": "formation_energy",
+   "value": -0.013908602252049374,
+   "sem": 0.0009779800104379828,
+   "wall_s": 7.718980137258768,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_108": {
+   "property": "formation_energy",
+   "value": -0.027617649152742896,
+   "sem": 0.00047632452040917433,
+   "wall_s": 7.611527592875063,
+   "status": "ok"
+  },
+  "fcc_AlSi_109": {
+   "property": "formation_energy",
+   "value": 0.005702059932804371,
+   "sem": 0.0011433579271038527,
+   "wall_s": 7.703444940969348,
+   "status": "ok"
+  },
+  "fcc_AlSi_110": {
+   "property": "formation_energy",
+   "value": 0.005564646726556877,
+   "sem": 0.0006959058774830979,
+   "wall_s": 7.6035304819233716,
+   "status": "ok"
+  },
+  "fcc_AlSi_111": {
+   "property": "formation_energy",
+   "value": -0.007566798459555546,
+   "sem": 0.0010587774165261793,
+   "wall_s": 7.514649328775704,
+   "status": "ok"
+  },
+  "fcc_MgAl7_112": {
+   "property": "formation_energy",
+   "value": 0.015872352563919723,
+   "sem": 0.0007187746066566039,
+   "wall_s": 7.403338100295514,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_113": {
+   "property": "formation_energy",
+   "value": -0.016122614253309298,
+   "sem": 0.0007313432210195101,
+   "wall_s": 7.50639814697206,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_114": {
+   "property": "formation_energy",
+   "value": -0.019049599739419776,
+   "sem": 0.0007743754278176848,
+   "wall_s": 7.305794352199882,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_115": {
+   "property": "formation_energy",
+   "value": -0.02757640903928804,
+   "sem": 0.0005870661611936137,
+   "wall_s": 6.84758269879967,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_116": {
+   "property": "formation_energy",
+   "value": -0.04164987629484207,
+   "sem": 0.000509146081430648,
+   "wall_s": 6.550347221083939,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_117": {
+   "property": "formation_energy",
+   "value": -0.036260207088593344,
+   "sem": 0.0008464530025607326,
+   "wall_s": 6.543843762949109,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_118": {
+   "property": "formation_energy",
+   "value": -0.021498940133600097,
+   "sem": 0.0009522110327917023,
+   "wall_s": 6.54194236593321,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_119": {
+   "property": "formation_energy",
+   "value": -0.023970162609990187,
+   "sem": 0.0008008875397641323,
+   "wall_s": 6.391066271811724,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_120": {
+   "property": "formation_energy",
+   "value": -0.03913234506554497,
+   "sem": 0.0008947165121732619,
+   "wall_s": 6.2473809299990535,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_121": {
+   "property": "formation_energy",
+   "value": -0.03666694158637851,
+   "sem": 0.0010540520140081997,
+   "wall_s": 6.950165008660406,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_122": {
+   "property": "formation_energy",
+   "value": -0.04826381624540632,
+   "sem": 0.0007600410967159166,
+   "wall_s": 7.355925711803138,
+   "status": "ok"
+  },
+  "fcc_MgAl3_123": {
+   "property": "formation_energy",
+   "value": 0.028755815243478755,
+   "sem": 0.0009154493950293072,
+   "wall_s": 7.203747055027634,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_124": {
+   "property": "formation_energy",
+   "value": -0.012467123866111152,
+   "sem": 0.0011551233855047823,
+   "wall_s": 7.3581488346681,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_125": {
+   "property": "formation_energy",
+   "value": -0.010852051044583089,
+   "sem": 0.0009640780673169821,
+   "wall_s": 7.258679744321853,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_126": {
+   "property": "formation_energy",
+   "value": -0.04912809338902813,
+   "sem": 0.0008889868008050274,
+   "wall_s": 7.296717740129679,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_127": {
+   "property": "formation_energy",
+   "value": -0.03167824951736753,
+   "sem": 0.0009631699029618444,
+   "wall_s": 7.3923593340441585,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_128": {
+   "property": "formation_energy",
+   "value": -0.032047560759728366,
+   "sem": 0.0008993313462146804,
+   "wall_s": 7.638685689773411,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_129": {
+   "property": "formation_energy",
+   "value": -0.04550624955070148,
+   "sem": 0.0009064252099434227,
+   "wall_s": 7.2909434656612575,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_130": {
+   "property": "formation_energy",
+   "value": -0.0370630982354232,
+   "sem": 0.0010869196765046754,
+   "wall_s": 7.19220226816833,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_131": {
+   "property": "formation_energy",
+   "value": -0.04023524756111785,
+   "sem": 0.0010042784119566922,
+   "wall_s": 7.241529933642596,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_132": {
+   "property": "formation_energy",
+   "value": -0.06813279286181295,
+   "sem": 0.0012885780324941125,
+   "wall_s": 7.193733789026737,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_133": {
+   "property": "formation_energy",
+   "value": 0.03605986958553853,
+   "sem": 0.001369063149094161,
+   "wall_s": 6.995827954262495,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_134": {
+   "property": "formation_energy",
+   "value": 0.005738643863316462,
+   "sem": 0.001116642471198369,
+   "wall_s": 6.552417568396777,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_135": {
+   "property": "formation_energy",
+   "value": -0.008703357070579454,
+   "sem": 0.0010815250880419163,
+   "wall_s": 6.3533309027552605,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_136": {
+   "property": "formation_energy",
+   "value": -0.011235131977524127,
+   "sem": 0.001183822958634236,
+   "wall_s": 6.2889295341447,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_137": {
+   "property": "formation_energy",
+   "value": -0.004027057910163556,
+   "sem": 0.0012386777009946576,
+   "wall_s": 6.15054100099951,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_138": {
+   "property": "formation_energy",
+   "value": -0.04110817713030235,
+   "sem": 0.0012666036652870575,
+   "wall_s": 5.998877156060189,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_139": {
+   "property": "formation_energy",
+   "value": -0.03673358979002428,
+   "sem": 0.0012133560891476056,
+   "wall_s": 5.949230790138245,
+   "status": "ok"
+  },
+  "fcc_MgAl_140": {
+   "property": "formation_energy",
+   "value": 0.03929300656023604,
+   "sem": 0.0015111000763388671,
+   "wall_s": 7.057709575165063,
+   "status": "ok"
+  },
+  "fcc_MgAl_141": {
+   "property": "formation_energy",
+   "value": 0.03806078649287503,
+   "sem": 0.0013578208101898608,
+   "wall_s": 7.102970460429788,
+   "status": "ok"
+  },
+  "fcc_MgAl_142": {
+   "property": "formation_energy",
+   "value": 0.013951434724819745,
+   "sem": 0.001377228010765329,
+   "wall_s": 7.815222571603954,
+   "status": "ok"
+  },
+  "clu_MgSi_1nn": {
+   "property": "cluster_binding",
+   "value": -0.07638400406665369,
+   "sem": 0.12182063719487905,
+   "wall_s": 5.992917651776224,
+   "status": "ok"
+  },
+  "clu_MgSi_2nn": {
+   "property": "cluster_binding",
+   "value": -0.09127292046656521,
+   "sem": 0.11933023733116704,
+   "wall_s": 5.998751317150891,
+   "status": "ok"
+  },
+  "clu_MgMg_1nn": {
+   "property": "cluster_binding",
+   "value": -0.1809913139999253,
+   "sem": 0.20748231699275652,
+   "wall_s": 5.997248481027782,
+   "status": "ok"
+  },
+  "clu_SiSi_1nn": {
+   "property": "cluster_binding",
+   "value": -0.061003888666732564,
+   "sem": 0.11600023892071927,
+   "wall_s": 6.004755740985274,
+   "status": "ok"
+  },
+  "clu_SiSi_2nn": {
+   "property": "cluster_binding",
+   "value": -0.17164986933335058,
+   "sem": 0.10336287534240242,
+   "wall_s": 6.002869815099984,
+   "status": "ok"
+  },
+  "clu_Mg2Si_tri": {
+   "property": "cluster_binding",
+   "value": -0.16717573886660375,
+   "sem": 0.21575204299954545,
+   "wall_s": 4.493039660155773,
+   "status": "ok"
+  },
+  "clu_MgSi2_tri": {
+   "property": "cluster_binding",
+   "value": -0.13344898879984157,
+   "sem": 0.15192852099578488,
+   "wall_s": 4.293028391897678,
+   "status": "ok"
+  },
+  "clu_Mg2Si2_tet": {
+   "property": "cluster_binding",
+   "value": -0.1351824134665094,
+   "sem": 0.24856355759699889,
+   "wall_s": 4.4390969150699675,
+   "status": "ok"
+  },
+  "clu_Mg3Si_tet": {
+   "property": "cluster_binding",
+   "value": -0.23009654493313292,
+   "sem": 0.32265983804360293,
+   "wall_s": 2.2395094940438867,
+   "status": "ok"
+  },
+  "clu_MgSi3_tet": {
+   "property": "cluster_binding",
+   "value": -0.18453675633327293,
+   "sem": 0.21013252662111515,
+   "wall_s": 2.1798258628696203,
+   "status": "ok"
+  },
+  "_reference_wall_s": {
+   "mp_134_Al": 33.723614055197686,
+   "mp_153_Mg": 30.907756225205958,
+   "mp_149_Si": 7.040632889140397,
+   "clu_Al108": 5.950755023397505,
+   "clu_Mg1": 6.001112555619329,
+   "clu_Si1": 5.952381900046021
+  }
+ },
+ "lammps_meam_md": {
+  "mp_134_Al": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0010595153662232373,
+   "wall_s": 1.7862758920527995,
+   "status": "ok"
+  },
+  "mp_1183144_Al": {
+   "property": "formation_energy",
+   "value": 0.017990415647796798,
+   "sem": 0.0012725211613004305,
+   "wall_s": 2.277156061027199,
+   "status": "ok"
+  },
+  "mp_2647008_Al": {
+   "property": "formation_energy",
+   "value": 0.031867879094064744,
+   "sem": 0.0012873769433373434,
+   "wall_s": 3.1240865029394627,
+   "status": "ok"
+  },
+  "mp_153_Mg": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.001622485867826548,
+   "wall_s": 1.555256283376366,
+   "status": "ok"
+  },
+  "mp_1094122_Mg": {
+   "property": "formation_energy",
+   "value": 0.0017766476041027879,
+   "sem": 0.0014701363653532437,
+   "wall_s": 2.4926108098588884,
+   "status": "ok"
+  },
+  "mp_973364_Mg": {
+   "property": "formation_energy",
+   "value": 0.0019430755139884237,
+   "sem": 0.0013439406188570722,
+   "wall_s": 2.4478348470292985,
+   "status": "ok"
+  },
+  "mp_1056702_Mg": {
+   "property": "formation_energy",
+   "value": 0.005118138677966844,
+   "sem": 0.0013624506791279863,
+   "wall_s": 1.0043477709405124,
+   "status": "ok"
+  },
+  "mp_1056351_Mg": {
+   "property": "formation_energy",
+   "value": 0.01898158126341931,
+   "sem": 0.0015582943017921982,
+   "wall_s": 0.9194953390397131,
+   "status": "ok"
+  },
+  "mp_110_Mg": {
+   "property": "formation_energy",
+   "value": 0.02586618149576947,
+   "sem": 0.001745612020151148,
+   "wall_s": 1.8155572921968997,
+   "status": "ok"
+  },
+  "mp_3833_Mg(AlSi)2": {
+   "property": "formation_energy",
+   "value": 0.30568156457821827,
+   "sem": 0.012988994944268133,
+   "wall_s": 0.8968150448054075,
+   "status": "ok"
+  },
+  "mp_1028210_Mg14AlSi": {
+   "property": "formation_energy",
+   "value": -0.010132301625385975,
+   "sem": 0.0010543716774642862,
+   "wall_s": 1.386398249771446,
+   "status": "ok"
+  },
+  "mp_1028217_Mg14AlSi": {
+   "property": "formation_energy",
+   "value": 0.02239385216616402,
+   "sem": 0.0012409323569407091,
+   "wall_s": 2.357527108862996,
+   "status": "ok"
+  },
+  "mp_1023506_Mg15Al": {
+   "property": "formation_energy",
+   "value": -0.009165486483287105,
+   "sem": 0.0013815587770424288,
+   "wall_s": 1.3358559631742537,
+   "status": "ok"
+  },
+  "mp_1023509_Mg15Si": {
+   "property": "formation_energy",
+   "value": 0.013286206916798549,
+   "sem": 0.0012945161236029372,
+   "wall_s": 1.2204462955705822,
+   "status": "ok"
+  },
+  "mp_1367_Mg2Si": {
+   "property": "formation_energy",
+   "value": 0.043546389228010796,
+   "sem": 0.0012799205824310864,
+   "wall_s": 0.9352349322289228,
+   "status": "ok"
+  },
+  "mp_1101851_Mg2Si": {
+   "property": "formation_energy",
+   "value": 0.023423681297892074,
+   "sem": 0.0009564301602892978,
+   "wall_s": 1.0406591054052114,
+   "status": "ok"
+  },
+  "mp_1074652_Mg2Si": {
+   "property": "formation_energy",
+   "value": 0.10059571227486552,
+   "sem": 0.006398116605165154,
+   "wall_s": 0.8222133228555322,
+   "status": "ok"
+  },
+  "mp_978271_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.04529851199467616,
+   "sem": 0.001192103441657439,
+   "wall_s": 1.0924009480513632,
+   "status": "ok"
+  },
+  "mp_1094970_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.10075382417349787,
+   "sem": 0.0010569233382180423,
+   "wall_s": 1.926802956033498,
+   "status": "ok"
+  },
+  "mp_1094961_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.07195828100406387,
+   "sem": 0.0011385089831140104,
+   "wall_s": 1.1712371320463717,
+   "status": "ok"
+  },
+  "mp_1016233_Mg3Al": {
+   "property": "formation_energy",
+   "value": 0.025038112800391032,
+   "sem": 0.0015744964361672665,
+   "wall_s": 1.0450406740419567,
+   "status": "ok"
+  },
+  "mp_1094666_Mg3Al": {
+   "property": "formation_energy",
+   "value": -0.07542915007149487,
+   "sem": 0.0012482592999411598,
+   "wall_s": 0.9080822691321373,
+   "status": "ok"
+  },
+  "mp_1016271_Mg7Al": {
+   "property": "formation_energy",
+   "value": -0.021540697550095633,
+   "sem": 0.0011271309272038758,
+   "wall_s": 1.2535854899324477,
+   "status": "ok"
+  },
+  "mp_1094987_MgAl": {
+   "property": "formation_energy",
+   "value": -0.09651954625127668,
+   "sem": 0.0010502202773567959,
+   "wall_s": 0.9257517270743847,
+   "status": "ok"
+  },
+  "mp_1039019_MgAl": {
+   "property": "formation_energy",
+   "value": 0.1581667468527257,
+   "sem": 0.001189980386944256,
+   "wall_s": 0.7552508292719722,
+   "status": "ok"
+  },
+  "mp_1038779_MgAl": {
+   "property": "formation_energy",
+   "value": 0.15668201902380852,
+   "sem": 0.0007101461479572067,
+   "wall_s": 1.8422606182284653,
+   "status": "ok"
+  },
+  "mp_1038934_MgAl": {
+   "property": "formation_energy",
+   "value": -0.12469200976382555,
+   "sem": 0.002173405513122188,
+   "wall_s": 1.1247875639237463,
+   "status": "ok"
+  },
+  "mp_1094116_MgAl2": {
+   "property": "formation_energy",
+   "value": 0.10150084043671592,
+   "sem": 0.0007529011788135016,
+   "wall_s": 1.0069736801087856,
+   "status": "ok"
+  },
+  "mp_1102064_MgAl2": {
+   "property": "formation_energy",
+   "value": -0.04608906814833835,
+   "sem": 0.0009238191556922087,
+   "wall_s": 2.0747303240932524,
+   "status": "ok"
+  },
+  "mp_1222013_MgAl2": {
+   "property": "formation_energy",
+   "value": 0.048320778669113995,
+   "sem": 0.0010426968403305333,
+   "wall_s": 0.9328898009844124,
+   "status": "ok"
+  },
+  "mp_1038916_MgAl3": {
+   "property": "formation_energy",
+   "value": 0.08478650292548728,
+   "sem": 0.0006729622701228764,
+   "wall_s": 2.620062343776226,
+   "status": "ok"
+  },
+  "mp_1039119_MgAl3": {
+   "property": "formation_energy",
+   "value": -0.018134336453154987,
+   "sem": 0.0007413998046389943,
+   "wall_s": 1.0370828961022198,
+   "status": "ok"
+  },
+  "mp_4499_MgAlSi": {
+   "property": "formation_energy",
+   "value": 0.10219771697254343,
+   "sem": 0.0012758736800485872,
+   "wall_s": 1.1047346866689622,
+   "status": "ok"
+  },
+  "mp_1073794_MgSi": {
+   "property": "formation_energy",
+   "value": 0.12107530625905838,
+   "sem": 0.0021127503501415,
+   "wall_s": 1.6201288350857794,
+   "status": "ok"
+  },
+  "mp_149_Si": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0016036734949490944,
+   "wall_s": 0.35236031794920564,
+   "status": "ok"
+  },
+  "mp_165_Si": {
+   "property": "formation_energy",
+   "value": 0.0011591227744132127,
+   "sem": 0.0014243513090172095,
+   "wall_s": 0.3281452041119337,
+   "status": "ok"
+  },
+  "mp_1079297_Si": {
+   "property": "formation_energy",
+   "value": 0.1653567034708585,
+   "sem": 0.001263554014754854,
+   "wall_s": 0.2978980648331344,
+   "status": "ok"
+  },
+  "fcc_Al3Si_00": {
+   "property": "formation_energy",
+   "value": -0.07386566463509192,
+   "sem": 0.0012155881918630845,
+   "wall_s": 1.5052711688913405,
+   "status": "ok"
+  },
+  "fcc_AlSi_01": {
+   "property": "formation_energy",
+   "value": 0.30662573060004017,
+   "sem": 0.009290002677334751,
+   "wall_s": 0.6596844191662967,
+   "status": "ok"
+  },
+  "fcc_MgAl3_02": {
+   "property": "formation_energy",
+   "value": -0.04553707041792476,
+   "sem": 0.0006922112017011266,
+   "wall_s": 2.2156708179973066,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_03": {
+   "property": "formation_energy",
+   "value": 0.10222441198707743,
+   "sem": 0.0010759818578629002,
+   "wall_s": 2.069519018754363,
+   "status": "ok"
+  },
+  "fcc_MgAl_04": {
+   "property": "formation_energy",
+   "value": -0.07456589658731894,
+   "sem": 0.0007796143946720061,
+   "wall_s": 0.9625408537685871,
+   "status": "ok"
+  },
+  "fcc_Al7Si_05": {
+   "property": "formation_energy",
+   "value": -0.020124081087826262,
+   "sem": 0.0008157238782321394,
+   "wall_s": 2.1754736569710076,
+   "status": "ok"
+  },
+  "fcc_Al3Si_06": {
+   "property": "formation_energy",
+   "value": 0.0896697020903523,
+   "sem": 0.004337435473668621,
+   "wall_s": 1.4965828470885754,
+   "status": "ok"
+  },
+  "fcc_Al3Si_07": {
+   "property": "formation_energy",
+   "value": 0.024704250864840516,
+   "sem": 0.0008670768383418997,
+   "wall_s": 1.6365950359031558,
+   "status": "ok"
+  },
+  "fcc_Al3Si_08": {
+   "property": "formation_energy",
+   "value": 0.0709303841838762,
+   "sem": 0.0050352258908620785,
+   "wall_s": 2.125679212156683,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_09": {
+   "property": "formation_energy",
+   "value": 0.12240739143336432,
+   "sem": 0.0053631215471690126,
+   "wall_s": 1.2867532707750797,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_10": {
+   "property": "formation_energy",
+   "value": 0.057563930479183956,
+   "sem": 0.0008749009996495227,
+   "wall_s": 1.6313893352635205,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_11": {
+   "property": "formation_energy",
+   "value": 0.16777392833932803,
+   "sem": 0.0037305988814998192,
+   "wall_s": 1.3108891369774938,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_12": {
+   "property": "formation_energy",
+   "value": 0.03411655541113223,
+   "sem": 0.0035225830108211406,
+   "wall_s": 1.6780540370382369,
+   "status": "ok"
+  },
+  "fcc_AlSi_13": {
+   "property": "formation_energy",
+   "value": 0.34519032308252107,
+   "sem": 0.00342189834326026,
+   "wall_s": 1.7150289118289948,
+   "status": "ok"
+  },
+  "fcc_AlSi_14": {
+   "property": "formation_energy",
+   "value": null,
+   "sem": null,
+   "wall_s": 1.2025642171502113,
+   "status": "failed"
+  },
+  "fcc_AlSi_15": {
+   "property": "formation_energy",
+   "value": 0.2549683914613332,
+   "sem": 0.006030679268014887,
+   "wall_s": 1.0785422790795565,
+   "status": "ok"
+  },
+  "fcc_AlSi_16": {
+   "property": "formation_energy",
+   "value": 0.3476439430290703,
+   "sem": 0.005854399907612389,
+   "wall_s": 1.0019971588626504,
+   "status": "ok"
+  },
+  "fcc_AlSi_17": {
+   "property": "formation_energy",
+   "value": 0.26903816176264894,
+   "sem": 0.00562796099634666,
+   "wall_s": 1.249821913894266,
+   "status": "ok"
+  },
+  "fcc_AlSi_18": {
+   "property": "formation_energy",
+   "value": 0.2617354261727427,
+   "sem": 0.0038435300777642616,
+   "wall_s": 1.6839042170904577,
+   "status": "ok"
+  },
+  "fcc_MgAl7_19": {
+   "property": "formation_energy",
+   "value": 0.018363069839966162,
+   "sem": 0.0009239441147958831,
+   "wall_s": 1.8584881047718227,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_20": {
+   "property": "formation_energy",
+   "value": 0.07164442637670199,
+   "sem": 0.007337515086641189,
+   "wall_s": 1.3801658591255546,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_21": {
+   "property": "formation_energy",
+   "value": 0.04652227563641287,
+   "sem": 0.0007859151299968372,
+   "wall_s": 2.474854066967964,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_22": {
+   "property": "formation_energy",
+   "value": 0.010426021849254341,
+   "sem": 0.001023855667558051,
+   "wall_s": 3.146905406843871,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_23": {
+   "property": "formation_energy",
+   "value": 0.07662748571691413,
+   "sem": 0.005326582860861069,
+   "wall_s": 1.7501638871617615,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_24": {
+   "property": "formation_energy",
+   "value": 0.19315723948821417,
+   "sem": 0.0012745900222487106,
+   "wall_s": 1.3761895056813955,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_25": {
+   "property": "formation_energy",
+   "value": 0.13145677945185752,
+   "sem": 0.0008707043363733195,
+   "wall_s": 1.5973545759916306,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_26": {
+   "property": "formation_energy",
+   "value": 0.09348309741185568,
+   "sem": 0.0051643274386110735,
+   "wall_s": 2.402224798221141,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_27": {
+   "property": "formation_energy",
+   "value": 0.09010614551132945,
+   "sem": 0.0010770245122953223,
+   "wall_s": 2.005466715898365,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_28": {
+   "property": "formation_energy",
+   "value": 0.14665939505189463,
+   "sem": 0.006819711388472241,
+   "wall_s": 1.5789609528146684,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_29": {
+   "property": "formation_energy",
+   "value": 0.16001347583048475,
+   "sem": 0.006156986112524731,
+   "wall_s": 1.4831729773432016,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_30": {
+   "property": "formation_energy",
+   "value": 0.08825418128579243,
+   "sem": 0.0008372558640883575,
+   "wall_s": 1.4782060142606497,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_31": {
+   "property": "formation_energy",
+   "value": 0.10643858204916934,
+   "sem": 0.0012380413202435386,
+   "wall_s": 1.3969935812056065,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_32": {
+   "property": "formation_energy",
+   "value": 0.062379655403576484,
+   "sem": 0.0008173975288305907,
+   "wall_s": 1.355268222745508,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_33": {
+   "property": "formation_energy",
+   "value": 0.21806793549420145,
+   "sem": 0.0009722937406756283,
+   "wall_s": 1.4142082212492824,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_34": {
+   "property": "formation_energy",
+   "value": 0.22713963115648084,
+   "sem": 0.004982629052249482,
+   "wall_s": 0.9784911773167551,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_35": {
+   "property": "formation_energy",
+   "value": 0.2071242567654854,
+   "sem": 0.0014594181233604701,
+   "wall_s": 1.2521870038472116,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_36": {
+   "property": "formation_energy",
+   "value": 0.2727004705036016,
+   "sem": 0.004569134110316981,
+   "wall_s": 1.0149699691683054,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_37": {
+   "property": "formation_energy",
+   "value": 0.19539333662913028,
+   "sem": 0.001423116510273921,
+   "wall_s": 1.196693834848702,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_38": {
+   "property": "formation_energy",
+   "value": 0.1397778127690612,
+   "sem": 0.000795903846843987,
+   "wall_s": 2.233179116155952,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_39": {
+   "property": "formation_energy",
+   "value": 0.22821703785308523,
+   "sem": 0.0034216932823060184,
+   "wall_s": 1.2152173118665814,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_40": {
+   "property": "formation_energy",
+   "value": 0.20375553174493777,
+   "sem": 0.0031474975974701623,
+   "wall_s": 1.2521878508850932,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_41": {
+   "property": "formation_energy",
+   "value": 0.1253230746104912,
+   "sem": 0.0008896879408471202,
+   "wall_s": 1.1557332160882652,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_42": {
+   "property": "formation_energy",
+   "value": 0.18828989506177574,
+   "sem": 0.005913369571567008,
+   "wall_s": 1.043402394745499,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_43": {
+   "property": "formation_energy",
+   "value": 0.20738389809321034,
+   "sem": 0.003182051435187239,
+   "wall_s": 1.695052391383797,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_44": {
+   "property": "formation_energy",
+   "value": null,
+   "sem": null,
+   "wall_s": 1.105750564020127,
+   "status": "failed"
+  },
+  "fcc_MgAl4Si3_45": {
+   "property": "formation_energy",
+   "value": 0.21546698126662522,
+   "sem": 0.006319875856360413,
+   "wall_s": 1.098127719014883,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_46": {
+   "property": "formation_energy",
+   "value": 0.09106344509423558,
+   "sem": 0.0031094286109032356,
+   "wall_s": 1.254364417400211,
+   "status": "ok"
+  },
+  "fcc_MgAl3_47": {
+   "property": "formation_energy",
+   "value": 0.02148296560155094,
+   "sem": 0.0008162853201349879,
+   "wall_s": 1.4783091130666435,
+   "status": "ok"
+  },
+  "fcc_MgAl3_48": {
+   "property": "formation_energy",
+   "value": -0.01223267064710759,
+   "sem": 0.0008491008377686649,
+   "wall_s": 1.4125505620613694,
+   "status": "ok"
+  },
+  "fcc_MgAl3_49": {
+   "property": "formation_energy",
+   "value": 0.08570944270955089,
+   "sem": 0.0007212000093747664,
+   "wall_s": 1.9766100198030472,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_50": {
+   "property": "formation_energy",
+   "value": 0.0342297793736539,
+   "sem": 0.0007765945776479642,
+   "wall_s": 2.7420176728628576,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_51": {
+   "property": "formation_energy",
+   "value": 0.08357316874552823,
+   "sem": 0.0009577067309226187,
+   "wall_s": 1.3481235667131841,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_52": {
+   "property": "formation_energy",
+   "value": 0.10308206497815997,
+   "sem": 0.005099264322303654,
+   "wall_s": 2.884636605158448,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_53": {
+   "property": "formation_energy",
+   "value": 0.09065162747578226,
+   "sem": 0.0011034270097906001,
+   "wall_s": 2.0752108190208673,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_54": {
+   "property": "formation_energy",
+   "value": 0.0864805800002203,
+   "sem": 0.001270547099484754,
+   "wall_s": 2.466663678176701,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_55": {
+   "property": "formation_energy",
+   "value": 0.04514061807247449,
+   "sem": 0.001983443668576603,
+   "wall_s": 1.3781280610710382,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_56": {
+   "property": "formation_energy",
+   "value": 0.05782888641562656,
+   "sem": 0.0011887777744839084,
+   "wall_s": 2.3981993859633803,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_57": {
+   "property": "formation_energy",
+   "value": 0.154099741967475,
+   "sem": 0.0008787003553740381,
+   "wall_s": 2.4328549709171057,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_58": {
+   "property": "formation_energy",
+   "value": 0.061730916504845745,
+   "sem": 0.0006051196197933442,
+   "wall_s": 1.3282219050452113,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_59": {
+   "property": "formation_energy",
+   "value": 0.06263683366724138,
+   "sem": 0.0009663117094518058,
+   "wall_s": 2.739197382237762,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_60": {
+   "property": "formation_energy",
+   "value": 0.11061836346507192,
+   "sem": 0.0009085860071691762,
+   "wall_s": 1.3276932453736663,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_61": {
+   "property": "formation_energy",
+   "value": 0.12591126868142366,
+   "sem": 0.0010141943724047639,
+   "wall_s": 2.409088285639882,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_62": {
+   "property": "formation_energy",
+   "value": 0.11673881037694311,
+   "sem": 0.0012219208212997364,
+   "wall_s": 2.3889210098423064,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_63": {
+   "property": "formation_energy",
+   "value": 0.1848854233442343,
+   "sem": 0.0029719794917860507,
+   "wall_s": 1.1973870759829879,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_64": {
+   "property": "formation_energy",
+   "value": 0.1569061881195566,
+   "sem": 0.006329966125500239,
+   "wall_s": 1.9116970468312502,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_65": {
+   "property": "formation_energy",
+   "value": null,
+   "sem": null,
+   "wall_s": 1.0633678380399942,
+   "status": "failed"
+  },
+  "fcc_MgAl2Si_66": {
+   "property": "formation_energy",
+   "value": 0.13031788054921511,
+   "sem": 0.002909101424757528,
+   "wall_s": 2.1140062026679516,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_67": {
+   "property": "formation_energy",
+   "value": 0.18627822493150736,
+   "sem": 0.000909815420169639,
+   "wall_s": 1.9870580951683223,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_68": {
+   "property": "formation_energy",
+   "value": 0.17489387054919536,
+   "sem": 0.0008697232964100065,
+   "wall_s": 1.1816687118262053,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_69": {
+   "property": "formation_energy",
+   "value": 0.16632028438009083,
+   "sem": 0.0045463641271780535,
+   "wall_s": 2.148221048992127,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_70": {
+   "property": "formation_energy",
+   "value": 0.10238770860230773,
+   "sem": 0.0013809677413715894,
+   "wall_s": 1.419442128855735,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_71": {
+   "property": "formation_energy",
+   "value": 0.1757860993180631,
+   "sem": 0.0025463328831865986,
+   "wall_s": 2.2734474996104836,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_72": {
+   "property": "formation_energy",
+   "value": 0.07142334477885015,
+   "sem": 0.001221430628542821,
+   "wall_s": 2.0704652522690594,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_73": {
+   "property": "formation_energy",
+   "value": 0.0955389219067273,
+   "sem": 0.0009698684572537337,
+   "wall_s": 1.9796967511065304,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_74": {
+   "property": "formation_energy",
+   "value": 0.1355961341532832,
+   "sem": 0.0008054770070595362,
+   "wall_s": 1.249453267082572,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_75": {
+   "property": "formation_energy",
+   "value": 0.12745257413091737,
+   "sem": 0.0008613586916221697,
+   "wall_s": 2.3679792899638414,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_76": {
+   "property": "formation_energy",
+   "value": 0.1437623209172103,
+   "sem": 0.0007284730593472808,
+   "wall_s": 1.9566938308998942,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_77": {
+   "property": "formation_energy",
+   "value": 0.13945163522980986,
+   "sem": 0.0009874092448753894,
+   "wall_s": 1.1911911759525537,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_78": {
+   "property": "formation_energy",
+   "value": 0.1496013528706257,
+   "sem": 0.0010226619684891277,
+   "wall_s": 1.332863193936646,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_79": {
+   "property": "formation_energy",
+   "value": 0.17909897025703003,
+   "sem": 0.0011979035857109257,
+   "wall_s": 0.8045206731185317,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_80": {
+   "property": "formation_energy",
+   "value": 0.0949988701625486,
+   "sem": 0.0010783118180085344,
+   "wall_s": 1.9027700908482075,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_81": {
+   "property": "formation_energy",
+   "value": 0.026715001055094945,
+   "sem": 0.0008357203268202888,
+   "wall_s": 1.4067635009996593,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_82": {
+   "property": "formation_energy",
+   "value": -0.031797773140486374,
+   "sem": 0.0008213570406232493,
+   "wall_s": 1.7375455531291664,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_83": {
+   "property": "formation_energy",
+   "value": 0.05496203731824467,
+   "sem": 0.0007419246322130368,
+   "wall_s": 2.682274396996945,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_84": {
+   "property": "formation_energy",
+   "value": -0.029348554827661744,
+   "sem": 0.0006681249230049916,
+   "wall_s": 2.3619847809895873,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_85": {
+   "property": "formation_energy",
+   "value": 0.047589845054335944,
+   "sem": 0.000699925003188305,
+   "wall_s": 2.2048099213279784,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_86": {
+   "property": "formation_energy",
+   "value": 0.08563395295459386,
+   "sem": 0.0008943002743978627,
+   "wall_s": 1.355042233131826,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_87": {
+   "property": "formation_energy",
+   "value": 0.08718870049976857,
+   "sem": 0.002529825475015475,
+   "wall_s": 1.9530484830029309,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_88": {
+   "property": "formation_energy",
+   "value": 0.12542247079303948,
+   "sem": 0.0029508927770501305,
+   "wall_s": 2.238403053022921,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_89": {
+   "property": "formation_energy",
+   "value": 0.0013431031973591967,
+   "sem": 0.0009765343661966319,
+   "wall_s": 1.4730977611616254,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_90": {
+   "property": "formation_energy",
+   "value": 0.05588751166459616,
+   "sem": 0.0006097692465105084,
+   "wall_s": 1.416184859815985,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_91": {
+   "property": "formation_energy",
+   "value": 0.05717967097910914,
+   "sem": 0.0009041031184019834,
+   "wall_s": 1.5782002159394324,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_92": {
+   "property": "formation_energy",
+   "value": 0.09486511441710677,
+   "sem": 0.0014029665741043273,
+   "wall_s": 1.386998541187495,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_93": {
+   "property": "formation_energy",
+   "value": 0.04263404673052196,
+   "sem": 0.0007025308921208342,
+   "wall_s": 1.5762145440094173,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_94": {
+   "property": "formation_energy",
+   "value": 0.035918540205616245,
+   "sem": 0.0008685128964299617,
+   "wall_s": 2.6379339010454714,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_95": {
+   "property": "formation_energy",
+   "value": 0.11247094518783773,
+   "sem": 0.0007495787307672425,
+   "wall_s": 1.3408354884013534,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_96": {
+   "property": "formation_energy",
+   "value": 0.15546774840997413,
+   "sem": 0.0010522114287061653,
+   "wall_s": 1.8147699302062392,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_97": {
+   "property": "formation_energy",
+   "value": 0.07522288442113223,
+   "sem": 0.0007286898027289714,
+   "wall_s": 2.6631478019990027,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_98": {
+   "property": "formation_energy",
+   "value": 0.043884756757248566,
+   "sem": 0.000715000741041758,
+   "wall_s": 1.4313082722947001,
+   "status": "ok"
+  },
+  "fcc_MgAl_99": {
+   "property": "formation_energy",
+   "value": 0.020099640719210998,
+   "sem": 0.0010015789542953853,
+   "wall_s": 2.4153926661238074,
+   "status": "ok"
+  },
+  "fcc_MgAl_100": {
+   "property": "formation_energy",
+   "value": -0.02483175746272903,
+   "sem": 0.0008223388705108197,
+   "wall_s": 2.3518512127920985,
+   "status": "ok"
+  },
+  "fcc_MgAl_101": {
+   "property": "formation_energy",
+   "value": -0.02214435451172725,
+   "sem": 0.0007644102160173606,
+   "wall_s": 1.424121477175504,
+   "status": "ok"
+  },
+  "fcc_MgAl_102": {
+   "property": "formation_energy",
+   "value": 0.03549336463258945,
+   "sem": 0.0007630380377733496,
+   "wall_s": 2.880315677728504,
+   "status": "ok"
+  },
+  "fcc_MgAl_103": {
+   "property": "formation_energy",
+   "value": -0.04138184129608846,
+   "sem": 0.0009534256363829958,
+   "wall_s": 2.9431779109872878,
+   "status": "ok"
+  },
+  "fcc_MgAl_104": {
+   "property": "formation_energy",
+   "value": -0.010755291462055117,
+   "sem": 0.0007356698312400539,
+   "wall_s": 1.0399469528347254,
+   "status": "ok"
+  },
+  "fcc_Al7Si_105": {
+   "property": "formation_energy",
+   "value": -0.17137428353576478,
+   "sem": 0.0007521508654820147,
+   "wall_s": 2.5658578788861632,
+   "status": "ok"
+  },
+  "fcc_Al3Si_106": {
+   "property": "formation_energy",
+   "value": -0.0994968352130392,
+   "sem": 0.001045027833757465,
+   "wall_s": 1.1507356059737504,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_107": {
+   "property": "formation_energy",
+   "value": 0.05949740191977826,
+   "sem": 0.001994678639478918,
+   "wall_s": 1.8606684622354805,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_108": {
+   "property": "formation_energy",
+   "value": 0.014337645737525051,
+   "sem": 0.0007608655067607061,
+   "wall_s": 1.1472099600359797,
+   "status": "ok"
+  },
+  "fcc_AlSi_109": {
+   "property": "formation_energy",
+   "value": 0.21445733527604505,
+   "sem": 0.010690632255298427,
+   "wall_s": 1.4847016828134656,
+   "status": "ok"
+  },
+  "fcc_AlSi_110": {
+   "property": "formation_energy",
+   "value": 0.27447116764590285,
+   "sem": 0.001207415156434876,
+   "wall_s": 1.5875344178639352,
+   "status": "ok"
+  },
+  "fcc_AlSi_111": {
+   "property": "formation_energy",
+   "value": 0.20840614445505268,
+   "sem": 0.002927538014122029,
+   "wall_s": 1.753287420142442,
+   "status": "ok"
+  },
+  "fcc_MgAl7_112": {
+   "property": "formation_energy",
+   "value": -0.0852456434267741,
+   "sem": 0.0008169604416260165,
+   "wall_s": 2.303217420820147,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_113": {
+   "property": "formation_energy",
+   "value": -0.0016030068316381652,
+   "sem": 0.0010316611827426343,
+   "wall_s": 1.7759139989502728,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_114": {
+   "property": "formation_energy",
+   "value": -0.00885952218717223,
+   "sem": 0.0010059357580293844,
+   "wall_s": 1.8586302273906767,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_115": {
+   "property": "formation_energy",
+   "value": 0.08955975107642344,
+   "sem": 0.0009591646391156113,
+   "wall_s": 1.5613887822255492,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_116": {
+   "property": "formation_energy",
+   "value": 0.11299185306592485,
+   "sem": 0.0014603170684179408,
+   "wall_s": 0.9965678597800434,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_117": {
+   "property": "formation_energy",
+   "value": 0.05289725294815861,
+   "sem": 0.0010260988923943034,
+   "wall_s": 1.7059761681593955,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_118": {
+   "property": "formation_energy",
+   "value": 0.2161739028818983,
+   "sem": 0.0011750649478428443,
+   "wall_s": 1.3831073329783976,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_119": {
+   "property": "formation_energy",
+   "value": 0.23436414477250245,
+   "sem": 0.001881693901804236,
+   "wall_s": 1.3593434682115912,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_120": {
+   "property": "formation_energy",
+   "value": 0.17950853107938536,
+   "sem": 0.0017673674719713098,
+   "wall_s": 0.6935965218581259,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_121": {
+   "property": "formation_energy",
+   "value": 0.14367389955693244,
+   "sem": 0.0007434185010123426,
+   "wall_s": 0.7908239387907088,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_122": {
+   "property": "formation_energy",
+   "value": 0.11544501355309644,
+   "sem": 0.0013749340578498104,
+   "wall_s": 2.164423441980034,
+   "status": "ok"
+  },
+  "fcc_MgAl3_123": {
+   "property": "formation_energy",
+   "value": -0.03433601257394109,
+   "sem": 0.0006851795961225073,
+   "wall_s": 1.523739951197058,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_124": {
+   "property": "formation_energy",
+   "value": 0.09775677659176418,
+   "sem": 0.0013059129959122416,
+   "wall_s": 1.5333906589075923,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_125": {
+   "property": "formation_energy",
+   "value": 0.06373320106020375,
+   "sem": 0.0006714851982580513,
+   "wall_s": 0.8473206777125597,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_126": {
+   "property": "formation_energy",
+   "value": 0.019749794528021614,
+   "sem": 0.0008603018299708265,
+   "wall_s": 1.11187750287354,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_127": {
+   "property": "formation_energy",
+   "value": 0.16887262892917443,
+   "sem": 0.0011601011492105636,
+   "wall_s": 1.2873771651647985,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_128": {
+   "property": "formation_energy",
+   "value": 0.2169795864827022,
+   "sem": 0.0038087323451929935,
+   "wall_s": 1.3512677229009569,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_129": {
+   "property": "formation_energy",
+   "value": 0.1728069520079134,
+   "sem": 0.009241160254079814,
+   "wall_s": 1.3077338640578091,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_130": {
+   "property": "formation_energy",
+   "value": 0.14503536186517962,
+   "sem": 0.0021681452674579805,
+   "wall_s": 1.2630277927964926,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_131": {
+   "property": "formation_energy",
+   "value": 0.07278539425216879,
+   "sem": 0.0011368762665661428,
+   "wall_s": 0.8315079300664365,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_132": {
+   "property": "formation_energy",
+   "value": 0.04202226135194387,
+   "sem": 0.0014823948892090663,
+   "wall_s": 1.2088301656767726,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_133": {
+   "property": "formation_energy",
+   "value": 0.0625822847079407,
+   "sem": 0.0008420059430185886,
+   "wall_s": 0.865974057931453,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_134": {
+   "property": "formation_energy",
+   "value": -0.027927352911593317,
+   "sem": 0.0007820889098990051,
+   "wall_s": 0.9516312889754772,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_135": {
+   "property": "formation_energy",
+   "value": 0.17893858454001355,
+   "sem": 0.0022937139531344903,
+   "wall_s": 0.6950004128739238,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_136": {
+   "property": "formation_energy",
+   "value": 0.20517657123233402,
+   "sem": 0.000996239766909095,
+   "wall_s": 0.7248509549535811,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_137": {
+   "property": "formation_energy",
+   "value": 0.13034692893501265,
+   "sem": 0.0007846706410267965,
+   "wall_s": 0.6966907870955765,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_138": {
+   "property": "formation_energy",
+   "value": 0.08066304773282318,
+   "sem": 0.0011814658155274663,
+   "wall_s": 0.849299147259444,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_139": {
+   "property": "formation_energy",
+   "value": 0.016529803441941104,
+   "sem": 0.0012939146104416048,
+   "wall_s": 0.8490600739605725,
+   "status": "ok"
+  },
+  "fcc_MgAl_140": {
+   "property": "formation_energy",
+   "value": 0.15309979174142085,
+   "sem": 0.0010995510275148815,
+   "wall_s": 0.7705115252174437,
+   "status": "ok"
+  },
+  "fcc_MgAl_141": {
+   "property": "formation_energy",
+   "value": 0.15330894313756338,
+   "sem": 0.0009451145757987525,
+   "wall_s": 0.749771224334836,
+   "status": "ok"
+  },
+  "fcc_MgAl_142": {
+   "property": "formation_energy",
+   "value": 0.039040750792452394,
+   "sem": 0.0008431203155327218,
+   "wall_s": 0.9024649760685861,
+   "status": "ok"
+  },
+  "clu_MgSi_1nn": {
+   "property": "cluster_binding",
+   "value": -0.11542163976332631,
+   "sem": 0.09223616775315469,
+   "wall_s": 1.1622613831423223,
+   "status": "ok"
+  },
+  "clu_MgSi_2nn": {
+   "property": "cluster_binding",
+   "value": -0.2138302884035852,
+   "sem": 0.11618614192680342,
+   "wall_s": 1.1682243486866355,
+   "status": "ok"
+  },
+  "clu_MgMg_1nn": {
+   "property": "cluster_binding",
+   "value": -0.20597642957341122,
+   "sem": 0.1403795820147739,
+   "wall_s": 1.132070085965097,
+   "status": "ok"
+  },
+  "clu_SiSi_1nn": {
+   "property": "cluster_binding",
+   "value": 0.02457970238344842,
+   "sem": 0.11231853396534835,
+   "wall_s": 1.1634951317682862,
+   "status": "ok"
+  },
+  "clu_SiSi_2nn": {
+   "property": "cluster_binding",
+   "value": -0.15470143815423398,
+   "sem": 0.11943881907127955,
+   "wall_s": 1.17524043796584,
+   "status": "ok"
+  },
+  "clu_Mg2Si_tri": {
+   "property": "cluster_binding",
+   "value": -0.25649647946158893,
+   "sem": 0.17570062918284757,
+   "wall_s": 1.163216328714043,
+   "status": "ok"
+  },
+  "clu_MgSi2_tri": {
+   "property": "cluster_binding",
+   "value": -0.3955520060405888,
+   "sem": 0.15039250111490196,
+   "wall_s": 1.1337154041975737,
+   "status": "ok"
+  },
+  "clu_Mg2Si2_tet": {
+   "property": "cluster_binding",
+   "value": -0.5389006105885983,
+   "sem": 0.21306499259940845,
+   "wall_s": 1.1415703613311052,
+   "status": "ok"
+  },
+  "clu_Mg3Si_tet": {
+   "property": "cluster_binding",
+   "value": -0.7851758038730736,
+   "sem": 0.25224169372192906,
+   "wall_s": 1.155729787889868,
+   "status": "ok"
+  },
+  "clu_MgSi3_tet": {
+   "property": "cluster_binding",
+   "value": -0.9093494935426634,
+   "sem": 0.20591446931758856,
+   "wall_s": 1.1561948787420988,
+   "status": "ok"
+  },
+  "_reference_wall_s": {
+   "mp_134_Al": 1.7862758920527995,
+   "mp_153_Mg": 1.555256283376366,
+   "mp_149_Si": 0.35236031794920564,
+   "clu_Al108": 1.1636255490593612,
+   "clu_Mg1": 1.1261217128485441,
+   "clu_Si1": 1.1594597729854286
+  }
+ },
+ "mace_md": {
+  "mp_134_Al": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.000512591003815243,
+   "wall_s": 122.31146329827607,
+   "status": "ok"
+  },
+  "mp_1183144_Al": {
+   "property": "formation_energy",
+   "value": -0.0009360439300540868,
+   "sem": 0.00039563644751893607,
+   "wall_s": 69.36169163696468,
+   "status": "ok"
+  },
+  "mp_2647008_Al": {
+   "property": "formation_energy",
+   "value": 0.004573416307237732,
+   "sem": 0.0004713186020753538,
+   "wall_s": 66.76221520267427,
+   "status": "ok"
+  },
+  "mp_153_Mg": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.0003176513978581148,
+   "wall_s": 66.75390116963536,
+   "status": "ok"
+  },
+  "mp_1094122_Mg": {
+   "property": "formation_energy",
+   "value": 0.0004057417975533717,
+   "sem": 0.0003393673830570139,
+   "wall_s": 66.03252485860139,
+   "status": "ok"
+  },
+  "mp_973364_Mg": {
+   "property": "formation_energy",
+   "value": 0.0013430494732329379,
+   "sem": 0.0003250483821807932,
+   "wall_s": 63.01760350074619,
+   "status": "ok"
+  },
+  "mp_1056702_Mg": {
+   "property": "formation_energy",
+   "value": 0.0018641336229112682,
+   "sem": 0.000260074838536516,
+   "wall_s": 58.9064414082095,
+   "status": "ok"
+  },
+  "mp_1056351_Mg": {
+   "property": "formation_energy",
+   "value": 0.010852865515815102,
+   "sem": 0.0009115839153252621,
+   "wall_s": 59.289553941227496,
+   "status": "ok"
+  },
+  "mp_110_Mg": {
+   "property": "formation_energy",
+   "value": 0.015461818355984258,
+   "sem": 0.0003578730544833226,
+   "wall_s": 58.16049600485712,
+   "status": "ok"
+  },
+  "mp_3833_Mg(AlSi)2": {
+   "property": "formation_energy",
+   "value": 0.007450600568982946,
+   "sem": 0.00022039914258831702,
+   "wall_s": 61.41328588221222,
+   "status": "ok"
+  },
+  "mp_1028210_Mg14AlSi": {
+   "property": "formation_energy",
+   "value": 0.0274801247066922,
+   "sem": 0.000299661173393859,
+   "wall_s": 64.12487975601107,
+   "status": "ok"
+  },
+  "mp_1028217_Mg14AlSi": {
+   "property": "formation_energy",
+   "value": 0.028744156434800938,
+   "sem": 0.00048279512165211026,
+   "wall_s": 63.58820438012481,
+   "status": "ok"
+  },
+  "mp_1023506_Mg15Al": {
+   "property": "formation_energy",
+   "value": 0.00405676544507369,
+   "sem": 0.0004198475023010088,
+   "wall_s": 63.93461716733873,
+   "status": "ok"
+  },
+  "mp_1023509_Mg15Si": {
+   "property": "formation_energy",
+   "value": 0.022774771981769304,
+   "sem": 0.0003486992474191934,
+   "wall_s": 64.1069977786392,
+   "status": "ok"
+  },
+  "mp_1367_Mg2Si": {
+   "property": "formation_energy",
+   "value": -0.08247001271189047,
+   "sem": 0.00029215875817734896,
+   "wall_s": 63.225392105057836,
+   "status": "ok"
+  },
+  "mp_1101851_Mg2Si": {
+   "property": "formation_energy",
+   "value": -0.04079742996781022,
+   "sem": 0.0003987851246022874,
+   "wall_s": 60.08820035867393,
+   "status": "ok"
+  },
+  "mp_1074652_Mg2Si": {
+   "property": "formation_energy",
+   "value": -0.01711205470709176,
+   "sem": 0.00032490424099708534,
+   "wall_s": 58.05545026808977,
+   "status": "ok"
+  },
+  "mp_978271_Mg3Al": {
+   "property": "formation_energy",
+   "value": 0.004879199371808807,
+   "sem": 0.0003511021987956018,
+   "wall_s": 56.72381415590644,
+   "status": "ok"
+  },
+  "mp_1094970_Mg3Al": {
+   "property": "formation_energy",
+   "value": 0.0009793363995026505,
+   "sem": 0.0002640779276274737,
+   "wall_s": 62.21529336553067,
+   "status": "ok"
+  },
+  "mp_1094961_Mg3Al": {
+   "property": "formation_energy",
+   "value": 0.009350950455370932,
+   "sem": 0.0005085526899907489,
+   "wall_s": 72.28595835529268,
+   "status": "ok"
+  },
+  "mp_1016233_Mg3Al": {
+   "property": "formation_energy",
+   "value": 0.018065101602342648,
+   "sem": 0.0005038434737172832,
+   "wall_s": 57.87367138732225,
+   "status": "ok"
+  },
+  "mp_1094666_Mg3Al": {
+   "property": "formation_energy",
+   "value": 0.024812357398609763,
+   "sem": 0.0006487463120910821,
+   "wall_s": 58.163987007923424,
+   "status": "ok"
+  },
+  "mp_1016271_Mg7Al": {
+   "property": "formation_energy",
+   "value": 0.009614950699276814,
+   "sem": 0.0007003803093651371,
+   "wall_s": 61.99556043930352,
+   "status": "ok"
+  },
+  "mp_1094987_MgAl": {
+   "property": "formation_energy",
+   "value": -0.004068234168158602,
+   "sem": 0.00034667698870763104,
+   "wall_s": 58.72085120435804,
+   "status": "ok"
+  },
+  "mp_1039019_MgAl": {
+   "property": "formation_energy",
+   "value": 0.026835764312744148,
+   "sem": 0.0004575289330084594,
+   "wall_s": 62.14113715477288,
+   "status": "ok"
+  },
+  "mp_1038779_MgAl": {
+   "property": "formation_energy",
+   "value": 0.030434874492221597,
+   "sem": 0.00026736921389374467,
+   "wall_s": 79.79944601748139,
+   "status": "ok"
+  },
+  "mp_1038934_MgAl": {
+   "property": "formation_energy",
+   "value": 0.02705632904900468,
+   "sem": 0.0005063328164023781,
+   "wall_s": 58.335653404705226,
+   "status": "ok"
+  },
+  "mp_1094116_MgAl2": {
+   "property": "formation_energy",
+   "value": -0.050908530115198136,
+   "sem": 0.0003350721624006838,
+   "wall_s": 62.09868908394128,
+   "status": "ok"
+  },
+  "mp_1102064_MgAl2": {
+   "property": "formation_energy",
+   "value": 0.0011869869373462016,
+   "sem": 0.0007900204321088489,
+   "wall_s": 58.270021700300276,
+   "status": "ok"
+  },
+  "mp_1222013_MgAl2": {
+   "property": "formation_energy",
+   "value": 0.023488012327971042,
+   "sem": 0.00034288614196249496,
+   "wall_s": 61.582867787219584,
+   "status": "ok"
+  },
+  "mp_1038916_MgAl3": {
+   "property": "formation_energy",
+   "value": 0.003459760884885199,
+   "sem": 0.0004704718026257492,
+   "wall_s": 87.22471651434898,
+   "status": "ok"
+  },
+  "mp_1039119_MgAl3": {
+   "property": "formation_energy",
+   "value": -0.012242387835184498,
+   "sem": 0.0004077624576551175,
+   "wall_s": 62.4325636215508,
+   "status": "ok"
+  },
+  "mp_4499_MgAlSi": {
+   "property": "formation_energy",
+   "value": -0.06664241963139306,
+   "sem": 0.00025230248352623444,
+   "wall_s": 62.39356109406799,
+   "status": "ok"
+  },
+  "mp_1073794_MgSi": {
+   "property": "formation_energy",
+   "value": 0.0008365613442884445,
+   "sem": 0.000614795647462727,
+   "wall_s": 60.201075228862464,
+   "status": "ok"
+  },
+  "mp_149_Si": {
+   "property": "formation_energy",
+   "value": 0.0,
+   "sem": 0.00035699237876801656,
+   "wall_s": 58.7700386820361,
+   "status": "ok"
+  },
+  "mp_165_Si": {
+   "property": "formation_energy",
+   "value": -0.0020327123006191883,
+   "sem": 0.0003338524242207689,
+   "wall_s": 58.10300452075899,
+   "status": "ok"
+  },
+  "mp_1079297_Si": {
+   "property": "formation_energy",
+   "value": 0.04826512230767044,
+   "sem": 0.00029008061682464064,
+   "wall_s": 58.62611329834908,
+   "status": "ok"
+  },
+  "fcc_Al3Si_00": {
+   "property": "formation_energy",
+   "value": 0.09030366468547335,
+   "sem": 0.00043024692031518594,
+   "wall_s": 58.219563795253634,
+   "status": "ok"
+  },
+  "fcc_AlSi_01": {
+   "property": "formation_energy",
+   "value": 0.1583205928378626,
+   "sem": 0.0009220321254849124,
+   "wall_s": 62.106550303287804,
+   "status": "ok"
+  },
+  "fcc_MgAl3_02": {
+   "property": "formation_energy",
+   "value": -0.011671206149348912,
+   "sem": 0.0009388056337290105,
+   "wall_s": 57.974263614974916,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_03": {
+   "property": "formation_energy",
+   "value": 0.03634834425419875,
+   "sem": 0.0003130045981189496,
+   "wall_s": 58.090751432813704,
+   "status": "ok"
+  },
+  "fcc_MgAl_04": {
+   "property": "formation_energy",
+   "value": -0.0005988390604655391,
+   "sem": 0.0005692652091824326,
+   "wall_s": 56.782761769369245,
+   "status": "ok"
+  },
+  "fcc_Al7Si_05": {
+   "property": "formation_energy",
+   "value": 0.04694152335414081,
+   "sem": 0.0003563478408186444,
+   "wall_s": 60.82379999663681,
+   "status": "ok"
+  },
+  "fcc_Al3Si_06": {
+   "property": "formation_energy",
+   "value": 0.07211743549770677,
+   "sem": 0.0013948200973699313,
+   "wall_s": 106.86048504337668,
+   "status": "ok"
+  },
+  "fcc_Al3Si_07": {
+   "property": "formation_energy",
+   "value": 0.11165209276411203,
+   "sem": 0.0003902571752609632,
+   "wall_s": 68.44867230765522,
+   "status": "ok"
+  },
+  "fcc_Al3Si_08": {
+   "property": "formation_energy",
+   "value": 0.08028855094909582,
+   "sem": 0.0005291886664470088,
+   "wall_s": 64.44961587153375,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_09": {
+   "property": "formation_energy",
+   "value": 0.14012563037872328,
+   "sem": 0.0006562901755849153,
+   "wall_s": 60.68361876625568,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_10": {
+   "property": "formation_energy",
+   "value": 0.11952230068489333,
+   "sem": 0.0015660333053949707,
+   "wall_s": 111.73239774815738,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_11": {
+   "property": "formation_energy",
+   "value": 0.11918300738158072,
+   "sem": 0.0011250372206910702,
+   "wall_s": 60.99203151650727,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_12": {
+   "property": "formation_energy",
+   "value": 0.12714290163252118,
+   "sem": 0.0014633799794985442,
+   "wall_s": 60.16520607750863,
+   "status": "ok"
+  },
+  "fcc_AlSi_13": {
+   "property": "formation_energy",
+   "value": 0.17366635911729533,
+   "sem": 0.0017256555940678704,
+   "wall_s": 68.4874793253839,
+   "status": "ok"
+  },
+  "fcc_AlSi_14": {
+   "property": "formation_energy",
+   "value": 0.16598925331963454,
+   "sem": 0.002312681002634632,
+   "wall_s": 112.68303378671408,
+   "status": "ok"
+  },
+  "fcc_AlSi_15": {
+   "property": "formation_energy",
+   "value": 0.1653204238609025,
+   "sem": 0.0026262004331021474,
+   "wall_s": 60.963368812575936,
+   "status": "ok"
+  },
+  "fcc_AlSi_16": {
+   "property": "formation_energy",
+   "value": 0.15956316406815074,
+   "sem": 0.0015203637904653818,
+   "wall_s": 60.28814417216927,
+   "status": "ok"
+  },
+  "fcc_AlSi_17": {
+   "property": "formation_energy",
+   "value": 0.1629527034335665,
+   "sem": 0.0014442099739459507,
+   "wall_s": 61.06154396664351,
+   "status": "ok"
+  },
+  "fcc_AlSi_18": {
+   "property": "formation_energy",
+   "value": 0.159564395132183,
+   "sem": 0.0015767432516950685,
+   "wall_s": 116.64776392374188,
+   "status": "ok"
+  },
+  "fcc_MgAl7_19": {
+   "property": "formation_energy",
+   "value": -0.0015987037058229348,
+   "sem": 0.0004658173861266062,
+   "wall_s": 60.87395943515003,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_20": {
+   "property": "formation_energy",
+   "value": 0.03366302217200845,
+   "sem": 0.00037937526328868403,
+   "wall_s": 59.94287754036486,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_21": {
+   "property": "formation_energy",
+   "value": 0.014047690592871143,
+   "sem": 0.00037295798254281164,
+   "wall_s": 60.6864999094978,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_22": {
+   "property": "formation_energy",
+   "value": 0.056481718935789904,
+   "sem": 0.0006982905397891486,
+   "wall_s": 112.14520474616438,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_23": {
+   "property": "formation_energy",
+   "value": 0.05293912826467351,
+   "sem": 0.0003445615342040734,
+   "wall_s": 60.80964220315218,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_24": {
+   "property": "formation_energy",
+   "value": 0.07930173621354308,
+   "sem": 0.00031970536303401793,
+   "wall_s": 59.91767414100468,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_25": {
+   "property": "formation_energy",
+   "value": 0.01495409183148988,
+   "sem": 0.0003040010680991341,
+   "wall_s": 60.4940570583567,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_26": {
+   "property": "formation_energy",
+   "value": 0.06934457667668559,
+   "sem": 0.0009873366155623796,
+   "wall_s": 112.06335900910199,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_27": {
+   "property": "formation_energy",
+   "value": 0.05967226764890876,
+   "sem": 0.0005359647562642663,
+   "wall_s": 60.785872981883585,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_28": {
+   "property": "formation_energy",
+   "value": 0.05220540182678812,
+   "sem": 0.0015559029246822985,
+   "wall_s": 59.99990074522793,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_29": {
+   "property": "formation_energy",
+   "value": 0.07153477804749064,
+   "sem": 0.0011462518221437886,
+   "wall_s": 60.58706117607653,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_30": {
+   "property": "formation_energy",
+   "value": 0.05447982041041022,
+   "sem": 0.0014768476620080496,
+   "wall_s": 112.17214383743703,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_31": {
+   "property": "formation_energy",
+   "value": 0.06576241770497027,
+   "sem": 0.00047127660559066135,
+   "wall_s": 60.852332819253206,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_32": {
+   "property": "formation_energy",
+   "value": 0.10255512196929328,
+   "sem": 0.006207508008535439,
+   "wall_s": 59.85088506247848,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_33": {
+   "property": "formation_energy",
+   "value": 0.08353611890651558,
+   "sem": 0.0023772862117169137,
+   "wall_s": 60.68344317749143,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_34": {
+   "property": "formation_energy",
+   "value": 0.1100751938396034,
+   "sem": 0.0012231055818723879,
+   "wall_s": 112.08379841037095,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_35": {
+   "property": "formation_energy",
+   "value": 0.08334059165318819,
+   "sem": 0.0015001327538090173,
+   "wall_s": 60.93636035639793,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_36": {
+   "property": "formation_energy",
+   "value": 0.10866373042000599,
+   "sem": 0.003575725775204552,
+   "wall_s": 59.8661199118942,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_37": {
+   "property": "formation_energy",
+   "value": 0.07093073436242503,
+   "sem": 0.0023192860429486818,
+   "wall_s": 60.55348941683769,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_38": {
+   "property": "formation_energy",
+   "value": 0.07871949846832815,
+   "sem": 0.0014469032531076586,
+   "wall_s": 112.13409843947738,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_39": {
+   "property": "formation_energy",
+   "value": 0.07861176294044081,
+   "sem": 0.0011672229476087919,
+   "wall_s": 60.72598082944751,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_40": {
+   "property": "formation_energy",
+   "value": 0.08562764960041647,
+   "sem": 0.0025058729823155186,
+   "wall_s": 59.967255828902125,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_41": {
+   "property": "formation_energy",
+   "value": 0.08619557042651649,
+   "sem": 0.0032805848595290634,
+   "wall_s": 60.62882713600993,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_42": {
+   "property": "formation_energy",
+   "value": 0.0819262799263003,
+   "sem": 0.003092030897702565,
+   "wall_s": 112.12405508290976,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_43": {
+   "property": "formation_energy",
+   "value": 0.11231331063376504,
+   "sem": 0.0034301071577850957,
+   "wall_s": 60.67662227526307,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_44": {
+   "property": "formation_energy",
+   "value": 0.09366387453079139,
+   "sem": 0.003207455713572663,
+   "wall_s": 59.91217386350036,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_45": {
+   "property": "formation_energy",
+   "value": 0.07457368830574818,
+   "sem": 0.002553565637844489,
+   "wall_s": 60.63596977945417,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_46": {
+   "property": "formation_energy",
+   "value": 0.09106198537967747,
+   "sem": 0.003138101348034882,
+   "wall_s": 112.11685640364885,
+   "status": "ok"
+  },
+  "fcc_MgAl3_47": {
+   "property": "formation_energy",
+   "value": 0.0022754330175893678,
+   "sem": 0.0003041994126222316,
+   "wall_s": 60.716732180677354,
+   "status": "ok"
+  },
+  "fcc_MgAl3_48": {
+   "property": "formation_energy",
+   "value": 0.0009090220557319006,
+   "sem": 0.0003694333964567091,
+   "wall_s": 67.56788210943341,
+   "status": "ok"
+  },
+  "fcc_MgAl3_49": {
+   "property": "formation_energy",
+   "value": 0.003977503371532742,
+   "sem": 0.0003163031172707274,
+   "wall_s": 64.52714236732572,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_50": {
+   "property": "formation_energy",
+   "value": 0.013377735915007793,
+   "sem": 0.00035044940968409494,
+   "wall_s": 112.16988833993673,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_51": {
+   "property": "formation_energy",
+   "value": 0.048418509377373575,
+   "sem": 0.0007492030798225681,
+   "wall_s": 60.65392744354904,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_52": {
+   "property": "formation_energy",
+   "value": 0.04367755275302454,
+   "sem": 0.0003574165025812863,
+   "wall_s": 60.091185986064374,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_53": {
+   "property": "formation_energy",
+   "value": 0.02852930937872955,
+   "sem": 0.0004004585185570387,
+   "wall_s": 60.57749587483704,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_54": {
+   "property": "formation_energy",
+   "value": 0.07011286650763593,
+   "sem": 0.00037244843910070436,
+   "wall_s": 112.12260426674038,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_55": {
+   "property": "formation_energy",
+   "value": 0.018279487680505913,
+   "sem": 0.0003528699311382225,
+   "wall_s": 60.97914822772145,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_56": {
+   "property": "formation_energy",
+   "value": 0.01464159739458959,
+   "sem": 0.00036650691615222586,
+   "wall_s": 59.93228232022375,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_57": {
+   "property": "formation_energy",
+   "value": 0.03297236922935198,
+   "sem": 0.00033327809533938754,
+   "wall_s": 60.82406090758741,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_58": {
+   "property": "formation_energy",
+   "value": 0.034185548923634124,
+   "sem": 0.0004156960550049773,
+   "wall_s": 112.16300465539098,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_59": {
+   "property": "formation_energy",
+   "value": -0.04023276958465605,
+   "sem": 0.00037870963345514535,
+   "wall_s": 60.526292813941836,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_60": {
+   "property": "formation_energy",
+   "value": 0.025225124069496285,
+   "sem": 0.0003606996031904558,
+   "wall_s": 59.79160048533231,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_61": {
+   "property": "formation_energy",
+   "value": 0.030960144177189175,
+   "sem": 0.001252130368018493,
+   "wall_s": 60.49543112888932,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_62": {
+   "property": "formation_energy",
+   "value": 0.04635616768024642,
+   "sem": 0.0006073386479393563,
+   "wall_s": 112.11698330100626,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_63": {
+   "property": "formation_energy",
+   "value": 0.025792009275930727,
+   "sem": 0.0003003529657266379,
+   "wall_s": 60.444080386310816,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_64": {
+   "property": "formation_energy",
+   "value": 0.043369369923627055,
+   "sem": 0.0018603317372526923,
+   "wall_s": 59.882109803147614,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_65": {
+   "property": "formation_energy",
+   "value": 0.06139804316626707,
+   "sem": 0.0018565001188336379,
+   "wall_s": 60.43074285518378,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_66": {
+   "property": "formation_energy",
+   "value": 0.08166096905602283,
+   "sem": 0.0038677669238452055,
+   "wall_s": 112.15203888621181,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_67": {
+   "property": "formation_energy",
+   "value": 0.059195332414132995,
+   "sem": 0.0038346285808630092,
+   "wall_s": 60.43758706469089,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_68": {
+   "property": "formation_energy",
+   "value": 0.058627953592936155,
+   "sem": 0.00035072848356880774,
+   "wall_s": 68.1580472541973,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_69": {
+   "property": "formation_energy",
+   "value": 0.06534433618474855,
+   "sem": 0.0029080756787551896,
+   "wall_s": 60.33625822421163,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_70": {
+   "property": "formation_energy",
+   "value": 0.042576342399032185,
+   "sem": 0.0009373793434457015,
+   "wall_s": 112.16745132394135,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_71": {
+   "property": "formation_energy",
+   "value": 0.04355789508819541,
+   "sem": 0.00045437503121576763,
+   "wall_s": 60.84409005846828,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_72": {
+   "property": "formation_energy",
+   "value": 0.08906618442535397,
+   "sem": 0.005532870360412894,
+   "wall_s": 63.59111070819199,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_73": {
+   "property": "formation_energy",
+   "value": 0.05618659025828032,
+   "sem": 0.00037112227898601814,
+   "wall_s": 60.6775595927611,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_74": {
+   "property": "formation_energy",
+   "value": 0.021745870088647923,
+   "sem": 0.0006027382712602638,
+   "wall_s": 112.00547335110605,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_75": {
+   "property": "formation_energy",
+   "value": 0.041387278655723225,
+   "sem": 0.0008937027868805056,
+   "wall_s": 60.62654048204422,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_76": {
+   "property": "formation_energy",
+   "value": 0.06333275589413123,
+   "sem": 0.0034090567992064173,
+   "wall_s": 59.906209552660584,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_77": {
+   "property": "formation_energy",
+   "value": 0.026650738603097857,
+   "sem": 0.0008070325591484299,
+   "wall_s": 60.29087627958506,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_78": {
+   "property": "formation_energy",
+   "value": 0.04373508353763178,
+   "sem": 0.0010371338071420951,
+   "wall_s": 112.16359432321042,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_79": {
+   "property": "formation_energy",
+   "value": 0.04043142289762125,
+   "sem": 0.0005372249912982046,
+   "wall_s": 64.61542459297925,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_80": {
+   "property": "formation_energy",
+   "value": 0.030139959304715358,
+   "sem": 0.0007383245268794038,
+   "wall_s": 64.28499024547637,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_81": {
+   "property": "formation_energy",
+   "value": 0.005462058155624838,
+   "sem": 0.000267315464006884,
+   "wall_s": 60.40355531871319,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_82": {
+   "property": "formation_energy",
+   "value": -0.0022662486500206747,
+   "sem": 0.0003505754677532253,
+   "wall_s": 112.13594026956707,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_83": {
+   "property": "formation_energy",
+   "value": 0.00758235731831336,
+   "sem": 0.0003647524662350797,
+   "wall_s": 60.54680297430605,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_84": {
+   "property": "formation_energy",
+   "value": -0.0019351837899952429,
+   "sem": 0.0003475955673972963,
+   "wall_s": 59.8938321666792,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_85": {
+   "property": "formation_energy",
+   "value": 0.01948908096949231,
+   "sem": 0.00025965386436782936,
+   "wall_s": 60.44436660874635,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_86": {
+   "property": "formation_energy",
+   "value": 0.042789405868671415,
+   "sem": 0.00027721354020754667,
+   "wall_s": 112.13789471797645,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_87": {
+   "property": "formation_energy",
+   "value": 0.061392315380661144,
+   "sem": 0.0005220650514033645,
+   "wall_s": 60.57108082436025,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_88": {
+   "property": "formation_energy",
+   "value": 0.038785525049986336,
+   "sem": 0.00036885859713087617,
+   "wall_s": 59.89111794158816,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_89": {
+   "property": "formation_energy",
+   "value": 0.008288588675746,
+   "sem": 0.0006133889910295617,
+   "wall_s": 60.4692332521081,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_90": {
+   "property": "formation_energy",
+   "value": 0.01985418564478525,
+   "sem": 0.0003115758644859342,
+   "wall_s": 112.10963665507734,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_91": {
+   "property": "formation_energy",
+   "value": 0.039860799199562424,
+   "sem": 0.00046966752930073324,
+   "wall_s": 60.56294955313206,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_92": {
+   "property": "formation_energy",
+   "value": 0.03401096941983217,
+   "sem": 0.0005526172121506207,
+   "wall_s": 59.80059433635324,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_93": {
+   "property": "formation_energy",
+   "value": 0.035019058273456194,
+   "sem": 0.000542193547020459,
+   "wall_s": 60.39731869939715,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_94": {
+   "property": "formation_energy",
+   "value": 0.019789433277978108,
+   "sem": 0.0002560599179433874,
+   "wall_s": 112.12930998392403,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_95": {
+   "property": "formation_energy",
+   "value": 0.044448201543313526,
+   "sem": 0.0009476925581208924,
+   "wall_s": 60.508744802325964,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_96": {
+   "property": "formation_energy",
+   "value": 0.04417413673754067,
+   "sem": 0.0004258132728093749,
+   "wall_s": 59.767214867286384,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_97": {
+   "property": "formation_energy",
+   "value": 0.022808579667409346,
+   "sem": 0.00031276599732508743,
+   "wall_s": 60.35478983167559,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_98": {
+   "property": "formation_energy",
+   "value": 0.04134110236344435,
+   "sem": 0.0003107636218773911,
+   "wall_s": 112.13880158122629,
+   "status": "ok"
+  },
+  "fcc_MgAl_99": {
+   "property": "formation_energy",
+   "value": 0.006000099775526402,
+   "sem": 0.00027538075916456886,
+   "wall_s": 59.60482976771891,
+   "status": "ok"
+  },
+  "fcc_MgAl_100": {
+   "property": "formation_energy",
+   "value": 0.0048666031025079715,
+   "sem": 0.00043158417570205137,
+   "wall_s": 59.81956125702709,
+   "status": "ok"
+  },
+  "fcc_MgAl_101": {
+   "property": "formation_energy",
+   "value": 0.004575574196709509,
+   "sem": 0.0005495200336203066,
+   "wall_s": 60.25992238521576,
+   "status": "ok"
+  },
+  "fcc_MgAl_102": {
+   "property": "formation_energy",
+   "value": 0.014432094955444397,
+   "sem": 0.0005096737829089243,
+   "wall_s": 112.04114633239806,
+   "status": "ok"
+  },
+  "fcc_MgAl_103": {
+   "property": "formation_energy",
+   "value": 0.005252030224270454,
+   "sem": 0.0004032962661049602,
+   "wall_s": 60.331120683811605,
+   "status": "ok"
+  },
+  "fcc_MgAl_104": {
+   "property": "formation_energy",
+   "value": 0.011910086977923506,
+   "sem": 0.0005306569934490659,
+   "wall_s": 63.9174526296556,
+   "status": "ok"
+  },
+  "fcc_Al7Si_105": {
+   "property": "formation_energy",
+   "value": 0.047612478446960704,
+   "sem": 0.0007909633427812363,
+   "wall_s": 62.36290328763425,
+   "status": "ok"
+  },
+  "fcc_Al3Si_106": {
+   "property": "formation_energy",
+   "value": 0.09208378350999546,
+   "sem": 0.00061066960808641,
+   "wall_s": 114.11170592624694,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_107": {
+   "property": "formation_energy",
+   "value": 0.12868883313072965,
+   "sem": 0.0020469178786864713,
+   "wall_s": 62.579123470932245,
+   "status": "ok"
+  },
+  "fcc_Al5Si3_108": {
+   "property": "formation_energy",
+   "value": 0.12077156247032983,
+   "sem": 0.0015114774682213898,
+   "wall_s": 62.10956063680351,
+   "status": "ok"
+  },
+  "fcc_AlSi_109": {
+   "property": "formation_energy",
+   "value": 0.16498541785346132,
+   "sem": 0.002617970630882064,
+   "wall_s": 62.28379750996828,
+   "status": "ok"
+  },
+  "fcc_AlSi_110": {
+   "property": "formation_energy",
+   "value": 0.16944587554931645,
+   "sem": 0.0019111396694448176,
+   "wall_s": 113.88449407555163,
+   "status": "ok"
+  },
+  "fcc_AlSi_111": {
+   "property": "formation_energy",
+   "value": 0.16560825407240132,
+   "sem": 0.0012043450736639644,
+   "wall_s": 62.46585875377059,
+   "status": "ok"
+  },
+  "fcc_MgAl7_112": {
+   "property": "formation_energy",
+   "value": -0.00391495468351577,
+   "sem": 0.0006267024738968144,
+   "wall_s": 61.95724091399461,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_113": {
+   "property": "formation_energy",
+   "value": 0.028002914947932833,
+   "sem": 0.00043362530041406194,
+   "wall_s": 62.260053703561425,
+   "status": "ok"
+  },
+  "fcc_MgAl6Si_114": {
+   "property": "formation_energy",
+   "value": 0.0567506939464143,
+   "sem": 0.0005137063508166352,
+   "wall_s": 113.8462822958827,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_115": {
+   "property": "formation_energy",
+   "value": 0.05983817942937142,
+   "sem": 0.0007057449684248883,
+   "wall_s": 62.46661897748709,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_116": {
+   "property": "formation_energy",
+   "value": 0.04346753962834571,
+   "sem": 0.0003103293248350431,
+   "wall_s": 61.954454814083874,
+   "status": "ok"
+  },
+  "fcc_MgAl5Si2_117": {
+   "property": "formation_energy",
+   "value": 0.06488265032238383,
+   "sem": 0.002309273821548721,
+   "wall_s": 62.20587060134858,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_118": {
+   "property": "formation_energy",
+   "value": 0.0949671446588296,
+   "sem": 0.0037748176937192884,
+   "wall_s": 113.783099248074,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_119": {
+   "property": "formation_energy",
+   "value": 0.09424985865486968,
+   "sem": 0.002665147514154912,
+   "wall_s": 62.44560314621776,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_120": {
+   "property": "formation_energy",
+   "value": 0.07932583682801986,
+   "sem": 0.0009848050449265495,
+   "wall_s": 61.840992324985564,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_121": {
+   "property": "formation_energy",
+   "value": 0.08844660632875123,
+   "sem": 0.0029917245180941976,
+   "wall_s": 62.21258437167853,
+   "status": "ok"
+  },
+  "fcc_MgAl4Si3_122": {
+   "property": "formation_energy",
+   "value": 0.07943936433792032,
+   "sem": 0.001787775486674554,
+   "wall_s": 113.90461521688849,
+   "status": "ok"
+  },
+  "fcc_MgAl3_123": {
+   "property": "formation_energy",
+   "value": 0.006102893977694757,
+   "sem": 0.00037118617581196077,
+   "wall_s": 62.28645285498351,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_124": {
+   "property": "formation_energy",
+   "value": 0.024335359149509017,
+   "sem": 0.0006654263637390792,
+   "wall_s": 61.78273244202137,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_125": {
+   "property": "formation_energy",
+   "value": 0.053660200119018175,
+   "sem": 0.0008497288628882815,
+   "wall_s": 62.21773069910705,
+   "status": "ok"
+  },
+  "fcc_Mg2Al5Si_126": {
+   "property": "formation_energy",
+   "value": 0.012876462088690754,
+   "sem": 0.0004111042003234396,
+   "wall_s": 113.85549835767597,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_127": {
+   "property": "formation_energy",
+   "value": 0.042555051443311065,
+   "sem": 0.0006369981725143495,
+   "wall_s": 62.37863386049867,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_128": {
+   "property": "formation_energy",
+   "value": 0.0442197874493071,
+   "sem": 0.0008023157176198307,
+   "wall_s": 61.70173988956958,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_129": {
+   "property": "formation_energy",
+   "value": 0.03564147425757458,
+   "sem": 0.001018090811312035,
+   "wall_s": 62.16049089282751,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_130": {
+   "property": "formation_energy",
+   "value": 0.052052157783508246,
+   "sem": 0.002859630941145877,
+   "wall_s": 113.72591921593994,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_131": {
+   "property": "formation_energy",
+   "value": 0.04955739239586654,
+   "sem": 0.005002201444027964,
+   "wall_s": 61.96127056144178,
+   "status": "ok"
+  },
+  "fcc_MgAl2Si_132": {
+   "property": "formation_energy",
+   "value": 0.037120394240484966,
+   "sem": 0.0006194355972429955,
+   "wall_s": 61.76492232829332,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_133": {
+   "property": "formation_energy",
+   "value": 0.019174303955502126,
+   "sem": 0.0005502917773661031,
+   "wall_s": 62.18268608022481,
+   "status": "ok"
+  },
+  "fcc_Mg3Al5_134": {
+   "property": "formation_energy",
+   "value": 0.0019708161354063947,
+   "sem": 0.0004389413935860025,
+   "wall_s": 113.8712512627244,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_135": {
+   "property": "formation_energy",
+   "value": 0.03177070650524505,
+   "sem": 0.0004827749204498762,
+   "wall_s": 62.32201088313013,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_136": {
+   "property": "formation_energy",
+   "value": 0.029542206986745145,
+   "sem": 0.0014242624343681458,
+   "wall_s": 61.76076678466052,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_137": {
+   "property": "formation_energy",
+   "value": 0.057074703968895135,
+   "sem": 0.00078055367177338,
+   "wall_s": 62.13468867819756,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_138": {
+   "property": "formation_energy",
+   "value": 0.016726540788014832,
+   "sem": 0.0007064508515461864,
+   "wall_s": 113.70296147931367,
+   "status": "ok"
+  },
+  "fcc_Mg3Al4Si_139": {
+   "property": "formation_energy",
+   "value": 0.04875553375879915,
+   "sem": 0.00039342499908758753,
+   "wall_s": 62.36566002573818,
+   "status": "ok"
+  },
+  "fcc_MgAl_140": {
+   "property": "formation_energy",
+   "value": 0.03026029964023158,
+   "sem": 0.0003601589493389327,
+   "wall_s": 61.53153150714934,
+   "status": "ok"
+  },
+  "fcc_MgAl_141": {
+   "property": "formation_energy",
+   "value": 0.03328938225640221,
+   "sem": 0.0003580864934926209,
+   "wall_s": 62.119673965498805,
+   "status": "ok"
+  },
+  "fcc_MgAl_142": {
+   "property": "formation_energy",
+   "value": 0.01589739117092548,
+   "sem": 0.0005501521410392325,
+   "wall_s": 113.69179293699563,
+   "status": "ok"
+  },
+  "clu_MgSi_1nn": {
+   "property": "cluster_binding",
+   "value": 0.28815551757810454,
+   "sem": 0.05616369872511683,
+   "wall_s": 105.79341083113104,
+   "status": "ok"
+  },
+  "clu_MgSi_2nn": {
+   "property": "cluster_binding",
+   "value": 0.09212320963541742,
+   "sem": 0.05623673126340816,
+   "wall_s": 105.85426924657077,
+   "status": "ok"
+  },
+  "clu_MgMg_1nn": {
+   "property": "cluster_binding",
+   "value": 0.03696350097663981,
+   "sem": 0.06814954971593558,
+   "wall_s": 105.75178112927824,
+   "status": "ok"
+  },
+  "clu_SiSi_1nn": {
+   "property": "cluster_binding",
+   "value": 0.1882763671873704,
+   "sem": 0.07959446562754363,
+   "wall_s": 105.81657327804714,
+   "status": "ok"
+  },
+  "clu_SiSi_2nn": {
+   "property": "cluster_binding",
+   "value": 0.18605224609359539,
+   "sem": 0.0702376561411328,
+   "wall_s": 105.79763925354928,
+   "status": "ok"
+  },
+  "clu_Mg2Si_tri": {
+   "property": "cluster_binding",
+   "value": 0.38614664713543334,
+   "sem": 0.09046129726845432,
+   "wall_s": 105.86642477009445,
+   "status": "ok"
+  },
+  "clu_MgSi2_tri": {
+   "property": "cluster_binding",
+   "value": 0.41011881510411285,
+   "sem": 0.09305416630969526,
+   "wall_s": 105.79810026008636,
+   "status": "ok"
+  },
+  "clu_Mg2Si2_tet": {
+   "property": "cluster_binding",
+   "value": 0.528579305013011,
+   "sem": 0.12600650978882652,
+   "wall_s": 105.80707828328013,
+   "status": "ok"
+  },
+  "clu_Mg3Si_tet": {
+   "property": "cluster_binding",
+   "value": 0.260028483072972,
+   "sem": 0.13142195510760077,
+   "wall_s": 105.73265520203859,
+   "status": "ok"
+  },
+  "clu_MgSi3_tet": {
+   "property": "cluster_binding",
+   "value": 0.7930246988930776,
+   "sem": 0.13399118074587937,
+   "wall_s": 105.83505541831255,
+   "status": "ok"
+  },
+  "_reference_wall_s": {
+   "mp_134_Al": 122.31146329827607,
+   "mp_153_Mg": 66.75390116963536,
+   "mp_149_Si": 58.7700386820361,
+   "clu_Al108": 105.915303517133,
+   "clu_Mg1": 105.85032147914171,
+   "clu_Si1": 105.85400381870568
+  }
+ }
+}

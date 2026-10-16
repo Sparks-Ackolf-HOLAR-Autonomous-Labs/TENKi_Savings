@@ -1,0 +1,44 @@
+{
+ "cid": "arc_KNa2Sb_mp-15724",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "KNa2Sb",
+ "volume_per_atom": 29.66838809341051,
+ "device": "cpu:16",
+ "node": "notch223",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 42.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.3103356782653295,
+ "gap_eV": 1.3103356782653295,
+ "vbm_eV": 4.513421935026516,
+ "cbm_eV": 5.823757613291845,
+ "direct_on_mesh": true,
+ "nk_irr": 68,
+ "status": "ok",
+ "wall_s": 2376.1706807613373,
+ "core_s": 38018.7308921814,
+ "qe_cpu_s": 2014.55,
+ "qe_wall_s": 2375.44
+}

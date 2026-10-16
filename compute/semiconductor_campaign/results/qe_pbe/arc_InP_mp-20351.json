@@ -1,0 +1,43 @@
+{
+ "cid": "arc_InP_mp-20351",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "InP",
+ "volume_per_atom": 26.478064563810214,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 18.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.4328131648532585,
+ "gap_eV": 0.4328131648532585,
+ "vbm_eV": 6.506716921674236,
+ "cbm_eV": 6.939530086527495,
+ "direct_on_mesh": true,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 114.98376035690308,
+ "core_s": 1839.7401657104492,
+ "qe_cpu_s": 104.46000000000001,
+ "qe_wall_s": 113.59,
+ "energy_per_atom": -998.5870982080484
+}

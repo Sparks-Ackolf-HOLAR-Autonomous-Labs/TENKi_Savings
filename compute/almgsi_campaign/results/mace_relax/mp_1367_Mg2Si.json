@@ -1,0 +1,39 @@
+{
+ "cid": "mp_1367_Mg2Si",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 3,
+ "energy_per_atom": -2.9450339571932247,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 21.357848333986023,
+ "wall_s": 0.14620036212727427,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 5
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   3.889811287148281,
+   1.7413550514723727e-07,
+   2.2457829602701556
+  ],
+  [
+   1.2966032584906162,
+   3.667349615224418,
+   2.2457829594474905
+  ],
+  [
+   2.279008990370178e-07,
+   1.6722763304022905e-07,
+   4.491567522381369
+  ]
+ ]
+}

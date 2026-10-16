@@ -1,0 +1,39 @@
+{
+ "cid": "mp_2151_Mg17Al12",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 29,
+ "energy_per_atom": -2.5110770517634236,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 20.155502296442332,
+ "wall_s": 0.7018250739201903,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 24
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   -5.267168569416265,
+   5.267168485774077,
+   5.267168485774079
+  ],
+  [
+   5.267168485774091,
+   -5.26716856941621,
+   5.267168485774023
+  ],
+  [
+   5.26716848577408,
+   5.267168485774032,
+   -5.267168569416203
+  ]
+ ]
+}

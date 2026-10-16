@@ -1,0 +1,44 @@
+{
+ "cid": "arc_GaSb_mp-1156",
+ "source": "qe_hse06",
+ "natoms": 2,
+ "formula": "GaSb",
+ "volume_per_atom": 30.07923537545781,
+ "device": "cpu:16",
+ "node": "notch310",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 28.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.34752386708454885,
+ "gap_eV": 0.34752386708454885,
+ "vbm_eV": 7.144514946394282,
+ "cbm_eV": 7.492038813478831,
+ "direct_on_mesh": true,
+ "nk_irr": 68,
+ "status": "ok",
+ "wall_s": 429.2116973400116,
+ "core_s": 6867.387157440186,
+ "qe_cpu_s": 332.9,
+ "qe_wall_s": 428.03
+}

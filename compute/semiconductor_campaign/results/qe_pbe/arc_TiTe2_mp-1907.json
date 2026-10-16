@@ -1,0 +1,43 @@
+{
+ "cid": "arc_TiTe2_mp-1907",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "Te2Ti",
+ "volume_per_atom": 27.873308319579436,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 44.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": -0.6188107771610287,
+ "gap_eV": 0.0,
+ "vbm_eV": 10.262648184114948,
+ "cbm_eV": 9.643837406953919,
+ "direct_on_mesh": false,
+ "nk_irr": 72,
+ "status": "ok",
+ "wall_s": 185.99756288528442,
+ "core_s": 2975.961006164551,
+ "qe_cpu_s": 173.98999999999998,
+ "qe_wall_s": 184.63,
+ "energy_per_atom": -2441.311041498168
+}

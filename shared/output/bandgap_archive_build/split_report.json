@@ -1,0 +1,359 @@
+{
+  "generated": "2026-09-25 12:21 UTC",
+  "seed": 42,
+  "held_out_frac": 0.2,
+  "visible_frac": 0.02,
+  "n_candidates": 109485,
+  "n_held_out_candidates": 21894,
+  "n_visible_candidates": 2186,
+  "leakage_check": "PASS (candidate-disjoint roles)",
+  "by_role": {
+    "queryable": 203922,
+    "held_out": 51602,
+    "visible": 5529
+  },
+  "per_cell": {
+    "expt_zhuo|carbide": {
+      "visible": 2,
+      "queryable": 70,
+      "held_out": 13,
+      "unavailable": 0
+    },
+    "expt_zhuo|chalcogenide": {
+      "visible": 69,
+      "queryable": 1919,
+      "held_out": 412,
+      "unavailable": 0
+    },
+    "expt_zhuo|halide": {
+      "visible": 9,
+      "queryable": 460,
+      "held_out": 107,
+      "unavailable": 0
+    },
+    "expt_zhuo|metal_alloy": {
+      "visible": 19,
+      "queryable": 1052,
+      "held_out": 278,
+      "unavailable": 0
+    },
+    "expt_zhuo|nitride": {
+      "visible": 3,
+      "queryable": 102,
+      "held_out": 23,
+      "unavailable": 0
+    },
+    "expt_zhuo|oxide": {
+      "visible": 19,
+      "queryable": 868,
+      "held_out": 227,
+      "unavailable": 0
+    },
+    "expt_zhuo|pnictide": {
+      "visible": 8,
+      "queryable": 553,
+      "held_out": 141,
+      "unavailable": 0
+    },
+    "jarvis_mbj|carbide": {
+      "visible": 8,
+      "queryable": 319,
+      "held_out": 69,
+      "unavailable": 0
+    },
+    "jarvis_mbj|chalcogenide": {
+      "visible": 80,
+      "queryable": 2276,
+      "held_out": 561,
+      "unavailable": 0
+    },
+    "jarvis_mbj|halide": {
+      "visible": 76,
+      "queryable": 2747,
+      "held_out": 657,
+      "unavailable": 0
+    },
+    "jarvis_mbj|metal_alloy": {
+      "visible": 139,
+      "queryable": 4978,
+      "held_out": 1293,
+      "unavailable": 0
+    },
+    "jarvis_mbj|nitride": {
+      "visible": 20,
+      "queryable": 537,
+      "held_out": 166,
+      "unavailable": 0
+    },
+    "jarvis_mbj|oxide": {
+      "visible": 85,
+      "queryable": 3316,
+      "held_out": 789,
+      "unavailable": 0
+    },
+    "jarvis_mbj|pnictide": {
+      "visible": 24,
+      "queryable": 1334,
+      "held_out": 331,
+      "unavailable": 0
+    },
+    "jarvis_optb88vdw|carbide": {
+      "visible": 26,
+      "queryable": 1120,
+      "held_out": 269,
+      "unavailable": 0
+    },
+    "jarvis_optb88vdw|chalcogenide": {
+      "visible": 214,
+      "queryable": 6679,
+      "held_out": 1743,
+      "unavailable": 0
+    },
+    "jarvis_optb88vdw|halide": {
+      "visible": 248,
+      "queryable": 9744,
+      "held_out": 2420,
+      "unavailable": 0
+    },
+    "jarvis_optb88vdw|metal_alloy": {
+      "visible": 582,
+      "queryable": 21668,
+      "held_out": 5487,
+      "unavailable": 0
+    },
+    "jarvis_optb88vdw|nitride": {
+      "visible": 62,
+      "queryable": 1972,
+      "held_out": 557,
+      "unavailable": 0
+    },
+    "jarvis_optb88vdw|oxide": {
+      "visible": 340,
+      "queryable": 13814,
+      "held_out": 3389,
+      "unavailable": 0
+    },
+    "jarvis_optb88vdw|pnictide": {
+      "visible": 99,
+      "queryable": 4467,
+      "held_out": 1093,
+      "unavailable": 0
+    },
+    "mp_gga_expsynth|carbide": {
+      "visible": 1,
+      "queryable": 135,
+      "held_out": 24,
+      "unavailable": 0
+    },
+    "mp_gga_expsynth|chalcogenide": {
+      "visible": 104,
+      "queryable": 2614,
+      "held_out": 637,
+      "unavailable": 0
+    },
+    "mp_gga_expsynth|halide": {
+      "visible": 158,
+      "queryable": 6142,
+      "held_out": 1727,
+      "unavailable": 0
+    },
+    "mp_gga_expsynth|metal_alloy": {
+      "visible": 17,
+      "queryable": 442,
+      "held_out": 132,
+      "unavailable": 0
+    },
+    "mp_gga_expsynth|nitride": {
+      "visible": 12,
+      "queryable": 800,
+      "held_out": 210,
+      "unavailable": 0
+    },
+    "mp_gga_expsynth|oxide": {
+      "visible": 271,
+      "queryable": 10528,
+      "held_out": 2600,
+      "unavailable": 0
+    },
+    "mp_gga_expsynth|pnictide": {
+      "visible": 14,
+      "queryable": 617,
+      "held_out": 162,
+      "unavailable": 0
+    },
+    "mp_gga|carbide": {
+      "visible": 3,
+      "queryable": 242,
+      "held_out": 51,
+      "unavailable": 0
+    },
+    "mp_gga|chalcogenide": {
+      "visible": 266,
+      "queryable": 7439,
+      "held_out": 1907,
+      "unavailable": 0
+    },
+    "mp_gga|halide": {
+      "visible": 497,
+      "queryable": 17065,
+      "held_out": 4484,
+      "unavailable": 0
+    },
+    "mp_gga|metal_alloy": {
+      "visible": 79,
+      "queryable": 2368,
+      "held_out": 639,
+      "unavailable": 0
+    },
+    "mp_gga|nitride": {
+      "visible": 56,
+      "queryable": 2366,
+      "held_out": 586,
+      "unavailable": 0
+    },
+    "mp_gga|oxide": {
+      "visible": 1081,
+      "queryable": 42867,
+      "held_out": 10783,
+      "unavailable": 0
+    },
+    "mp_gga|pnictide": {
+      "visible": 63,
+      "queryable": 2449,
+      "held_out": 628,
+      "unavailable": 0
+    },
+    "mp_gga|unknown": {
+      "visible": 0,
+      "queryable": 0,
+      "held_out": 1,
+      "unavailable": 0
+    },
+    "mp_r2scan|carbide": {
+      "visible": 1,
+      "queryable": 68,
+      "held_out": 11,
+      "unavailable": 0
+    },
+    "mp_r2scan|chalcogenide": {
+      "visible": 82,
+      "queryable": 2082,
+      "held_out": 512,
+      "unavailable": 0
+    },
+    "mp_r2scan|halide": {
+      "visible": 75,
+      "queryable": 3324,
+      "held_out": 945,
+      "unavailable": 0
+    },
+    "mp_r2scan|metal_alloy": {
+      "visible": 15,
+      "queryable": 430,
+      "held_out": 114,
+      "unavailable": 0
+    },
+    "mp_r2scan|nitride": {
+      "visible": 13,
+      "queryable": 382,
+      "held_out": 97,
+      "unavailable": 0
+    },
+    "mp_r2scan|oxide": {
+      "visible": 117,
+      "queryable": 4521,
+      "held_out": 1103,
+      "unavailable": 0
+    },
+    "mp_r2scan|pnictide": {
+      "visible": 14,
+      "queryable": 598,
+      "held_out": 168,
+      "unavailable": 0
+    },
+    "snumat_gga|carbide": {
+      "visible": 1,
+      "queryable": 74,
+      "held_out": 18,
+      "unavailable": 0
+    },
+    "snumat_gga|chalcogenide": {
+      "visible": 70,
+      "queryable": 1777,
+      "held_out": 421,
+      "unavailable": 0
+    },
+    "snumat_gga|halide": {
+      "visible": 60,
+      "queryable": 2200,
+      "held_out": 538,
+      "unavailable": 0
+    },
+    "snumat_gga|metal_alloy": {
+      "visible": 10,
+      "queryable": 208,
+      "held_out": 71,
+      "unavailable": 0
+    },
+    "snumat_gga|nitride": {
+      "visible": 4,
+      "queryable": 386,
+      "held_out": 111,
+      "unavailable": 0
+    },
+    "snumat_gga|oxide": {
+      "visible": 73,
+      "queryable": 3051,
+      "held_out": 743,
+      "unavailable": 0
+    },
+    "snumat_gga|pnictide": {
+      "visible": 11,
+      "queryable": 528,
+      "held_out": 126,
+      "unavailable": 0
+    },
+    "snumat_hse|carbide": {
+      "visible": 1,
+      "queryable": 74,
+      "held_out": 18,
+      "unavailable": 0
+    },
+    "snumat_hse|chalcogenide": {
+      "visible": 70,
+      "queryable": 1777,
+      "held_out": 421,
+      "unavailable": 0
+    },
+    "snumat_hse|halide": {
+      "visible": 60,
+      "queryable": 2200,
+      "held_out": 538,
+      "unavailable": 0
+    },
+    "snumat_hse|metal_alloy": {
+      "visible": 10,
+      "queryable": 208,
+      "held_out": 71,
+      "unavailable": 0
+    },
+    "snumat_hse|nitride": {
+      "visible": 4,
+      "queryable": 386,
+      "held_out": 111,
+      "unavailable": 0
+    },
+    "snumat_hse|oxide": {
+      "visible": 73,
+      "queryable": 3051,
+      "held_out": 743,
+      "unavailable": 0
+    },
+    "snumat_hse|pnictide": {
+      "visible": 11,
+      "queryable": 528,
+      "held_out": 126,
+      "unavailable": 0
+    }
+  }
+}

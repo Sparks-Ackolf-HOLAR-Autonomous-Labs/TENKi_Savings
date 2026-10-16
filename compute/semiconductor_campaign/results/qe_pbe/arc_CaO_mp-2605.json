@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CaO_mp-2605",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "CaO",
+ "volume_per_atom": 14.05466610695043,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   12,
+   12,
+   12
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 3.663604613120574,
+ "gap_eV": 3.663604613120574,
+ "vbm_eV": 7.652560742219478,
+ "cbm_eV": 11.316165355340052,
+ "direct_on_mesh": false,
+ "nk_irr": 476,
+ "status": "ok",
+ "wall_s": 59.56945276260376,
+ "core_s": 953.1112442016602,
+ "qe_cpu_s": 52.349999999999994,
+ "qe_wall_s": 58.35,
+ "energy_per_atom": -753.58210241619
+}

@@ -1,0 +1,41 @@
+{
+ "cid": "fcc_Al3Si_08",
+ "source": "mace_md",
+ "status": "ok",
+ "natoms": 108,
+ "energy_per_atom": -4.005678744845921,
+ "energy_per_atom_sem": 0.00044962175899031784,
+ "volume_per_atom": 16.850940338191567,
+ "wall_s": 64.44961587153375,
+ "device": "cuda",
+ "settings": {
+  "T_K": 300.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 300 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "ASE 3.29 + MACE-MP-0 small",
+  "dtype": "float32",
+  "ensemble": "NPT IsotropicMTKNPT",
+  "tdamp_fs": 100.0,
+  "pdamp_fs": 1000.0,
+  "supercell_reps": [
+   3,
+   3,
+   3
+  ]
+ },
+ "error": null,
+ "md_stats": {
+  "volume_per_atom_sem": 0.004546760545378062,
+  "T_mean": 302.67699275992425,
+  "n_samples": 150,
+  "V_over_V0": 1.0222097922228282
+ }
+}

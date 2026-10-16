@@ -1,0 +1,43 @@
+{
+ "cid": "arc_Cs3Sb_mp-10378",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "Cs3Sb",
+ "volume_per_atom": 50.81287518873285,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "kpts_relax": [
+   4,
+   4,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 42.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.6255000130163797,
+ "gap_eV": 0.6255000130163797,
+ "vbm_eV": 5.877261971455734,
+ "cbm_eV": 6.502761984472114,
+ "direct_on_mesh": false,
+ "nk_irr": 68,
+ "status": "ok",
+ "wall_s": 329.6102840900421,
+ "core_s": 5273.764545440674,
+ "qe_cpu_s": 317.03999999999996,
+ "qe_wall_s": 328.26,
+ "energy_per_atom": -1096.1770046723866
+}

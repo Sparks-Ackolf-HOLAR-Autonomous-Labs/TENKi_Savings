@@ -1,0 +1,39 @@
+{
+ "cid": "mp_978271_Mg3Al",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 4,
+ "energy_per_atom": -2.1304794243876826,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 21.022146324536216,
+ "wall_s": 0.3233516737818718,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 7
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   4.381058126828579,
+   -1.1958832394832012e-19,
+   5.614711958918586e-18
+  ],
+  [
+   -2.5350517679319156e-18,
+   4.381058126828583,
+   -5.003767586430276e-15
+  ],
+  [
+   -7.564479372164294e-19,
+   -4.874751535421526e-15,
+   4.381058126828579
+  ]
+ ]
+}

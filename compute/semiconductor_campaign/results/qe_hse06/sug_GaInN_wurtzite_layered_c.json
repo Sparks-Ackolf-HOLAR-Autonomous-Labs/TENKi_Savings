@@ -1,0 +1,44 @@
+{
+ "cid": "sug_GaInN_wurtzite_layered_c",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "GaInN2",
+ "volume_per_atom": 13.904824620868435,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "nq": [
+   4,
+   4,
+   2
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 36.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.0679725789642642,
+ "gap_eV": 1.0679725789642642,
+ "vbm_eV": 9.150017854331912,
+ "cbm_eV": 10.217990433296176,
+ "direct_on_mesh": true,
+ "nk_irr": 35,
+ "status": "ok",
+ "wall_s": 333.7519676685333,
+ "core_s": 5340.031482696533,
+ "qe_cpu_s": 313.22,
+ "qe_wall_s": 333.06
+}

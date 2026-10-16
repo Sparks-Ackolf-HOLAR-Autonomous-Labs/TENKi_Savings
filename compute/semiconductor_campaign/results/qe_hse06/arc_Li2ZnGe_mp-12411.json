@@ -1,0 +1,44 @@
+{
+ "cid": "arc_Li2ZnGe_mp-12411",
+ "source": "qe_hse06",
+ "natoms": 4,
+ "formula": "GeLi2Zn",
+ "volume_per_atom": 14.607827917168061,
+ "device": "cpu:16",
+ "node": "notch344",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 40.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.528206090013402,
+ "gap_eV": 0.528206090013402,
+ "vbm_eV": 9.418171861463215,
+ "cbm_eV": 9.946377951476617,
+ "direct_on_mesh": false,
+ "nk_irr": 68,
+ "status": "ok",
+ "wall_s": 877.1872000694275,
+ "core_s": 14034.99520111084,
+ "qe_cpu_s": 711.05,
+ "qe_wall_s": 875.29
+}

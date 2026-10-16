@@ -1,0 +1,89 @@
+{
+ "mp_vs_live_pbe": {
+  "n": 25,
+  "kendall_tau": 0.7799999999999999,
+  "spearman": 0.9161538461538462,
+  "mad_eV_atom": 0.030572358589030988,
+  "mean_diff_eV_atom": 0.030572358589030988,
+  "sign_agreement": 0.92
+ },
+ "n_pool_live": 168,
+ "n_pool_archive_answerable": 25,
+ "live_pbe_top10": [
+  {
+   "cid": "mp_1367_Mg2Si",
+   "kind": "archived",
+   "E_f": -0.1599680298473487,
+   "in_archive": true
+  },
+  {
+   "cid": "mp_1101851_Mg2Si",
+   "kind": "archived",
+   "E_f": -0.10405205521131222,
+   "in_archive": true
+  },
+  {
+   "cid": "mp_1074652_Mg2Si",
+   "kind": "archived",
+   "E_f": -0.07239986143447652,
+   "in_archive": true
+  },
+  {
+   "cid": "mp_4499_MgAlSi",
+   "kind": "archived",
+   "E_f": -0.05183357507642938,
+   "in_archive": true
+  },
+  {
+   "cid": "mp_1073794_MgSi",
+   "kind": "archived",
+   "E_f": -0.04214389522427808,
+   "in_archive": true
+  },
+  {
+   "cid": "mp_3833_Mg(AlSi)2",
+   "kind": "archived",
+   "E_f": -0.016936720547576556,
+   "in_archive": true
+  },
+  {
+   "cid": "mp_1094116_MgAl2",
+   "kind": "archived",
+   "E_f": -0.014313359236602707,
+   "in_archive": true
+  },
+  {
+   "cid": "fcc_MgAl7_19",
+   "kind": "suggested",
+   "E_f": -0.006445544052944285,
+   "in_archive": false
+  },
+  {
+   "cid": "fcc_MgAl3_02",
+   "kind": "suggested",
+   "E_f": -0.004794816327745366,
+   "in_archive": false
+  },
+  {
+   "cid": "fcc_Mg3Al5_134",
+   "kind": "suggested",
+   "E_f": 0.0014013183632641812,
+   "in_archive": false
+  }
+ ],
+ "live_pbe_top10_not_in_archive": 3,
+ "pbe_near_hull_not_in_archive": [
+  "fcc_Mg3Al5_134",
+  "fcc_Mg3Al5_82",
+  "fcc_Mg3Al5_84",
+  "fcc_MgAl3_02",
+  "fcc_MgAl3_123",
+  "fcc_MgAl3_47",
+  "fcc_MgAl3_48",
+  "fcc_MgAl3_49",
+  "fcc_MgAl7_112",
+  "fcc_MgAl7_19",
+  "fcc_MgAl_04",
+  "fcc_MgAl_103"
+ ]
+}

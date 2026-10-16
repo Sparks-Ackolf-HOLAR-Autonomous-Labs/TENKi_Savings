@@ -1,0 +1,39 @@
+{
+ "cid": "mp_867317_Cu3Si",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 8,
+ "energy_per_atom": -4.483840960547524,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 11.992352751561075,
+ "wall_s": 0.6788130491040647,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions + full cell (FrechetCellFilter)",
+  "converged": true,
+  "n_steps": 26
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   5.178058103019879,
+   0.0002333348128170259,
+   -0.00015865450827970843
+  ],
+  [
+   -2.588827204206398,
+   4.484455740536771,
+   0.00015721679205928552
+  ],
+  [
+   -0.00013491713993951074,
+   7.672480332290033e-05,
+   4.131487310947545
+  ]
+ ]
+}

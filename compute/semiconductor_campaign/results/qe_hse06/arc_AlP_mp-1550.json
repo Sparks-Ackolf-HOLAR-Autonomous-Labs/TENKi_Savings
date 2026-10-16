@@ -1,0 +1,44 @@
+{
+ "cid": "arc_AlP_mp-1550",
+ "source": "qe_hse06",
+ "natoms": 2,
+ "formula": "AlP",
+ "volume_per_atom": 20.86934327490435,
+ "device": "cpu:16",
+ "node": "notch342",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "nq": [
+   4,
+   4,
+   4
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 8.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.3128671529767004,
+ "gap_eV": 2.3128671529767004,
+ "vbm_eV": 4.329184204946796,
+ "cbm_eV": 6.6420513579234965,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 182.8945083618164,
+ "core_s": 2926.3121337890625,
+ "qe_cpu_s": 172.17000000000002,
+ "qe_wall_s": 182.06
+}

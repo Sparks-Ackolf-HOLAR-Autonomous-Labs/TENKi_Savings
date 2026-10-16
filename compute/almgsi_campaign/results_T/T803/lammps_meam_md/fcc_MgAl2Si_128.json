@@ -1,0 +1,33 @@
+{
+ "cid": "fcc_MgAl2Si_128",
+ "source": "lammps_meam_md",
+ "status": "failed",
+ "natoms": 96,
+ "energy_per_atom": null,
+ "energy_per_atom_sem": null,
+ "volume_per_atom": null,
+ "wall_s": 0.8254272728227079,
+ "device": "cpu:1",
+ "settings": {
+  "T_K": 803.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 803 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "LAMMPS 2025-07-22 python module, 1 MPI rank, 1 thread",
+  "potential": "MEAM Jelinek et al. PRB 85 245102 (2012), AlSiMgCuFe.meam",
+  "ensemble": "fix 1 all npt temp 803 803 0.2 iso 0 0 2.0",
+  "supercell_reps": [
+   3,
+   2,
+   2
+  ]
+ },
+ "error": "volume change out of bounds (V/V0 in [1.292,2.015])"
+}

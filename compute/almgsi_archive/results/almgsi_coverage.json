@@ -1,0 +1,575 @@
+{
+  "generated": "2026-09-25 11:11 UTC",
+  "system": [
+    "Al",
+    "Mg",
+    "Si"
+  ],
+  "sources": {
+    "mp_multifidelity": {
+      "file": "shared/data/materials_project/multifidelity.csv",
+      "total_rows": 95920,
+      "subsystems": {
+        "Si": {
+          "rows": 19,
+          "channel_counts": {
+            "band_gap": 19,
+            "r2scan_band_gap": 0,
+            "exp_band_gap": 4
+          },
+          "pairwise_overlap": {
+            "band_gap&exp_band_gap": 4
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Si"
+          ]
+        },
+        "Al-Mg": {
+          "rows": 1,
+          "channel_counts": {
+            "band_gap": 1,
+            "r2scan_band_gap": 0,
+            "exp_band_gap": 0
+          },
+          "pairwise_overlap": {},
+          "all_channels": 0,
+          "example_formulas": [
+            "Mg149Al"
+          ]
+        },
+        "Mg-Si": {
+          "rows": 2,
+          "channel_counts": {
+            "band_gap": 2,
+            "r2scan_band_gap": 0,
+            "exp_band_gap": 1
+          },
+          "pairwise_overlap": {
+            "band_gap&exp_band_gap": 1
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Mg149Si",
+            "Mg2Si"
+          ]
+        }
+      }
+    },
+    "mp_electronic": {
+      "file": "shared/data/materials_project/electronic_structure.csv",
+      "total_rows": 200487,
+      "subsystems": {
+        "Si": {
+          "rows": 43,
+          "channel_counts": {
+            "band_gap": 43
+          },
+          "pairwise_overlap": {},
+          "all_channels": 43,
+          "example_formulas": [
+            "Si"
+          ]
+        },
+        "Al": {
+          "rows": 10,
+          "channel_counts": {
+            "band_gap": 10
+          },
+          "pairwise_overlap": {},
+          "all_channels": 10,
+          "example_formulas": [
+            "Al"
+          ]
+        },
+        "Mg": {
+          "rows": 9,
+          "channel_counts": {
+            "band_gap": 9
+          },
+          "pairwise_overlap": {},
+          "all_channels": 9,
+          "example_formulas": [
+            "Mg"
+          ]
+        },
+        "Mg-Si": {
+          "rows": 685,
+          "channel_counts": {
+            "band_gap": 685
+          },
+          "pairwise_overlap": {},
+          "all_channels": 685,
+          "example_formulas": [
+            "Mg2Si3",
+            "MgSi2",
+            "MgSi",
+            "Mg6Si5",
+            "Mg9Si5",
+            "Mg4Si7",
+            "Mg4Si3",
+            "Mg2Si"
+          ]
+        },
+        "Al-Si": {
+          "rows": 3,
+          "channel_counts": {
+            "band_gap": 3
+          },
+          "pairwise_overlap": {},
+          "all_channels": 3,
+          "example_formulas": [
+            "Al4Si19",
+            "Al4Si",
+            "AlSi"
+          ]
+        },
+        "Al-Mg": {
+          "rows": 33,
+          "channel_counts": {
+            "band_gap": 33
+          },
+          "pairwise_overlap": {},
+          "all_channels": 33,
+          "example_formulas": [
+            "MgAl",
+            "MgAl2",
+            "MgAl3",
+            "Mg3Al",
+            "Mg2Al3",
+            "Mg23Al30",
+            "Mg16Al13",
+            "Mg7Al"
+          ]
+        },
+        "Al-Mg-Si": {
+          "rows": 12,
+          "channel_counts": {
+            "band_gap": 12
+          },
+          "pairwise_overlap": {},
+          "all_channels": 12,
+          "example_formulas": [
+            "Mg2(AlSi2)3",
+            "Mg4AlSi6",
+            "Mg4AlSi3",
+            "Mg16Al12Si",
+            "Mg(AlSi)2",
+            "Mg14AlSi",
+            "Mg6AlSi",
+            "MgAlSi"
+          ]
+        }
+      }
+    },
+    "jarvis_dft3d_bandgap": {
+      "file": "shared/data/jarvis/dft_3d.csv",
+      "total_rows": 75993,
+      "subsystems": {
+        "Mg-Si": {
+          "rows": 25,
+          "channel_counts": {
+            "optb88vdw_bandgap": 25,
+            "mbj_bandgap": 6,
+            "exp_bandgap": 0
+          },
+          "pairwise_overlap": {
+            "optb88vdw_bandgap&mbj_bandgap": 6
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Mg9Si5",
+            "Mg5Si6",
+            "Mg2Si",
+            "Mg3Si2",
+            "MgSi2",
+            "MgSi",
+            "Mg3Si",
+            "Mg7Si"
+          ]
+        },
+        "Al": {
+          "rows": 4,
+          "channel_counts": {
+            "optb88vdw_bandgap": 4,
+            "mbj_bandgap": 3,
+            "exp_bandgap": 0
+          },
+          "pairwise_overlap": {
+            "optb88vdw_bandgap&mbj_bandgap": 3
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Al"
+          ]
+        },
+        "Mg": {
+          "rows": 9,
+          "channel_counts": {
+            "optb88vdw_bandgap": 9,
+            "mbj_bandgap": 7,
+            "exp_bandgap": 0
+          },
+          "pairwise_overlap": {
+            "optb88vdw_bandgap&mbj_bandgap": 7
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Mg"
+          ]
+        },
+        "Al-Mg": {
+          "rows": 20,
+          "channel_counts": {
+            "optb88vdw_bandgap": 20,
+            "mbj_bandgap": 1,
+            "exp_bandgap": 0
+          },
+          "pairwise_overlap": {
+            "optb88vdw_bandgap&mbj_bandgap": 1
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "MgAl3",
+            "MgAl",
+            "Mg3Al",
+            "Mg7Al",
+            "Mg17Al12",
+            "MgAl2",
+            "Mg13Al14",
+            "Mg13Al16"
+          ]
+        },
+        "Al-Mg-Si": {
+          "rows": 7,
+          "channel_counts": {
+            "optb88vdw_bandgap": 7,
+            "mbj_bandgap": 1,
+            "exp_bandgap": 0
+          },
+          "pairwise_overlap": {
+            "optb88vdw_bandgap&mbj_bandgap": 1
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "MgAlSi",
+            "Mg6AlSi",
+            "MgAl2Si2",
+            "Mg4AlSi6",
+            "Mg16Al12Si",
+            "Mg17Al11Si"
+          ]
+        },
+        "Si": {
+          "rows": 32,
+          "channel_counts": {
+            "optb88vdw_bandgap": 32,
+            "mbj_bandgap": 25,
+            "exp_bandgap": 0
+          },
+          "pairwise_overlap": {
+            "optb88vdw_bandgap&mbj_bandgap": 25
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Si"
+          ]
+        },
+        "Al-Si": {
+          "rows": 3,
+          "channel_counts": {
+            "optb88vdw_bandgap": 3,
+            "mbj_bandgap": 1,
+            "exp_bandgap": 0
+          },
+          "pairwise_overlap": {
+            "optb88vdw_bandgap&mbj_bandgap": 1
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "AlSi",
+            "Al4Si",
+            "Al3Si"
+          ]
+        }
+      }
+    },
+    "jarvis_dft3d_elastic": {
+      "file": "shared/data/jarvis/dft_3d_elastic.csv",
+      "total_rows": 16334,
+      "subsystems": {
+        "Mg": {
+          "rows": 6,
+          "channel_counts": {
+            "bulk_gpa": 6,
+            "shear_gpa": 6,
+            "chen_niu_vickers": 6,
+            "exp_hardness": 0
+          },
+          "pairwise_overlap": {
+            "bulk_gpa&shear_gpa": 6,
+            "bulk_gpa&chen_niu_vickers": 6,
+            "shear_gpa&chen_niu_vickers": 6
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Mg"
+          ]
+        },
+        "Si": {
+          "rows": 17,
+          "channel_counts": {
+            "bulk_gpa": 17,
+            "shear_gpa": 17,
+            "chen_niu_vickers": 17,
+            "exp_hardness": 0
+          },
+          "pairwise_overlap": {
+            "bulk_gpa&shear_gpa": 17,
+            "bulk_gpa&chen_niu_vickers": 17,
+            "shear_gpa&chen_niu_vickers": 17
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Si"
+          ]
+        },
+        "Al-Mg-Si": {
+          "rows": 1,
+          "channel_counts": {
+            "bulk_gpa": 1,
+            "shear_gpa": 1,
+            "chen_niu_vickers": 1,
+            "exp_hardness": 0
+          },
+          "pairwise_overlap": {
+            "bulk_gpa&shear_gpa": 1,
+            "bulk_gpa&chen_niu_vickers": 1,
+            "shear_gpa&chen_niu_vickers": 1
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "MgAl2Si2"
+          ]
+        },
+        "Al-Mg": {
+          "rows": 2,
+          "channel_counts": {
+            "bulk_gpa": 2,
+            "shear_gpa": 2,
+            "chen_niu_vickers": 2,
+            "exp_hardness": 0
+          },
+          "pairwise_overlap": {
+            "bulk_gpa&shear_gpa": 2,
+            "bulk_gpa&chen_niu_vickers": 2,
+            "shear_gpa&chen_niu_vickers": 2
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Mg3Al",
+            "MgAl2"
+          ]
+        },
+        "Mg-Si": {
+          "rows": 1,
+          "channel_counts": {
+            "bulk_gpa": 1,
+            "shear_gpa": 1,
+            "chen_niu_vickers": 1,
+            "exp_hardness": 0
+          },
+          "pairwise_overlap": {
+            "bulk_gpa&shear_gpa": 1,
+            "bulk_gpa&chen_niu_vickers": 1,
+            "shear_gpa&chen_niu_vickers": 1
+          },
+          "all_channels": 0,
+          "example_formulas": [
+            "Mg2Si"
+          ]
+        }
+      }
+    },
+    "aflow_elastic": {
+      "file": "shared/data/jarvis/aflow_elastic.csv",
+      "total_rows": 5639,
+      "subsystems": {
+        "Mg-Si": {
+          "rows": 3,
+          "channel_counts": {
+            "bulk_gpa": 3
+          },
+          "pairwise_overlap": {},
+          "all_channels": 3,
+          "example_formulas": [
+            "Mg4Si2",
+            "Mg2Si1"
+          ]
+        },
+        "Al-Mg": {
+          "rows": 1,
+          "channel_counts": {
+            "bulk_gpa": 1
+          },
+          "pairwise_overlap": {},
+          "all_channels": 1,
+          "example_formulas": [
+            "Al8Mg4"
+          ]
+        },
+        "Si": {
+          "rows": 15,
+          "channel_counts": {
+            "bulk_gpa": 15
+          },
+          "pairwise_overlap": {},
+          "all_channels": 15,
+          "example_formulas": [
+            "Si34",
+            "Si106",
+            "Si6",
+            "Si82",
+            "Si40",
+            "Si41",
+            "Si46",
+            "Si8"
+          ]
+        }
+      }
+    },
+    "mp_elastic": {
+      "file": "shared/data/jarvis/mp_elastic.csv",
+      "total_rows": 12888,
+      "subsystems": {
+        "Si": {
+          "rows": 17,
+          "channel_counts": {
+            "bulk_gpa": 17
+          },
+          "pairwise_overlap": {},
+          "all_channels": 17,
+          "example_formulas": [
+            "Si"
+          ]
+        },
+        "Mg": {
+          "rows": 3,
+          "channel_counts": {
+            "bulk_gpa": 3
+          },
+          "pairwise_overlap": {},
+          "all_channels": 3,
+          "example_formulas": [
+            "Mg"
+          ]
+        },
+        "Al": {
+          "rows": 2,
+          "channel_counts": {
+            "bulk_gpa": 2
+          },
+          "pairwise_overlap": {},
+          "all_channels": 2,
+          "example_formulas": [
+            "Al"
+          ]
+        },
+        "Mg-Si": {
+          "rows": 6,
+          "channel_counts": {
+            "bulk_gpa": 6
+          },
+          "pairwise_overlap": {},
+          "all_channels": 6,
+          "example_formulas": [
+            "Mg5Si6",
+            "Mg9Si5",
+            "Mg2Si",
+            "MgSi2"
+          ]
+        },
+        "Al-Mg": {
+          "rows": 9,
+          "channel_counts": {
+            "bulk_gpa": 9
+          },
+          "pairwise_overlap": {},
+          "all_channels": 9,
+          "example_formulas": [
+            "MgAl",
+            "MgAl3",
+            "Mg17Al12",
+            "Mg3Al",
+            "Mg13Al14"
+          ]
+        },
+        "Al-Mg-Si": {
+          "rows": 3,
+          "channel_counts": {
+            "bulk_gpa": 3
+          },
+          "pairwise_overlap": {},
+          "all_channels": 3,
+          "example_formulas": [
+            "Mg4AlSi6",
+            "Mg(AlSi)2",
+            "MgAlSi"
+          ]
+        }
+      }
+    },
+    "snumat": {
+      "file": "shared/data/jarvis/snumat_composition.csv",
+      "total_rows": 10481,
+      "subsystems": {}
+    }
+  },
+  "live_oqmd": {
+    "Al-Mg": {
+      "count": 196
+    },
+    "Al-Si": {
+      "count": 139
+    },
+    "Mg-Si": {
+      "count": 336
+    },
+    "Al-Mg-Si": {
+      "count": 529
+    }
+  },
+  "live_aflux": {
+    "Al-Mg": {
+      "sample_ok": true,
+      "note": "AFLUX reachable"
+    },
+    "Al-Si": {
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    "Mg-Si": {
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    },
+    "Al-Mg-Si": {
+      "error": "RemoteDisconnected: Remote end closed connection without response"
+    }
+  },
+  "nist_manual_curation": {
+    "note": "These need manual/curated retrieval (no bulk API); they are the empirical + MD channels of update.md Section 4 and must be inventoried into the o=(x,s,m,y,u,p) schema by hand or scraper.",
+    "resources": [
+      {
+        "name": "NIST SMDDP (6061 / Al-Mg-Si diffusion, phase, mechanical)",
+        "url": "https://www.nist.gov/programs-projects/asm-structural-materials-data-demonstration-project"
+      },
+      {
+        "name": "NIST Alloy Data (thermophysical, started with Al-Mg-Si)",
+        "url": "https://www.nist.gov/mml/acmd/trc/nist-alloy-data"
+      },
+      {
+        "name": "NIST Interatomic Potentials Repository, Al-Si-Mg-Cu-Fe MEAM (Jelinek 2012)",
+        "url": "https://www.ctcms.nist.gov/potentials/entry/2012--Jelinek-B-Groh-S-Horstemeyer-M-F-et-al--Al-Si-Mg-Cu-Fe/"
+      }
+    ]
+  },
+  "mp_api_note": "Full MP ternary query (all Al-Mg-Si entries incl. energies/phase diagram) requires MP_API_KEY; caches cover band-gap + elastic channels only."
+}

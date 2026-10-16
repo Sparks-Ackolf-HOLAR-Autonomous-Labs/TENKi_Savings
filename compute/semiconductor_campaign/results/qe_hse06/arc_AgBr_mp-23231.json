@@ -1,0 +1,44 @@
+{
+ "cid": "arc_AgBr_mp-23231",
+ "source": "qe_hse06",
+ "natoms": 2,
+ "formula": "AgBr",
+ "volume_per_atom": 24.88357740874091,
+ "device": "cpu:16",
+ "node": "notch264",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "nq": [
+   4,
+   4,
+   4
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.0917931558630043,
+ "gap_eV": 2.0917931558630043,
+ "vbm_eV": 6.554813978702206,
+ "cbm_eV": 8.64660713456521,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 2067.4710626602173,
+ "core_s": 33079.53700256348,
+ "qe_cpu_s": 1980.1,
+ "qe_wall_s": 2066.16
+}

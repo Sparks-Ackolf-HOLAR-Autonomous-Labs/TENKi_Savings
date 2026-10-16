@@ -1,0 +1,30 @@
+{
+ "cid": "mp_1028210_Mg14AlSi",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 16,
+ "energy_per_atom": -1425.3295882899893,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 21.533069612601317,
+ "wall_s": 749.7355842590332,
+ "qe_cpu_s": 716.28,
+ "qe_wall_s": 749.11,
+ "core_s": 11995.769348144531,
+ "device": "cpu:16",
+ "node": "notch320",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   6,
+   6,
+   4
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

@@ -1,0 +1,45 @@
+{
+ "cid": "mp_110_Mg",
+ "source": "gpumd_nep89_relax",
+ "status": "ok",
+ "natoms": 100,
+ "energy_per_atom": -1.7808819198608399,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 21.272670343123817,
+ "wall_s": 1.9406698350794613,
+ "device": "cuda",
+ "settings": {
+  "engine": "GPUMD 5.8",
+  "potential": "NEP89 nep89_20250409",
+  "relax": "minimize fire with box change (full 3x3 cell, non-hydrostatic)",
+  "cell_used": "MD supercell [5, 4, 5] (own cell crashed GPUMD)",
+  "force_tolerance_eV_A": 0.001,
+  "max_steps": 50000,
+  "final_max_force_eV_A": 2.5153350620382535e-06,
+  "own_cell_error_tail": "e no grouping method.\nActive atom types for this simulation:\n    type 0 = Mg.\n    Atom type indices in run.in refer to the active atom types above.\nThere is only one atom type.\n    1 atoms of type 0.\n",
+  "gpu_contended": true
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   14.251974559421585,
+   7.937994214240616e-08,
+   -5.038834510315051
+  ],
+  [
+   -5.700789526599869,
+   9.874057961311141,
+   -4.031066921675449
+  ],
+  [
+   -5.746585547554384e-07,
+   5.0783002118342685e-08,
+   15.116501896470272
+  ]
+ ],
+ "structure": {
+  "rms_disp_A": 7.022332666133917e-08,
+  "frac_disp_gt_1A": 0.0,
+  "max_disp_A": 1.3986123926265513e-07
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "cid": "arc_Ag2O_mp-353",
+ "source": "qe_hse06",
+ "natoms": 6,
+ "formula": "Ag4O2",
+ "volume_per_atom": 18.57957426252754,
+ "device": "cpu:16",
+ "node": "notch297",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 88.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.0992842900813855,
+ "gap_eV": 1.0992842900813855,
+ "vbm_eV": 9.103003768195817,
+ "cbm_eV": 10.202288058277203,
+ "direct_on_mesh": true,
+ "nk_irr": 32,
+ "status": "ok",
+ "wall_s": 2612.3641080856323,
+ "core_s": 41797.82572937012,
+ "qe_cpu_s": 2059.44,
+ "qe_wall_s": 2611.75
+}

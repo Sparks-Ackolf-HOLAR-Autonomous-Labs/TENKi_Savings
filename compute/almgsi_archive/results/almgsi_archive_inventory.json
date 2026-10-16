@@ -1,0 +1,62 @@
+{
+  "generated": "2026-09-26",
+  "records_total": 3406,
+  "counts_by_channel_subsystem": {
+    "mp_dHf": {
+      "Al": 10,
+      "Mg": 9,
+      "Si": 43,
+      "Al-Mg": 32,
+      "Al-Si": 3,
+      "Mg-Si": 100,
+      "Al-Mg-Si": 12
+    },
+    "aflow_dHf": {
+      "Al": 670,
+      "Mg": 995,
+      "Si": 706,
+      "Al-Mg": 255,
+      "Al-Si": 193,
+      "Mg-Si": 276,
+      "Al-Mg-Si": 102
+    }
+  },
+  "unique_reduced_formulas": {
+    "aflow_dHf": 95,
+    "mp_dHf": 35
+  },
+  "overlap": {
+    "aflow_dHf&mp_dHf": {
+      "matched_formulas": 23,
+      "by_subsystem": {
+        "Al": 1,
+        "Al-Mg": 10,
+        "Al-Mg-Si": 3,
+        "Al-Si": 3,
+        "Mg": 1,
+        "Mg-Si": 4,
+        "Si": 1
+      }
+    }
+  },
+  "rank_agreement_dHf_lower_is_better": {
+    "aflow_dHf&mp_dHf": {
+      "kendall_tau_all": 0.6561,
+      "n": 23,
+      "kendall_tau_ternary": 1.0,
+      "n_ternary": 3
+    }
+  },
+  "aflux": {
+    "curated": true
+  },
+  "errors": {
+    "oqmd:Al:offset0": "HTTPError: HTTP Error 502: Bad Gateway",
+    "oqmd:Mg:offset0": "HTTPError: HTTP Error 502: Bad Gateway",
+    "oqmd:Si:offset0": "HTTPError: HTTP Error 502: Bad Gateway",
+    "oqmd:Al-Mg:offset0": "HTTPError: HTTP Error 502: Bad Gateway",
+    "oqmd:Al-Si:offset0": "HTTPError: HTTP Error 502: Bad Gateway",
+    "oqmd:Mg-Si:offset0": "HTTPError: HTTP Error 502: Bad Gateway",
+    "oqmd:Al-Mg-Si:offset0": "HTTPError: HTTP Error 502: Bad Gateway"
+  }
+}

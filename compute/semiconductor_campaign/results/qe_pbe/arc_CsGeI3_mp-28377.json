@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CsGeI3_mp-28377",
+ "source": "qe_pbe",
+ "natoms": 5,
+ "formula": "CsGeI3",
+ "volume_per_atom": 45.826550403416356,
+ "device": "cpu:16",
+ "node": "notch225",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   6,
+   8
+  ],
+  "kpts_relax": [
+   4,
+   4,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 44.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.0928316614672666,
+ "gap_eV": 1.0928316614672666,
+ "vbm_eV": 3.3803360243142717,
+ "cbm_eV": 4.473167685781538,
+ "direct_on_mesh": true,
+ "nk_irr": 148,
+ "status": "ok",
+ "wall_s": 511.9185194969177,
+ "core_s": 8190.696311950684,
+ "qe_cpu_s": 481.71999999999997,
+ "qe_wall_s": 510.68,
+ "energy_per_atom": -825.4110567267724
+}

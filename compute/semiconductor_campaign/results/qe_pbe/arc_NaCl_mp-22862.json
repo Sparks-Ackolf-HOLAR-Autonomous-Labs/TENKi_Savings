@@ -1,0 +1,43 @@
+{
+ "cid": "arc_NaCl_mp-22862",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "ClNa",
+ "volume_per_atom": 23.110434355720404,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 4.994602092991392,
+ "gap_eV": 4.994602092991392,
+ "vbm_eV": 0.8372058225588578,
+ "cbm_eV": 5.831807915550249,
+ "direct_on_mesh": true,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 82.87884497642517,
+ "core_s": 1326.0615196228027,
+ "qe_cpu_s": 74.1,
+ "qe_wall_s": 81.53,
+ "energy_per_atom": -846.9072214784403
+}

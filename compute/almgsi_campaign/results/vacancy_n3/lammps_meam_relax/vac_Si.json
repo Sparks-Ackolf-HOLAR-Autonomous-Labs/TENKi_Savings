@@ -1,0 +1,9 @@
+{
+ "cid": "vac_Si",
+ "status": "ok",
+ "energy": -362.89405823696814,
+ "a_A": 4.049999181080588,
+ "wall_s": 0.03472771681845188,
+ "device": "cpu:1",
+ "settings": "MEAM Jelinek 2012, cg minimize 0 1e-8 x3, fixed box"
+}

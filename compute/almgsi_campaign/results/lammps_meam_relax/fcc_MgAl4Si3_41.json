@@ -1,0 +1,41 @@
+{
+ "cid": "fcc_MgAl4Si3_41",
+ "source": "lammps_meam_relax",
+ "status": "ok",
+ "natoms": 8,
+ "energy_per_atom": -3.5106279818801163,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.79128802114094,
+ "wall_s": 0.026942281052470207,
+ "device": "cpu:1",
+ "settings": {
+  "engine": "LAMMPS 2025-07-22 python module, 1 thread",
+  "potential": "MEAM Jelinek et al. PRB 85 245102 (2012)",
+  "relax": "fix box/relax tri 0.0 vmax 0.001 (all six cell dofs) + cg minimize 0 1e-8 x4, own cell",
+  "final_fmax_eV_A": 3.389105072970633e-10,
+  "final_pressure_bar": 1.5799708368330658e-06
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   3.462853401644312,
+   0.0,
+   0.0
+  ],
+  [
+   4.711571650836592e-16,
+   4.430076151660555,
+   0.0
+  ],
+  [
+   -8.864450734107357e-16,
+   3.7166136593880764e-16,
+   8.756462662555412
+  ]
+ ],
+ "structure": {
+  "rms_disp_A": 0.1200981444135042,
+  "frac_disp_gt_1A": 0.0,
+  "max_disp_A": 0.2398343521390664
+ }
+}

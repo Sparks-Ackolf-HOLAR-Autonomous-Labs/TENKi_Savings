@@ -1,0 +1,44 @@
+{
+ "cid": "arc_BP_mp-1479",
+ "source": "qe_hse06",
+ "natoms": 2,
+ "formula": "BP",
+ "volume_per_atom": 11.753253777283438,
+ "device": "cpu:16",
+ "node": "notch124",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "nq": [
+   4,
+   4,
+   4
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 8.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.022343221608031,
+ "gap_eV": 2.022343221608031,
+ "vbm_eV": 8.753128635002092,
+ "cbm_eV": 10.775471856610123,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 179.403067111969,
+ "core_s": 2870.449073791504,
+ "qe_cpu_s": 166.55,
+ "qe_wall_s": 178.74
+}

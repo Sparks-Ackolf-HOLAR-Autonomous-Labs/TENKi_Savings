@@ -1,0 +1,27 @@
+{
+ "cid": "mp_978271_Mg3Al",
+ "source": "gpaw_conv_pbe_800",
+ "status": "ok",
+ "energy": -8.552835909719278,
+ "energy_per_atom": -2.1382089774298194,
+ "natoms": 4,
+ "formula": "AlMg3",
+ "wall_s": 6.2734121307730675,
+ "core_s": 100.37459409236908,
+ "ncores": 16,
+ "node": "notch073",
+ "settings": {
+  "code": "GPAW (PAW, plane waves)",
+  "xc": "PBE",
+  "ecut_eV": 800.0,
+  "kpts": [
+   5,
+   5,
+   5
+  ],
+  "kspacing_invA": 0.3,
+  "smearing": "marzari-vanderbilt 0.272 eV",
+  "geometry": "QE PBE relaxed (results/qe_pbe)",
+  "setups": "GPAW default PAW datasets"
+ }
+}

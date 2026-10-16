@@ -1,0 +1,44 @@
+{
+ "cid": "arc_CsBr_mp-22906",
+ "source": "qe_hse06",
+ "natoms": 2,
+ "formula": "BrCs",
+ "volume_per_atom": 42.22208468268925,
+ "device": "cpu:16",
+ "node": "notch225",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 5.449700384106313,
+ "gap_eV": 5.449700384106313,
+ "vbm_eV": 1.8218662366232532,
+ "cbm_eV": 7.271566620729566,
+ "direct_on_mesh": false,
+ "nk_irr": 20,
+ "status": "ok",
+ "wall_s": 61.51124382019043,
+ "core_s": 984.1799011230469,
+ "qe_cpu_s": 48.39,
+ "qe_wall_s": 60.74
+}

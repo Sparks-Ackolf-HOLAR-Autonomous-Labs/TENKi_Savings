@@ -1,0 +1,43 @@
+{
+ "cid": "sug_AlInN_wurtzite_layered_a",
+ "source": "qe_pbe",
+ "natoms": 8,
+ "formula": "Al2In2N4",
+ "volume_per_atom": 13.086535211230766,
+ "device": "cpu:16",
+ "node": "notch411",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   4,
+   8,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 52.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.0064811269404217,
+ "gap_eV": 1.0064811269404217,
+ "vbm_eV": 8.878297111285779,
+ "cbm_eV": 9.8847782382262,
+ "direct_on_mesh": true,
+ "nk_irr": 128,
+ "status": "ok",
+ "wall_s": 377.8863604068756,
+ "core_s": 6046.18176651001,
+ "qe_cpu_s": 360.13,
+ "qe_wall_s": 376.29999999999995,
+ "energy_per_atom": -609.5466335012953
+}

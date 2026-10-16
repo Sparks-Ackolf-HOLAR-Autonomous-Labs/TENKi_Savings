@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CaTe_mp-1519",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "CaTe",
+ "volume_per_atom": 32.64081143972865,
+ "device": "cpu:16",
+ "node": "notch224",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.5622394752204372,
+ "gap_eV": 1.5622394752204372,
+ "vbm_eV": 7.156014844972782,
+ "cbm_eV": 8.71825432019322,
+ "direct_on_mesh": false,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 48.50857377052307,
+ "core_s": 776.1371803283691,
+ "qe_cpu_s": 43.32,
+ "qe_wall_s": 47.32,
+ "energy_per_atom": -1955.0409231791352
+}

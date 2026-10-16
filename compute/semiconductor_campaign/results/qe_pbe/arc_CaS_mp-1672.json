@@ -1,0 +1,43 @@
+{
+ "cid": "arc_CaS_mp-1672",
+ "source": "qe_pbe",
+ "natoms": 2,
+ "formula": "CaS",
+ "volume_per_atom": 23.26995918807432,
+ "device": "cpu:16",
+ "node": "notch307",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   10
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   8
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 16.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.3819624006947144,
+ "gap_eV": 2.3819624006947144,
+ "vbm_eV": 5.95791645377747,
+ "cbm_eV": 8.339878854472184,
+ "direct_on_mesh": false,
+ "nk_irr": 282,
+ "status": "ok",
+ "wall_s": 104.00827479362488,
+ "core_s": 1664.132396697998,
+ "qe_cpu_s": 95.53999999999999,
+ "qe_wall_s": 102.75999999999999,
+ "energy_per_atom": -679.0396225738069
+}

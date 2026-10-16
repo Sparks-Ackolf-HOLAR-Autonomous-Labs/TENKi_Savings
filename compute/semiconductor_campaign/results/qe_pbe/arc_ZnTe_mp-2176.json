@@ -1,0 +1,43 @@
+{
+ "cid": "arc_ZnTe_mp-2176",
+ "source": "qe_pbe",
+ "natoms": 6,
+ "formula": "Te3Zn3",
+ "volume_per_atom": 29.509589222371982,
+ "device": "cpu:16",
+ "node": "notch030",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   4
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   2
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 108.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.0699288873421704,
+ "gap_eV": 1.0699288873421704,
+ "vbm_eV": 7.6544810927526274,
+ "cbm_eV": 8.724409980094798,
+ "direct_on_mesh": true,
+ "nk_irr": 46,
+ "status": "ok",
+ "wall_s": 319.4540729522705,
+ "core_s": 5111.265167236328,
+ "qe_cpu_s": 299.48,
+ "qe_wall_s": 316.99,
+ "energy_per_atom": -4271.300248583945
+}

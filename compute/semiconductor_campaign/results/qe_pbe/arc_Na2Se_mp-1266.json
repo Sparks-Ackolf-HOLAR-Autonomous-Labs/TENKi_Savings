@@ -1,0 +1,43 @@
+{
+ "cid": "arc_Na2Se_mp-1266",
+ "source": "qe_pbe",
+ "natoms": 3,
+ "formula": "Na2Se",
+ "volume_per_atom": 26.80660161690071,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   8,
+   8,
+   8
+  ],
+  "kpts_relax": [
+   6,
+   6,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 34.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.007025058132471,
+ "gap_eV": 2.007025058132471,
+ "vbm_eV": 2.680387675597358,
+ "cbm_eV": 4.687412733729829,
+ "direct_on_mesh": true,
+ "nk_irr": 150,
+ "status": "ok",
+ "wall_s": 151.31238865852356,
+ "core_s": 2420.998218536377,
+ "qe_cpu_s": 140.75,
+ "qe_wall_s": 149.97,
+ "energy_per_atom": -1930.0342368487736
+}

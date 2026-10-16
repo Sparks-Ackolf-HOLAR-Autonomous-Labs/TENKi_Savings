@@ -1,0 +1,40 @@
+{
+ "cid": "fcc_MgAl3_123",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 4,
+ "energy_per_atom": -450.46538928999854,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 17.756218767695724,
+ "wall_s": 637.0648386478424,
+ "qe_cpu_s": 550.79,
+ "qe_wall_s": 636.2,
+ "core_s": 20386.074836730957,
+ "device": "cpu:32",
+ "node": "notch289",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 80.0,
+  "ecutfock_Ry": 160.0,
+  "kpts": [
+   8,
+   5,
+   5
+  ],
+  "nq": [
+   8,
+   5,
+   5
+  ],
+  "q_div": 1,
+  "npool": 8,
+  "nosym": false,
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "force_symmorphic": true,
+  "mixing": "local-TF beta 0.2, maxstep 300",
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

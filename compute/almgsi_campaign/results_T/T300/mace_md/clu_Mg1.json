@@ -1,0 +1,42 @@
+{
+ "cid": "clu_Mg1",
+ "source": "mace_md",
+ "status": "ok",
+ "natoms": 108,
+ "energy_per_atom": -3.6519967670205187,
+ "energy_per_atom_sem": 0.00025287687821856864,
+ "volume_per_atom": 17.072018509092846,
+ "wall_s": 105.85032147914171,
+ "device": "cuda",
+ "settings": {
+  "T_K": 300.0,
+  "P_bar": 0.0,
+  "timestep_fs": 2.0,
+  "equil_steps": 500,
+  "sample_ps": 3.0,
+  "sample_steps": 1500,
+  "sample_every": 10,
+  "n_blocks": 5,
+  "supercell_rule": "diagonal repeats, N>=96, perpendicular widths>=9.0 A",
+  "velocities": "Maxwell-Boltzmann 300 K (ase), zero total momentum, seed=crc32(cid)",
+  "start": "input structure (unrelaxed)",
+  "engine": "ASE 3.29 + MACE-MP-0 small",
+  "dtype": "float32",
+  "ensemble": "NVT NoseHooverChainNVT (fixed cell)",
+  "tdamp_fs": 100.0,
+  "host_lattice_a": 4.087410799715514,
+  "host_lattice_from": "same-source NPT fcc Al (mp_134_Al) at 300 K, a = (4 V/atom)^(1/3)",
+  "supercell_reps": [
+   1,
+   1,
+   1
+  ]
+ },
+ "error": null,
+ "md_stats": {
+  "volume_per_atom_sem": 0.0,
+  "T_mean": 303.56027721146734,
+  "n_samples": 150,
+  "V_over_V0": 1.0000000000000002
+ }
+}

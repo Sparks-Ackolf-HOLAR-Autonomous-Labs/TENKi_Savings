@@ -1,0 +1,30 @@
+{
+ "cid": "fcc_MgAl3_02",
+ "source": "qe_hse06",
+ "status": "ok",
+ "natoms": 4,
+ "energy_per_atom": -450.7836905009457,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 17.6414791826496,
+ "wall_s": 12.947237730026245,
+ "qe_cpu_s": 10.09,
+ "qe_wall_s": 11.9,
+ "core_s": 414.31160736083984,
+ "device": "cpu:32",
+ "node": "notch273",
+ "restart_count": 0,
+ "settings": {
+  "tag": "kfine",
+  "kpts": [
+   7,
+   7,
+   7
+  ],
+  "nq": [
+   4,
+   4,
+   4
+  ],
+  "kspacing": 0.22
+ }
+}

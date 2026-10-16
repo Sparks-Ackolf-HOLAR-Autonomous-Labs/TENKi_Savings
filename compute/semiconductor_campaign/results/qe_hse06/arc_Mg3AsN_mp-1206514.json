@@ -1,0 +1,44 @@
+{
+ "cid": "arc_Mg3AsN_mp-1206514",
+ "source": "qe_hse06",
+ "natoms": 5,
+ "formula": "AsMg3N",
+ "volume_per_atom": 15.284981320791939,
+ "device": "cpu:16",
+ "node": "notch445",
+ "restart_count": 0,
+ "settings": {
+  "functional": "HSE06",
+  "calculation": "scf at PBE geometry",
+  "ecutwfc_Ry": 90.0,
+  "ecutfock_Ry": 180.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "nq": [
+   3,
+   3,
+   3
+  ],
+  "q_div": 2,
+  "nosym": false,
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 50.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.2007539354261887,
+ "gap_eV": 2.2007539354261887,
+ "vbm_eV": 8.1882471349689,
+ "cbm_eV": 10.38900107039509,
+ "direct_on_mesh": true,
+ "nk_irr": 20,
+ "status": "ok",
+ "wall_s": 343.3904206752777,
+ "core_s": 5494.246730804443,
+ "qe_cpu_s": 272.25,
+ "qe_wall_s": 341.44
+}

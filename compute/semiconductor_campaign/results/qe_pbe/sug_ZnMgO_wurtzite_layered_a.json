@@ -1,0 +1,43 @@
+{
+ "cid": "sug_ZnMgO_wurtzite_layered_a",
+ "source": "qe_pbe",
+ "natoms": 8,
+ "formula": "Mg2O4Zn2",
+ "volume_per_atom": 12.244025038459887,
+ "device": "cpu:16",
+ "node": "notch342",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   12,
+   6
+  ],
+  "kpts_relax": [
+   4,
+   8,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 84.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.8619936420771275,
+ "gap_eV": 1.8619936420771275,
+ "vbm_eV": 7.054042108109741,
+ "cbm_eV": 8.916035750186868,
+ "direct_on_mesh": true,
+ "nk_irr": 100,
+ "status": "ok",
+ "wall_s": 264.7474567890167,
+ "core_s": 4235.959308624268,
+ "qe_cpu_s": 245.78,
+ "qe_wall_s": 262.77,
+ "energy_per_atom": -2052.092496857213
+}

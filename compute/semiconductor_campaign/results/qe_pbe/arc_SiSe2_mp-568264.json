@@ -1,0 +1,43 @@
+{
+ "cid": "arc_SiSe2_mp-568264",
+ "source": "qe_pbe",
+ "natoms": 6,
+ "formula": "Se4Si2",
+ "volume_per_atom": 34.8783397652809,
+ "device": "cpu:16",
+ "node": "notch152",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   6,
+   6,
+   6
+  ],
+  "kpts_relax": [
+   6,
+   4,
+   6
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 72.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 2.163188650338129,
+ "gap_eV": 2.163188650338129,
+ "vbm_eV": 2.8597744698316214,
+ "cbm_eV": 5.02296312016975,
+ "direct_on_mesh": false,
+ "nk_irr": 112,
+ "status": "ok",
+ "wall_s": 1193.1684069633484,
+ "core_s": 19090.694511413574,
+ "qe_cpu_s": 1123.11,
+ "qe_wall_s": 1191.68,
+ "energy_per_atom": -2238.1634483902067
+}

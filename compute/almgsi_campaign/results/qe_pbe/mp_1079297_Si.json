@@ -1,0 +1,31 @@
+{
+ "cid": "mp_1079297_Si",
+ "source": "qe_pbe",
+ "status": "failed",
+ "natoms": 8,
+ "energy_per_atom": null,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 20.94776821740297,
+ "wall_s": 2144.1411192417145,
+ "qe_cpu_s": 2043.98,
+ "qe_wall_s": 2143.52,
+ "core_s": 34306.25790786743,
+ "device": "cpu:16",
+ "node": "notch162",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   9,
+   5,
+   5
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "error": "rc=0; tail:    This run was terminated on:   3:55:15  28Sep2026             |  | =------------------------------------------------------------------------------= |    JOB DONE. | =------------------------------------------------------------------------------="
+}

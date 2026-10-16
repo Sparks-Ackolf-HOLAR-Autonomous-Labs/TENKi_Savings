@@ -1,0 +1,6 @@
+# Environment for the figure scripts (regen_figs/). The Al-Mg-Si lab-sequence
+# figure reads structure files through ase.
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.10.9
+ase==3.29.0

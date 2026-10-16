@@ -1,0 +1,40 @@
+{
+ "cid": "clu_MgMg_1nn",
+ "source": "mace_relax",
+ "status": "ok",
+ "natoms": 108,
+ "energy_per_atom": -3.6700522568147984,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.637095866646337,
+ "wall_s": 2.068318518809974,
+ "device": "cuda",
+ "settings": {
+  "model": "MACE-MP-0 small",
+  "dtype": "float64",
+  "optimizer": "FIRE",
+  "fmax_eV_A": 0.01,
+  "max_steps": 500,
+  "relax": "positions only, cell fixed at MACE-relaxed pure-Al lattice",
+  "host_lattice_a": 4.052401836337821,
+  "converged": true,
+  "n_steps": 30
+ },
+ "error": null,
+ "relaxed_cell": [
+  [
+   12.157205509013464,
+   0.0,
+   0.0
+  ],
+  [
+   0.0,
+   12.157205509013464,
+   0.0
+  ],
+  [
+   0.0,
+   0.0,
+   12.157205509013464
+  ]
+ ]
+}

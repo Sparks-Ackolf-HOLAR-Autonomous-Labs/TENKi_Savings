@@ -1,0 +1,30 @@
+{
+ "cid": "clu_SiSi_2nn",
+ "source": "qe_pbe",
+ "status": "ok",
+ "natoms": 108,
+ "energy_per_atom": -64.01840328145262,
+ "energy_per_atom_sem": 0.0,
+ "volume_per_atom": 16.406757797275734,
+ "wall_s": 5305.28104186058,
+ "qe_cpu_s": 4980.0,
+ "qe_wall_s": 5280.0,
+ "core_s": 169768.99333953857,
+ "device": "cpu:32",
+ "node": "notch316",
+ "restart_count": 1,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "relax",
+  "ecutwfc_Ry": 80.0,
+  "ecutrho_Ry": 320.0,
+  "kpts": [
+   3,
+   3,
+   3
+  ],
+  "smearing": "mv",
+  "degauss_Ry": 0.02,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "cid": "sug_GaPAs_zincblende_CuPt_111",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "AsGa2P",
+ "volume_per_atom": 22.27375360596152,
+ "device": "cpu:16",
+ "node": "notch404",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 46.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 0.712783017701506,
+ "gap_eV": 0.712783017701506,
+ "vbm_eV": 7.800690596749417,
+ "cbm_eV": 8.513473614450923,
+ "direct_on_mesh": true,
+ "nk_irr": 156,
+ "status": "ok",
+ "wall_s": 151.85763716697693,
+ "core_s": 2429.722194671631,
+ "qe_cpu_s": 141.18,
+ "qe_wall_s": 150.56,
+ "energy_per_atom": -1809.5098623425097
+}

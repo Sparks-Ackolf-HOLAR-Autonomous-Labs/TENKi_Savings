@@ -1,0 +1,43 @@
+{
+ "cid": "sug_AlPAs_zincblende_CuPt_111",
+ "source": "qe_pbe",
+ "natoms": 4,
+ "formula": "Al2AsP",
+ "volume_per_atom": 22.13873946898069,
+ "device": "cpu:16",
+ "node": "notch307",
+ "restart_count": 0,
+ "settings": {
+  "functional": "PBE",
+  "calculation": "vc-relax + scf",
+  "ecutwfc_Ry": 90.0,
+  "ecutrho_Ry": 360.0,
+  "kpts": [
+   10,
+   10,
+   6
+  ],
+  "kpts_relax": [
+   8,
+   8,
+   4
+  ],
+  "smearing": "gaussian 0.005 Ry",
+  "nelec": 26.0,
+  "spin": "unpolarised",
+  "soc": false,
+  "pseudos": "PseudoDojo NC SR v0.4 PBE standard"
+ },
+ "gap_raw_eV": 1.4164185421411037,
+ "gap_eV": 1.4164185421411037,
+ "vbm_eV": 5.639281209192088,
+ "cbm_eV": 7.055699751333192,
+ "direct_on_mesh": false,
+ "nk_irr": 156,
+ "status": "ok",
+ "wall_s": 134.85964465141296,
+ "core_s": 2157.7543144226074,
+ "qe_cpu_s": 127.00999999999999,
+ "qe_wall_s": 133.6,
+ "energy_per_atom": -800.748291338397
+}
