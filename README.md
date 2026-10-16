@@ -1,5 +1,7 @@
 # TENKi
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23413457.svg)](https://doi.org/10.5281/zenodo.23413457)
+
 **Paper.** TENKi: counting the value of borrowed knowledge to a materials campaign in measurements saved (submitted to Machine Learning: Science and Technology (IOP)).
 
 This repository holds the code and data behind the paper: the scripts that draw its figures, the result files they read, the code that produced those results, and the archived or computed inputs that code reads. The manuscript itself is not part of the repository. Every script runs unchanged from the repository root.
