@@ -105,11 +105,19 @@ _sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "writings" / "pape
 from paper_fig_style import IOP_FULL, MP_BLUE, JARVIS_GREEN, ACCENT_RED, GREY, INK, apply_style, save  # noqa: E402
 PAPER_FIG = Path(__file__).resolve().parents[3] / "writings" / "papers_2026" / "tenki_mlst" / "figures"
 apply_style()
-fig, axes = plt.subplots(1, 2, figsize=(IOP_FULL, 2.8), sharey=True)
+fig, axes = plt.subplots(1, 2, figsize=(IOP_FULL, 3.0), sharey=True,
+                         sharex=True)
 for ax, scope, title in [(axes[0], "computed receivers",
-                          "(a) computed-gap receivers"),
+                          "(a) seven computed-gap receivers"),
                          (axes[1], sc,
-                          "(b) measured gaps, GGA donors")]:
+                          "(b) measured-gap receiver")]:
+    n_sel = {next(t["n"] for t in table if t["arm"] == a and t["scope"] == scope
+                  and t["condition"] == c) for a in ["kway", "pair"]
+             for c in CONDS}
+    assert len(n_sel) == 1, n_sel
+    n_pairs = n_sel.pop()
+    sub = (f"{n_pairs} donor-receiver pairs" if scope != sc
+           else f"{n_pairs} GGA-class donors")
     for j, arm in enumerate(["kway", "pair"]):
         ys = np.arange(len(CONDS)) + (0.18 if j else -0.18)
         T = [next(t for t in table if t["arm"] == arm and t["scope"] == scope
@@ -121,13 +129,14 @@ for ax, scope, title in [(axes[0], "computed receivers",
                     color=MP_BLUE if j == 0 else GREY,
                     label="4-way queries" if j == 0 else "pairs", capsize=2)
     ax.axvline(0, color=INK, lw=0.6)
-    ax.set_title(title, loc="left")
+    ax.set_title(f"{title}\n{sub}", loc="left", fontsize=8)
     ax.grid(axis="y", visible=False)
-    ax.set_xlabel("early tau change vs no donor")
+    ax.set_xlabel(r"early change in Kendall $\tau$ vs no donor")
+axes[0].set_xlim(-0.17, 0.33)
 axes[0].set_yticks(range(len(CONDS)))
 axes[0].set_yticklabels([LABEL[c] for c in CONDS], fontsize=7)
 axes[0].invert_yaxis()
-axes[1].legend(frameon=False, fontsize=7)
+axes[1].legend(frameon=False, fontsize=7, loc="lower right")
 fig.savefig(HERE / "fig_exclusion.png", dpi=200)
 save(fig, PAPER_FIG / "exclusion_list.png")
 print("\n".join(L[:8]))

@@ -62,12 +62,31 @@ def main():
             ax.fill_between(x, [a - b for a, b in zip(m, s)],
                             [a + b for a, b in zip(m, s)],
                             color=col, alpha=0.12, linewidth=0)
+    # early window (first half of the checkpoints) and the saving: budget
+    # the uninformed arm needs to match the informed first checkpoint
+    early_end = x[len(x) // 2 - 1]
+    ax.axvspan(0, early_end, color="#EEEEEE", zorder=0, lw=0)
+    ax.text(early_end - 3, 0.02, "early window", fontsize=7, color=INK,
+            ha="right", va="bottom")
+    target = d["aggregate"]["physics_fixed"]["mean"][0]
+    un = d["aggregate"]["uninformed"]["mean"]
+    reach = next(b for b, v in zip(x, un) if v >= target)
+    print(f"early window ends {early_end}; uninformed reaches informed "
+          f"first-checkpoint tau {target:.3f} at {reach}: saving "
+          f"{reach - x[0]}")
+    ax.annotate("", xy=(reach, target), xytext=(x[0], target),
+                arrowprops={"arrowstyle": "<->", "color": INK, "lw": 0.8})
+    ax.text((x[0] + reach) / 2 + 10, target - 0.03,
+            f"saving: {reach - x[0]} evaluations", fontsize=7, color=INK,
+            ha="center", va="top",
+            bbox={"facecolor": "white", "edgecolor": "none", "pad": 1.0})
     ax.set_xlim(0, 240)
     ax.set_xticks([0, 60, 120, 180, 240])
     ax.set_xlabel("cumulative evaluations")
     ax.set_ylabel("Kendall $\\tau$ vs reference ranking")
     ax.legend(loc="lower right", handlelength=1.8, borderpad=0.25)
-    ax.set_title("Donor prior under budget (five arms)", fontsize=9, pad=3)
+    ax.set_title("(a) Donor prior, five arms", fontsize=8, pad=3,
+                 loc="left")
 
     grid = d["lambda_grid"]
     axl.set_yscale("log")
@@ -76,7 +95,7 @@ def main():
     axl.axhline(4.0, color=MP_BLUE, linewidth=0.9, linestyle=":", zorder=1)
     axl.annotate("fixed $\\lambda=4$", xy=(238, 4.0), xytext=(0, 3),
                  textcoords="offset points", ha="right", va="bottom",
-                 fontsize=6.5, color=MP_BLUE)
+                 fontsize=7, color=MP_BLUE)
     axl.plot(x, d["lambda_trajectory_median"]["physics_adaptive"], "-",
              color=JARVIS_GREEN, label="correct prior")
     axl.plot(x, d["lambda_trajectory_median"]["wrong_adaptive"], "--",
@@ -84,12 +103,13 @@ def main():
     axl.set_xlim(0, 240)
     axl.set_xticks([0, 60, 120, 180, 240])
     axl.set_xlabel("cumulative evaluations")
-    axl.set_ylabel("median learned trust $\\lambda$")
+    axl.set_ylabel("median learned trust $\\lambda$\n(log scale, grid values)")
     axl.set_yticks(grid)
     axl.set_yticklabels([str(g) for g in grid])
     axl.minorticks_off()
     axl.legend(loc="lower right", handlelength=1.8, borderpad=0.25)
-    axl.set_title("Learned trust in the prior", fontsize=9, pad=3)
+    axl.set_title("(b) Learned trust in the prior", fontsize=8, pad=3,
+                  loc="left")
     axl.grid(False)
 
     save(fig, OUT)

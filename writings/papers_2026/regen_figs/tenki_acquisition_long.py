@@ -21,16 +21,19 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from paper_fig_style import INK, IOP_FULL, apply_style, save  # noqa: E402
+from paper_fig_style import (  # noqa: E402
+    INK, IOP_FULL, MP_BLUE, GREY, EXPT_GOLD, apply_style, save)
 import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[3]
 ART = ROOT / "tenki/results/learned_acquisition_long"
 OUT = ROOT / "writings/papers_2026/tenki_mlst/figures/acquisition_long.png"
-RIVALS = [("kway_random", "4-way random", "#0072B2"),
-          ("kway_fisher", "Fisher-greedy", "#009E73"),
-          ("pair_random", "pairwise random", "#8C8C8C")]
+# Paper colour convention: random 4-way MP_BLUE, pairs GREY; green is
+# reserved for the trained policy, so Fisher-greedy takes EXPT_GOLD.
+RIVALS = [("kway_random", "4-way random", MP_BLUE),
+          ("kway_fisher", "Fisher-greedy", EXPT_GOLD),
+          ("pair_random", "pairwise random", GREY)]
 
 
 def main():
@@ -53,10 +56,15 @@ def main():
         if arm == "kway_random":
             ax.fill_between(cps, np.percentile(D, 25, 0), np.percentile(D, 75, 0),
                             color=col, alpha=0.12, lw=0,
-                            label="middle half of campaigns")
+                            label="middle half (vs 4-way random)")
         ax.fill_between(cps, np.percentile(boots, 5, 0), np.percentile(boots, 95, 0),
                         color=col, alpha=0.45, lw=0)
         ax.plot(cps, m, color=col, lw=1.4, label=f"vs {lab}")
+        lo5, hi95 = np.percentile(boots, 5, 0), np.percentile(boots, 95, 0)
+        for b in (240, int(cps[-1])):
+            i = int(np.argmin(np.abs(cps - b)))
+            print(f"vs {lab} at {int(cps[i])}: {m[i]:+.3f} "
+                  f"[{lo5[i]:+.3f}, {hi95[i]:+.3f}] n={len(D)}")
     ax.set_xscale("log")
     ax.set_xlim(16, 1920)
     ax.set_xlabel("Evaluations spent (log scale)")

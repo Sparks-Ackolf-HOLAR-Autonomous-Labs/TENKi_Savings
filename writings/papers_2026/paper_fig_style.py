@@ -62,6 +62,24 @@ SOURCE_NAMES = {
     "expt_zhuo": "Experiment (Zhuo)",
 }
 
+# PEGKi (paper S1) labels: one spelling per source in every figure; the
+# measured compilation is cited in captions, not tagged in labels.
+PEGKI_SOURCE_NAMES = dict(SOURCE_NAMES, mp_gga_expsynth="MP GGA (ICSD)",
+                          expt_zhuo="Experiment")
+
+# PEGKi Al-Mg-Si sources: one fixed palette, distinct from the band-gap
+# database palette above (the MP archive keeps MP blue).
+ALMGSI_COLOURS = {
+    "mace_relax": "#D55E00",      # MACE-MP-0 relaxation (vermillion)
+    "mace_md": "#E8A27C",         # MACE-MP-0 MD (light vermillion)
+    "lammps_meam_md": "#56B4E9",  # MEAM MD (sky blue)
+    "gpumd_nep89_md": "#CC79A7",  # NEP89 MD (reddish purple)
+    "archive_mp": MP_BLUE,        # Materials Project archive
+    "qe_pbe": INK,
+    "qe_hse06": "#666666",
+    "surrogate": GREY,            # no donor
+}
+
 
 def apply_style():
     plt.rcParams.update({

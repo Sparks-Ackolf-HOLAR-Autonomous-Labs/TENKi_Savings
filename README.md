@@ -23,20 +23,20 @@ Figures: run a script from the folder root, for example `python writings/papers_
 
 | Figure | Script | Files read |
 |---|---|---|
-| `worked_example_tenki.png` | `writings/papers_2026/regen_figs/worked_example_tenki.py` | `tenki/results/hyperedge_budget/hyperedge_budget.json`, `tenki/results/multi_domain_flip.json` |
 | `multi_domain_flip.png` | `writings/papers_2026/regen_figs/tenki_multi_domain_flip.py` | `shared/output/bandgap_cluster_run2/paired_campaign_k4/paired_campaign.json`, `tenki/results/multi_domain_flip.json` |
-| `hyperedge_budget.png` | `writings/papers_2026/regen_figs/hyperedge_budget_rebuild.py` | `tenki/results/hyperedge_budget/hyperedge_budget.json` |
 | `learned_acquisition.png` | `writings/papers_2026/regen_figs/tenki_learned_acquisition.py` | `tenki/results/learned_acquisition/learned_acquisition.json` |
-| `cross_property.png` | `writings/papers_2026/regen_figs/tenki_cross_property.py` | `tenki/results/cross_property/cross_property.json` |
+| `cross_property.png` | `writings/papers_2026/regen_figs/tenki_cross_property.py` | `tenki/results/cross_property/cross_property.json`, `tenki/results/cross_property/formation_energy_diagnosis.json` |
 | `physics_informed_budget.png` | `writings/papers_2026/regen_figs/tenki_physics_informed_budget.py` | `tenki/results/physics_informed_budget/physics_informed_budget.json` |
 | `paired_campaign.png` | `writings/papers_2026/regen_figs/tenki_paired_campaign.py` | `tenki/results/paired_campaign/paired_campaign.json` |
-| `live_campaign.png` | `writings/papers_2026/regen_figs/live_almgsi_figs.py` | `compute/almgsi_campaign/results/analysis/source_agreement.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_shapley/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_shapley_combined/summary.json` and 3 more |
+| `live_campaign.png` | `writings/papers_2026/regen_figs/live_almgsi_figs.py` | `compute/almgsi_campaign/results/analysis/source_agreement.json`, `compute/almgsi_campaign/results/campaigns/qe_hse06_all/summary.json`, `compute/almgsi_campaign/results/campaigns/qe_pbe_all/summary.json`, `compute/almgsi_campaign/results_T/analysis/temperature_study.json` |
 | `cost_calibration.png` | `writings/papers_2026/regen_figs/tenki_cost_calibration.py` | `tenki/results/cost_calibration/cost_calibration.json` |
 | `parallel_width.png` | `compute/shared_queue_experiments/width/analyze_width.py` | `compute/shared_queue_experiments/width/parallel_width_raw.json` |
 | `exclusion_list.png` | `compute/shared_queue_experiments/exclusion/analyze_exclusion.py` | `compute/shared_queue_experiments/exclusion/exclusion_list_transfer.json` |
-| `semiconductor_campaign.png` | `writings/papers_2026/regen_figs/semiconductor_campaign_figs.py` | `compute/semiconductor_campaign/results/campaigns/expt_zhuo_nohalide/summary.json`, `compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/summary.json` |
+| `semiconductor_campaign.png` | `writings/papers_2026/regen_figs/semiconductor_campaign_figs.py` | `compute/semiconductor_campaign/results/campaigns/expt_zhuo_nohalide/summary.json`, `compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/alloy_hits.json`, `compute/semiconductor_campaign/results/campaigns/qe_hse06_nohalide/summary.json` |
 | `acquisition_long.png` | `writings/papers_2026/regen_figs/tenki_acquisition_long.py` | `tenki/results/learned_acquisition_long/fold_expt_zhuo.json`, `tenki/results/learned_acquisition_long/fold_jarvis_mbj.json`, `tenki/results/learned_acquisition_long/fold_jarvis_optb88vdw.json`, `tenki/results/learned_acquisition_long/fold_mp_gga.json` and 4 more |
 | `prisms_comparison.png` | `writings/papers_2026/regen_figs/tenki_prisms_comparison.py` | `compute/almgsi_campaign/results/analysis/prisms_comparison/prisms_comparison_qe_hse06.json`, `compute/almgsi_campaign/results/analysis/prisms_comparison/prisms_comparison_qe_pbe.json` |
+| `flip_budget.png` | `writings/papers_2026/regen_figs/tenki_flip_budget.py` | `tenki/results/flip_budget/flip_budget.json` |
+| `donor_roles.png` | `writings/papers_2026/regen_figs/tenki_multi_domain_flip.py` | `shared/output/bandgap_cluster_run2/paired_campaign_k4/paired_campaign.json`, `tenki/results/multi_domain_flip.json` |
 
 ## Producing code
 
@@ -92,9 +92,9 @@ The result files above were written by these scripts (local modules they import 
 
 ## Contents by role
 
-- figure data: 649 files
-- code: 142 files
-- input data: 8246 files
+- figure data: 559 files
+- code: 141 files
+- input data: 8338 files
 - environment: 6 files
 - result named in paper: 81 files
 

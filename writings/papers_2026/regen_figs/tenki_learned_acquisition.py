@@ -64,13 +64,29 @@ def main():
             ax.fill_between(x, [a - b for a, b in zip(m, s)],
                             [a + b for a, b in zip(m, s)],
                             color=col, alpha=0.12, linewidth=0)
+    # 90% of the random k-way final tau and the first checkpoint at which
+    # the random and trained arms reach it
+    level = 0.9 * d["aggregate"]["kway_random"]["mean"][-1]
+    ax.axhline(level, color=INK, ls=":", lw=0.8)
+    ax.text(4, level + 0.012, "90% of random final $\\tau$", fontsize=7,
+            color=INK, va="bottom")
+    for key, col in (("kway_learned", JARVIS_GREEN),
+                     ("kway_random", MP_BLUE)):
+        m = d["aggregate"][key]["mean"]
+        hit = next(b for b, v in zip(x, m) if v >= level)
+        print(f"{key}: reaches 90% at {hit}")
+        ax.plot([hit], [level], "o", ms=4, mfc="white", mec=col, mew=1.2,
+                zorder=5)
+        ax.annotate(f"{hit}", xy=(hit, level), xytext=(0, -11),
+                    textcoords="offset points", ha="center", fontsize=7,
+                    color=col)
     ax.set_xlim(0, 240)
     ax.set_xticks([0, 60, 120, 180, 240])
     ax.set_xlabel("cumulative evaluations")
     ax.set_ylabel("Kendall $\\tau$ vs reference ranking")
     ax.legend(loc="lower right", ncols=1, handlelength=1.8)
-    ax.set_title("Acquisition arms (leave-one-data-source-out)",
-                 fontsize=9, pad=3)
+    ax.set_title("(a) Acquisition rules, unseen data sources",
+                 fontsize=8, pad=3, loc="left")
 
     feats = d["feature_names"]
     mean = d["learned_weights_mean"]
@@ -88,7 +104,8 @@ def main():
     axw.set_xticks(list(xs))
     axw.set_xticklabels([FEATURE_LABELS[f] for f in feats], rotation=25, ha="right")
     axw.set_ylabel("learned feature weight")
-    axw.set_title("Trained-policy weights per fold", fontsize=9, pad=3)
+    axw.set_title("(b) Trained-policy weights", fontsize=8, pad=3,
+                  loc="left")
     axw.grid(axis="x", visible=False)
     # tiny in-panel key
     axw.plot([], [], "o", color=GREY, markersize=3, label="held-out fold")

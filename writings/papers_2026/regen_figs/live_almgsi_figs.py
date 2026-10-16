@@ -138,7 +138,10 @@ def fig_tenki():
             xf = np.array(b["cost_frac"]) * 100
             ax.plot(xf, b["mean"], ls, color=c, lw=1.2, label=lab)
             ax.fill_between(xf, b["p05"], b["p95"], color=c, alpha=0.12, lw=0)
-        ax.set_xlim(0, 60)
+        ax.axhline(0.8, color=INK, ls=":", lw=0.8)
+        ax.text(62, 0.785, "eight of ten", ha="center", va="top", fontsize=7, color=INK)
+        ax.set_xlim(0, 100)
+        ax.set_xticks([0, 25, 50, 75, 100])
         ax.set_ylim(0, 1.02)
         ax.set_xlabel(f"{rec_name} compute (% of pool)")
     a0.set_ylabel("Share of the 10 most stable found")
@@ -146,7 +149,7 @@ def fig_tenki():
     a1.set_title("(b) HSE06 receiver", loc="left")
     a1.set_yticklabels([])
     h_, l_ = a1.get_legend_handles_labels()
-    fig.legend(h_, l_, fontsize=6, frameon=False, loc="lower left", ncol=3, bbox_to_anchor=(0.02, -0.01))
+    fig.legend(h_, l_, fontsize=7, frameon=False, loc="lower left", ncol=2, bbox_to_anchor=(0.02, -0.01))
     rec = ["lammps_meam_md@453K", "lammps_meam_md@803K", "gpumd_nep89_md@453K", "gpumd_nep89_md@803K",
            "mace_md@453K", "mace_md@803K"]
     r = ts["routing"]
@@ -163,58 +166,32 @@ def fig_tenki():
     a2.barh(y + 0.19, [100 * m["mean"] for m in cm], height=0.36, color=GREY, label="No donor",
             xerr=err(cm), error_kw=eb)
     a2.barh(y - 0.19, [100 * m["mean"] for m in pm], height=0.36, color=ACCENT_RED,
-            label="Same engine,\n300 K, learned", xerr=err(pm), error_kw=eb)
-    a2.set_yticks(y, [body_t(k, "\n") for k in rec], fontsize=6)
-    a2.set_ylim(-2.3, len(rec) - 0.4)
+            label="Same potential at 300 K,\nlearned trust", xerr=err(pm), error_kw=eb)
+    a2.set_yticks(y, [body_t(k, "\n") for k in rec], fontsize=7)
+    a2.set_ylim(-0.6, len(rec) - 0.4)
     a2.set_xlabel("MD budget (%)")
     a2.set_xlim(0, 60)
     a2.set_title("(c) MD at 453 and 803 K", loc="right")
-    a2.legend(fontsize=6, frameon=False, loc="lower right", bbox_to_anchor=(1.02, 0.0))
-    fig.tight_layout(w_pad=0.8, rect=(0, 0.13, 1, 1))
+    h2, l2 = a2.get_legend_handles_labels()
+    fig.legend(h2, l2, fontsize=7, frameon=False, loc="lower right", bbox_to_anchor=(1.0, -0.01),
+               title="(c)", title_fontsize=7)
+    fig.set_layout_engine(None)
+    fig.tight_layout(w_pad=0.8, rect=(0, 0.17, 1, 1))
     save(fig, PAP / "tenki_mlst/figures/live_campaign.png")
 
 
 def fig_ateki():
-    from matplotlib.patches import Patch
+    # Panels (a) and (b) of the earlier version (PBE and HSE06 games, two cost
+    # accountings) moved to the main-text figure compute_credit.png
+    # (regen_figs/ateki_compute_credit.py, with run intervals); this annex
+    # figure keeps the molecular-dynamics receivers at temperature.
     ts = load(LIVE / "results_T/analysis/temperature_study.json")["ateki"]
-    fig, (a0, a1, a2) = plt.subplots(1, 3, figsize=(TMLR_FULL, 2.8), gridspec_kw={"width_ratios": [0.8, 1.0, 1.35]})
-    lbl = {"mace_relax": "MACE-MP-0\nrelaxation", "archive_mp": "MP\narchive",
-           "lammps_meam_md": "MEAM\nMD", "gpumd_nep89_md": "NEP89\nMD", "qe_pbe": "QE\nPBE"}
-    lbl = {k: v.replace("\n", " ") if len(v) < 12 else v for k, v in lbl.items()}
-    for ax, tag, donors, title in [
-            (a0, "qe_pbe_shapley", ["mace_relax", "archive_mp", "lammps_meam_md", "gpumd_nep89_md"], "(a) PBE campaign"),
-            (a1, "qe_hse06_shapley", ["qe_pbe", "mace_relax", "archive_mp", "lammps_meam_md", "gpumd_nep89_md"],
-             "(b) HSE06 campaign")]:
-        sh = load(LIVE / f"results/campaigns/{tag}/summary.json")["shapley"]
-        x = np.arange(len(donors))
-        if ax is a1:
-            # HSE06 game under both cost accountings: HSE06 only (solid), HSE06 + PBE (hatched)
-            shc = load(LIVE / f"results/campaigns/{tag}_combined/summary.json")["shapley"]
-            for off, key, c, src, hatch in [(-0.30, "pooled_fixed", GREY, sh, None),
-                                            (-0.10, "pooled_learned", ACCENT_RED, sh, None),
-                                            (0.10, "pooled_fixed", GREY, shc, "////"),
-                                            (0.30, "pooled_learned", ACCENT_RED, shc, "////")]:
-                ax.bar(x + off, [src[key]["shapley"][d] for d in donors], width=0.19, color=c,
-                       alpha=0.45 if hatch else 1.0, hatch=hatch, edgecolor=c if hatch else None, lw=0)
-            ax.legend(handles=[Patch(facecolor="white", edgecolor=INK, label="HSE06 cost"),
-                               Patch(facecolor="white", edgecolor=INK, hatch="////", label="HSE06 + PBE cost")],
-                      fontsize=6, frameon=False, loc="upper right")
-        else:
-            for off, key, lab, c in [(-0.19, "pooled_fixed", "Fixed trust", GREY),
-                                     (0.19, "pooled_learned", "Learned trust", ACCENT_RED)]:
-                ax.bar(x + off, [sh[key]["shapley"][d] for d in donors], width=0.36, color=c, label=lab)
-        ax.set_xticks(x, [lbl[d] for d in donors], fontsize=5.8, rotation=90)
-        ax.axhline(0, color=INK, lw=0.6)
-        ax.set_ylim(-0.25, 0.37)
-        ax.set_title(title, loc="left")
-    a0.set_ylabel("Shapley credit (early recall)")
-    a1.set_yticklabels([])
-    a0.legend(fontsize=6.5, frameon=False, loc="upper right")
-
+    fig, a2 = plt.subplots(figsize=(TMLR_FULL * 0.75, 2.9))
     rec = ["lammps_meam_md@453K", "lammps_meam_md@803K", "gpumd_nep89_md@453K", "gpumd_nep89_md@803K",
            "mace_md@453K", "mace_md@803K"]
-    roles = [("same engine, 300 K", lambda r, p: p == r.split("@")[0] + "@300K", ACCENT_RED),
-             ("other potentials, same T", lambda r, p: p.endswith("@" + r.split("@")[1]) and p != r, MP_BLUE),
+    roles = [("same potential at 300 K", lambda r, p: p == r.split("@")[0] + "@300K", ACCENT_RED),
+             ("other two potentials at the target temperature",
+              lambda r, p: p.endswith("@" + r.split("@")[1]) and p != r, MP_BLUE),
              ("MACE-MP-0 relaxation", lambda r, p: p == "mace_relax@0K", SNUMAT_PURPLE),
              ("QE PBE", lambda r, p: p == "qe_pbe@0K", INK),
              ("QE HSE06", lambda r, p: p == "qe_hse06@0K", EXPT_GOLD)]
@@ -223,14 +200,13 @@ def fig_ateki():
     for i, (lab, f, c) in enumerate(roles):
         vals = [sum(v for p, v in ts[r]["shapley"].items() if f(r, p)) for r in rec]
         a2.bar(xr + (i - 2) * w, vals, width=w, color=c, label=lab)
-    a2.set_xticks(xr, [body_t(r, "\n") for r in rec], fontsize=5.8, rotation=90)
-    a2.set_xlabel("Receiver (MD potential and temperature)", fontsize=7)
+    a2.set_xticks(xr, [body_t(r, "\n") for r in rec], fontsize=7)
+    a2.set_xlabel("Receiver (MD potential and temperature)")
+    a2.set_ylabel("Shapley credit\n(share of ten most stable)")
     a2.axhline(0, color=INK, lw=0.6)
-    a2.set_title("(c) Donors to hot MD campaigns", loc="left")
-    a2.legend(fontsize=6.5, frameon=False, ncol=2, loc="upper left")
+    a2.legend(fontsize=7, frameon=False, ncol=2, loc="upper left")
     lo, hi = a2.get_ylim()
     a2.set_ylim(lo, hi + 0.16)
-    fig.tight_layout(w_pad=1.2)
     save(fig, PAP / "ateki_tmlr/figures/live_attribution.png")
 
 

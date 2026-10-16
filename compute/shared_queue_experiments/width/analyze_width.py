@@ -62,6 +62,9 @@ for rule in rules:
             "tau_half_budget": float(np.mean(d["half"])),
             "tau_final": float(np.mean(d["final"])),
             "duplicate_share": float(np.mean(d["dup"])),
+            "duplicate_median": float(np.median(d["dup"])),
+            "duplicate_q25": float(np.percentile(d["dup"], 25)),
+            "duplicate_q75": float(np.percentile(d["dup"], 75)),
         })
 json.dump({"thresholds": thresholds, "budget": E, "summary": summary},
           open(HERE / "width_summary.json", "w", encoding="utf-8"), indent=1)
@@ -91,30 +94,51 @@ _sys.path.insert(0, str(Path(__file__).resolve().parents[3] / "writings" / "pape
 from paper_fig_style import IOP_FULL, MP_BLUE, JARVIS_GREEN, ACCENT_RED, GREY, INK, apply_style, save  # noqa: E402
 PAPER_FIG = Path(__file__).resolve().parents[3] / "writings" / "papers_2026" / "tenki_mlst" / "figures"
 apply_style()
-fig, axes = plt.subplots(1, 2, figsize=(IOP_FULL, 2.5))
+from matplotlib.patches import Patch  # noqa: E402
+fig, axes = plt.subplots(1, 3, figsize=(IOP_FULL, 2.55))
 colors = {"random": GREY, "active": MP_BLUE, "active_claim": ACCENT_RED}
-labels = {"random": "random", "active": "active, no claims",
-          "active_claim": "active with claims"}
+labels = {"random": "random trays", "active": "least-resolved tray",
+          "active_claim": "least-resolved tray, with claims"}
+offs = {"random": 0.94, "active": 1.0, "active_claim": 1.06}
 for rule in rules:
     S = [s for s in summary if s["rule"] == rule]
-    x = [s["P"] for s in S]
-    for ax, key in zip(axes, ["evals", "rounds"]):
-        med = [s[f"{key}_median"] for s in S]
-        lo = [s[f"{key}_q25"] for s in S]
-        hi = [s[f"{key}_q75"] for s in S]
-        ax.plot(x, med, "-o", ms=3, color=colors[rule], label=labels[rule])
-        ax.fill_between(x, lo, hi, color=colors[rule], alpha=0.12, lw=0)
+    x = [s["P"] * offs[rule] for s in S]
+    for ax, key in zip(axes, ["evals", "rounds", "duplicate"]):
+        if key == "duplicate":
+            # line: mean share over campaigns (the value quoted in the
+            # text); band: interquartile range over campaigns
+            med = [100 * s["duplicate_share"] for s in S]
+            lo = [100 * s["duplicate_q25"] for s in S]
+            hi = [100 * s["duplicate_q75"] for s in S]
+        else:
+            med = [s[f"{key}_median"] for s in S]
+            lo = [s[f"{key}_q25"] for s in S]
+            hi = [s[f"{key}_q75"] for s in S]
+        ax.plot(x, med, "-o", ms=3, lw=1.2, color=colors[rule],
+                label=labels[rule])
+        ax.fill_between(x, lo, hi, color=colors[rule], alpha=0.15, lw=0)
 for ax in axes:
     ax.set_xscale("log", base=2)
     ax.set_xticks(widths)
     ax.set_xticklabels([str(w) for w in widths])
-    ax.set_xlabel("parallel width P (agents per round)")
+    ax.minorticks_off()
+    ax.set_xlabel("agents per round, P")
 axes[1].set_yscale("log")
+axes[1].set_yticks([1, 2, 5, 10, 20, 50])
+axes[1].set_yticklabels(["1", "2", "5", "10", "20", "50"])
+axes[2].set_ylim(-3, 103)
 axes[0].set_ylabel("evaluations to threshold")
 axes[1].set_ylabel("rounds to threshold")
-axes[0].legend(frameon=False, fontsize=7, loc="upper left")
-axes[0].set_title("(a) evaluations spent", loc="left")
-axes[1].set_title("(b) rounds (furnace or tray cycles)", loc="left")
+axes[2].set_ylabel("duplicate trays (%)")
+axes[0].set_title("(a) evaluations", loc="left")
+axes[1].set_title("(b) rounds", loc="left")
+axes[2].set_title("(c) repeated trays", loc="left")
+handles = [plt.Line2D([], [], color=colors[r], marker="o", ms=3, lw=1.2)
+           for r in rules] + [Patch(color=GREY, alpha=0.3, lw=0)]
+fig.legend(handles, [labels[r] for r in rules]
+           + ["band: interquartile range"], loc="outside upper center",
+           ncol=4, frameon=False, fontsize=7, handlelength=1.6,
+           columnspacing=1.2)
 fig.savefig(HERE / "fig_width.png", dpi=200)
 save(fig, PAPER_FIG / "parallel_width.png")
 print("\n".join(lines))

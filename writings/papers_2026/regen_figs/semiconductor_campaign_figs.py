@@ -34,63 +34,109 @@ def load(tag):
     return json.loads((CAMP / tag / "summary.json").read_text())
 
 
-def curves(ax, s, arms, title, xlabel):
+# Fig 8 (TENKi) names and colours: computed sources in dark ink tones, archives by database
+FIG_NAMES = dict(st.SOURCE_NAMES, qe_pbe="Computed PBE", qe_hse06="Computed HSE06",
+                 expt_zhuo="Measured (Zhuo)")
+FIG_COL = dict(st.SOURCE_COLOURS, qe_pbe=st.INK, qe_hse06="#6B3A1F")
+POOL_COL = st.ACCENT_RED
+RAND_COL = "#B5B5B5"
+
+
+def pct(x):
+    """Budget share as printed in the text: one decimal below 10 %, whole percent above."""
+    v = 100 * x
+    return f"{v:.1f}%" if v < 10 else f"{v:.0f}%"
+
+
+def c8(s, arm):
+    return s["arms"][f"{arm}|k4"]["cost_frac_to_8of10"]["mean"]
+
+
+def curves(ax, s, arms, title, xlabel, hits=None):
+    """arms: (arm, label, colour, linestyle); label gets the mean budget to 8 of 10 appended."""
     grid = np.linspace(0, 1, 201)
     for arm, lab, c, ls in arms:
         b = s["recall_bands"].get(f"{arm}|k4")
         if b is None:
             continue
-        ax.plot(grid, b["mean"], color=c, ls=ls, label=lab)
-        ax.fill_between(grid, b["p05"], b["p95"], color=c, alpha=0.12, lw=0)
-    ax.set_xlim(0, 0.6)
+        mean = np.array(b["mean"])
+        ax.plot(grid, mean, color=c, ls=ls, lw=1.2, label=f"{lab} ({pct(c8(s, arm))})")
+        ax.fill_between(grid, b["p05"], b["p95"], color=c, alpha=0.10, lw=0)
+        if hits and arm in hits["arms"]:
+            xs = np.array([v["median"] for v in hits["arms"][arm].values()])
+            ys = np.interp(xs, grid, mean)
+            ax.plot(xs, ys, ls="none", marker="o", ms=3.4, mew=0.9, mec=c, mfc="white", zorder=5)
+    ax.axhline(0.8, color=st.INK, ls=":", lw=0.8)
+    ax.text(0.99, 0.79, "eight of ten", ha="right", va="top", fontsize=7, color=st.INK)
+    ax.set_xlim(0, 1.0)
     ax.set_ylim(0, 1.02)
+    ax.set_xticks([0, 0.25, 0.5, 0.75, 1.0], ["0", "0.25", "0.5", "0.75", "1"])
     ax.set_xlabel(xlabel)
     ax.set_ylabel("Ten widest gaps found (share)")
     ax.set_title(title, loc="left")
 
 
-def best_archive(s):
-    a = {d: v for d, v in s["agreement"].items() if d not in ("qe_pbe", "qe_hse06", "expt_zhuo")}
-    return max(a, key=lambda d: s["arms"][f"learned:{d}|k4"]["early_recall_area"]["mean"])
-
-
 def fig_campaign(out):
     hse = load("qe_hse06_nohalide")
     exp = load("expt_zhuo_nohalide")
-    fig, axs = plt.subplots(1, 3, figsize=(st.IOP_FULL, 3.0), gridspec_kw={"width_ratios": [1.15, 1, 1]})
+    hp = CAMP / "qe_hse06_nohalide" / "alloy_hits.json"
+    hits = json.loads(hp.read_text(encoding="utf-8")) if hp.exists() else None
+    fig, axs = plt.subplots(1, 3, figsize=(st.IOP_FULL, 4.25), gridspec_kw={"width_ratios": [1, 1, 1]},
+                            constrained_layout=False)
+    fig.subplots_adjust(left=0.175, right=0.975, top=0.94, bottom=0.55, wspace=0.36)
     ax = axs[0]
-    donors = [d for d in ("qe_pbe", "mp_gga", "mp_r2scan", "jarvis_optb88vdw", "jarvis_mbj", "snumat_gga",
-                          "snumat_hse", "qe_hse06", "expt_zhuo") if d in hse["agreement"] or d in exp["agreement"]]
+    donors = [d for d in ("qe_pbe", "qe_hse06", "mp_gga", "mp_r2scan", "jarvis_optb88vdw", "jarvis_mbj",
+                          "snumat_gga", "snumat_hse", "expt_zhuo")
+              if d in hse["agreement"] or d in exp["agreement"] or d == "qe_hse06"]
     y = np.arange(len(donors))
     th = [hse["agreement"].get(d, {}).get("tau", np.nan) for d in donors]
     te = [exp["agreement"].get(d, {}).get("tau", np.nan) for d in donors]
-    ax.barh(y - 0.19, th, 0.36, color=[COL.get(d, st.GREY) for d in donors], label="to HSE06")
-    ax.barh(y + 0.19, te, 0.36, color=[COL.get(d, st.GREY) for d in donors], alpha=0.45, label="to measured")
-    ax.set_yticks(y, [NAMES.get(d, d) for d in donors])
+    cols = [FIG_COL.get(d, st.GREY) for d in donors]
+    ax.barh(y - 0.19, th, 0.36, color=cols)
+    ax.barh(y + 0.19, te, 0.36, color=cols, alpha=0.45)
+    for yi, a, b in zip(y, th, te):
+        if not np.isfinite(a):
+            ax.text(0.02, yi - 0.19, "self", va="center", ha="left", fontsize=7, color=st.INK)
+        if not np.isfinite(b):
+            ax.text(0.02, yi + 0.19, "self", va="center", ha="left", fontsize=7, color=st.INK)
+    ax.set_yticks(y, [FIG_NAMES.get(d, d) for d in donors])
     ax.invert_yaxis()
     ax.set_xlim(0, 1)
+    ax.set_xticks([0, 0.5, 1.0], ["0", "0.5", "1"])
     ax.set_xlabel("Kendall $\\tau$ with receiver")
     ax.set_title("(a) Agreement", loc="left")
-    ax.legend(loc="upper center", bbox_to_anchor=(0.4, -0.34), ncol=2)
-    ba = best_archive(hse)
-    curves(axs[1], hse, [("surrogate", "No donor", st.GREY, "--"),
-                         ("fixed:qe_pbe", "QE PBE, fixed", st.ACCENT_RED, "-"),
-                         (f"learned:{ba}", f"{NAMES[ba]}, learned", COL[ba], "-"),
-                         ("pooled_learned", "All donors, learned", st.INK, ":")],
-           "(b) HSE06 receiver", "HSE06 compute spent\n(share)")
-    ba2 = best_archive(exp)
+    from matplotlib.patches import Patch
+    ax.legend(handles=[Patch(color=st.INK, label="with computed HSE06"),
+                       Patch(color=st.INK, alpha=0.45, label="with measured gap")],
+              loc="upper right", bbox_to_anchor=(1.0, -0.31), ncol=1)
+    curves(axs[1], hse, [("random", "Random choice", RAND_COL, ":"),
+                         ("surrogate", "No donor (surrogate)", st.GREY, "--"),
+                         ("fixed:qe_pbe", "Computed PBE, fixed", FIG_COL["qe_pbe"], "-"),
+                         ("learned:qe_pbe", "Computed PBE, learned", FIG_COL["qe_pbe"], "--"),
+                         ("fixed:mp_gga", "MP GGA, fixed", FIG_COL["mp_gga"], "-"),
+                         ("learned:mp_gga", "MP GGA, learned", FIG_COL["mp_gga"], "--"),
+                         ("pooled_fixed", "All donors, fixed", POOL_COL, "-"),
+                         ("pooled_learned", "All donors, learned", POOL_COL, "--")],
+           "(b) HSE06 receiver", "HSE06 compute spent\n(share)", hits=hits)
     curves(axs[2], exp, [("surrogate", "No donor", st.GREY, "--"),
-                         ("learned:qe_hse06", "QE HSE06, learned", "#E08E45", "-"),
-                         ("learned:qe_pbe", "QE PBE, learned", st.ACCENT_RED, "-"),
-                         (f"learned:{ba2}", f"{NAMES[ba2]}, learned", COL[ba2], "-")],
+                         ("fixed:qe_hse06", "Computed HSE06, fixed", FIG_COL["qe_hse06"], "-"),
+                         ("fixed:qe_pbe", "Computed PBE, fixed", FIG_COL["qe_pbe"], (0, (4, 1.5))),
+                         ("fixed:mp_gga", "MP GGA, fixed", FIG_COL["mp_gga"], (0, (1.5, 1))),
+                         ("fixed:jarvis_mbj", "JARVIS TB-mBJ, fixed", FIG_COL["jarvis_mbj"], "-")],
            "(c) Measured gaps", "Compounds looked up\n(share)")
     axs[2].set_ylabel("")
-    axs[2].set_title("(c) Measured gaps", loc="left")
-    for a in axs[1:]:
-        a.legend(loc="upper center", bbox_to_anchor=(0.5, -0.34), ncol=1, handlelength=1.6)
+    h1, l1 = axs[1].get_legend_handles_labels()
+    if hits:
+        from matplotlib.lines import Line2D
+        h1.append(Line2D([], [], ls="none", marker="o", ms=3.4, mew=0.9, mec=st.INK, mfc="white"))
+        l1.append("New MgCaO$_2$ and ZnBeO$_2$\norderings computed\n(median run)")
+    for a, (h, l), bx in zip(axs[1:], [(h1, l1), axs[2].get_legend_handles_labels()], (0.36, 0.42)):
+        a.legend(h, l, loc="upper center", bbox_to_anchor=(bx, -0.31), ncol=1, handlelength=2.0,
+                 title="Budget to find eight of ten", title_fontsize=7)
     Path(out).parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(out, dpi=600, facecolor="white", bbox_inches="tight", pad_inches=0.02)
+    fig.savefig(out, dpi=600, facecolor="white")   # true print size: exactly IOP_FULL wide
     plt.close(fig)
+    print("wrote", out)
 
 
 def fig_attribution(out):
